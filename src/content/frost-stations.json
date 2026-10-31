@@ -1,0 +1,791 @@
+{
+ "source": {
+  "organization": "Michigan State Climatologist's Office (table distributed by MSU Extension)",
+  "title": "Table 1. Percent probability of temperature of 32\u00b0F or lower occurring on or after date given",
+  "url": "https://www.canr.msu.edu/uploads/files/4-25%20Frost%20free%20date%20table%20REBECCA.pdf",
+  "verified": "2026-10-31",
+  "note": "Period of record is not printed on the table; treat dates as historical climatology, not a forecast."
+ },
+ "stations": [
+  {
+   "name": "Adrian",
+   "region": "slp",
+   "lake": false,
+   "first": "04-16",
+   "p75": "04-27",
+   "p50": "05-03",
+   "p25": "05-09",
+   "last": "05-23"
+  },
+  {
+   "name": "Allegan",
+   "region": "slp",
+   "lake": false,
+   "first": "04-15",
+   "p75": "04-28",
+   "p50": "05-06",
+   "p25": "05-14",
+   "last": "06-12"
+  },
+  {
+   "name": "Alma",
+   "region": "slp",
+   "lake": false,
+   "first": "04-18",
+   "p75": "05-03",
+   "p50": "05-10",
+   "p25": "05-17",
+   "last": "05-27"
+  },
+  {
+   "name": "Alpena WSO",
+   "region": "nlp",
+   "lake": false,
+   "first": "05-03",
+   "p75": "05-22",
+   "p50": "05-31",
+   "p25": "06-08",
+   "last": "06-21"
+  },
+  {
+   "name": "Alpena",
+   "region": "nlp",
+   "lake": true,
+   "first": "04-18",
+   "p75": "05-01",
+   "p50": "05-08",
+   "p25": "05-15",
+   "last": "05-29"
+  },
+  {
+   "name": "Ann Arbor",
+   "region": "slp",
+   "lake": false,
+   "first": "04-10",
+   "p75": "04-22",
+   "p50": "04-29",
+   "p25": "05-06",
+   "last": "05-27"
+  },
+  {
+   "name": "Atlanta",
+   "region": "nlp",
+   "lake": false,
+   "first": "05-02",
+   "p75": "05-24",
+   "p50": "06-02",
+   "p25": "06-11",
+   "last": "07-06"
+  },
+  {
+   "name": "Bad Axe",
+   "region": "slp",
+   "lake": false,
+   "first": "04-20",
+   "p75": "05-08",
+   "p50": "05-15",
+   "p25": "05-22",
+   "last": "06-08"
+  },
+  {
+   "name": "Battle Creek",
+   "region": "slp",
+   "lake": false,
+   "first": "04-16",
+   "p75": "04-28",
+   "p50": "05-05",
+   "p25": "05-11",
+   "last": "05-27"
+  },
+  {
+   "name": "Bay City",
+   "region": "slp",
+   "lake": false,
+   "first": "04-13",
+   "p75": "04-25",
+   "p50": "05-02",
+   "p25": "05-09",
+   "last": "05-26"
+  },
+  {
+   "name": "Big Rapids",
+   "region": "nlp",
+   "lake": false,
+   "first": "05-02",
+   "p75": "05-13",
+   "p50": "05-20",
+   "p25": "05-26",
+   "last": "06-12"
+  },
+  {
+   "name": "Bloomingdale",
+   "region": "slp",
+   "lake": false,
+   "first": "04-17",
+   "p75": "05-01",
+   "p50": "05-10",
+   "p25": "05-19",
+   "last": "06-12"
+  },
+  {
+   "name": "Cadillac",
+   "region": "nlp",
+   "lake": false,
+   "first": "05-19",
+   "p75": "05-21",
+   "p50": "06-01",
+   "p25": "06-12",
+   "last": "07-11"
+  },
+  {
+   "name": "Caro",
+   "region": "slp",
+   "lake": false,
+   "first": "04-23",
+   "p75": "05-15",
+   "p50": "05-23",
+   "p25": "05-31",
+   "last": "06-22"
+  },
+  {
+   "name": "Charlotte",
+   "region": "slp",
+   "lake": false,
+   "first": "04-17",
+   "p75": "05-05",
+   "p50": "05-13",
+   "p25": "05-21",
+   "last": "06-12"
+  },
+  {
+   "name": "Chatham",
+   "region": "up",
+   "lake": false,
+   "first": "05-17",
+   "p75": "06-01",
+   "p50": "06-11",
+   "p25": "06-21",
+   "last": "07-31"
+  },
+  {
+   "name": "Cheboygan",
+   "region": "nlp",
+   "lake": true,
+   "first": "04-26",
+   "p75": "05-10",
+   "p50": "05-17",
+   "p25": "05-24",
+   "last": "06-21"
+  },
+  {
+   "name": "Coldwater",
+   "region": "slp",
+   "lake": false,
+   "first": "04-16",
+   "p75": "04-29",
+   "p50": "05-07",
+   "p25": "05-14",
+   "last": "05-27"
+  },
+  {
+   "name": "Detroit city",
+   "region": "slp",
+   "lake": true,
+   "first": "04-07",
+   "p75": "04-18",
+   "p50": "04-24",
+   "p25": "04-30",
+   "last": "05-12"
+  },
+  {
+   "name": "Detroit Metro",
+   "region": "slp",
+   "lake": false,
+   "first": "04-12",
+   "p75": "04-25",
+   "p50": "05-03",
+   "p25": "05-11",
+   "last": "05-29"
+  },
+  {
+   "name": "East Jordan",
+   "region": "nlp",
+   "lake": false,
+   "first": "05-10",
+   "p75": "05-22",
+   "p50": "05-30",
+   "p25": "06-06",
+   "last": "06-22"
+  },
+  {
+   "name": "East Tawas",
+   "region": "nlp",
+   "lake": true,
+   "first": "04-29",
+   "p75": "05-14",
+   "p50": "05-22",
+   "p25": "05-30",
+   "last": "06-14"
+  },
+  {
+   "name": "Eau Claire",
+   "region": "slp",
+   "lake": false,
+   "first": "04-08",
+   "p75": "04-25",
+   "p50": "05-02",
+   "p25": "05-09",
+   "last": "05-29"
+  },
+  {
+   "name": "Escanaba",
+   "region": "up",
+   "lake": true,
+   "first": "04-24",
+   "p75": "05-05",
+   "p50": "05-11",
+   "p25": "05-17",
+   "last": "05-30"
+  },
+  {
+   "name": "Fayette",
+   "region": "up",
+   "lake": true,
+   "first": "04-26",
+   "p75": "05-09",
+   "p50": "05-16",
+   "p25": "05-23",
+   "last": "06-08"
+  },
+  {
+   "name": "Fife Lake",
+   "region": "nlp",
+   "lake": false,
+   "first": "05-09",
+   "p75": "05-29",
+   "p50": "06-07",
+   "p25": "06-17",
+   "last": "07-06"
+  },
+  {
+   "name": "Flint",
+   "region": "slp",
+   "lake": false,
+   "first": "04-18",
+   "p75": "05-02",
+   "p50": "05-08",
+   "p25": "05-15",
+   "last": "05-27"
+  },
+  {
+   "name": "Frankfort",
+   "region": "nlp",
+   "lake": true,
+   "first": "04-16",
+   "p75": "05-10",
+   "p50": "05-18",
+   "p25": "05-26",
+   "last": "06-23"
+  },
+  {
+   "name": "Gladwin",
+   "region": "nlp",
+   "lake": false,
+   "first": "05-04",
+   "p75": "05-13",
+   "p50": "05-20",
+   "p25": "05-28",
+   "last": "06-22"
+  },
+  {
+   "name": "Grand Haven",
+   "region": "slp",
+   "lake": true,
+   "first": "04-07",
+   "p75": "04-25",
+   "p50": "05-01",
+   "p25": "05-08",
+   "last": "05-18"
+  },
+  {
+   "name": "Grand Marais",
+   "region": "up",
+   "lake": true,
+   "first": "05-07",
+   "p75": "05-23",
+   "p50": "06-04",
+   "p25": "06-15",
+   "last": "07-20"
+  },
+  {
+   "name": "Grand Rapids",
+   "region": "slp",
+   "lake": false,
+   "first": "04-10",
+   "p75": "04-24",
+   "p50": "05-02",
+   "p25": "05-10",
+   "last": "05-27"
+  },
+  {
+   "name": "Grayling",
+   "region": "nlp",
+   "lake": false,
+   "first": "05-02",
+   "p75": "05-21",
+   "p50": "05-31",
+   "p25": "06-10",
+   "last": "07-21"
+  },
+  {
+   "name": "Greenville",
+   "region": "slp",
+   "lake": false,
+   "first": "04-13",
+   "p75": "05-01",
+   "p50": "05-09",
+   "p25": "05-18",
+   "last": "06-12"
+  },
+  {
+   "name": "Gull Lake",
+   "region": "slp",
+   "lake": false,
+   "first": "04-20",
+   "p75": "05-01",
+   "p50": "05-07",
+   "p25": "05-13",
+   "last": "05-29"
+  },
+  {
+   "name": "Hale Loud Dam",
+   "region": "nlp",
+   "lake": false,
+   "first": "05-03",
+   "p75": "05-16",
+   "p50": "05-23",
+   "p25": "05-30",
+   "last": "06-20"
+  },
+  {
+   "name": "Harbor Beach",
+   "region": "slp",
+   "lake": true,
+   "first": "04-08",
+   "p75": "05-02",
+   "p50": "05-09",
+   "p25": "05-16",
+   "last": "05-26"
+  },
+  {
+   "name": "Harrisville",
+   "region": "nlp",
+   "lake": true,
+   "first": "04-27",
+   "p75": "05-14",
+   "p50": "05-23",
+   "p25": "06-01",
+   "last": "06-25"
+  },
+  {
+   "name": "Hart",
+   "region": "nlp",
+   "lake": false,
+   "first": "04-24",
+   "p75": "05-12",
+   "p50": "05-20",
+   "p25": "05-27",
+   "last": "06-13"
+  },
+  {
+   "name": "Hastings",
+   "region": "slp",
+   "lake": false,
+   "first": "04-20",
+   "p75": "05-06",
+   "p50": "05-13",
+   "p25": "05-21",
+   "last": "06-12"
+  },
+  {
+   "name": "Hillsdale",
+   "region": "slp",
+   "lake": false,
+   "first": "04-20",
+   "p75": "05-04",
+   "p50": "05-12",
+   "p25": "05-20",
+   "last": "06-12"
+  },
+  {
+   "name": "Holland",
+   "region": "slp",
+   "lake": true,
+   "first": "04-15",
+   "p75": "04-29",
+   "p50": "05-08",
+   "p25": "05-17",
+   "last": "06-12"
+  },
+  {
+   "name": "Houghton",
+   "region": "up",
+   "lake": true,
+   "first": "05-08",
+   "p75": "05-15",
+   "p50": "05-23",
+   "p25": "05-31",
+   "last": "07-10"
+  },
+  {
+   "name": "Houghton Lake",
+   "region": "nlp",
+   "lake": false,
+   "first": "04-28",
+   "p75": "05-22",
+   "p50": "06-02",
+   "p25": "06-14",
+   "last": "06-20"
+  },
+  {
+   "name": "Iron Mountain",
+   "region": "up",
+   "lake": false,
+   "first": "05-10",
+   "p75": "05-23",
+   "p50": "05-30",
+   "p25": "06-06",
+   "last": "06-22"
+  },
+  {
+   "name": "Ironwood",
+   "region": "up",
+   "lake": false,
+   "first": "05-04",
+   "p75": "05-17",
+   "p50": "05-24",
+   "p25": "05-31",
+   "last": "06-14"
+  },
+  {
+   "name": "Ishpeming",
+   "region": "up",
+   "lake": false,
+   "first": "05-11",
+   "p75": "05-21",
+   "p50": "05-28",
+   "p25": "06-04",
+   "last": "06-18"
+  },
+  {
+   "name": "Jackson",
+   "region": "slp",
+   "lake": false,
+   "first": "04-17",
+   "p75": "05-01",
+   "p50": "05-08",
+   "p25": "05-15",
+   "last": "05-31"
+  },
+  {
+   "name": "Kalamazoo",
+   "region": "slp",
+   "lake": false,
+   "first": "04-14",
+   "p75": "04-26",
+   "p50": "05-03",
+   "p25": "05-11",
+   "last": "05-27"
+  },
+  {
+   "name": "Lake City",
+   "region": "nlp",
+   "lake": false,
+   "first": "05-07",
+   "p75": "05-19",
+   "p50": "05-29",
+   "p25": "06-08",
+   "last": "07-11"
+  },
+  {
+   "name": "Lansing",
+   "region": "slp",
+   "lake": false,
+   "first": "04-13",
+   "p75": "04-30",
+   "p50": "05-08",
+   "p25": "05-17",
+   "last": "06-12"
+  },
+  {
+   "name": "Lapeer",
+   "region": "slp",
+   "lake": false,
+   "first": "04-16",
+   "p75": "05-05",
+   "p50": "05-14",
+   "p25": "05-23",
+   "last": "06-08"
+  },
+  {
+   "name": "Ludington",
+   "region": "nlp",
+   "lake": true,
+   "first": "04-17",
+   "p75": "05-04",
+   "p50": "05-13",
+   "p25": "05-22",
+   "last": "06-14"
+  },
+  {
+   "name": "Manistee",
+   "region": "nlp",
+   "lake": true,
+   "first": "04-18",
+   "p75": "05-03",
+   "p50": "05-11",
+   "p25": "05-18",
+   "last": "05-31"
+  },
+  {
+   "name": "Marquette WSO",
+   "region": "up",
+   "lake": false,
+   "first": "04-21",
+   "p75": "05-07",
+   "p50": "05-13",
+   "p25": "05-19",
+   "last": "05-29"
+  },
+  {
+   "name": "Midland",
+   "region": "slp",
+   "lake": false,
+   "first": "04-07",
+   "p75": "04-30",
+   "p50": "05-08",
+   "p25": "05-17",
+   "last": "06-12"
+  },
+  {
+   "name": "Milford",
+   "region": "slp",
+   "lake": false,
+   "first": "04-13",
+   "p75": "05-01",
+   "p50": "05-08",
+   "p25": "05-15",
+   "last": "05-30"
+  },
+  {
+   "name": "Mio",
+   "region": "nlp",
+   "lake": false,
+   "first": "05-03",
+   "p75": "05-24",
+   "p50": "06-01",
+   "p25": "06-10",
+   "last": "06-21"
+  },
+  {
+   "name": "Monroe",
+   "region": "slp",
+   "lake": true,
+   "first": "04-08",
+   "p75": "04-19",
+   "p50": "04-26",
+   "p25": "05-02",
+   "last": "05-13"
+  },
+  {
+   "name": "Mt. Clemens",
+   "region": "slp",
+   "lake": true,
+   "first": "04-08",
+   "p75": "04-19",
+   "p50": "04-27",
+   "p25": "05-05",
+   "last": "05-23"
+  },
+  {
+   "name": "Mt. Pleasant",
+   "region": "slp",
+   "lake": false,
+   "first": "04-26",
+   "p75": "05-08",
+   "p50": "05-14",
+   "p25": "05-21",
+   "last": "05-30"
+  },
+  {
+   "name": "Munising",
+   "region": "up",
+   "lake": false,
+   "first": "05-17",
+   "p75": "06-02",
+   "p50": "06-10",
+   "p25": "06-17",
+   "last": "07-04"
+  },
+  {
+   "name": "Muskegon",
+   "region": "slp",
+   "lake": true,
+   "first": "04-14",
+   "p75": "04-28",
+   "p50": "05-06",
+   "p25": "05-14",
+   "last": "06-12"
+  },
+  {
+   "name": "Newaygo",
+   "region": "slp",
+   "lake": false,
+   "first": "04-24",
+   "p75": "05-18",
+   "p50": "05-26",
+   "p25": "06-03",
+   "last": "06-22"
+  },
+  {
+   "name": "Newberry",
+   "region": "up",
+   "lake": false,
+   "first": "05-05",
+   "p75": "05-19",
+   "p50": "05-26",
+   "p25": "06-02",
+   "last": "06-18"
+  },
+  {
+   "name": "Onaway",
+   "region": "nlp",
+   "lake": false,
+   "first": "05-03",
+   "p75": "05-17",
+   "p50": "05-25",
+   "p25": "06-01",
+   "last": "06-15"
+  },
+  {
+   "name": "Owosso",
+   "region": "slp",
+   "lake": false,
+   "first": "04-19",
+   "p75": "05-05",
+   "p50": "05-12",
+   "p25": "05-19",
+   "last": "05-30"
+  },
+  {
+   "name": "Paw Paw",
+   "region": "slp",
+   "lake": false,
+   "first": "04-20",
+   "p75": "05-04",
+   "p50": "05-11",
+   "p25": "05-19",
+   "last": "06-12"
+  },
+  {
+   "name": "Pontiac",
+   "region": "slp",
+   "lake": false,
+   "first": "04-17",
+   "p75": "04-30",
+   "p50": "05-06",
+   "p25": "05-13",
+   "last": "05-25"
+  },
+  {
+   "name": "Port Huron",
+   "region": "slp",
+   "lake": true,
+   "first": "04-13",
+   "p75": "04-25",
+   "p50": "05-03",
+   "p25": "05-11",
+   "last": "06-05"
+  },
+  {
+   "name": "Saginaw",
+   "region": "slp",
+   "lake": false,
+   "first": "04-10",
+   "p75": "04-27",
+   "p50": "05-04",
+   "p25": "05-11",
+   "last": "05-28"
+  },
+  {
+   "name": "Sault Ste. Marie",
+   "region": "up",
+   "lake": true,
+   "first": "04-23",
+   "p75": "05-14",
+   "p50": "05-22",
+   "p25": "05-29",
+   "last": "06-21"
+  },
+  {
+   "name": "South Haven",
+   "region": "slp",
+   "lake": true,
+   "first": "04-15",
+   "p75": "04-26",
+   "p50": "05-03",
+   "p25": "05-09",
+   "last": "05-23"
+  },
+  {
+   "name": "Three Rivers",
+   "region": "slp",
+   "lake": false,
+   "first": "04-15",
+   "p75": "04-30",
+   "p50": "05-08",
+   "p25": "05-15",
+   "last": "05-29"
+  },
+  {
+   "name": "Traverse City",
+   "region": "nlp",
+   "lake": true,
+   "first": "05-03",
+   "p75": "05-15",
+   "p50": "05-23",
+   "p25": "06-01",
+   "last": "07-06"
+  },
+  {
+   "name": "Vanderbilt",
+   "region": "nlp",
+   "lake": false,
+   "first": "05-22",
+   "p75": "06-10",
+   "p50": "06-20",
+   "p25": "06-30",
+   "last": "07-31"
+  },
+  {
+   "name": "West Branch",
+   "region": "nlp",
+   "lake": false,
+   "first": "05-07",
+   "p75": "05-19",
+   "p50": "05-27",
+   "p25": "06-04",
+   "last": "06-18"
+  },
+  {
+   "name": "Willis",
+   "region": "slp",
+   "lake": false,
+   "first": "04-19",
+   "p75": "05-02",
+   "p50": "05-10",
+   "p25": "05-17",
+   "last": "05-29"
+  }
+ ]
+}

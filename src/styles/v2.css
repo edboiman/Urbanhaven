@@ -1,0 +1,691 @@
+/* Urban Haven 2.0 components. Loaded after app.css; uses the same tokens. */
+:root {
+  --ok: #2f6b3d;
+  --ok-bg: #e4efdf;
+  --part: #8a5a12;
+  --part-bg: #fbefd6;
+  --need: #9c302c;
+  --need-bg: #f8e3e0;
+  --insp: #6b3f8f;
+  --insp-bg: #efe5f7;
+  --na: #66706a;
+  --na-bg: #eceee9;
+}
+[data-theme="dark"] {
+  --ok: #a9d6a0;
+  --ok-bg: #22372a;
+  --part: #f0c27a;
+  --part-bg: #3b3020;
+  --need: #f2a49b;
+  --need-bg: #43252a;
+  --insp: #d3b6ef;
+  --insp-bg: #352a43;
+  --na: #b7c0b6;
+  --na-bg: #2a312c;
+}
+.status-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 3px 9px;
+}
+.st-ready.status-badge,
+.count-tile.st-ready strong {
+  background: var(--ok-bg);
+  color: var(--ok);
+}
+.st-partial.status-badge,
+.count-tile.st-partial strong {
+  background: var(--part-bg);
+  color: var(--part);
+}
+.st-needed.status-badge,
+.count-tile.st-needed strong {
+  background: var(--need-bg);
+  color: var(--need);
+}
+.st-inspect.status-badge,
+.count-tile.st-inspect strong {
+  background: var(--insp-bg);
+  color: var(--insp);
+}
+.st-na.status-badge,
+.count-tile.st-na strong {
+  background: var(--na-bg);
+  color: var(--na);
+}
+.status-badge.good {
+  background: var(--ok-bg);
+  color: var(--ok);
+}
+.status-badge.warn {
+  background: var(--part-bg);
+  color: var(--part);
+}
+.action-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin: 14px 0;
+}
+.button.compact {
+  padding: 6px 10px;
+  min-height: 36px;
+  font-size: 0.85rem;
+}
+.summary-counts {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.summary-counts.compact {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.count-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 10px 6px;
+  background: var(--panel);
+  text-align: center;
+  min-height: 44px;
+}
+.count-tile.active {
+  outline: 3px solid var(--green);
+}
+.count-tile strong {
+  font-size: 1.35rem;
+  border-radius: 10px;
+  min-width: 2.4em;
+  padding: 2px 8px;
+}
+.count-tile span {
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+.origin {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 650;
+  border-radius: 6px;
+  padding: 1px 6px;
+  border: 1px solid currentColor;
+}
+.origin.official {
+  color: var(--ok);
+}
+.origin.app {
+  color: var(--part);
+}
+.origin.household {
+  color: var(--insp);
+}
+.reminders h2 {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.reminders ul {
+  margin: 8px 0;
+  padding-left: 18px;
+}
+.reminders li {
+  margin: 4px 0;
+}
+.reminders li.overdue a {
+  color: var(--need);
+  font-weight: 650;
+}
+.reminders a,
+.source-line a,
+.callout a,
+.sources a {
+  text-decoration: underline;
+}
+.checklist-toolbar {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 8px;
+}
+.checklist-toolbar input,
+.checklist-toolbar select,
+.inline-pair input,
+.inline-pair select {
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 8px 10px;
+  background: var(--panel);
+  color: var(--ink);
+  width: 100%;
+}
+.checklist-section h2 {
+  margin: 22px 0 8px;
+  font-size: 1.05rem;
+}
+.checklist-list {
+  padding: 0;
+  overflow: hidden;
+}
+.check-row {
+  border-bottom: 1px solid var(--line);
+}
+.check-row:last-child {
+  border-bottom: 0;
+}
+.check-main {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+}
+.check-title {
+  flex: 1;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-height: 44px;
+  justify-content: center;
+}
+.check-title small {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+.big-check {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+}
+.status-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 99px;
+  flex-shrink: 0;
+  margin: 0 6px;
+  background: var(--na-bg);
+  border: 2px solid var(--na);
+}
+.status-dot.st-ready {
+  background: var(--ok);
+  border-color: var(--ok);
+}
+.status-dot.st-partial {
+  background: linear-gradient(90deg, var(--part) 50%, transparent 50%);
+  border-color: var(--part);
+}
+.status-dot.st-needed {
+  border-color: var(--need);
+}
+.status-dot.st-inspect {
+  background: var(--insp);
+  border-color: var(--insp);
+}
+.check-detail {
+  padding: 4px 16px 16px 52px;
+  background: var(--soft);
+}
+.check-detail .reasons {
+  margin: 8px 0;
+  padding-left: 18px;
+  font-weight: 600;
+}
+.check-detail .explain {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.85rem;
+  background: var(--panel);
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+.linked h4 {
+  margin: 12px 0 6px;
+}
+.linked-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  border-bottom: 1px dashed var(--line);
+}
+.stepper {
+  display: flex;
+  gap: 4px;
+}
+.stepper .icon-button,
+.row-actions .icon-button {
+  min-width: 44px;
+  min-height: 44px;
+}
+.inline-editor {
+  background: var(--panel);
+  border-radius: 12px;
+  padding: 12px;
+  margin-top: 10px;
+}
+.hidden-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  gap: 8px;
+}
+.needs {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 10px 14px;
+  margin: 14px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 6px;
+}
+.shopping {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+.shopping li {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+}
+.row-actions {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.inline-pair {
+  display: grid;
+  grid-template-columns: 1fr 9em;
+  gap: 6px;
+}
+.usage-log {
+  padding-left: 18px;
+  font-size: 0.9rem;
+}
+/* urgent access */
+.urgent-strip {
+  margin: 4px 0 18px;
+}
+.urgent-strip h2 {
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+  color: var(--need);
+}
+.urgent-strip .emergency-card {
+  min-height: 64px;
+}
+.emergency-grid.big .emergency-card {
+  min-height: 96px;
+  font-size: 1.05rem;
+}
+.urgent-link {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin: 10px 0 12px;
+  padding: 11px 14px;
+  border-radius: 12px;
+  background: var(--need-bg);
+  color: var(--need);
+  font-weight: 700;
+}
+.urgent-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 7px 11px;
+  border-radius: 99px;
+  background: var(--need);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.82rem;
+  min-height: 36px;
+}
+[data-theme="dark"] .urgent-pill {
+  color: #1d1414;
+}
+.mobile-brand {
+  font-family: Georgia, serif;
+}
+.shortcut-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin: 18px 0;
+}
+.shortcut {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.shortcut span {
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+.next-list {
+  list-style: none;
+  padding: 0;
+  margin: 6px 0 0;
+}
+.next-list li {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 5px 0;
+  flex-wrap: wrap;
+}
+/* meals */
+.filter-panel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  align-items: center;
+}
+.filter-panel p {
+  flex-basis: 100%;
+}
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 12px;
+  margin: 14px 0;
+}
+.recipe-card {
+  display: block;
+}
+.recipe-card.ready {
+  border-color: var(--ok);
+  box-shadow: inset 4px 0 0 var(--ok);
+}
+.recipe-card h3 {
+  margin: 4px 0;
+}
+.ingredient-list {
+  list-style: none;
+  padding: 0;
+}
+.ingredient-list li {
+  display: flex;
+  flex-direction: column;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--line);
+}
+.ingredient-list small.ok {
+  color: var(--ok);
+  font-weight: 600;
+}
+.plan-table-wrap {
+  overflow-x: auto;
+  margin: 14px 0;
+}
+.plan-table,
+.dose-table,
+.print-sheet table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.9rem;
+}
+.plan-table th,
+.plan-table td,
+.dose-table th,
+.dose-table td,
+.print-sheet th,
+.print-sheet td {
+  border: 1px solid var(--line);
+  padding: 7px 8px;
+  text-align: left;
+  vertical-align: top;
+}
+.plan-table a {
+  text-decoration: underline;
+}
+/* water */
+.urgent-water {
+  border: 2px solid var(--need);
+}
+.urgent-water h2 {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: var(--need);
+}
+.choice-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 12px 0;
+}
+.choice-button {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 12px;
+  min-height: 54px;
+  background: var(--panel);
+  font-weight: 600;
+  text-align: left;
+}
+.choice-button.selected {
+  border: 2px solid var(--green);
+  background: var(--soft);
+}
+.advisory-answer .limit {
+  background: var(--need-bg);
+  color: var(--need);
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+.seg {
+  display: inline-flex;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 6px 0 10px;
+}
+.seg button {
+  padding: 8px 12px;
+  min-height: 40px;
+}
+.seg button.active {
+  background: var(--green);
+  color: var(--panel);
+}
+.water-dl > div {
+  display: grid;
+  grid-template-columns: 9em 1fr;
+  gap: 8px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+}
+.water-dl dt {
+  font-weight: 650;
+}
+.water-dl dd {
+  margin: 0;
+}
+.water-dl small {
+  display: block;
+  color: var(--muted);
+}
+.callout ul {
+  margin: 8px 0;
+  padding-left: 18px;
+}
+.callout li {
+  margin: 4px 0;
+}
+.sources > div {
+  margin: 6px 0;
+}
+/* print */
+.print-sheet {
+  max-width: 900px;
+}
+.print-sheet h1 {
+  font-size: 1.8rem;
+}
+.print-sheet h2 {
+  margin: 16px 0 6px;
+  font-size: 1.1rem;
+}
+@media print {
+  .no-print,
+  .sidebar,
+  .topbar,
+  .bottom-nav,
+  .footer,
+  .network-bar,
+  .update-bar,
+  .toast,
+  .skip,
+  .tabs,
+  .urgent-strip {
+    display: none !important;
+  }
+  .app-layout,
+  .workspace,
+  main {
+    display: block !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  body,
+  .panel {
+    background: #fff !important;
+    color: #000 !important;
+    box-shadow: none !important;
+  }
+  .print-sheet th,
+  .print-sheet td,
+  .plan-table td,
+  .plan-table th {
+    border-color: #555 !important;
+  }
+}
+/* large text and emergency mode */
+.large-text .check-title strong,
+.large-text .count-tile span,
+.large-text .status-badge {
+  font-size: 1.05rem;
+}
+.emergency .urgent-strip h2 {
+  font-size: 1.3rem;
+}
+.emergency .check-detail .explain {
+  font-size: 1rem;
+}
+@media (max-width: 1000px) {
+  .shortcut-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .choice-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 760px) {
+  .topbar:before {
+    content: none !important;
+  }
+  .breadcrumbs .crumb-sep,
+  .breadcrumbs strong {
+    display: none;
+  }
+  .mobile-brand {
+    font-size: 21px;
+    letter-spacing: -0.8px;
+    color: var(--ink);
+  }
+  .breadcrumbs > span:first-child {
+    display: none;
+  }
+  .summary-counts {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .summary-counts.compact {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .checklist-toolbar {
+    grid-template-columns: 1fr 1fr;
+  }
+  .checklist-toolbar input {
+    grid-column: 1 / -1;
+  }
+  .check-detail {
+    padding: 4px 12px 14px;
+  }
+  .check-main {
+    padding: 10px;
+    gap: 8px;
+  }
+  .check-main .status-badge {
+    display: none;
+  }
+  .linked-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .shortcut-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .choice-grid {
+    grid-template-columns: 1fr;
+  }
+  .water-dl > div {
+    grid-template-columns: 1fr;
+  }
+  .inventory-row {
+    flex-wrap: wrap;
+  }
+  .row-actions {
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .urgent-strip .emergency-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .urgent-pill span {
+    display: none;
+  }
+}
+@media (max-width: 760px) {
+  .topbar .breadcrumbs {
+    display: flex !important;
+    align-items: center;
+  }
+  .emergency-grid.big {
+    grid-template-columns: 1fr 1fr;
+  }
+  .emergency-grid.big .emergency-card {
+    min-width: 0;
+  }
+  .next-list li {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: start;
+  }
+  .next-list li small {
+    grid-column: 2;
+  }
+}
+@media (max-width: 760px) {
+  .topbar {
+    justify-content: space-between !important;
+  }
+}
+.block {
+  display: block;
+}
+.region-notes {
+  margin-top: 10px;
+}
+.plan-check svg {
+  vertical-align: -3px;
+  margin-right: 6px;
+}

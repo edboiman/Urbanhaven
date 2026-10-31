@@ -1,0 +1,997 @@
+[
+ {
+  "id": "potato",
+  "name": "Potato",
+  "group": "Calorie crop",
+  "environment": "Outdoor beds or large grow bags",
+  "difficulty": "Moderate",
+  "light": "Full sun, 6+ hours.",
+  "water": "Even moisture while tubers form; never waterlogged.",
+  "containerDepth": "Large grow bag or 10+ gallon container with room to add soil over the stems (container depth not specified by the cited extension pages).",
+  "harvestDays": [
+   56,
+   120
+  ],
+  "harvestFrom": "planting",
+  "season": "Cool",
+  "problems": "Colorado potato beetle, scab, late blight, poor drainage. Tubers exposed to light turn green.",
+  "calories": "Meaningful calories per square foot compared with greens, but harvests vary widely; a small patch supplements stored food, it does not replace it.",
+  "calorieClass": "starch",
+  "springOffsetWeeks": -3,
+  "fallWeeksBeforeFrost": null,
+  "seedStartWeeks": 0,
+  "start": "Certified disease-free seed potatoes (not grocery potatoes). Small tubers whole; larger ones cut into ~1¼-inch pieces with 1–3 eyes, dried a few days at 60–70°F before planting.",
+  "frost": "semi-hardy",
+  "soilTemp": "Plant as soon as the soil warms and can be worked; emerged leaves can be damaged by frost — cover them if frost is forecast.",
+  "spacing": "10–12 in apart, 3–5 in deep, rows 30–36 in. Hill soil 6–8 in up the stems over the season.",
+  "medium": "Loose, well-drained soil; potting mix in bags.",
+  "indoor": "Not practical indoors.",
+  "container": "Grow bags work; keep adding mix over stems so tubers stay dark.",
+  "seedLife": "Seed tubers are not stored like seed; buy certified seed each spring.",
+  "varieties": "Choose early, mid and late varieties from certified seed suppliers; no single variety is endorsed here.",
+  "limits": "New potatoes about 7–8 weeks after planting; full-size tubers when vines die back. Cure 10+ days at 60–65°F in the dark, then store cool (32–40°F, humid). Never eat green tubers or sprouts.",
+  "sourceUrl": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-potatoes",
+  "sources": [
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Growing potatoes in home gardens",
+    "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-potatoes",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting the vegetable garden",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+    "verified": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "id": "dry-bean",
+  "name": "Dry beans (for storage)",
+  "group": "Calorie crop",
+  "environment": "Outdoor",
+  "difficulty": "Moderate",
+  "light": "Full sun.",
+  "water": "Moderate; let pods dry on the plant late in the season.",
+  "containerDepth": "8 in+ (bean guidance); yields from containers are small.",
+  "harvestDays": [
+   85,
+   100
+  ],
+  "harvestFrom": "sowing",
+  "season": "Warm",
+  "problems": "Killed by frost; needs a long enough warm season to dry down — challenging in the U.P. and cold inland sites. Wet fall weather can mold pods.",
+  "calories": "Dried beans are protein- and energy-dense and store well, but each plant yields little; plan on a supplement only.",
+  "calorieClass": "starch",
+  "springOffsetWeeks": 1,
+  "fallWeeksBeforeFrost": null,
+  "seedStartWeeks": 0,
+  "start": "Direct seed after frost danger when soil is warm.",
+  "frost": "tender",
+  "soilTemp": "Warm soil (UMN groups beans with warm-season crops: soil about 50–60°F or warmer).",
+  "spacing": "Follow the packet; bush types fit small beds.",
+  "medium": "Well-drained garden soil.",
+  "indoor": "Not practical indoors.",
+  "container": "Possible but low yield.",
+  "seedLife": "Saved dry beans for seed should be kept cool and dry; test germination before relying on old seed.",
+  "varieties": "Short-season dry bean varieties are preferred for northern sites; check days to maturity against your frost window.",
+  "limits": "Days to maturity on the packet are from sowing; drying time adds more. Harvest before hard frost and finish drying indoors.",
+  "sourceUrl": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+  "sources": [
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting the vegetable garden",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+    "verified": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "id": "winter-squash",
+  "name": "Winter squash",
+  "group": "Calorie crop",
+  "environment": "Outdoor (needs space)",
+  "difficulty": "Moderate",
+  "light": "Full sun.",
+  "water": "Deep, regular watering; mulch.",
+  "containerDepth": "12–18 in and 5+ gallons (squash container guidance); vines sprawl.",
+  "harvestDays": [
+   85,
+   110
+  ],
+  "harvestFrom": "sowing",
+  "season": "Warm",
+  "problems": "Squash vine borer, squash bugs, powdery mildew. Killed by frost; a short season may not ripen fruit.",
+  "calories": "Moderate energy, excellent keeping vegetable when cured and stored cool and dry.",
+  "calorieClass": "moderate",
+  "springOffsetWeeks": 1,
+  "fallWeeksBeforeFrost": null,
+  "seedStartWeeks": 0,
+  "start": "Direct seed after frost when soil is warm (or careful short-lived transplants).",
+  "frost": "tender",
+  "soilTemp": "Warm-season: soil about 50–60°F or warmer (UMN); MSU notes warm crops establish best in soil 75°F+.",
+  "spacing": "Large: vines need several feet; bush types are smaller.",
+  "medium": "Rich, well-drained soil.",
+  "indoor": "Not practical indoors.",
+  "container": "Only compact bush types; large containers.",
+  "seedLife": "Store seed cool and dry; test before planting.",
+  "varieties": "Prefer short-season types for the U.P. and cold inland areas; check days to maturity.",
+  "limits": "Maturity is from sowing. Harvest before frost; cure and store cool and dry.",
+  "sourceUrl": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+  "sources": [
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting the vegetable garden",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "UW–Madison Extension",
+    "title": "Growing Vegetables in Containers",
+    "url": "https://hort.extension.wisc.edu/articles/growing-vegetables-containers/",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "MSU Extension (MSU Today)",
+    "title": "New Michigan gardening calendar resources support home gardeners",
+    "url": "https://msutoday.msu.edu/news/2026/04/michigan-gardening-planting-calendar",
+    "verified": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "id": "pea",
+  "name": "Peas",
+  "group": "Cold-tolerant",
+  "environment": "Outdoor; containers",
+  "difficulty": "Easy",
+  "light": "Full sun to light shade.",
+  "water": "Even moisture; peas stall in heat.",
+  "containerDepth": "8 in deep; at least 2 gallons; trellis for vining types.",
+  "harvestDays": [
+   55,
+   70
+  ],
+  "harvestFrom": "sowing",
+  "season": "Cool",
+  "problems": "Stops flowering above ~85°F (often by late June); cutworms, aphids, powdery mildew, root rot.",
+  "calories": "Moderate; shelled peas add some protein and energy. Snap/snow peas are mostly a vegetable.",
+  "calorieClass": "moderate",
+  "springOffsetWeeks": -5,
+  "fallWeeksBeforeFrost": 12,
+  "seedStartWeeks": 0,
+  "start": "Direct seed as soon as the soil has thawed and can be worked.",
+  "frost": "hardy",
+  "soilTemp": "Can be direct-seeded at 40–50°F soil; seedlings tolerate light frost, but flowers and pods can be damaged.",
+  "spacing": "About 1 in deep; follow the packet for row spacing. Tall vining types need a trellis.",
+  "medium": "Well-drained soil; potting mix in containers.",
+  "indoor": "Pea shoots (young tops) can be grown in a sunny window or under lights, but they give greens, not a pea crop.",
+  "container": "Bush types in 8-in-deep containers.",
+  "seedLife": "Store dry and cool; run a germination test on older packets.",
+  "varieties": "Pick by type (shelling, snap, snow) and disease resistance; seed catalogs mark powdery-mildew resistant varieties.",
+  "limits": "About 60 days from sowing in spring; midsummer sowings take longer (70–80 days) and may struggle in heat.",
+  "sourceUrl": "https://extension.umn.edu/vegetables/growing-peas",
+  "sources": [
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Growing peas in home gardens",
+    "url": "https://extension.umn.edu/vegetables/growing-peas",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting the vegetable garden",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting vegetables in midsummer for fall harvest",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetables-midsummer-fall-harvest",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "Colorado State University Extension",
+    "title": "Vegetable Gardening in Containers",
+    "url": "https://extension.colostate.edu/resource/vegetable-gardening-in-containers/",
+    "verified": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "id": "kale",
+  "name": "Kale",
+  "group": "Cold-tolerant",
+  "environment": "Outdoor; containers; indoor seedlings",
+  "difficulty": "Easy",
+  "light": "Full sun to part shade.",
+  "water": "Even moisture.",
+  "containerDepth": "10 in deep and about 5 gallons per plant.",
+  "harvestDays": [
+   40,
+   65
+  ],
+  "harvestFrom": "sowing",
+  "season": "Cool",
+  "problems": "Cabbage worms, flea beetles, aphids. Bitter or tough in heat.",
+  "calories": "Low calories; valuable for vitamins and variety.",
+  "calorieClass": "low",
+  "springOffsetWeeks": -4,
+  "fallWeeksBeforeFrost": 10,
+  "seedStartWeeks": 0,
+  "start": "Direct seed, or buy transplants.",
+  "frost": "hardy",
+  "soilTemp": "Cool soils are fine; among the hardiest — UMN lists kale as surviving down to about 20°F.",
+  "spacing": "18 × 18 in per plant in containers.",
+  "medium": "Fertile, well-drained soil.",
+  "indoor": "Baby leaves can grow under lights (12–16 h/day); full plants need a large container.",
+  "container": "Good container crop.",
+  "seedLife": "Store cool and dry; test older seed.",
+  "varieties": "Most kale varieties are cold hardy; choose by leaf type.",
+  "limits": "Pick outer leaves repeatedly. Flavor often improves after light frost.",
+  "sourceUrl": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetables-midsummer-fall-harvest",
+  "sources": [
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting vegetables in midsummer for fall harvest",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetables-midsummer-fall-harvest",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting the vegetable garden",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "Colorado State University Extension",
+    "title": "Vegetable Gardening in Containers",
+    "url": "https://extension.colostate.edu/resource/vegetable-gardening-in-containers/",
+    "verified": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "id": "cabbage",
+  "name": "Cabbage",
+  "group": "Cold-tolerant",
+  "environment": "Outdoor; large containers",
+  "difficulty": "Moderate",
+  "light": "Full sun.",
+  "water": "Even moisture; uneven watering splits heads.",
+  "containerDepth": "10 in deep and about 5 gallons per plant.",
+  "harvestDays": [
+   50,
+   90
+  ],
+  "harvestFrom": "transplant",
+  "season": "Cool",
+  "problems": "Cabbage worms and loopers, root maggots, split heads.",
+  "calories": "Low to moderate; stores for weeks in a cold place.",
+  "calorieClass": "low",
+  "springOffsetWeeks": -4,
+  "fallWeeksBeforeFrost": 12,
+  "seedStartWeeks": 10,
+  "start": "Start indoors 10–11 weeks before transplanting, or buy transplants.",
+  "frost": "hardy",
+  "soilTemp": "Tolerates cool soil; UMN lists cabbage as surviving to about 20°F.",
+  "spacing": "18 × 18 in per plant.",
+  "medium": "Fertile, well-drained soil.",
+  "indoor": "Seedlings only; heads need outdoor space.",
+  "container": "One plant per 5-gallon container.",
+  "seedLife": "Store cool and dry; test older seed.",
+  "varieties": "Early varieties suit short seasons; storage types take longer.",
+  "limits": "Days are from transplanting; early types ~50–60 days, storage types up to ~90.",
+  "sourceUrl": "https://extension.umn.edu/planting-and-growing-guides/starting-seeds-indoors",
+  "sources": [
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Starting seeds indoors",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/starting-seeds-indoors",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting vegetables in midsummer for fall harvest",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetables-midsummer-fall-harvest",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting the vegetable garden",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "Colorado State University Extension",
+    "title": "Vegetable Gardening in Containers",
+    "url": "https://extension.colostate.edu/resource/vegetable-gardening-in-containers/",
+    "verified": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "id": "spinach",
+  "name": "Spinach",
+  "group": "Cold-tolerant",
+  "environment": "Outdoor; containers",
+  "difficulty": "Moderate",
+  "light": "Full sun to part shade.",
+  "water": "Even moisture.",
+  "containerDepth": "8 in deep.",
+  "harvestDays": [
+   35,
+   45
+  ],
+  "harvestFrom": "sowing",
+  "season": "Cool",
+  "problems": "Bolts (goes to seed) quickly in long, warm days.",
+  "calories": "Low calories; good nutrients.",
+  "calorieClass": "low",
+  "springOffsetWeeks": -5,
+  "fallWeeksBeforeFrost": 7,
+  "seedStartWeeks": 0,
+  "start": "Direct seed early in spring or late summer.",
+  "frost": "hardy",
+  "soilTemp": "Direct seed at 40–50°F soil.",
+  "spacing": "Follow the packet; thin to give leaves room.",
+  "medium": "Rich, well-drained soil.",
+  "indoor": "Possible for baby leaves under lights.",
+  "container": "8-in container.",
+  "seedLife": "Store cool and dry; test older seed.",
+  "varieties": "Slow-bolting varieties help with spring plantings.",
+  "limits": "Survives light frost and may overwinter with protection.",
+  "sourceUrl": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+  "sources": [
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting the vegetable garden",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting vegetables in midsummer for fall harvest",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetables-midsummer-fall-harvest",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "Colorado State University Extension",
+    "title": "Vegetable Gardening in Containers",
+    "url": "https://extension.colostate.edu/resource/vegetable-gardening-in-containers/",
+    "verified": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "id": "radish",
+  "name": "Radishes",
+  "group": "Cold-tolerant",
+  "environment": "Outdoor; containers",
+  "difficulty": "Easy",
+  "light": "Full sun.",
+  "water": "Even moisture for crisp roots.",
+  "containerDepth": "8 in deep.",
+  "harvestDays": [
+   25,
+   60
+  ],
+  "harvestFrom": "sowing",
+  "season": "Cool",
+  "problems": "Woody or hot roots in heat or dry soil; root maggots; flea beetles.",
+  "calories": "Very low; fast and encouraging for beginners.",
+  "calorieClass": "low",
+  "springOffsetWeeks": -5,
+  "fallWeeksBeforeFrost": 6,
+  "seedStartWeeks": 0,
+  "start": "Direct seed only — radishes do not tolerate transplanting.",
+  "frost": "hardy",
+  "soilTemp": "Direct seed at 40–50°F soil.",
+  "spacing": "Thin to about 1–2 in apart; sow small batches every 1–2 weeks.",
+  "medium": "Loose soil or potting mix.",
+  "indoor": "Possible in a deep tray under strong light, but leggy in weak window light.",
+  "container": "Good container crop.",
+  "seedLife": "Store cool and dry; test older seed.",
+  "varieties": "Spring (small, fast) vs winter (large, slow) radishes differ greatly in days to harvest.",
+  "limits": "Spring types ~25–30 days; larger winter radishes much longer. Can be dug until the ground freezes.",
+  "sourceUrl": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+  "sources": [
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting the vegetable garden",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting vegetables in midsummer for fall harvest",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetables-midsummer-fall-harvest",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "Colorado State University Extension",
+    "title": "Vegetable Gardening in Containers",
+    "url": "https://extension.colostate.edu/resource/vegetable-gardening-in-containers/",
+    "verified": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "id": "carrot",
+  "name": "Carrots",
+  "group": "Outdoor season",
+  "environment": "Outdoor; deep containers",
+  "difficulty": "Moderate",
+  "light": "Full sun.",
+  "water": "Keep the seedbed moist until sprouts appear (slow to germinate).",
+  "containerDepth": "12 in deep; thin to 2–3 in apart.",
+  "harvestDays": [
+   60,
+   80
+  ],
+  "harvestFrom": "sowing",
+  "season": "Cool",
+  "problems": "Slow, uneven germination in crusted or dry soil; forked roots in rocky soil.",
+  "calories": "Low to moderate; stores well cold and humid.",
+  "calorieClass": "moderate",
+  "springOffsetWeeks": -4,
+  "fallWeeksBeforeFrost": 11,
+  "seedStartWeeks": 0,
+  "start": "Direct seed only — carrots do not tolerate transplanting.",
+  "frost": "semi-hardy",
+  "soilTemp": "Cool soil; sow from early spring through early summer.",
+  "spacing": "Thin to 2–3 in apart.",
+  "medium": "Loose, stone-free soil or deep potting mix.",
+  "indoor": "Not practical (deep containers, strong light, long season).",
+  "container": "12-in-deep containers.",
+  "seedLife": "Store cool and dry; test older seed.",
+  "varieties": "Short or round types suit containers and heavy soils.",
+  "limits": "Days are typical seed-packet values from sowing; check your packet.",
+  "sourceUrl": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+  "sources": [
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting the vegetable garden",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "Colorado State University Extension",
+    "title": "Vegetable Gardening in Containers",
+    "url": "https://extension.colostate.edu/resource/vegetable-gardening-in-containers/",
+    "verified": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "id": "beet",
+  "name": "Beets",
+  "group": "Outdoor season",
+  "environment": "Outdoor; containers",
+  "difficulty": "Easy",
+  "light": "Full sun.",
+  "water": "Even moisture.",
+  "containerDepth": "8 in deep; thin greens to 3 in.",
+  "harvestDays": [
+   50,
+   60
+  ],
+  "harvestFrom": "sowing",
+  "season": "Cool",
+  "problems": "Poor germination in crusted soil; each 'seed' is a cluster, so thinning is needed.",
+  "calories": "Moderate for a vegetable; greens are edible too.",
+  "calorieClass": "moderate",
+  "springOffsetWeeks": -3,
+  "fallWeeksBeforeFrost": 10,
+  "seedStartWeeks": 0,
+  "start": "Direct seed.",
+  "frost": "semi-hardy",
+  "soilTemp": "Cool soil; survives high-20s°F (UMN).",
+  "spacing": "Thin to ~3 in.",
+  "medium": "Loose soil or potting mix.",
+  "indoor": "Beet greens only, under lights.",
+  "container": "8-in containers.",
+  "seedLife": "Store cool and dry; test older seed.",
+  "varieties": "Choose by color and storage type.",
+  "limits": "Roots and greens both edible.",
+  "sourceUrl": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+  "sources": [
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting the vegetable garden",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting vegetables in midsummer for fall harvest",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetables-midsummer-fall-harvest",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "Colorado State University Extension",
+    "title": "Vegetable Gardening in Containers",
+    "url": "https://extension.colostate.edu/resource/vegetable-gardening-in-containers/",
+    "verified": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "id": "lettuce",
+  "name": "Leaf lettuce",
+  "group": "Indoor-capable",
+  "environment": "Indoor under lights or bright window; outdoor; containers",
+  "difficulty": "Easy",
+  "light": "Outdoors part sun; indoors 6–8 h bright light or 14–16 h under fluorescent/LED lights 6–12 in above the plants.",
+  "water": "Keep evenly moist; drain well.",
+  "containerDepth": "4–8 in deep, at least 2 gallons; thin to ~9 in for full heads.",
+  "harvestDays": [
+   28,
+   60
+  ],
+  "harvestFrom": "sowing",
+  "season": "Cool",
+  "problems": "Bitter and bolting in heat; leggy in weak light; damping-off in cold wet mix.",
+  "calories": "Very low calories; fresh greens for morale and nutrients.",
+  "calorieClass": "low",
+  "springOffsetWeeks": -4,
+  "fallWeeksBeforeFrost": 8,
+  "seedStartWeeks": 0,
+  "start": "Direct seed leaf lettuce. (Head lettuce can be started indoors about 10–11 weeks ahead — UMN.)",
+  "frost": "semi-hardy",
+  "soilTemp": "Direct seed at 40–50°F soil; survives light frost.",
+  "spacing": "Thin as you harvest.",
+  "medium": "Potting mix (not garden soil) in containers.",
+  "indoor": "One of the best indoor crops: Illinois Extension reports leaf lettuce ready in about 4 weeks under good light. Keep rooms 70°F or cooler.",
+  "container": "Excellent in window boxes and shallow containers.",
+  "seedLife": "Short-lived seed: lettuce often loses viability after 1–2 years (Clemson) — test before relying on it.",
+  "varieties": "Loose-leaf types are fastest and most forgiving indoors.",
+  "limits": "Indoors, artificial light must run longer than daylight (about 2 hours of lamp light per hour of sun).",
+  "sourceUrl": "https://extension.illinois.edu/blogs/good-growing/2017-11-17-grow-herbs-and-lettuce-indoors-winter",
+  "sources": [
+   {
+    "organization": "University of Illinois Extension",
+    "title": "Grow Herbs and Lettuce Indoors this Winter",
+    "url": "https://extension.illinois.edu/blogs/good-growing/2017-11-17-grow-herbs-and-lettuce-indoors-winter",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting the vegetable garden",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting vegetables in midsummer for fall harvest",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetables-midsummer-fall-harvest",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "UW–Madison Extension",
+    "title": "Growing Vegetables in Containers",
+    "url": "https://hort.extension.wisc.edu/articles/growing-vegetables-containers/",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "Colorado State University Extension",
+    "title": "Vegetable Gardening in Containers",
+    "url": "https://extension.colostate.edu/resource/vegetable-gardening-in-containers/",
+    "verified": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "id": "chard",
+  "name": "Swiss chard",
+  "group": "Outdoor season",
+  "environment": "Outdoor; containers",
+  "difficulty": "Easy",
+  "light": "Full sun to part shade.",
+  "water": "Even moisture.",
+  "containerDepth": "8–10 in deep.",
+  "harvestDays": [
+   50,
+   60
+  ],
+  "harvestFrom": "sowing",
+  "season": "Cool",
+  "problems": "Leaf miners; few other problems.",
+  "calories": "Low calories; harvest leaves for months.",
+  "calorieClass": "low",
+  "springOffsetWeeks": -2,
+  "fallWeeksBeforeFrost": 10,
+  "seedStartWeeks": 0,
+  "start": "Direct seed.",
+  "frost": "semi-hardy",
+  "soilTemp": "Plant in early spring once soil is workable.",
+  "spacing": "Follow packet; thin seedlings.",
+  "medium": "Fertile soil or potting mix.",
+  "indoor": "Baby leaves under lights.",
+  "container": "Good container crop.",
+  "seedLife": "Store cool and dry; test older seed.",
+  "varieties": "Choose by stem color; all grow similarly.",
+  "limits": "Cut outer leaves; plants keep producing through summer.",
+  "sourceUrl": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+  "sources": [
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting the vegetable garden",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+    "verified": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "id": "onion",
+  "name": "Onions & green onions",
+  "group": "Outdoor season",
+  "environment": "Outdoor; containers (green onions)",
+  "difficulty": "Moderate",
+  "light": "Full sun.",
+  "water": "Even moisture; stop watering as bulbs mature.",
+  "containerDepth": "Green onions: 4–6 in deep, 2+ gallons.",
+  "harvestDays": [
+   60,
+   110
+  ],
+  "harvestFrom": "planting",
+  "season": "Cool",
+  "problems": "Bulb size depends on day length variety; weeds compete strongly.",
+  "calories": "Low; mainly flavor. Cured bulbs store well.",
+  "calorieClass": "low",
+  "springOffsetWeeks": -4,
+  "fallWeeksBeforeFrost": null,
+  "seedStartWeeks": 14,
+  "start": "Sets or transplants outdoors in early spring; seeds started indoors about 14–15 weeks ahead (UMN: early February in Minnesota).",
+  "frost": "hardy",
+  "soilTemp": "Cool soil.",
+  "spacing": "Follow packet; sets 1–2 in deep.",
+  "medium": "Loose, fertile soil.",
+  "indoor": "Green onions regrow in a sunny window, giving small amounts.",
+  "container": "Green onions do well in small containers.",
+  "seedLife": "Onion seed is short-lived (often 1–2 years) — buy fresh or test.",
+  "varieties": "Choose long-day onion varieties for Michigan latitudes.",
+  "limits": "Green onions in weeks; storage bulbs need the full season and curing.",
+  "sourceUrl": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+  "sources": [
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting the vegetable garden",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Starting seeds indoors",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/starting-seeds-indoors",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "UW–Madison Extension",
+    "title": "Growing Vegetables in Containers",
+    "url": "https://hort.extension.wisc.edu/articles/growing-vegetables-containers/",
+    "verified": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "id": "green-bean",
+  "name": "Bush snap beans",
+  "group": "Outdoor season",
+  "environment": "Outdoor; containers",
+  "difficulty": "Easy",
+  "light": "Full sun.",
+  "water": "Steady moisture during flowering.",
+  "containerDepth": "8 in deep (12–18 in and 5 gal for best yields).",
+  "harvestDays": [
+   45,
+   65
+  ],
+  "harvestFrom": "sowing",
+  "season": "Warm",
+  "problems": "Killed by frost; rot in cold wet soil; bean beetles.",
+  "calories": "Low to moderate; a productive vegetable, not a staple.",
+  "calorieClass": "low",
+  "springOffsetWeeks": 1,
+  "fallWeeksBeforeFrost": 10,
+  "seedStartWeeks": 0,
+  "start": "Direct seed after frost danger.",
+  "frost": "tender",
+  "soilTemp": "Warm-season: about 50–60°F soil or warmer; seed rots in cold soil.",
+  "spacing": "Follow packet.",
+  "medium": "Well-drained soil or potting mix.",
+  "indoor": "Not practical indoors.",
+  "container": "Bush types in medium containers.",
+  "seedLife": "Store cool and dry; test older seed.",
+  "varieties": "Bush types mature faster than pole types.",
+  "limits": "Beans are warm-season: unlike peas, they cannot go in early. Pick often to keep plants producing.",
+  "sourceUrl": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+  "sources": [
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting the vegetable garden",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting vegetables in midsummer for fall harvest",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetables-midsummer-fall-harvest",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "Colorado State University Extension",
+    "title": "Vegetable Gardening in Containers",
+    "url": "https://extension.colostate.edu/resource/vegetable-gardening-in-containers/",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "UW–Madison Extension",
+    "title": "Growing Vegetables in Containers",
+    "url": "https://hort.extension.wisc.edu/articles/growing-vegetables-containers/",
+    "verified": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "id": "tomato",
+  "name": "Tomatoes",
+  "group": "Outdoor season",
+  "environment": "Outdoor; large containers",
+  "difficulty": "Moderate",
+  "light": "Full sun, 6+ hours.",
+  "water": "Deep, even watering; containers may need daily water in heat.",
+  "containerDepth": "12 in deep; 2–5 gallons per plant depending on variety.",
+  "harvestDays": [
+   55,
+   85
+  ],
+  "harvestFrom": "transplant",
+  "season": "Warm",
+  "problems": "Cold injury, late blight, blossom-end rot from uneven watering, short seasons in the U.P.",
+  "calories": "Low calories; valuable fresh or preserved.",
+  "calorieClass": "low",
+  "springOffsetWeeks": 1,
+  "fallWeeksBeforeFrost": null,
+  "seedStartWeeks": 6,
+  "start": "Start indoors 5–6 weeks before transplanting, or buy plants; harden off 1–2 weeks.",
+  "frost": "tender",
+  "soilTemp": "Plant after frost danger; MSU notes warm-season crops establish best in soil 75°F+. U.P. gardeners often wait until early–mid June.",
+  "spacing": "Follow variety; stake or cage.",
+  "medium": "Rich soil or potting mix.",
+  "indoor": "Indoor fruiting needs very strong light and a large pot; not practical in an outage.",
+  "container": "Determinate (compact) varieties suit pots.",
+  "seedLife": "Store cool and dry; test older seed.",
+  "varieties": "Short-season, determinate varieties for northern sites and containers.",
+  "limits": "Days are from transplanting.",
+  "sourceUrl": "https://extension.umn.edu/planting-and-growing-guides/starting-seeds-indoors",
+  "sources": [
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Starting seeds indoors",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/starting-seeds-indoors",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting the vegetable garden",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "MSU Extension (MSU Today)",
+    "title": "New Michigan gardening calendar resources support home gardeners",
+    "url": "https://msutoday.msu.edu/news/2026/04/michigan-gardening-planting-calendar",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "Colorado State University Extension",
+    "title": "Vegetable Gardening in Containers",
+    "url": "https://extension.colostate.edu/resource/vegetable-gardening-in-containers/",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "UW–Madison Extension",
+    "title": "Growing Vegetables in Containers",
+    "url": "https://hort.extension.wisc.edu/articles/growing-vegetables-containers/",
+    "verified": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "id": "pepper",
+  "name": "Peppers",
+  "group": "Outdoor season",
+  "environment": "Outdoor; containers",
+  "difficulty": "Moderate",
+  "light": "Full sun.",
+  "water": "Even moisture.",
+  "containerDepth": "12–18 in deep and at least 5 gallons.",
+  "harvestDays": [
+   60,
+   90
+  ],
+  "harvestFrom": "transplant",
+  "season": "Warm",
+  "problems": "Slow in cool weather; leggy seedlings in poor light.",
+  "calories": "Low calories.",
+  "calorieClass": "low",
+  "springOffsetWeeks": 2,
+  "fallWeeksBeforeFrost": null,
+  "seedStartWeeks": 9,
+  "start": "Start indoors about 9 weeks before transplanting; strong light needed.",
+  "frost": "tender",
+  "soilTemp": "Plant after nights stay warm; warm-season soil 75°F+ ideal (MSU).",
+  "spacing": "Follow variety.",
+  "medium": "Potting mix in containers.",
+  "indoor": "Seedlings only; fruiting indoors needs strong light.",
+  "container": "Compact varieties do well in pots.",
+  "seedLife": "Store cool and dry; test older seed.",
+  "varieties": "Compact, short-season types for containers and northern sites.",
+  "limits": "Days are from transplanting.",
+  "sourceUrl": "https://extension.umn.edu/planting-and-growing-guides/starting-seeds-indoors",
+  "sources": [
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Starting seeds indoors",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/starting-seeds-indoors",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting the vegetable garden",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "UW–Madison Extension",
+    "title": "Growing Vegetables in Containers",
+    "url": "https://hort.extension.wisc.edu/articles/growing-vegetables-containers/",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "MSU Extension (MSU Today)",
+    "title": "New Michigan gardening calendar resources support home gardeners",
+    "url": "https://msutoday.msu.edu/news/2026/04/michigan-gardening-planting-calendar",
+    "verified": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "id": "basil",
+  "name": "Basil",
+  "group": "Indoor-capable",
+  "environment": "Indoor sunny window or lights; outdoor after frost; containers",
+  "difficulty": "Easy",
+  "light": "6–8 h bright light; or 14–16 h under lights.",
+  "water": "Let the surface dry slightly; drain well.",
+  "containerDepth": "Small containers with drainage.",
+  "harvestDays": [
+   50,
+   75
+  ],
+  "harvestFrom": "sowing",
+  "season": "Warm",
+  "problems": "Chilling injury below about 50°F, downy mildew, cold drafts by windows.",
+  "calories": "Negligible calories; flavor.",
+  "calorieClass": "low",
+  "springOffsetWeeks": 2,
+  "fallWeeksBeforeFrost": null,
+  "seedStartWeeks": 0,
+  "start": "Transplants (or seed) — set outdoors only after frost danger (UMN: mid-to-late May in Minnesota).",
+  "frost": "tender",
+  "soilTemp": "Warm-season.",
+  "spacing": "Pinch tips to keep bushy.",
+  "medium": "Potting mix.",
+  "indoor": "Grows indoors with bright light; keep away from cold glass in winter.",
+  "container": "Excellent in pots.",
+  "seedLife": "Store cool and dry; test older seed.",
+  "varieties": "Any culinary basil; compact types suit windowsills.",
+  "limits": "Very frost-tender.",
+  "sourceUrl": "https://extension.illinois.edu/blogs/good-growing/2017-11-17-grow-herbs-and-lettuce-indoors-winter",
+  "sources": [
+   {
+    "organization": "University of Illinois Extension",
+    "title": "Grow Herbs and Lettuce Indoors this Winter",
+    "url": "https://extension.illinois.edu/blogs/good-growing/2017-11-17-grow-herbs-and-lettuce-indoors-winter",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting the vegetable garden",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+    "verified": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "id": "parsley",
+  "name": "Parsley",
+  "group": "Indoor-capable",
+  "environment": "Indoor; outdoor; containers",
+  "difficulty": "Moderate",
+  "light": "Part sun to sun; 6–8 h indoors or under lights.",
+  "water": "Even moisture.",
+  "containerDepth": "Medium pot with drainage (long taproot).",
+  "harvestDays": [
+   70,
+   90
+  ],
+  "harvestFrom": "sowing",
+  "season": "Cool",
+  "problems": "Very slow germination.",
+  "calories": "Negligible; nutrients and flavor.",
+  "calorieClass": "low",
+  "springOffsetWeeks": -3,
+  "fallWeeksBeforeFrost": null,
+  "seedStartWeeks": 0,
+  "start": "Transplants are easiest; seed is very slow to sprout.",
+  "frost": "semi-hardy",
+  "soilTemp": "Cool soil; can go out in early spring (UMN: mid-April in Minnesota).",
+  "spacing": "Follow packet.",
+  "medium": "Potting mix.",
+  "indoor": "Listed by Illinois Extension among herbs that do well indoors.",
+  "container": "Good in pots.",
+  "seedLife": "Short-lived seed; test before relying on it.",
+  "varieties": "Flat or curly — both grow similarly.",
+  "limits": "Biennial; harvest outer stems.",
+  "sourceUrl": "https://extension.illinois.edu/blogs/good-growing/2017-11-17-grow-herbs-and-lettuce-indoors-winter",
+  "sources": [
+   {
+    "organization": "University of Illinois Extension",
+    "title": "Grow Herbs and Lettuce Indoors this Winter",
+    "url": "https://extension.illinois.edu/blogs/good-growing/2017-11-17-grow-herbs-and-lettuce-indoors-winter",
+    "verified": "2026-10-31"
+   },
+   {
+    "organization": "University of Minnesota Extension",
+    "title": "Planting the vegetable garden",
+    "url": "https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden",
+    "verified": "2026-10-31"
+   }
+  ]
+ },
+ {
+  "id": "chives",
+  "name": "Chives",
+  "group": "Indoor-capable",
+  "environment": "Indoor; outdoor perennial; containers",
+  "difficulty": "Easy",
+  "light": "Sun to part sun.",
+  "water": "Moderate.",
+  "containerDepth": "Small pots with drainage.",
+  "harvestDays": [
+   60,
+   90
+  ],
+  "harvestFrom": "sowing",
+  "season": "Cool",
+  "problems": "Few; crowded clumps need dividing.",
+  "calories": "Negligible; flavor.",
+  "calorieClass": "low",
+  "springOffsetWeeks": -4,
+  "fallWeeksBeforeFrost": null,
+  "seedStartWeeks": 0,
+  "start": "Divisions or transplants are fastest; seed is slow.",
+  "frost": "hardy",
+  "soilTemp": "Cool soil; perennial outdoors in Michigan.",
+  "spacing": "Clumps.",
+  "medium": "Potting mix.",
+  "indoor": "Illinois Extension lists chives among herbs that grow indoors.",
+  "container": "Excellent in pots.",
+  "seedLife": "Onion-family seed is short-lived; test.",
+  "varieties": "Common or garlic chives.",
+  "limits": "Cut leaves to an inch or two above the soil; regrows.",
+  "sourceUrl": "https://extension.illinois.edu/blogs/good-growing/2017-11-17-grow-herbs-and-lettuce-indoors-winter",
+  "sources": [
+   {
+    "organization": "University of Illinois Extension",
+    "title": "Grow Herbs and Lettuce Indoors this Winter",
+    "url": "https://extension.illinois.edu/blogs/good-growing/2017-11-17-grow-herbs-and-lettuce-indoors-winter",
+    "verified": "2026-10-31"
+   }
+  ]
+ }
+]

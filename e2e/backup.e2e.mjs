@@ -1,0 +1,87 @@
+// Backups: export → import on a "second phone" (fresh profile), v1 backup import,
+// malformed/hostile files rejected without changing data, markup rendered as text.
+import { chromium } from "playwright";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
+import assert from "node:assert/strict";
+import { startServer, step } from "./lib.mjs";
+const dist = process.argv[2] || "dist";
+const { server, base } = await startServer({ root: dist }, 4314);
+const browser = await chromium.launch();
+const phoneA = await (await browser.newContext({ acceptDownloads: true })).newPage();
+await phoneA.goto(base + "#/supplies?add=water-drinking");
+await phoneA.fill("input[name=name]", "Jugs <img src=x onerror=alert(1)>");
+await phoneA.fill("input[name=quantity]", "10");
+await phoneA.fill("input[name=waterLiters]", "3.785");
+await phoneA.getByRole("button", { name: "Save supply" }).click();
+await phoneA.locator(".inventory-name").first().waitFor();
+await phoneA.goto(base + "#/notebook");
+await phoneA.getByRole("button", { name: "New note" }).click();
+await phoneA.fill("input[name=title]", "Private medical note");
+await phoneA.fill("textarea[name=body]", "secret");
+await phoneA.getByRole("button", { name: "Save note" }).click();
+await phoneA.locator(".note-card").first().waitFor();
+await phoneA.goto(base + "#/map");
+await phoneA.getByRole("button", { name: /At map center/ }).click();
+await phoneA.fill("input[name=name]", "Grandma's house");
+await phoneA.getByRole("button", { name: "Save marker" }).click();
+await phoneA.locator(".marker-list li").first().waitFor();
+await phoneA.goto(base + "#/checklist");
+await phoneA.locator("#main select[aria-label='Supplies or tasks']").selectOption("task");
+await phoneA.locator(".check-row", { hasText: "Choose meeting places" }).locator("input[type=checkbox]").click();
+await phoneA.locator(".check-row.st-ready", { hasText: "Choose meeting places" }).waitFor({ timeout: 5000 }).catch(() => {});
+await phoneA.goto(base + "#/settings");
+const [dl] = await Promise.all([phoneA.waitForEvent("download"), phoneA.getByRole("button", { name: "Export backup" }).click()]);
+const file = join(tmpdir(), "uh-backup-v2.json");
+await dl.saveAs(file);
+const json = JSON.parse(readFileSync(file, "utf8"));
+assert.equal(json.schema, 2);
+assert.equal(json.notes.length, 0, "sensitive note left out by default");
+assert.equal(json.markers.length, 1);
+assert.equal(json.mapDataIncluded, false);
+assert.ok(json.checklist.some((c) => c.id === "plan-meeting" && c.lastDone));
+step("exported v2 backup: sensitive note excluded, marker and checklist state included");
+// Second phone
+const phoneB = await (await browser.newContext()).newPage();
+phoneB.on("dialog", (d) => d.accept());
+await phoneB.goto(base + "#/settings");
+const choose = async (path) => {
+  await phoneB.locator("input[type=file][accept*=json]").setInputFiles(path);
+  await phoneB.waitForTimeout(400);
+};
+// Hostile/malformed files first.
+const bad = (n, body) => { const p = join(tmpdir(), `uh-bad-${n}.json`); writeFileSync(p, body); return p; };
+await choose(bad(1, JSON.stringify({ ...json, supplies: [{ ...json.supplies[0], quantity: -5 }] })));
+assert.match(await phoneB.locator(".error").innerText(), /invalid number/);
+await choose(bad(2, "{not json"));
+assert.ok(await phoneB.locator(".error").count());
+await choose(bad(3, JSON.stringify({ ...json, markers: [{ ...json.markers[0], lat: 999 }] })));
+assert.match(await phoneB.locator(".error").innerText(), /latitude/);
+await phoneB.goto(base + "#/supplies");
+assert.equal(await phoneB.locator(".inventory-row").count(), 0, "nothing imported from rejected files");
+step("malformed, negative-quantity and bad-coordinate backups rejected; no records written");
+await phoneB.goto(base + "#/settings");
+await choose(file);
+assert.match(await phoneB.locator(".restore-preview").innerText(), /1 supply records/);
+await phoneB.getByRole("button", { name: "Merge this backup" }).click();
+await phoneB.locator(".toast", { hasText: "restored" }).waitFor();
+await phoneB.goto(base + "#/supplies");
+const name = await phoneB.locator(".inventory-name strong").first().innerText();
+assert.equal(name, "Jugs <img src=x onerror=alert(1)>", "markup shown as text");
+await phoneB.goto(base + "#/map");
+await phoneB.locator(".marker-list li", { hasText: "Grandma's house" }).waitFor();
+step("restored on a second profile: supplies (markup inert), marker, checklist state");
+const v1file = join(tmpdir(), "urban-haven-v1-backup.json");
+if (existsSync(v1file)) {
+  await phoneB.goto(base + "#/settings");
+  await choose(v1file);
+  await phoneB.getByRole("button", { name: "Merge this backup" }).click();
+  await phoneB.locator(".toast", { hasText: "restored" }).waitFor();
+  await phoneB.goto(base + "#/supplies");
+  await phoneB.locator(".inventory-name", { hasText: "v1 gallon jugs" }).waitFor();
+  step("a real v1.0.0 backup file (exported by the original build) imports and merges");
+}
+await browser.close();
+server.close();
+console.log("PASS backups");

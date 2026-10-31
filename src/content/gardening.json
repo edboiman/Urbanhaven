@@ -1,0 +1,463 @@
+[
+  {
+    "id": "farming-indoor-herbs",
+    "title": "A useful windowsill herb garden",
+    "category": "farming",
+    "summary": "A few herbs add flavor to stored meals in a small space. They provide a supplement, not enough food energy to replace a pantry.",
+    "when": "Start in normal conditions, while clean water and enough light are available.",
+    "needs": [
+      "Chive, parsley, mint or basil plants",
+      "Separate pots with drainage and saucers",
+      "Potting mix",
+      "A bright window or suitable plant light"
+    ],
+    "steps": [
+      "Observe the window through the day. Choose the brightest practical location; a window that looks bright to people may still provide too little plant light.",
+      "Pot each herb separately so you can water and move it independently. Use potting mix and keep the drainage holes unobstructed.",
+      "Check moisture before watering. Water as needed, then empty the saucer; avoid keeping roots constantly wet.",
+      "Harvest modest amounts of healthy young growth. Inspect leaves and stems regularly for pests, especially when bringing plants indoors."
+    ],
+    "warnings": [
+      "Keep electrical light fixtures and connections away from water. Grow only positively identified edible herbs."
+    ],
+    "mistakes": [
+      "Treating every herb as having the same watering needs.",
+      "Relying on a dim winter windowsill for vigorous growth."
+    ],
+    "alternatives": [
+      "Use dried pantry herbs when water or electricity must be conserved."
+    ],
+    "quick": ["Separate pots. Good drainage. Strong light. Small harvests."],
+    "sources": [
+      {
+        "organization": "Iowa State University Extension and Outreach",
+        "title": "Growing Herbs Indoors",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-herbs-indoors",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["windowsill", "herbs", "indoor gardening"]
+  },
+  {
+    "id": "farming-indoor-lettuce",
+    "title": "Grow a small indoor lettuce crop",
+    "category": "farming",
+    "summary": "Leaf lettuce is practical for fresh leaves in limited space, though its calorie contribution is small. Indoor production needs dependable light and water.",
+    "when": "Use as an everyday growing project rather than a response to an immediate food shortage.",
+    "needs": [
+      "Leaf-lettuce seed",
+      "Draining container and potting mix",
+      "Clean water",
+      "Bright light and a timer if using plant lights"
+    ],
+    "steps": [
+      "Choose a leaf-lettuce variety and follow its packet for sowing depth and spacing. Label the sowing date to compare future batches.",
+      "Keep the mix moist during germination. Thin crowded seedlings so their leaves and roots have room rather than leaving a dense mat of mature plants.",
+      "Place plants in a cool, bright location. If using a light, follow its installation and distance instructions and provide a daily dark period.",
+      "Check moisture regularly because lettuce roots are shallow. Harvest a few usable outer leaves while leaving the growing center, or cut the whole plant."
+    ],
+    "warnings": [
+      "Use safe water and clean equipment. Do not eat leaves contaminated by sewage or unsafe chemicals."
+    ],
+    "mistakes": [
+      "Letting the mix repeatedly dry out.",
+      "Expecting lettuce to stay tender after it bolts and flowers in hot conditions."
+    ],
+    "alternatives": [
+      "Grow a small spring or fall container outdoors when indoor light is insufficient."
+    ],
+    "quick": [
+      "Cool conditions, adequate light and steady moisture support leaf harvests."
+    ],
+    "sources": [
+      {
+        "organization": "University of Minnesota Extension",
+        "title": "Growing lettuce, endive and radicchio in home gardens",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-lettuce-endive-and-radicchio",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "University of Minnesota Extension",
+        "title": "Lighting for indoor plants and starting seeds",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/lighting-for-indoor-plants",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "growing vegetables inside",
+      "salad",
+      "lettuce",
+      "indoor gardening"
+    ]
+  },
+  {
+    "id": "farming-microgreens",
+    "title": "Microgreens in a clean shallow tray",
+    "category": "farming",
+    "summary": "Microgreens add quick fresh leaves to meals. They are cut above the growing medium and cannot replace an emergency pantry.",
+    "when": "Grow with clean equipment, safe water and adequate light.",
+    "needs": [
+      "Seed sold for edible microgreens, such as radish or broccoli",
+      "Clean food-grade draining tray and catch tray",
+      "Fresh soilless growing mix",
+      "Clean scissors"
+    ],
+    "steps": [
+      "Moisten the mix and spread it in a shallow tray. Sow one suitable species evenly so seedlings grow at a similar rate.",
+      "Keep the surface moist during germination, then water carefully without saturating the mix. Avoid stagnant water in the catch tray.",
+      "Provide bright light and air movement. Vent covers so trapped moisture does not encourage mold; follow the fixture instructions when using a light.",
+      "When true leaves have expanded, cut above the mix with clean scissors. Rinse with safe water and use promptly or refrigerate. Clean trays before the next batch."
+    ],
+    "warnings": [
+      "Use only species and seed intended for edible microgreens. Discard a moldy or foul-smelling crop."
+    ],
+    "mistakes": [
+      "Using dense garden soil.",
+      "Overwatering a closely packed tray.",
+      "Counting a tray of greens as substantial calories."
+    ],
+    "alternatives": [
+      "Start a small pot of leaf lettuce if repeated tray sowing is inconvenient."
+    ],
+    "quick": ["Clean tray, suitable seed, moist mix, airflow, clean harvest."],
+    "sources": [
+      {
+        "organization": "University of Maryland Extension",
+        "title": "Growing Microgreens and Baby Greens Indoors",
+        "url": "https://extension.umd.edu/resource/growing-microgreens-and-baby-greens-indoors",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["microgreens", "indoor vegetables", "fresh greens"]
+  },
+  {
+    "id": "farming-containers",
+    "title": "Start a manageable container garden",
+    "category": "farming",
+    "summary": "Containers let you grow food on a patio or in a small yard. Root space and a watering plan matter more than decorative pots.",
+    "when": "Use where you have permission, suitable sunlight and water.",
+    "needs": [
+      "Food-safe container with drainage",
+      "Container potting mix",
+      "Crop seed or transplant",
+      "Watering can",
+      "Support for climbing or tall crops"
+    ],
+    "steps": [
+      "Observe sunlight before choosing a crop. Fruiting vegetables need more sun than leafy greens. Start with one or two containers.",
+      "Match depth and volume to the mature plant. Choose compact varieties for tight spaces; install supports while plants are small.",
+      "Fill with suitable potting mix and plant at packet or transplant-label spacing. Leave drainage open instead of compacting garden soil into the pot.",
+      "Check moisture often, especially in hot weather. Water thoroughly when needed, let excess drain, and empty standing water from saucers. Follow the fertilizer label for containers."
+    ],
+    "warnings": [
+      "Never reuse a container that held hazardous chemicals for edible plants. Keep pots from obstructing exits."
+    ],
+    "mistakes": [
+      "Choosing a small pot for a large tomato.",
+      "Assuming a container needs water on the same schedule as the ground."
+    ],
+    "alternatives": [
+      "Use a shared community plot if your site lacks suitable light or safe loading capacity."
+    ],
+    "quick": [
+      "Right crop, enough root space, drainage and a watering routine."
+    ],
+    "sources": [
+      {
+        "organization": "University of Maryland Extension",
+        "title": "Growing Vegetables in Containers and Salad Tables",
+        "url": "https://extension.umd.edu/resource/growing-vegetables-containers-and-salad-tables",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["container gardening", "patio", "vertical gardening"]
+  },
+  {
+    "id": "farming-balcony-safety",
+    "title": "Plan a balcony garden safely",
+    "category": "farming",
+    "summary": "Wet mix, pots and water impose substantial loads. Wind can turn an unsecured planter into a falling hazard.",
+    "when": "Before gardening on a balcony, rooftop or elevated deck.",
+    "needs": [
+      "Building permission and applicable load guidance",
+      "Stable pots suited to your crops",
+      "Safe drainage arrangement",
+      "A clear sketch of access routes"
+    ],
+    "steps": [
+      "Ask the property manager about permitted use. Consult a building architect about heavy-container loads; never guess capacity from appearance.",
+      "Include wet mix, containers, mature plants and water in the proposed load. Start small after the permitted arrangement has been assessed.",
+      "Choose stable, broad-based containers and secure tall plants using a method approved for the building. Account for exposed wind and protect people below.",
+      "Keep doorways and evacuation routes open. Arrange watering so runoff does not create slipping hazards or damage neighboring property; inspect the setup after strong wind."
+    ],
+    "warnings": [
+      "Do not attach planters to railings or structural elements without permission and an appropriate rated system. Never use the railing as a shelf for loose pots."
+    ],
+    "mistakes": [
+      "Judging the load by an empty plastic pot.",
+      "Adding water barrels without structural advice."
+    ],
+    "alternatives": [
+      "Grow a small herb pot indoors or use a ground-level community garden."
+    ],
+    "quick": [
+      "Check loads and permission first; control wind, runoff and exits."
+    ],
+    "sources": [
+      {
+        "organization": "University of Illinois Extension",
+        "title": "Container Size",
+        "url": "https://extension.illinois.edu/container-gardens/container-size",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["balcony", "rooftop", "apartment gardening"]
+  },
+  {
+    "id": "farming-raised-beds",
+    "title": "A small raised bed that is easy to maintain",
+    "category": "farming",
+    "summary": "Raised beds improve access and manage compacted urban soil. They need water, suitable soil and a plan for existing contamination.",
+    "when": "Before building a vegetable bed.",
+    "needs": [
+      "A site with suitable sunlight and water",
+      "Known safe bed materials",
+      "Reliable topsoil and plant-based compost",
+      "A reachable bed layout"
+    ],
+    "steps": [
+      "Choose a bed width you can reach from the sides without standing on growing soil.",
+      "Investigate previous land use and possible contamination. Get local soil-testing guidance; new soil does not automatically eliminate every exposure route.",
+      "Build with appropriate materials of known origin. Fill with a suitable raised-bed mix or a blend of topsoil and plant-based compost; avoid treating pure compost as ordinary soil.",
+      "Plant with mature spacing in mind, water as needed and check moisture frequently. Record plant families so you can rotate crops between beds in later years."
+    ],
+    "warnings": [
+      "Avoid old railroad ties or lumber of uncertain treatment history for edible beds. Do not place a heavy raised bed on an elevated structure without assessment."
+    ],
+    "mistakes": [
+      "Making a bed too wide to maintain.",
+      "Assuming raised soil never needs irrigation."
+    ],
+    "alternatives": [
+      "Use a draining container of known safe mix for a smaller starting project."
+    ],
+    "quick": [
+      "Reach the center, check soil history, choose safe materials and maintain water."
+    ],
+    "sources": [
+      {
+        "organization": "University of Minnesota Extension",
+        "title": "Raised bed gardens",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/raised-bed-gardens",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["raised beds", "urban soil", "soil contamination"]
+  },
+  {
+    "id": "farming-soil-compost",
+    "title": "Turn suitable scraps into garden compost",
+    "category": "farming",
+    "summary": "Compost returns organic material to soil and reduces waste. A home pile is a managed garden process, not a safe disposal route for sewage or every kind of food waste.",
+    "when": "Use where household or community rules allow composting and you can prevent pests.",
+    "needs": [
+      "A draining permitted site or compost bin",
+      "Dry leaves or plain shredded cardboard",
+      "Fruit and vegetable scraps",
+      "Water and a mixing tool"
+    ],
+    "steps": [
+      "Collect suitable scraps in a closed container. Keep meat, fish, dairy, grease, pet waste, treated wood and diseased plants out of a basic backyard pile.",
+      "Combine food scraps with dry carbon-rich materials. EPA recommends roughly two to three volumes of browns for each volume of greens; cover new scraps with browns.",
+      "Keep the mixture about as damp as a wrung-out sponge. Turn occasionally and add coarse dry material if the pile becomes soggy or poorly aerated.",
+      "Use finished compost as a soil amendment after material has broken down. Keep following soil-test and crop-specific fertility advice rather than assuming compost supplies every nutrient."
+    ],
+    "warnings": [
+      "Do not compost human waste or cat litter in a household food-garden pile. Local collection programs may accept different materials."
+    ],
+    "mistakes": [
+      "Leaving food scraps exposed to animals.",
+      "Confusing dehydrated scraps from a countertop appliance with finished compost."
+    ],
+    "alternatives": [
+      "Use a municipal organics drop-off or buy finished compost if you cannot maintain a suitable pile."
+    ],
+    "quick": ["Suitable scraps, more browns, moisture and air."],
+    "sources": [
+      {
+        "organization": "US Environmental Protection Agency",
+        "title": "Composting At Home",
+        "url": "https://www.epa.gov/recycle/composting-home",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["composting", "soil", "food scraps"]
+  },
+  {
+    "id": "farming-seed-starting",
+    "title": "Start seedlings without weak, stretched growth",
+    "category": "farming",
+    "summary": "Indoor seed starting helps in a short growing season. Good timing, light and moisture beat starting every crop extremely early.",
+    "when": "Before planting crops normally transplanted outdoors.",
+    "needs": [
+      "Seeds and variety instructions",
+      "Clean draining cells or pots",
+      "Seed-starting mix",
+      "Labels",
+      "Suitable lights and a safe support"
+    ],
+    "steps": [
+      "Count backward from the crop’s expected outdoor transplant window using its packet. Use local frost expectations, not a single date copied from another town.",
+      "Moisten seed-starting mix before filling cells. Sow at the packet depth and label both crop and date. Provide the stated germination conditions.",
+      "After emergence, provide strong appropriate light and a regular dark period. Raise the fixture as plants grow, following its instructions, and avoid permanently wet mix.",
+      "Thin excess seedlings by snipping the weaker ones. Gradually acclimate healthy plants outdoors before transplanting, protecting them from frost, harsh sun and wind."
+    ],
+    "warnings": [
+      "Keep water away from electric connections. A warm indoor seedling is not automatically ready for cold soil or freezing nights."
+    ],
+    "mistakes": [
+      "Starting too early for the available light and space.",
+      "Leaving emerged seedlings under a humidity cover too long."
+    ],
+    "alternatives": [
+      "Buy a few healthy local transplants; direct-sow crops that dislike root disturbance."
+    ],
+    "quick": [
+      "Packet timing, clean mix, enough light and gradual hardening off."
+    ],
+    "sources": [
+      {
+        "organization": "University of Minnesota Extension",
+        "title": "Starting seeds indoors",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/starting-seeds-indoors",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["seed starting", "transplants", "grow lights"]
+  },
+  {
+    "id": "farming-great-lakes-calendar",
+    "title": "Use frost dates for a Great Lakes planting plan",
+    "category": "farming",
+    "summary": "Michigan growing conditions vary from urban southern sites to the Upper Peninsula. Average frost dates describe risk; they are not promises that a cold night cannot occur.",
+    "when": "When setting up the garden planner or revising a spring or fall planting schedule.",
+    "needs": [
+      "Locally appropriate average last and first frost dates",
+      "Seed packet maturity information",
+      "A soil thermometer if available",
+      "A calendar and local forecast when online"
+    ],
+    "steps": [
+      "Enter local frost dates manually in the planner. Check the town or nearest representative station, including lake effects and your site’s exposed or sheltered conditions.",
+      "Separate cool-season crops such as peas and lettuce from frost-sensitive tomatoes, peppers and basil. Wait for suitable soil conditions as well as the expected frost window.",
+      "For spring transplants, work backward from the outdoor planting window to seed starting and hardening off. Treat displayed dates as planning prompts and adjust to actual conditions.",
+      "For a fall crop, work backward from expected frost using the variety’s maturity information. Allow extra time as days cool and shorten; record actual harvests to improve next year’s plan."
+    ],
+    "warnings": [
+      "Do not plant tender crops solely because a calendar date has arrived. Frost protection has limits and needs active management."
+    ],
+    "mistakes": [
+      "Using a fixed statewide planting date.",
+      "Assuming a seed packet’s summer maturity estimate holds in late fall."
+    ],
+    "alternatives": [
+      "Choose a shorter-season variety or buy transplants if the remaining season is too short."
+    ],
+    "quick": [
+      "Local frost risk plus soil conditions and the variety’s maturity window."
+    ],
+    "sources": [
+      {
+        "organization": "Michigan State University Extension",
+        "title": "How to plant vegetables",
+        "url": "https://www.canr.msu.edu/ingham/uploads/files/VegetablePlantingGuide.pdf",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "Michigan State University Extension",
+        "title": "Transplant production: Timing and crop types",
+        "url": "https://msu-prod.dotcmscloud.com/news/transplant_production_timing_and_crop_types",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "Michigan State University Extension",
+        "title": "Michigan Fresh: Fall Vegetable Crops for your Garden",
+        "url": "https://msu-prod.dotcmscloud.com/resources/michigan_fresh_fall_vegetable_crops_for_your_garden",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "Michigan / Great Lakes",
+    "updated": "2026-10-31",
+    "tags": ["Michigan", "Great Lakes", "planting calendar", "frost dates"]
+  },
+  {
+    "id": "farming-winter-growing",
+    "title": "What winter indoor growing can realistically do",
+    "category": "farming",
+    "summary": "A small winter garden adds greens and herbs. Lighting and heating requirements make it a poor pantry replacement during outages.",
+    "when": "Plan before a disruption, including power and water needs.",
+    "needs": [
+      "A small suitable growing space",
+      "Leafy-green or herb seed",
+      "Safe food-growing containers",
+      "Reliable water",
+      "Suitable plant lighting if natural light is inadequate"
+    ],
+    "steps": [
+      "Start with a small leafy crop. Plan space, lighting, water and drainage before setting up equipment.",
+      "If using hydroponics, select clean food-safe containers and a system with instructions you can follow. Check its nutrient, aeration and monitoring requirements before buying equipment.",
+      "Record maintenance and power use. Keep leaks away from electrical connections, stored food and floors below.",
+      "Plan how to stop or harvest the project if heat, water or electricity becomes scarce. Preserve emergency drinking water and essential-device power rather than counting on continuous crop production."
+    ],
+    "warnings": [
+      "Hydroponic systems are not maintenance-free. Some depend on powered pumps and lighting, which can fail during an outage."
+    ],
+    "mistakes": [
+      "Expecting a dim winter window to produce substantial food.",
+      "Counting future harvests as already available emergency calories."
+    ],
+    "alternatives": [
+      "Maintain a shelf-stable pantry and use seasonal outdoor gardening to supplement it."
+    ],
+    "quick": [
+      "Fresh supplements are realistic; complete winter self-sufficiency is not."
+    ],
+    "sources": [
+      {
+        "organization": "University of Minnesota Extension",
+        "title": "Small-scale hydroponics",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/small-scale-hydroponics",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "Michigan / Great Lakes",
+    "updated": "2026-10-31",
+    "tags": ["winter gardening", "hydroponics", "indoor lighting"]
+  }
+]

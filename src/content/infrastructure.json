@@ -1,0 +1,1336 @@
+[
+  {
+    "id": "power-battery-wh",
+    "title": "Understand batteries and watt-hours",
+    "category": "power",
+    "summary": "Watt-hours describe stored energy; watts describe how quickly equipment uses it. Keeping these separate prevents an optimistic battery estimate from becoming an emergency plan.",
+    "when": "Before buying backup power or deciding which devices to run during an outage.",
+    "needs": [
+      "Battery specification label or manual",
+      "Device wattage or measured power draw",
+      "Paper or the power calculator"
+    ],
+    "steps": [
+      "Write down the battery’s stated watt-hour capacity and its maximum continuous output in watts. A large energy capacity does not imply a high-power outlet.",
+      "List each essential device’s running watts and hours of use. Multiply watts by hours to estimate watt-hours; add the devices together.",
+      "If only amp-hours are listed, use the battery’s specified nominal voltage: watt-hours = amp-hours × volts. Do not compare milliamp-hour labels at different voltages directly.",
+      "Allow for conversion losses, age, cold conditions and reserve power. Check motor startup surge separately and test the actual combination before relying on it."
+    ],
+    "warnings": [
+      "A small USB power bank cannot power a household heater or refrigerator unless the whole system is specifically rated for that load. Life-support equipment needs a clinician-approved backup plan."
+    ],
+    "mistakes": [
+      "Treating a theoretical runtime as a guarantee.",
+      "Forgetting inverter standby consumption or device cycling."
+    ],
+    "alternatives": [
+      "Prioritize phone, radio and lighting; relocate for essential equipment that lacks a tested supply."
+    ],
+    "quick": [
+      "Energy: Wh. Power: W.",
+      "Approximate runtime = usable Wh ÷ device W."
+    ],
+    "sources": [
+      {
+        "organization": "Virginia Cooperative Extension",
+        "title": "Estimating Appliance and Home Electronic Energy Use",
+        "url": "https://www.pubs.ext.vt.edu/2901/2901-9014/2901-9014.html",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "U.S. Fire Administration",
+        "title": "Battery Fire Safety",
+        "url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/batteries/",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": ["power-charging", "power-solar", "power-lighting"],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["battery capacity", "watt hours", "runtime", "power bank"]
+  },
+  {
+    "id": "power-charging",
+    "title": "Charge phones and batteries safely",
+    "category": "power",
+    "summary": "A working charging plan keeps communications available without introducing a battery fire. Familiar cables and a practiced routine are more useful than a drawer of untested adapters.",
+    "when": "While preparing backup batteries or sharing limited charging capacity during an outage.",
+    "needs": [
+      "Manufacturer-approved charger and intact cables",
+      "Charged power bank",
+      "Dry, firm charging surface"
+    ],
+    "steps": [
+      "Inspect the battery and cables. Stop using equipment with swelling, leaking, unusual heat, odor, discoloration or odd noises; move away and call emergency services if it smokes or burns.",
+      "Use the charger and charging method specified by the manufacturer. Keep devices clear of bedding, paper and other combustible materials and do not cover them.",
+      "Give priority to emergency phones and medical communications. Reduce screen use and charge a spare bank while safe power remains available.",
+      "Keep batteries dry and within their documented temperature limits. Check charge indicators periodically and schedule recharging before they are needed."
+    ],
+    "warnings": [
+      "Do not repair, puncture or improvise connections to lithium battery packs. Never run a vehicle in a garage to charge devices, even with the door open."
+    ],
+    "mistakes": [
+      "Charging a damaged battery.",
+      "Leaving power banks in a hot car or direct sun."
+    ],
+    "alternatives": [
+      "Use a verified community charging location when accessible, taking your own compatible cable and keeping the phone with you."
+    ],
+    "quick": [
+      "Inspect first; use the correct charger.",
+      "Heat, swelling or smoke means stop."
+    ],
+    "sources": [
+      {
+        "organization": "U.S. Fire Administration",
+        "title": "Battery Fire Safety",
+        "url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/batteries/",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "What to Do to Protect Yourself During a Power Outage",
+        "url": "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": ["power-battery-wh", "power-solar", "power-lighting"],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["usb charging", "rechargeable batteries", "phone battery"]
+  },
+  {
+    "id": "power-solar",
+    "title": "Plan realistic portable solar charging",
+    "category": "power",
+    "summary": "Portable solar can replenish a compatible battery in daylight, but panel ratings are not dependable all-day output. Shade and winter weather can sharply limit harvest.",
+    "when": "When adding an optional charging source to a battery-based outage plan.",
+    "needs": [
+      "Panel and charge controller compatible with the battery",
+      "Manufacturer manuals",
+      "Secure outdoor location with sunlight"
+    ],
+    "steps": [
+      "Check panel voltage, connectors and the battery’s accepted solar input. Use the approved controller and cables; similar-looking plugs do not prove electrical compatibility.",
+      "Place a portable panel where permitted, with good sunlight and minimal shade, using the maker’s secure mounting guidance. Keep the battery within its temperature and weather limits.",
+      "Test a normal day of charging and record energy received if the device reports watt-hours. Repeat in less favorable weather before using the result for planning.",
+      "Budget for cloudy days and short winter daylight. Retain a charged reserve and another way to obtain essential power or relocate."
+    ],
+    "warnings": [
+      "Do not climb a roof, improvise mains wiring or connect panels directly to household circuits. Rooftop work and building electrical connections need qualified installers."
+    ],
+    "mistakes": [
+      "Multiplying rated panel watts by every daylight hour.",
+      "Leaving a non-weatherproof battery in rain."
+    ],
+    "alternatives": [
+      "A smaller device load, spare charged banks or a community charging site may be more reliable than a shaded balcony panel."
+    ],
+    "quick": [
+      "Match the equipment.",
+      "Measure actual harvest; keep a reserve."
+    ],
+    "sources": [
+      {
+        "organization": "U.S. Department of Energy",
+        "title": "Homeowner’s Guide to Solar",
+        "url": "https://www.energy.gov/cmei/systems/homeowners-guide-solar",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "U.S. Fire Administration",
+        "title": "Battery Fire Safety",
+        "url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/batteries/",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": ["power-battery-wh", "power-charging", "power-lighting"],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["solar charging", "portable solar", "cloudy weather"]
+  },
+  {
+    "id": "power-lighting",
+    "title": "Light a home without mains power",
+    "category": "power",
+    "summary": "Battery lighting makes stairs, food preparation and nighttime movement easier without the fire risk of candles. Arrange lighting before darkness rather than searching room by room.",
+    "when": "When power fails or preparing a kit for each household member.",
+    "needs": [
+      "LED flashlight or headlamp per person",
+      "Battery lantern",
+      "Compatible spare batteries"
+    ],
+    "steps": [
+      "Place a light at the bed, main exit and route to the bathroom. Keep exits and stairs clear, and use a headlamp for tasks needing both hands.",
+      "Choose the lowest useful brightness. Turn off unused lights and reserve one reliable light for emergencies rather than running every lamp continuously.",
+      "Keep spare batteries organized by type, with terminals protected from loose metal. Follow the light’s battery and charging instructions.",
+      "Test lights during routine supply checks. Replace leaking batteries and keep lights where a guest or caregiver can find them in the dark."
+    ],
+    "warnings": [
+      "Use flashlights instead of candles during outages. Never use a fuel lantern or camping stove indoors as a light or heat source."
+    ],
+    "mistakes": [
+      "Using a phone flashlight until the communication battery is exhausted.",
+      "Putting lanterns where they can fall down stairs."
+    ],
+    "alternatives": [
+      "A battery-operated flameless candle can mark a hallway, but retain a real flashlight for hazards and evacuation."
+    ],
+    "quick": ["One accessible light per person.", "Keep an emergency reserve."],
+    "sources": [
+      {
+        "organization": "U.S. Fire Administration",
+        "title": "Candle Fire Safety",
+        "url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/candle/",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "What to Do to Protect Yourself During a Power Outage",
+        "url": "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": ["power-battery-wh", "power-charging", "power-solar"],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["flashlight", "headlamp", "lantern", "emergency lighting"]
+  },
+  {
+    "id": "power-generator",
+    "title": "Operate a portable generator safely",
+    "category": "power",
+    "summary": "Generator exhaust contains carbon monoxide, an invisible gas that can kill rapidly. Outdoor placement and safe electrical connections come before fuel or runtime calculations.",
+    "when": "Only when a portable fuel-powered generator can be used outdoors according to its manual.",
+    "needs": [
+      "Manufacturer manual",
+      "Working battery-backed CO alarms",
+      "Correctly rated outdoor cords",
+      "Approved fuel storage"
+    ],
+    "steps": [
+      "Place the generator outside at least 20 feet from the home, doors, windows and vents, directing exhaust away. Never use it in a garage, basement, balcony enclosure or partly enclosed space.",
+      "Check CO alarms and keep the generator dry using only a manufacturer-permitted setup. Do not touch wet equipment or operate it in unsafe rain or flood conditions.",
+      "Connect permitted loads with correctly rated heavy-duty outdoor cords. Check continuous and starting loads against the manual; a household connection requires a qualified electrician and approved transfer equipment.",
+      "Turn the engine off and let it cool before refueling. Store fuel as local rules and the manual require, away from living spaces and ignition sources."
+    ],
+    "warnings": [
+      "Never plug a generator into a wall outlet: backfeeding can kill utility workers. If a CO alarm sounds or poisoning is suspected, get everyone into fresh air immediately and call 911."
+    ],
+    "mistakes": [
+      "Assuming an open garage door makes exhaust safe.",
+      "Refueling a running or hot generator."
+    ],
+    "alternatives": [
+      "Use battery power for small loads or relocate to a powered location when safe generator placement is impossible."
+    ],
+    "quick": [
+      "Outdoors, at least 20 feet away.",
+      "No backfeeding. Cool before refueling."
+    ],
+    "sources": [
+      {
+        "organization": "FEMA",
+        "title": "Keep Your Family, Pets Safe When Using Generators",
+        "url": "https://www.fema.gov/print/pdf/node/603508",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "What to Do to Protect Yourself During a Power Outage",
+        "url": "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": ["power-battery-wh", "power-charging", "power-solar"],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "generator safety",
+      "carbon monoxide",
+      "fuel",
+      "backup electricity"
+    ]
+  },
+  {
+    "id": "power-extension-cords",
+    "title": "Use extension cords without fire hazards",
+    "category": "power",
+    "summary": "An extension cord is a temporary connection with a rated limit. Damaged, overloaded or trapped cords can overheat even when a device appears to work.",
+    "when": "When temporarily powering permitted equipment or arranging a generator connection.",
+    "needs": [
+      "Intact cord rated for the setting and load",
+      "Appliance and cord instructions",
+      "Dry route without trip hazards"
+    ],
+    "steps": [
+      "Inspect the cord, plug and outlet for damage, heat marks or loose connections. Replace damaged equipment instead of covering a defect with tape.",
+      "Match the cord rating to the intended load and choose outdoor-rated equipment outdoors. Keep connections dry and follow the generator or appliance manual.",
+      "Route cords where they cannot be pinched by doors, hidden under rugs or damaged by traffic. Keep walking routes clear and protect children from exposed connections.",
+      "Avoid overloaded strips, chained power strips and improvised adapters. Ask an electrician for permanent outlets or any uncertain household wiring problem."
+    ],
+    "warnings": [
+      "Plug major household appliances directly into suitable wall outlets in normal use. Do not use an extension cord for a space heater. Generator connections must follow generator and appliance instructions."
+    ],
+    "mistakes": [
+      "Removing a ground pin.",
+      "Treating a cool plug as proof the whole circuit is safe."
+    ],
+    "alternatives": [
+      "Move the small device near a proper outlet or use a suitably rated battery-operated alternative."
+    ],
+    "quick": ["Inspect, rate, keep dry.", "No rugs, pinching or daisy chains."],
+    "sources": [
+      {
+        "organization": "U.S. Fire Administration",
+        "title": "Appliance and Electrical Fire Safety",
+        "url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/appliance-and-electrical/index.html",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "FEMA",
+        "title": "Keep Your Family, Pets Safe When Using Generators",
+        "url": "https://www.fema.gov/print/pdf/node/603508",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": ["power-battery-wh", "power-charging", "power-solar"],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["extension cords", "electrical fire", "power strip"]
+  },
+  {
+    "id": "climate-winter-outage",
+    "title": "Stay warm during a winter outage",
+    "category": "climate",
+    "summary": "Warm clothing, a smaller occupied room and an early relocation plan reduce cold exposure. A home can become unsafe before someone realizes how cold they are.",
+    "when": "When normal heating stops during cold weather.",
+    "needs": [
+      "Dry layered clothing, hats and blankets",
+      "Indoor thermometer if available",
+      "Battery-backed CO alarms",
+      "Heated destination and transport plan"
+    ],
+    "steps": [
+      "Check for immediate hazards and whether anyone depends on powered medical equipment. Call for help and relocate early if a safe backup is unavailable.",
+      "Gather in a suitable room, close curtains and unused room doors, and reduce drafts without blocking required ventilation, alarms or exits.",
+      "Wear loose dry layers and use blankets or sleeping bags. Check children, older adults and neighbors frequently for confusion, unusual sleepiness or persistent shivering.",
+      "Monitor conditions and official shelter information. Leave for a heated safe location before travel becomes difficult; bring medicines, pets and communication supplies."
+    ],
+    "warnings": [
+      "Never heat a home with an oven, outdoor camp stove, grill, charcoal burner or generator. Confusion, severe cold symptoms or a CO alarm require immediate action, fresh air as appropriate and emergency help."
+    ],
+    "mistakes": [
+      "Waiting for a specific indoor temperature before considering vulnerable people.",
+      "Assuming alcohol makes a person safely warmer."
+    ],
+    "alternatives": [
+      "Arrange an accessible stay with a friend or a confirmed warming center; do not assume a shelter is open or accepts all pets."
+    ],
+    "quick": [
+      "Layer, reduce drafts, check people.",
+      "Relocate before cold becomes an emergency."
+    ],
+    "sources": [
+      {
+        "organization": "National Weather Service",
+        "title": "During Extremely Cold Weather",
+        "url": "https://www.weather.gov/safety/cold-during",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "What to Do to Protect Yourself During a Power Outage",
+        "url": "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "climate-hypothermia",
+      "climate-frostbite",
+      "climate-heat-exhaustion"
+    ],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["no heat", "winter outage", "staying warm"]
+  },
+  {
+    "id": "climate-hypothermia",
+    "title": "Recognize a cold medical emergency",
+    "category": "climate",
+    "summary": "Hypothermia is a dangerous loss of body heat. It can occur indoors or in cool wet conditions, not only in freezing weather.",
+    "when": "When a cold-exposed person is confused, unusually drowsy, clumsy, slurring speech or shivering heavily.",
+    "needs": [
+      "Emergency communication",
+      "Warm sheltered place",
+      "Dry blankets and clothing"
+    ],
+    "steps": [
+      "Call 911 for suspected hypothermia. Do not wait for a thermometer reading or assume a person who stops shivering has recovered.",
+      "Move the person gently into a warm shelter if safe. Remove wet clothing and cover with dry layers, including the head and neck while keeping the face clear.",
+      "Warm the center of the body first with blankets and gentle body warmth. Handle the person carefully and follow emergency dispatcher instructions.",
+      "Stay with them, monitor breathing, and follow dispatcher guidance if breathing is absent or abnormal. Arrange urgent medical care even if they appear to improve."
+    ],
+    "warnings": [
+      "Do not rub the person, use intense direct heat or give alcohol. Do not give food or drink to someone who is drowsy, unconscious or unable to swallow normally."
+    ],
+    "mistakes": [
+      "Sending a confused person alone to fetch supplies.",
+      "Delaying a call while trying repeated home warming methods."
+    ],
+    "alternatives": [
+      "If a heated building is not immediately accessible, protect from wind and wet ground while calling for rescue."
+    ],
+    "quick": [
+      "Confusion after cold exposure: call 911.",
+      "Shelter, dry layers, gentle core warming."
+    ],
+    "sources": [
+      {
+        "organization": "National Weather Service",
+        "title": "During Extremely Cold Weather",
+        "url": "https://www.weather.gov/safety/cold-during",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "climate-winter-outage",
+      "climate-frostbite",
+      "climate-heat-exhaustion"
+    ],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["hypothermia", "cold injury", "shivering", "confusion"]
+  },
+  {
+    "id": "climate-frostbite",
+    "title": "Respond to suspected frostbite",
+    "category": "climate",
+    "summary": "Freezing can injure skin and deeper tissue, especially fingers, toes, ears and nose. Numbness is a warning, not a sign that the cold is harmless.",
+    "when": "When cold-exposed skin becomes numb, unusually pale, waxy or firm.",
+    "needs": [
+      "Warm shelter",
+      "Loose dry protection for the affected area",
+      "Medical advice or emergency communication"
+    ],
+    "steps": [
+      "Move indoors or out of the wind and address possible hypothermia first. Call emergency services for severe symptoms, confusion or a person who cannot reach shelter.",
+      "Remove wet or constricting items gently. Protect the area from pressure and further exposure; seek medical assessment for suspected frostbite.",
+      "Use gentle warming, such as body heat, while arranging help. Warm, not hot, water may be appropriate if advised and the area can stay warm afterward.",
+      "Avoid walking on frostbitten feet unless necessary to reach safety. Keep damaged areas loosely protected and follow professional instructions."
+    ],
+    "warnings": [
+      "Never rub frostbitten tissue or use a fire, heating pad or hot water to thaw numb skin. Do not thaw tissue where it could freeze again; obtain rescue and medical advice."
+    ],
+    "mistakes": [
+      "Rubbing fingers with snow.",
+      "Returning outside because numbness temporarily improves."
+    ],
+    "alternatives": [
+      "Protect the affected part, keep the rest of the person warm and request assistance when safe rewarming cannot be maintained."
+    ],
+    "quick": [
+      "Get to shelter and seek medical care.",
+      "No rubbing or intense heat."
+    ],
+    "sources": [
+      {
+        "organization": "National Weather Service",
+        "title": "During Extremely Cold Weather",
+        "url": "https://www.weather.gov/safety/cold-during",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "climate-winter-outage",
+      "climate-hypothermia",
+      "climate-heat-exhaustion"
+    ],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["frostbite", "numb fingers", "cold skin"]
+  },
+  {
+    "id": "climate-heat-exhaustion",
+    "title": "Recognize and respond to heat exhaustion",
+    "category": "climate",
+    "summary": "Heavy sweating, weakness, dizziness, headache, nausea or clammy skin after heat exposure can signal heat exhaustion. Prompt cooling can prevent worsening illness.",
+    "when": "During hot indoor conditions, outdoor work or a cooling outage.",
+    "needs": [
+      "Cooler location, preferably air-conditioned",
+      "Cool wet cloths",
+      "Safe drinking water if fully alert"
+    ],
+    "steps": [
+      "Stop activity and move the person into a cooler place. Loosen unnecessary clothing and have them rest while someone stays nearby.",
+      "Cool the body with wet cloths or a cool bath if this can be done safely. Use available help to find an air-conditioned place instead of relying on an overheated room.",
+      "Offer small sips of water only if the person is awake, not vomiting and able to swallow normally. Follow any existing clinician-directed fluid restrictions.",
+      "Get immediate medical attention for vomiting, worsening symptoms or symptoms lasting longer than one hour. Confusion, fainting or altered behavior may indicate heat stroke: call 911 and begin cooling."
+    ],
+    "warnings": [
+      "Heat stroke can occur with sweating. Do not wait for dry skin or a measured high temperature before calling for emergency help."
+    ],
+    "mistakes": [
+      "Resuming strenuous work as soon as dizziness fades.",
+      "Leaving an ill person alone in a hot room."
+    ],
+    "alternatives": [
+      "Contact local officials or a trusted person for transport to a confirmed cooling location; avoid unnecessary heat exposure during travel."
+    ],
+    "quick": [
+      "Stop, move to cool shelter, cool skin.",
+      "Worsening or confusion: urgent help."
+    ],
+    "sources": [
+      {
+        "organization": "National Weather Service",
+        "title": "Heat Cramps, Exhaustion, Stroke",
+        "url": "https://www.weather.gov/safety/heat-illness",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "climate-winter-outage",
+      "climate-hypothermia",
+      "climate-frostbite"
+    ],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["heat exhaustion", "dizziness", "cooling", "no air conditioning"]
+  },
+  {
+    "id": "climate-heat-stroke",
+    "title": "Heat stroke: call for emergency help",
+    "category": "climate",
+    "summary": "Confusion, slurred speech, collapse, seizures or loss of consciousness in a hot setting may be heat stroke. This is a life-threatening emergency, even if the person is sweating.",
+    "when": "Immediately when severe heat illness or altered mental status is suspected.",
+    "needs": [
+      "A way to call 911",
+      "Cool water and cloths",
+      "Shaded or cooled place with safe access"
+    ],
+    "steps": [
+      "Call 911 immediately. Explain the heat exposure and symptoms, put the phone on speaker if useful and follow dispatcher instructions.",
+      "Move the person to a cooler place if you can do so safely. Remove excess outer clothing and begin active cooling without delaying emergency care.",
+      "Wet the skin and apply cool wet cloths or use other safe cooling methods directed by the dispatcher. Keep the airway clear and do not leave the person alone.",
+      "Monitor breathing until help arrives. If breathing is absent or abnormal, follow dispatcher instructions for CPR and obtain an AED if available."
+    ],
+    "warnings": [
+      "Do not give fluids to a person with suspected heat stroke. Do not wait for a thermometer reading, dry skin or improvement before calling 911."
+    ],
+    "mistakes": [
+      "Treating confusion as simple tiredness.",
+      "Driving an unconscious person alone instead of activating emergency care."
+    ],
+    "alternatives": [
+      "If air conditioning is unavailable, use shade and water-based cooling immediately while arranging emergency help."
+    ],
+    "quick": ["Call 911; start cooling now.", "No drinks; monitor breathing."],
+    "sources": [
+      {
+        "organization": "National Weather Service",
+        "title": "Heat Cramps, Exhaustion, Stroke",
+        "url": "https://www.weather.gov/safety/heat-illness",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "climate-winter-outage",
+      "climate-hypothermia",
+      "climate-frostbite"
+    ],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["heat stroke", "medical emergency", "collapse", "confusion"]
+  },
+  {
+    "id": "communications-weather-radio",
+    "title": "Set up a NOAA weather radio",
+    "category": "communications",
+    "summary": "A weather-band receiver offers another route to official warnings when mobile data fails. It still depends on a working transmitter, receiver power and adequate reception.",
+    "when": "Before severe weather or when phone alerts are unreliable.",
+    "needs": [
+      "NOAA Weather Radio receiver with battery backup",
+      "Fresh compatible batteries",
+      "Receiver manual and local transmitter information"
+    ],
+    "steps": [
+      "Check that the radio receives the NOAA weather band. An ordinary AM/FM-only radio cannot receive these broadcasts.",
+      "Tune to the strongest relevant local transmitter and follow the manual to enable tone alerts. If available, program SAME county codes for the places you need to monitor.",
+      "Install backup batteries and test reception in the room where the radio will stay. Building construction can affect reception; move it if the signal is poor.",
+      "Learn how to recognize a test and an actual warning. Review setup when moving, replacing batteries or changing the area you want to monitor."
+    ],
+    "warnings": [
+      "Do not assume any hand-crank radio automatically provides nighttime warning alerts. Verify the features and power requirements of your particular model."
+    ],
+    "mistakes": [
+      "Leaving alerts disabled after a test.",
+      "Relying on outdoor sirens as the only indoor warning system."
+    ],
+    "alternatives": [
+      "Use local broadcast radio and enabled phone alerts as additional channels; keep more than one warning method where possible."
+    ],
+    "quick": [
+      "Weather band + alert feature + backup power.",
+      "Tune and test before the storm."
+    ],
+    "sources": [
+      {
+        "organization": "National Weather Service",
+        "title": "NWR Receivers",
+        "url": "https://www.weather.gov/nwr/nwr_receivers",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "Preparing for a Tornado",
+        "url": "https://www.cdc.gov/tornadoes/safety/index.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "communications-family-plan",
+      "communications-cellular-outage",
+      "communications-offline-navigation"
+    ],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["NOAA radio", "weather alerts", "SAME", "hand crank radio"]
+  },
+  {
+    "id": "communications-family-plan",
+    "title": "Create a household communication plan",
+    "category": "communications",
+    "summary": "People may be separated when an emergency starts. A shared written plan reduces repeated calls and uncertainty when networks or power are unreliable.",
+    "when": "During routine preparation, especially for households with children, caregivers or accessibility needs.",
+    "needs": [
+      "Paper contact cards",
+      "Notebook or printer",
+      "Agreement from household and support contacts"
+    ],
+    "steps": [
+      "Collect phone numbers for household members, caregivers, workplaces and an agreed out-of-area contact. Ask contacts whether they can serve in that role.",
+      "Choose nearby and out-of-neighborhood meeting places. Include an accessible route, transport arrangements and how people will check in if they cannot travel.",
+      "Share paper copies and store a copy on each phone. Include essential medical and accommodation information only as appropriate for the people carrying it.",
+      "Practice a short check-in message and a missed-contact procedure. Review the plan when numbers, schools, health needs or living arrangements change."
+    ],
+    "warnings": [
+      "Neither a saved contact nor a messaging app guarantees a working connection. Establish an in-person fallback that does not require everyone to receive a message."
+    ],
+    "mistakes": [
+      "Keeping every number on one phone.",
+      "Choosing a meeting point that requires crossing a likely hazard."
+    ],
+    "alternatives": [
+      "A simple wallet card and two agreed meeting places are a useful start even before a detailed household plan is complete."
+    ],
+    "quick": [
+      "Collect, share, practice.",
+      "Paper copies and an offline fallback."
+    ],
+    "sources": [
+      {
+        "organization": "FEMA",
+        "title": "Create Your Family Emergency Communication Plan",
+        "url": "https://www.weather.gov/media/afc/Hydro/FloodSafety/family-emergency-communication-plan.pdf",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "communications-weather-radio",
+      "communications-cellular-outage",
+      "communications-offline-navigation"
+    ],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["emergency contacts", "meeting place", "family communication"]
+  },
+  {
+    "id": "communications-cellular-outage",
+    "title": "Communicate when cellular service is disrupted",
+    "category": "communications",
+    "summary": "Power failures and congestion can interrupt both calls and data. Short messages may be easier to deliver than voice calls, but complete network loss prevents either.",
+    "when": "When calls fail, mobile data is intermittent or you need to preserve phone power.",
+    "needs": [
+      "Charged phone and backup battery",
+      "Paper contacts and meeting plan",
+      "Battery-powered broadcast radio"
+    ],
+    "steps": [
+      "For immediate danger, try 911. If the call cannot connect, seek another safe way to get help; text-to-911 availability varies and must be checked in advance.",
+      "For nonurgent updates, send a brief text with your location, condition and next planned check-in to the agreed contact. Avoid repeated long calls that consume power and network capacity.",
+      "Enable battery saving, reduce unnecessary screen use and stop unneeded background activity. Keep essential alerts enabled when a usable connection exists.",
+      "Use the household’s written meeting and check-in plan if communications remain unavailable. Monitor a working local radio for official information."
+    ],
+    "warnings": [
+      "SMS, internet messaging, Wi-Fi calling and phone alerts all depend on functioning infrastructure. This app does not transmit emergency messages or create a mesh network."
+    ],
+    "mistakes": [
+      "Assuming a sent icon proves a message was received.",
+      "Draining the battery repeatedly refreshing a failed connection."
+    ],
+    "alternatives": [
+      "A landline, staffed public safety location or trusted neighbor may help if accessible without entering danger."
+    ],
+    "quick": [
+      "Emergency: try 911.",
+      "Nonurgent: brief text, conserve battery, use the written fallback."
+    ],
+    "sources": [
+      {
+        "organization": "FEMA",
+        "title": "Create Your Family Emergency Communication Plan",
+        "url": "https://www.weather.gov/media/afc/Hydro/FloodSafety/family-emergency-communication-plan.pdf",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "National Weather Service",
+        "title": "NWR Receivers",
+        "url": "https://www.weather.gov/nwr/nwr_receivers",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "communications-weather-radio",
+      "communications-family-plan",
+      "communications-offline-navigation"
+    ],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["no signal", "cell outage", "SMS", "phone conservation"]
+  },
+  {
+    "id": "communications-offline-navigation",
+    "title": "Prepare navigation without mobile data",
+    "category": "communications",
+    "summary": "An address on a phone is not an evacuation route. Paper maps and previously downloaded maps help when coverage fails, while official road closures still take priority.",
+    "when": "Before travel or evacuation during an infrastructure disruption.",
+    "needs": [
+      "Paper local and regional maps",
+      "Offline maps downloaded in a separate navigation app if used",
+      "Written destinations and alternate routes"
+    ],
+    "steps": [
+      "Mark home, meeting places, hospitals and confirmed shelter options on a paper map. Include transport arrangements for people who cannot drive or walk far.",
+      "If using an offline navigation app, download the relevant area in advance and test it with network access disabled. Save destination addresses separately.",
+      "Identify more than one route and avoid relying on a single bridge, low road or public transit connection. Check official instructions before leaving when possible.",
+      "Carry maps, phone power, appropriate clothing and essential supplies. Follow barriers and evacuation routes rather than blindly following a stored route."
+    ],
+    "warnings": [
+      "Offline maps do not know every new flood, fire, closure or structural hazard. Never enter floodwater or a restricted area because a map shows a road."
+    ],
+    "mistakes": [
+      "Assuming all map tiles are cached after viewing them once.",
+      "Relying on this app for live mapping or route guidance."
+    ],
+    "alternatives": [
+      "Ask local officials for an accessible safe route and keep a printed map with the emergency bag."
+    ],
+    "quick": [
+      "Download and test ahead of time.",
+      "Carry paper; obey current closures."
+    ],
+    "sources": [
+      {
+        "organization": "Michigan State Police / MIReady",
+        "title": "Emergency Preparedness Kit Checklist",
+        "url": "https://www.michigan.gov/miready/plan-ahead/emergency-preparedness-kit-checklist",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "National Weather Service",
+        "title": "During a Flood",
+        "url": "https://www.weather.gov/safety/flood-during",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "communications-weather-radio",
+      "communications-family-plan",
+      "communications-cellular-outage"
+    ],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["offline maps", "evacuation routes", "navigation"]
+  },
+  {
+    "id": "communications-two-way-radio",
+    "title": "Use short-range radios responsibly",
+    "category": "communications",
+    "summary": "Two-way radios can connect nearby people without a cellular network when both ends have compatible working equipment. Buildings, terrain, power and channel congestion limit performance.",
+    "when": "Planning local household or neighborhood coordination in the United States.",
+    "needs": [
+      "Compatible FCC-certified radios",
+      "Correct batteries or charging supplies",
+      "Agreed channel and check-in plan"
+    ],
+    "steps": [
+      "Identify the radio service before transmitting. Certified FRS units are generally license-by-rule; GMRS operation normally requires an FCC individual license. Amateur radio has separate licensing rules.",
+      "Choose lawful equipment for the intended service and read its manual. Agree on a channel, check-in times and simple plain-language messages with the people who will participate.",
+      "Test the actual route between locations, including indoors, and identify where reception fails. Do not treat advertised range as a reliable urban distance.",
+      "Keep spare power, listen before speaking and give emergency traffic priority. Verify current FCC rules before purchasing or changing equipment."
+    ],
+    "warnings": [
+      "Radio channels are shared and conversations are not private; “privacy codes” do not encrypt them. A consumer radio is not a guaranteed way to reach emergency responders."
+    ],
+    "mistakes": [
+      "Assuming all walkie-talkies are license-free.",
+      "Expecting an unmanned radio to hear an emergency call."
+    ],
+    "alternatives": [
+      "Use a written meeting plan and a designated local contact when the tested radio link cannot cover the area."
+    ],
+    "quick": [
+      "Identify the service and licensing.",
+      "Agree, test, keep spare power."
+    ],
+    "sources": [
+      {
+        "organization": "FCC / U.S. Government Publishing Office",
+        "title": "47 CFR Part 95 (2024), §§95.305 and 95.1705",
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title47-vol5/pdf/CFR-2024-title47-vol5-part95.pdf",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "FEMA",
+        "title": "Create Your Family Emergency Communication Plan",
+        "url": "https://www.weather.gov/media/afc/Hydro/FloodSafety/family-emergency-communication-plan.pdf",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "communications-weather-radio",
+      "communications-family-plan",
+      "communications-cellular-outage"
+    ],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["walkie talkie", "FRS", "GMRS", "radio licensing"]
+  },
+  {
+    "id": "shelter-fire-safety",
+    "title": "Prepare and practice a fire escape",
+    "category": "shelter",
+    "summary": "A home fire can leave very little time to escape. Working alarms, clear exits and a practiced meeting place matter more than trying to collect belongings.",
+    "when": "During household preparation or immediately when smoke or a fire alarm signals danger.",
+    "needs": [
+      "Working smoke alarms",
+      "A simple escape map",
+      "Accessible outside meeting place"
+    ],
+    "steps": [
+      "Put smoke alarms in and outside sleeping areas and on every level, following manufacturer and local requirements. Test monthly and maintain or replace alarms as directed.",
+      "Identify two usable exits from each room where possible. Keep doors, windows and paths clear; arrange assistance for anyone who needs it.",
+      "Practice reaching an outside meeting place. Apartment residents should follow the building’s fire plan and know stair exits and any evacuation assistance arrangements.",
+      "If fire occurs, get outside immediately when the escape route is safe, stay outside and call 911. Tell firefighters about anyone missing rather than reentering."
+    ],
+    "warnings": [
+      "Do not use elevators in a fire or reenter for possessions or pets. If smoke or heat blocks escape, close a door between you and the fire and call 911 with your exact location."
+    ],
+    "mistakes": [
+      "Disabling a smoke alarm because of nuisance alarms.",
+      "Blocking an exit with emergency supply boxes."
+    ],
+    "alternatives": [
+      "Ask the local fire department about alarm assistance and an accessible escape plan before an emergency."
+    ],
+    "quick": [
+      "Alarm, clear exits, outside meeting point.",
+      "Get out, stay out, call 911."
+    ],
+    "sources": [
+      {
+        "organization": "U.S. Fire Administration",
+        "title": "Home Fire Escape Plans",
+        "url": "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/home-fire-escape-plans/index.html",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "U.S. Fire Administration",
+        "title": "Smoke Alarms",
+        "url": "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": ["shelter-tornado", "shelter-flooding", "shelter-in-place"],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["smoke alarm", "house fire", "apartment evacuation"]
+  },
+  {
+    "id": "shelter-tornado",
+    "title": "Take shelter during a tornado warning",
+    "category": "shelter",
+    "summary": "A tornado warning means shelter immediately. A sturdy building’s lowest interior area offers better protection than windows, a vehicle or a mobile home.",
+    "when": "When a tornado warning is issued or a tornado is approaching.",
+    "needs": [
+      "Identified shelter location",
+      "Battery light and warning source",
+      "Shoes and head protection if immediately available"
+    ],
+    "steps": [
+      "Go promptly to a storm shelter, basement or small windowless interior room on the lowest floor of a sturdy building. Avoid windows and outside walls.",
+      "Protect the head and neck with your arms and available sturdy padding. Keep shoes on for debris after the storm and bring essential mobility aids if within reach.",
+      "If you live in a mobile home, arrange a nearby sturdy shelter beforehand and move there before dangerous conditions arrive. Follow local instructions.",
+      "Continue monitoring official warnings from the sheltered area. Afterward, avoid fallen lines, broken glass and damaged structures until conditions are assessed."
+    ],
+    "warnings": [
+      "Do not shelter under a bridge or overpass. Never delay reaching shelter to film the storm or gather supplies. Vehicles and mobile homes are unsafe shelter choices."
+    ],
+    "mistakes": [
+      "Opening windows to equalize pressure.",
+      "Waiting to see a tornado before responding to a warning."
+    ],
+    "alternatives": [
+      "Identify a public sturdy shelter and accessible transport in advance if your home lacks a suitable place."
+    ],
+    "quick": [
+      "Warning: shelter now.",
+      "Lowest interior room; protect head and neck."
+    ],
+    "sources": [
+      {
+        "organization": "CDC",
+        "title": "Preparing for a Tornado",
+        "url": "https://www.cdc.gov/tornadoes/safety/index.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": ["shelter-fire-safety", "shelter-flooding", "shelter-in-place"],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["tornado warning", "storm cellar", "severe storm"]
+  },
+  {
+    "id": "shelter-flooding",
+    "title": "Avoid floodwater and electrical hazards",
+    "category": "shelter",
+    "summary": "Floodwater can hide current, damaged roads, sewage and live electrical equipment. Avoiding contact is safer than guessing depth or trying to protect possessions.",
+    "when": "When water rises around roads, the building or utility equipment.",
+    "needs": [
+      "Route to higher ground",
+      "Official warnings",
+      "Emergency bag already accessible"
+    ],
+    "steps": [
+      "Move to higher ground promptly when flooding threatens and obey evacuation orders. Do not wait until a familiar route is under water.",
+      "Never walk or drive through floodwater or around road barriers. Turn around and use an officially safe route; shallow moving water can knock a person down.",
+      "Stay out of flooded basements and rooms with submerged outlets, wiring or appliances. Do not enter water to reach a breaker or retrieve belongings.",
+      "If trapped, move to the highest safe accessible point and call 911 with your location. After the water recedes, obtain official guidance before entering damaged buildings or using affected utilities."
+    ],
+    "warnings": [
+      "Water may be electrically energized or chemically contaminated even if it looks clear. Do not use a generator or electrical equipment in wet conditions."
+    ],
+    "mistakes": [
+      "Driving a familiar road because the water looks shallow.",
+      "Touching wet appliances after the power seems to be out."
+    ],
+    "alternatives": [
+      "Arrange transport and an accessible higher-ground destination before a flood warning when possible."
+    ],
+    "quick": [
+      "Higher ground, no floodwater contact.",
+      "Never enter water to switch off electricity."
+    ],
+    "sources": [
+      {
+        "organization": "National Weather Service",
+        "title": "During a Flood",
+        "url": "https://www.weather.gov/safety/flood-during",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "FEMA",
+        "title": "Recovering from Disaster",
+        "url": "https://www.fema.gov/pdf/areyouready/recovering_from_disaster.pdf",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": ["shelter-fire-safety", "shelter-tornado", "shelter-in-place"],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["flood", "basement flooding", "flooded road"]
+  },
+  {
+    "id": "shelter-in-place",
+    "title": "Shelter in place for the specific hazard",
+    "category": "shelter",
+    "summary": "Sheltering instructions differ for severe weather, hazardous air and other incidents. Follow the local instruction for the actual hazard rather than using one sealed-room routine for everything.",
+    "when": "When local officials instruct you to remain inside or moving outside would expose you to an immediate hazard.",
+    "needs": [
+      "Official alert or battery radio",
+      "Appropriate room and emergency supplies",
+      "Household communication plan"
+    ],
+    "steps": [
+      "Read or listen to the complete official instruction: what happened, which area is affected and what actions are requested. Bring people and pets inside when directed.",
+      "Choose the room suited to the hazard. Tornado shelter usually means the lowest interior space; an outdoor chemical release may require a different room and ventilation controls specified by officials.",
+      "Close doors and windows and change ventilation only as instructed for the incident. Keep essential medicines, water, communication equipment and accessibility aids with you.",
+      "Continue monitoring official updates and wait for the all-clear or evacuation direction. Record when instructions were received if multiple reports conflict."
+    ],
+    "warnings": [
+      "Do not seal a room containing a combustion appliance or run outdoor fuel equipment indoors. Fire, a gas leak, a CO alarm or rising floodwater can make staying inside unsafe."
+    ],
+    "mistakes": [
+      "Treating all shelter instructions as identical.",
+      "Opening windows to investigate a hazardous release."
+    ],
+    "alternatives": [
+      "If the building itself is unsafe, leave by a safe route and contact emergency services for guidance."
+    ],
+    "quick": [
+      "Identify the hazard; follow local instructions.",
+      "Use the right room and monitor updates."
+    ],
+    "sources": [
+      {
+        "organization": "Michigan State Police / MIReady",
+        "title": "Evacuation and Shelter-in-Place",
+        "url": "https://www.michigan.gov/miready/family-preparedness-guide/before-during-and-after-a-disaster/evacuation-and-shelter-in-place",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "Preparing for a Tornado",
+        "url": "https://www.cdc.gov/tornadoes/safety/index.html",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "PHMSA",
+        "title": "Recognizing and Responding to Pipeline Emergencies",
+        "url": "https://primis.phmsa.dot.gov/stakeholder-comms/emergencyresponse/",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": ["shelter-fire-safety", "shelter-tornado", "shelter-flooding"],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["shelter in place", "hazardous air", "stay inside"]
+  },
+  {
+    "id": "shelter-evacuation",
+    "title": "Leave early with an accessible evacuation plan",
+    "category": "shelter",
+    "summary": "A planned departure reduces last-minute decisions. Transportation, medicines, mobility needs and pets must be included before an official order makes time short.",
+    "when": "When evacuation is ordered or your building becomes unsafe.",
+    "needs": [
+      "Emergency bag, medicines and essential documents",
+      "Safe destination and route",
+      "Transport and assistance plan"
+    ],
+    "steps": [
+      "Follow evacuation orders immediately using designated routes. If the building has fire, gas or another immediate hazard, leave without delaying for supplies.",
+      "When time permits, take medicines, essential equipment, identification, water, phone power and pets. Use a manageable bag and prearranged accessible transportation.",
+      "Inform the agreed out-of-area contact where you are going. Confirm a destination or shelter is open and can meet accessibility and pet needs when communication is possible.",
+      "Lock up only if safe. Shut utilities off only when instructed or required for a known hazard and you can do so safely; do not delay departure. Wait for authorities before returning."
+    ],
+    "warnings": [
+      "Never enter floodwater or pass road barriers. A map or old shelter listing cannot confirm that a route or facility is currently safe."
+    ],
+    "mistakes": [
+      "Waiting to pack a full household while danger increases.",
+      "Assuming every shelter accommodates every pet or medical device."
+    ],
+    "alternatives": [
+      "Arrange multiple destinations and helpers in advance; contact emergency services if trapped or unable to leave safely."
+    ],
+    "quick": [
+      "Follow orders; take essentials if safe.",
+      "Use safe routes and an agreed contact."
+    ],
+    "sources": [
+      {
+        "organization": "NOAA",
+        "title": "Get Moving When a Storm Threatens",
+        "url": "https://www.noaa.gov/get-moving-when-storm-threatens",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "National Weather Service",
+        "title": "During a Flood",
+        "url": "https://www.weather.gov/safety/flood-during",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": ["shelter-fire-safety", "shelter-tornado", "shelter-flooding"],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["evacuate", "go bag", "accessible evacuation"]
+  },
+  {
+    "id": "repairs-water-shutoff",
+    "title": "Locate and label your water shutoff",
+    "category": "repairs",
+    "summary": "Knowing the household shutoff can limit damage from a plumbing leak. Find it during normal conditions rather than while water is spreading toward electrical equipment.",
+    "when": "During preparation or a known household supply leak when access is safe.",
+    "needs": [
+      "Flashlight",
+      "Valve location from landlord or plumber",
+      "Durable label and emergency plumber contact"
+    ],
+    "steps": [
+      "Ask the landlord, building manager or plumber which valve controls your home. Apartments may have shared systems; do not operate an unlabeled communal valve.",
+      "Locate the household main and individual fixture shutoffs. Label the appropriate valve and record its location in the notebook, including access arrangements.",
+      "Have a professional address corrosion, stiffness or an unclear valve. Learn the operation for that exact valve without forcing it or damaging the pipe.",
+      "For a leak, turn off the identified supply only if you can reach it safely. Keep people away from wet electrical equipment and call the appropriate plumbing or building professional."
+    ],
+    "warnings": [
+      "Never enter standing water to operate a valve near electrical equipment. Do not use a public street valve or force a seized valve without utility or professional direction."
+    ],
+    "mistakes": [
+      "Assuming every valve turns the same way.",
+      "Closing a shared valve without building approval."
+    ],
+    "alternatives": [
+      "A fixture shutoff may isolate a minor leak if clearly identified and safe; otherwise call the building manager or plumber."
+    ],
+    "quick": [
+      "Identify, label, record.",
+      "Unsafe access: stay clear and call help."
+    ],
+    "sources": [
+      {
+        "organization": "FEMA",
+        "title": "Going Off Grid: Utility Outages",
+        "url": "https://training.fema.gov/emiweb/is/is909/preparedness_handoutsmaster.pdf",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "FEMA",
+        "title": "Recovering from Disaster",
+        "url": "https://www.fema.gov/pdf/areyouready/recovering_from_disaster.pdf",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "repairs-electric-panel",
+      "repairs-gas-leak",
+      "repairs-frozen-pipes"
+    ],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["water shutoff", "plumbing leak", "main valve"]
+  },
+  {
+    "id": "repairs-electric-panel",
+    "title": "Know your electrical panel and its limits",
+    "category": "repairs",
+    "summary": "A labeled panel helps an electrician or household member respond to an ordinary problem. It does not make exposed wiring, a wet panel or repeated breaker trips safe to repair.",
+    "when": "During preparation, or when arranging professional help for an electrical problem.",
+    "needs": [
+      "Panel location and clear access",
+      "Flashlight",
+      "Licensed electrician or utility contact"
+    ],
+    "steps": [
+      "Find the panel and ask the landlord or electrician to explain the main disconnect and labels. Record the location and keep required access clear.",
+      "Inspect only from a safe distance for obvious damage, water, heat, sparks or unusual sounds. Do not remove covers or touch exposed parts.",
+      "For sparks, burning odor, floodwater or damaged wiring, leave the area and call emergency services or the utility as appropriate. Do not approach a wet panel.",
+      "Have a licensed electrician investigate repeated trips, loose outlets or damaged circuits. Utility restoration and generator connections must use approved equipment and qualified work."
+    ],
+    "warnings": [
+      "Never enter standing water to switch off electricity. Never bypass a breaker, fit a larger fuse or backfeed a wall outlet with a generator. A power outage does not prove wires are dead."
+    ],
+    "mistakes": [
+      "Repeatedly resetting a breaker without finding the cause.",
+      "Using the panel as a storage shelf."
+    ],
+    "alternatives": [
+      "Disconnect a small faulty device only when the plug and surroundings are dry and safe; otherwise stay away and request professional assistance."
+    ],
+    "quick": [
+      "Know the location; keep access clear.",
+      "Wet, sparking or damaged: stay away."
+    ],
+    "sources": [
+      {
+        "organization": "FEMA",
+        "title": "Going Off Grid: Utility Outages",
+        "url": "https://training.fema.gov/emiweb/is/is909/preparedness_handoutsmaster.pdf",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "FEMA",
+        "title": "Recovering from Disaster",
+        "url": "https://www.fema.gov/pdf/areyouready/recovering_from_disaster.pdf",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "U.S. Fire Administration",
+        "title": "Appliance and Electrical Fire Safety",
+        "url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/appliance-and-electrical/index.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "repairs-water-shutoff",
+      "repairs-gas-leak",
+      "repairs-frozen-pipes"
+    ],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["breakers", "electric panel", "electrical repair"]
+  },
+  {
+    "id": "repairs-gas-leak",
+    "title": "Suspected gas leak: leave the area",
+    "category": "repairs",
+    "summary": "A rotten-egg smell, hissing or another sign of escaping gas calls for prompt evacuation. Investigating or operating switches can create ignition sparks.",
+    "when": "Immediately when a gas leak is suspected indoors or near a service line.",
+    "needs": [
+      "Safe route out",
+      "Phone used only from a safe distance",
+      "Utility emergency contact recorded in advance"
+    ],
+    "steps": [
+      "Get everyone away from the suspected leak immediately. Do not stop to search for its source or collect belongings.",
+      "Avoid flames, smoking, starting engines, switches, garage door openers and phone use in the leak area. Do not turn electrical equipment on or off.",
+      "Once well away from the leak, call 911 and the gas utility’s emergency number. Explain the smell or sound and the location; warn others away if this is safe.",
+      "Remain outside and wait for professional clearance. Before any future emergency, ask the utility about the particular meter’s shutoff procedure and who should operate it."
+    ],
+    "warnings": [
+      "Do not return to repair a pipe or relight appliances. If gas is shut off, only a qualified professional should restore it. Do not practice by actually shutting the gas off."
+    ],
+    "mistakes": [
+      "Using a phone beside the suspected leak.",
+      "Treating a fading smell as proof the building is safe."
+    ],
+    "alternatives": [
+      "If the leak blocks the normal exit, use another safe exit and call for emergency assistance once clear."
+    ],
+    "quick": [
+      "Leave first; avoid sparks.",
+      "Call from well away; professionals restore service."
+    ],
+    "sources": [
+      {
+        "organization": "PHMSA",
+        "title": "Recognizing and Responding to Pipeline Emergencies",
+        "url": "https://primis.phmsa.dot.gov/stakeholder-comms/emergencyresponse/",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "FEMA",
+        "title": "Recovering from Disaster",
+        "url": "https://www.fema.gov/pdf/areyouready/recovering_from_disaster.pdf",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "repairs-water-shutoff",
+      "repairs-electric-panel",
+      "repairs-frozen-pipes"
+    ],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["gas leak", "natural gas", "rotten egg smell", "utility shutoff"]
+  },
+  {
+    "id": "repairs-frozen-pipes",
+    "title": "Reduce frozen-pipe risk without unsafe heat",
+    "category": "repairs",
+    "summary": "Water expands when it freezes and can break a pipe. Prevention and early plumbing help are safer than improvised flames or risky electrical thawing in a damp area.",
+    "when": "Before a freeze or when a faucet produces only a trickle during freezing weather.",
+    "needs": [
+      "Pipe insulation suitable for the installation",
+      "Main shutoff location",
+      "Licensed plumber contact"
+    ],
+    "steps": [
+      "Before cold weather, protect exposed pipes and disconnect outdoor hoses according to your plumbing arrangement. Ask a plumber about vulnerable pipes and approved insulation.",
+      "When heat is operating, open sink cabinet doors to let warmer room air reach pipes, keeping cleaners away from children. Follow local advice about a small drip from vulnerable faucets.",
+      "If a pipe appears frozen, keep the affected faucet open and seek a plumber if the frozen section is hidden, inaccessible or uncertain.",
+      "If a pipe bursts, use the identified water shutoff only from a safe dry location. Keep away from wet electrical areas and obtain professional repair."
+    ],
+    "warnings": [
+      "Never use a blowtorch, propane heater, charcoal stove or other open flame to thaw pipes. Do not use electrical thawing equipment around standing water."
+    ],
+    "mistakes": [
+      "Assuming a thawed pipe cannot leak.",
+      "Leaving for days without a heat or pipe-protection plan."
+    ],
+    "alternatives": [
+      "A plumber can advise safe draining or winterization when heat cannot be maintained."
+    ],
+    "quick": [
+      "Insulate early; know the shutoff.",
+      "No open flames; call a plumber."
+    ],
+    "sources": [
+      {
+        "organization": "American Red Cross",
+        "title": "Preventing and Thawing Frozen Pipes",
+        "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm/frozen-pipes.html",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "FEMA",
+        "title": "Going Off Grid: Utility Outages",
+        "url": "https://training.fema.gov/emiweb/is/is909/preparedness_handoutsmaster.pdf",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "repairs-water-shutoff",
+      "repairs-electric-panel",
+      "repairs-gas-leak"
+    ],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["frozen pipes", "winterize", "burst pipe"]
+  },
+  {
+    "id": "repairs-tool-kit",
+    "title": "Assemble a practical household repair kit",
+    "category": "repairs",
+    "summary": "A small organized kit helps contain minor problems and maintain supplies. Tools support safe observation and basic tasks; they do not replace licensed electrical, gas or structural work.",
+    "when": "When preparing for temporary household disruptions and routine maintenance.",
+    "needs": [
+      "Gloves and eye protection",
+      "Flashlight, screwdriver, pliers and adjustable wrench",
+      "Tape, ties and appropriate small repair supplies"
+    ],
+    "steps": [
+      "Choose tools for tasks you already know how to perform safely, such as tightening a loose non-electrical fitting or opening a supply container. Include a manual can opener.",
+      "Store tools together in a dry accessible place and keep sharp parts and chemicals away from children. Add labels and the locations of household utility controls.",
+      "Keep instructions for equipment with the kit and inspect tools for damage. Use each tool for its intended purpose; do not improvise utility keys or repairs.",
+      "Write down the building manager, utility and licensed professional contacts. Stop if there are electrical, gas, structural, sewage or major-water hazards."
+    ],
+    "warnings": [
+      "Never enter an unsafe area to save property or use a tool you cannot operate safely. Do not mix household chemicals or transfer them to food containers."
+    ],
+    "mistakes": [
+      "Buying many specialized tools without learning safe use.",
+      "Keeping the only flashlight inside a hard-to-find toolbox."
+    ],
+    "alternatives": [
+      "Use a bucket to contain a small clean-water drip only when the surroundings are electrically safe, then arrange a proper repair."
+    ],
+    "quick": [
+      "Small, labeled, dry and accessible.",
+      "Contain minor problems; call professionals for hazards."
+    ],
+    "sources": [
+      {
+        "organization": "Michigan State Police / MIReady",
+        "title": "Emergency Preparedness Kit Checklist",
+        "url": "https://www.michigan.gov/miready/plan-ahead/emergency-preparedness-kit-checklist",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "FEMA",
+        "title": "Recovering from Disaster",
+        "url": "https://www.fema.gov/pdf/areyouready/recovering_from_disaster.pdf",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "repairs-water-shutoff",
+      "repairs-electric-panel",
+      "repairs-gas-leak"
+    ],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": ["repair tools", "resource conservation", "maintenance"]
+  }
+]

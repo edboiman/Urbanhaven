@@ -1,0 +1,150 @@
+{
+  "format": "urban-haven-map-catalog",
+  "schema": 1,
+  "version": "2026.10.31-1",
+  "built": "2026-10-31",
+  "overview": {
+    "file": "overview.json.gz",
+    "bytes": 136144,
+    "sha256": "38cef0317edddacde0f022fbc21557a4060e60e2e74f89bca19266c792500053",
+    "places": 3899,
+    "zoom": [
+      5,
+      9
+    ]
+  },
+  "packs": [
+    {
+      "id": "up",
+      "name": "Upper Peninsula & Isle Royale",
+      "bbox": [
+        -90.7,
+        45,
+        -83.2,
+        48.45
+      ],
+      "version": "2026.10.31-1",
+      "zoom": [
+        8,
+        12
+      ],
+      "bytes": 41399,
+      "sha256": "64e617ae70dee68ad7ced62575d4ccbc9f2e590b4c6e6c50b0d42a83ed947465",
+      "parts": [
+        {
+          "file": "packs/up/2026.10.31-1/part-000.bin",
+          "bytes": 16384,
+          "sha256": "8230bcc82a5f6301b884a96d966bcd319db3f8aeb76f2e0df710d3ba62078e2f"
+        },
+        {
+          "file": "packs/up/2026.10.31-1/part-001.bin",
+          "bytes": 16384,
+          "sha256": "7edb74b14c9c62ff7dcc5a0b81cb2b608c1e7297d509b7c7a56996c254938489"
+        },
+        {
+          "file": "packs/up/2026.10.31-1/part-002.bin",
+          "bytes": 8631,
+          "sha256": "ff4f9294a8da217af6864ffb6192db6803043690f53e245395183ecdaf256cb7"
+        }
+      ],
+      "features": {
+        "land": 1,
+        "water": 20,
+        "rivers": 54,
+        "parks": 3,
+        "states": 4,
+        "counties": 25,
+        "roads": 259
+      },
+      "toleranceMeters": 35
+    },
+    {
+      "id": "nlp",
+      "name": "Northern Lower Peninsula",
+      "bbox": [
+        -87.3,
+        43.55,
+        -82.3,
+        46.05
+      ],
+      "version": "2026.10.31-1",
+      "zoom": [
+        8,
+        12
+      ],
+      "bytes": 24941,
+      "sha256": "c818bc770507e17a79398ad100fced70ca09d3f1e7c30a740a1818ced1cfbebd",
+      "parts": [
+        {
+          "file": "packs/nlp/2026.10.31-1/part-000.bin",
+          "bytes": 16384,
+          "sha256": "693133fcec1fbd222a98684b7afa33ac2a3aa51c08216e51938e307cd0d695a7"
+        },
+        {
+          "file": "packs/nlp/2026.10.31-1/part-001.bin",
+          "bytes": 8557,
+          "sha256": "736adf207eb66ce7ff3279239c5e1384db6aa4611dabbac8c2f64f9d54550afb"
+        }
+      ],
+      "features": {
+        "land": 1,
+        "water": 12,
+        "rivers": 16,
+        "parks": 1,
+        "states": 3,
+        "counties": 43,
+        "roads": 274
+      },
+      "toleranceMeters": 35
+    },
+    {
+      "id": "slp",
+      "name": "Southern Lower Peninsula",
+      "bbox": [
+        -87.3,
+        41.55,
+        -82.1,
+        43.95
+      ],
+      "version": "2026.10.31-1",
+      "zoom": [
+        8,
+        12
+      ],
+      "bytes": 45772,
+      "sha256": "04bad108e9956cc9edeeb744dbd81207b56e4cc9d56af1aef7547737f91d5b16",
+      "parts": [
+        {
+          "file": "packs/slp/2026.10.31-1/part-000.bin",
+          "bytes": 16384,
+          "sha256": "578265fa45814399fa01242e71f8b572b87f890cf62bade104f100cdf9ce7c45"
+        },
+        {
+          "file": "packs/slp/2026.10.31-1/part-001.bin",
+          "bytes": 16384,
+          "sha256": "8a16289119fb422385ddaec425ef1fd9e2128ed4c509d0b8a11f25a34a27932f"
+        },
+        {
+          "file": "packs/slp/2026.10.31-1/part-002.bin",
+          "bytes": 13004,
+          "sha256": "51816a9512b50146ac7a443cc7e930e16517eb5aa6ff3bda42d45065b5fca8d7"
+        }
+      ],
+      "features": {
+        "land": 1,
+        "water": 5,
+        "rivers": 17,
+        "parks": 0,
+        "states": 6,
+        "counties": 47,
+        "roads": 1124
+      },
+      "toleranceMeters": 35
+    }
+  ],
+  "attribution": [
+    "Natural Earth (public domain) — land, water, rivers, roads, counties, parks",
+    "U.S. Census Bureau 2025 Gazetteer (public domain) — places and townships",
+    "USGS Geographic Names Information System (public domain) — small communities"
+  ]
+}
