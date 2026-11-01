@@ -60,17 +60,17 @@ MSU Extension's `canr.msu.edu` pages blocked automated retrieval during this rev
 | [MSU Geography — Growing season and frost](https://project.geo.msu.edu/geogmich/growseason&frost.html) | Gaylord-area shortest season; inland U.P. August frost; lake effect lengthens season | none shown |
 | [NWS Gaylord — spring frost/freeze](https://www.weather.gov/apx/template_news_frostfreezespring) | Northern Michigan average last 32°F (1981–2010), cross-check | 1981–2010 normals |
 | [UMN Extension — Planting the vegetable garden](https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden) | Cool/warm season timing, direct-seed soil 40–50°F, warm crops 50–60°F | reviewed 2026 |
-| [UMN Extension — Midsummer planting for fall harvest](https://extension.umn.edu/planting-and-growing-guides/planting-vegetables-midsummer-fall-harvest) | Days to maturity and frost tolerance (kale/cabbage ~20°F, beets/peas high 20s) | reviewed 2026 |
+| [UMN Extension — Midsummer planting for fall harvest](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/planting-vegetables-in-midsummer-for-fall-harvest) | Days to maturity and frost tolerance (kale/cabbage ~20°F, beets/peas high 20s) | reviewed 2026 |
 | [UMN Extension — Growing peas](https://extension.umn.edu/vegetables/growing-peas) | Plant when soil workable; ~60 days; stops above 85°F | reviewed 2024 |
 | [UMN Extension — Growing potatoes](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-potatoes) | Certified seed, cutting, depth/spacing, hilling, new potatoes 7–8 wk, curing/storage, green tubers | reviewed 2026 |
 | [UMN Extension — Starting seeds indoors](https://extension.umn.edu/planting-and-growing-guides/starting-seeds-indoors) | Weeks indoors (onions 14–15, cabbage 10–11, peppers 9, tomatoes 5–6); 12–16 h light, lights ≤4 in; harden off 1–2 wk | reviewed 2026 |
 | [UMN Extension — Saving vegetable seeds](https://extension.umn.edu/planting-and-growing-guides/saving-vegetable-seeds) | Store sealed, 32–41°F, silica gel; label | reviewed 2024 |
-| [Clemson HGIC — Are those old vegetable seed still good?](https://hgic.clemson.edu/are-those-old-vegetable-seed-still-good/) | 10-seed paper-towel test, 7–10 days, ≤70% replace; corn/lettuce/onion short-lived | none shown |
+| [Iowa State — Store seeds and test germination](https://yardandgarden.extension.iastate.edu/how-to/how-store-seeds-and-test-germination-rates) | Ideal-storage crop estimates, packet-dependent testing; 90% good, 50% or less replace, 70–80% can remain useful depending on crop | accessed 2026-11-01 |
 | [University of Illinois Extension — Herbs and lettuce indoors](https://extension.illinois.edu/blogs/good-growing/2017-11-17-grow-herbs-and-lettuce-indoors-winter) | 6–8 h bright light or 14–16 h under lights 6–12 in away; ≤70°F; lettuce in ~4 weeks; herb list | 2017-11-17 |
 | [Colorado State Extension — Vegetable gardening in containers](https://extension.colostate.edu/resource/vegetable-gardening-in-containers/) | Container depths (8/10/12 in) | reviewed 2023-04 |
 | [UW–Madison Extension — Growing vegetables in containers](https://hort.extension.wisc.edu/articles/growing-vegetables-containers/) | 2 gal / 4–6 in for greens; 5 gal / 12–18 in for fruiting crops; drainage; potting mix; 6 h sun | 2021-02-17 |
 
-Days to harvest for carrots, onions, chard, parsley, chives, basil, tomatoes, peppers, winter squash and dry beans are shown as approximate seed-packet ranges; the app tells users the packet is the authority. No variety is recommended by name.
+Days to harvest for carrots, onions, chard, parsley, chives, basil, tomatoes, peppers, winter squash and dry beans are shown as approximate seed-packet ranges; the app tells users the packet is the authority. The 2.1 picker adds extension-informed cultivar examples; they do not guarantee local performance. See SOURCE_AUDIT.md for corrections to seedling defaults, fall transplant dates and seed viability.
 
 ## Map
 

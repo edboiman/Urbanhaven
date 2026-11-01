@@ -1,0 +1,244 @@
+{
+  "reviewed": "2026-11-01",
+  "sections": [
+    {
+      "id": "pet-food-water",
+      "title": "Plan 14 days of individualized food and water",
+      "summary": "CDC recommends a two-week supply for each animal. A pet count alone cannot determine safe quantities: species, size, diet, health, and weather change the requirement.",
+      "steps": [
+        "Measure each pet's usual daily food and drinking-water use and confirm the emergency target with its veterinarian. Multiply the individual amounts by 14; add separate water for bowls, cleaning, and other care.",
+        "Store the normal diet in waterproof containers, retain product labels and dates, and rotate before expiry. Include prescribed diets and species-appropriate hay or other staples where required.",
+        "Keep drinking water separate from human supplies in the inventory. Pack bowls, feeding instructions, and a manual can opener if needed; identify an alternate supplier before disruption.",
+        "Store dry food and unopened cans cool and dry, below 80°F (27°C). Promptly refrigerate unused opened wet food at 40°F (4°C) or below, or discard it; without safe refrigeration use meal-sized packs. Keep the original label, lot and date."
+      ],
+      "warnings": [
+        "Do not ration essential drinking water to make an estimate last. Do not substitute one species' diet for another or make a therapeutic-diet change without veterinary advice."
+      ],
+      "sourceUrl": "https://www.cdc.gov/healthy-pets/emergency-preparedness/preparedness-kit.html"
+    },
+    {
+      "id": "pet-medication-plan",
+      "title": "Prepare medicines and a veterinary care plan",
+      "summary": "A written plan helps another caregiver continue essential treatment without guessing doses or storage rules.",
+      "steps": [
+        "Ask the veterinarian about a two-week medicine supply where appropriate and lawful, refill timing, required supplies, and a product-specific temperature plan. Keep original labels and rotate stock.",
+        "Write the pet's condition, current prescribed dose and schedule, allergies, feeding needs, and emergency warning signs supplied by its veterinarian. Record doses as given.",
+        "Identify a usual and alternate emergency clinic, including one outside the disruption area. Ask about missed doses, failed refrigeration, and how to authorize treatment if someone else evacuates the animal."
+      ],
+      "warnings": [
+        "Do not give human medicines or another animal's prescription unless a veterinarian specifically directs their use for this animal. Breathing trouble, collapse, seizures, serious injury, or suspected poisoning requires urgent veterinary help; do not wait for supplies to run out."
+      ],
+      "sourceUrl": "https://ebusiness.avma.org/files/productdownloads/STWF_English.pdf"
+    },
+    {
+      "id": "pet-evacuation-dogs-cats",
+      "title": "Practice evacuation with cats and dogs",
+      "summary": "Prearrange a destination, transport, and a backup caregiver. Confirm the destination accepts the animals you actually have.",
+      "steps": [
+        "Keep labeled carriers or crates and leashes near the exit. Practice loading every animal and the kit; arrange an accessible ride if you have no vehicle.",
+        "For cats, use a secure carrier, familiar bedding, and a litter plan. Know hiding places and begin gathering animals early. Open the carrier only inside a secure room.",
+        "For dogs, use a fitted harness or collar and leash for transfers, a suitable secured crate or vehicle restraint, and planned toileting stops. A housing crate must allow standing and turning comfortably.",
+        "Confirm shelter or boarding rules, vaccine documentation, and whether animals are housed separately. A pet-friendly plan and a service-animal access plan may have different arrangements."
+      ],
+      "warnings": [
+        "Take pets when you evacuate; do not leave them chained outside. Frightened animals may bite or escape. Do not allow animals to ride loose or leave them alone in a parked vehicle."
+      ],
+      "sourceUrl": "https://ebusiness.avma.org/files/productdownloads/STWF_English.pdf"
+    },
+    {
+      "id": "pet-small-pets",
+      "title": "Adapt the plan for small pets, birds, and reptiles",
+      "summary": "A cat-and-dog kit does not meet every species' housing, food, temperature, or equipment needs. Prepare a species-specific plan with a veterinarian familiar with that animal.",
+      "steps": [
+        "Use a secure, ventilated transport enclosure appropriate to the species; inspect doors and surfaces for escape or chewing risks. Label the enclosure and keep compatible groups only as advised.",
+        "For small mammals, pack the usual diet, appropriate bedding, water-delivery equipment, and any required hay. Reduce handling and keep transport quiet, separated from predators.",
+        "For birds, plan a secure travel cage and species-appropriate food and environmental protection. For reptiles, amphibians, or fish, plan safe transport and the exact temperature, water-quality, power, and habitat support required.",
+        "Rehearse the setup at the destination. Identify when loss of habitat control makes early relocation necessary."
+      ],
+      "warnings": [
+        "Do not use universal food, fluid, medicine doses, or temperature targets across species. Avoid unattended improvised heaters; contact an appropriate veterinarian for illness or loss of essential habitat support."
+      ],
+      "sourceUrl": "https://ebusiness.avma.org/files/productdownloads/STWF_English.pdf"
+    },
+    {
+      "id": "pet-hygiene",
+      "title": "Keep animals and people clean in shared shelter",
+      "summary": "Pet waste, food, and damaged environments can spread germs. Plan cleaning water and supplies as well as drinking water.",
+      "steps": [
+        "Wash hands with soap and safe water after handling animals, food, cages, or waste. Keep pet-care supplies away from food preparation and protect open wounds from licking.",
+        "Pack a litter tray and litter for cats, waste bags for dogs, and suitable enclosure-cleaning supplies for small pets. Remove waste promptly and follow local disposal instructions.",
+        "Clean bowls, cages, and bedding regularly. Use products suitable for the species and surface exactly as labeled; keep animals away until the product permits return.",
+        "Keep pets away from floodwater, stagnant water, wildlife, and unfamiliar animals. On return, check for chemicals, sharp debris, damaged fences, and exposed wiring."
+      ],
+      "warnings": [
+        "Never mix cleaning chemicals. Stress can change behavior; handle gently and report bites for medical assessment. A sick animal needs veterinary advice and separation as directed."
+      ],
+      "sourceUrl": "https://www.cdc.gov/healthy-pets/emergency-preparedness/"
+    },
+    {
+      "id": "pet-heat-cold",
+      "title": "Maintain safe temperatures and recognize distress",
+      "summary": "Temperature tolerance varies with species, age, coat, body condition, and illness. Plan relocation before heating or cooling fails.",
+      "steps": [
+        "Ask the veterinarian for the animal's safe environment and warning signs. Keep pets sheltered, dry, and supervised, with fresh water and shade where appropriate; never leave a pet in a parked car.",
+        "During heat, reduce exertion and walk dogs in cooler hours, avoiding hot pavement. Watch for excessive panting or drooling, unsteadiness, abnormal gums, and collapse; seek emergency veterinary care.",
+        "During cold, provide dry bedding and an appropriate warm indoor location. Keep drinking water from freezing and shorten necessary outdoor trips. Monitor vulnerable and habitat-dependent animals closely.",
+        "Move early to a pet-accepting safe location if suitable temperature cannot be maintained. Keep heaters guarded and follow manufacturer fire clearances."
+      ],
+      "warnings": [
+        "Collapse, abnormal breathing, severe shivering, weakness, or altered responsiveness requires urgent veterinary help. Do not assume fur makes an animal safe in extreme temperatures."
+      ],
+      "sourceUrl": "https://avma.org/resources/pet-owners/petcare/warm-weather-pet-safety"
+    },
+    {
+      "id": "pet-identification-records",
+      "title": "Prepare identification, records, and reunification",
+      "summary": "Current identification and paper records help reunite animals with owners and let temporary caregivers provide appropriate care.",
+      "steps": [
+        "Check collar tags where appropriate and confirm microchip registration details. Add an out-of-area contact; label carriers with the pet's name and reachable owner information.",
+        "Keep recent photos, including a photo with the owner, a physical description, proof of ownership, microchip details, vaccination records, and medical instructions in a waterproof packet. Keep a second accessible copy.",
+        "List the veterinarian, emergency clinic, animal control, shelters, boarding destination, and backup caregiver. Share the care plan with the person who may collect the animal.",
+        "If separated, get people to safety first, notify local shelters and animal control, and tell the microchip registry. Check official local lost-animal arrangements repeatedly as new animals arrive."
+      ],
+      "warnings": [
+        "A microchip is identification, not a live location tracker. Familiar landmarks may change after disaster; continue leash or carrier control even near home."
+      ],
+      "sourceUrl": "https://ebusiness.avma.org/files/productdownloads/STWF_English.pdf"
+    },
+    {
+      "id": "pet-co-food-safety",
+      "title": "Protect pets from CO, smoke, and unsafe food",
+      "summary": "The same combustion hazards that threaten people also poison animals. Food storage and pet-safe shelter matter throughout an outage.",
+      "steps": [
+        "Use battery-backed CO alarms. Run generators outdoors more than 20 feet from doors, windows, and vents; never use grills, camp stoves, or vehicle engines inside a home or garage.",
+        "If a CO alarm sounds or poisoning is suspected, move people and pets outside immediately, call 911 from safety, and seek veterinary advice for exposed animals. Do not re-enter until responders say it is safe.",
+        "Reduce smoke exposure and follow evacuation orders. A particle filter does not remove CO, and a pet carrier does not protect against toxic air.",
+        "Use the normal safe diet, follow food storage labels, and discard contaminated or recalled food. Keep fresh or opened refrigerated products cold as directed; ask the veterinarian about an appropriate shelf-stable alternative before an outage. CDC discourages raw diets for cats and dogs."
+      ],
+      "warnings": [
+        "Do not feed flood-exposed or spoiled food, assume freezing sterilizes raw food, or rely on smell to detect CO. Breathing difficulty or collapse is an emergency."
+      ],
+      "sourceUrl": "https://www.cdc.gov/healthy-pets/about/pet-food-safety.html"
+    }
+  ],
+  "kit": [
+    {
+      "id": "pet-kit-food",
+      "name": "14-day normal food supply",
+      "detail": "Individual quantities confirmed for each animal; include prescribed diets and required species-specific staples, with dates and feeding instructions."
+    },
+    {
+      "id": "pet-kit-water",
+      "name": "14-day individualized drinking water",
+      "detail": "Use usual consumption and veterinary advice; add separate cleaning water and extra needs. Record usable liters rather than assuming one allowance fits all pets."
+    },
+    {
+      "id": "pet-kit-bowls",
+      "name": "Bowls and feeding equipment",
+      "detail": "Pack non-spill bowls, the usual water bottle or feeder where needed, food scoop, and manual can opener for canned food."
+    },
+    {
+      "id": "pet-kit-medication",
+      "name": "Medicines and administration supplies",
+      "detail": "Ask about two weeks of prescribed medicines, labeled instructions, necessary measuring supplies, and product-specific temperature protection. Keep a dose log."
+    },
+    {
+      "id": "pet-kit-carrier",
+      "name": "Labeled carrier or crate for every animal",
+      "detail": "Choose secure ventilation and species-appropriate construction and space; practice loading and safe vehicle transport before an evacuation."
+    },
+    {
+      "id": "pet-kit-restraints",
+      "name": "Leash, harness, and identification",
+      "detail": "Pack suitable fitted restraints and backups for cats or dogs as appropriate; label enclosures and keep microchip registration current."
+    },
+    {
+      "id": "pet-kit-sanitation",
+      "name": "Waste and enclosure-cleaning supplies",
+      "detail": "Include litter and tray, dog waste bags, appropriate small-pet bedding, paper towels, trash bags, soap, and species-safe cleaning products."
+    },
+    {
+      "id": "pet-kit-records",
+      "name": "Waterproof medical and ownership records",
+      "detail": "Vaccinations, medical summary, prescriptions, chip details, physical description, recent photos, proof of ownership, and care authorization where appropriate."
+    },
+    {
+      "id": "pet-kit-contacts",
+      "name": "Paper care and evacuation contacts",
+      "detail": "Usual and alternate veterinarian, emergency clinic, accepting destination, transport helper, backup caregiver, animal control, and local shelters."
+    },
+    {
+      "id": "pet-kit-comfort",
+      "name": "Familiar bedding and comfort items",
+      "detail": "Pack manageable dry bedding, a familiar toy, and species-appropriate comfort items; keep the rest area quiet and protect ventilation."
+    },
+    {
+      "id": "pet-kit-first-aid",
+      "name": "Veterinarian-approved first-aid kit",
+      "detail": "Ask what suits each animal and your training. Keep gloves, suitable clean dressings, instructions, and emergency contacts; first aid does not replace veterinary care."
+    },
+    {
+      "id": "pet-kit-habitat",
+      "name": "Habitat and temperature backup plan",
+      "detail": "Include required species-specific transport and monitoring equipment, safe approved power options, and a relocation trigger if essential habitat conditions cannot be maintained."
+    }
+  ],
+  "sources": [
+    {
+      "title": "CDC — Build a Pet Disaster Preparedness Kit",
+      "url": "https://www.cdc.gov/healthy-pets/emergency-preparedness/preparedness-kit.html"
+    },
+    {
+      "title": "CDC — Be Prepared: Pet Safety in Emergencies",
+      "url": "https://www.cdc.gov/healthy-pets/emergency-preparedness/"
+    },
+    {
+      "title": "AVMA — Pets and disasters",
+      "url": "https://avma.org/public/EmergencyCare/Pages/Pets-and-Disasters.aspx"
+    },
+    {
+      "title": "AVMA — Saving the Whole Family disaster preparedness guide",
+      "url": "https://ebusiness.avma.org/files/productdownloads/STWF_English.pdf"
+    },
+    {
+      "title": "AVMA — Warm weather pet safety",
+      "url": "https://avma.org/resources/pet-owners/petcare/warm-weather-pet-safety"
+    },
+    {
+      "title": "FEMA — Prepare Your Pets for Disasters",
+      "url": "https://www.fema.gov/sites/default/files/documents/fema_hm-prepare-your-pets-for-disasters_english.pdf"
+    },
+    {
+      "title": "FEMA — Including Your Pets in Disaster",
+      "url": "https://www.fema.gov/print/pdf/node/503807"
+    },
+    {
+      "title": "Ready.gov — Prepare Your Pets for Disasters (direct page may be unavailable)",
+      "url": "https://www.ready.gov/pets"
+    },
+    {
+      "title": "CDC — About Pet Food Safety",
+      "url": "https://www.cdc.gov/healthy-pets/about/pet-food-safety.html"
+    },
+    {
+      "title": "CDC — Carbon Monoxide (CO) Poisoning Basics",
+      "url": "https://www.cdc.gov/carbon-monoxide/about/index.html"
+    },
+    {
+      "title": "CDC — Safety Guidelines: Wildfires and Wildfire Smoke",
+      "url": "https://www.cdc.gov/wildfires/safety/how-to-safely-stay-safe-during-a-wildfire.html"
+    },
+    {
+      "title": "Cornell University College of Veterinary Medicine — Winter safety tips",
+      "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/winter-safety-tips"
+    },
+    {
+      "title": "American Red Cross — Carbon Monoxide Poisoning Safety Tips",
+      "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/carbon-monoxide-poisoning.html"
+    },
+    {
+      "title": "FDA pet-food storage",
+      "url": "https://www.fda.gov/animal-veterinary/animal-health-literacy/proper-storage-pet-food-treats"
+    }
+  ]
+}

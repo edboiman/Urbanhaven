@@ -6,7 +6,7 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 const node = process.execPath;
 const run = (args, env = {}) => {
-  const r = spawnSync(node, args, { stdio: "inherit", env: { ...process.env, ...env } });
+  const r = spawnSync(node, args, { stdio: "inherit", env: { ...process.env, ...env }, timeout: 300000 });
   if (r.status !== 0) {
     console.error("FAILED:", args.join(" "));
     process.exit(r.status || 1);
@@ -21,6 +21,7 @@ const base = "http://127.0.0.1:4315/urban-haven/";
 try {
   run(["e2e/checklist.e2e.mjs", base]);
   run(["e2e/map-offline.e2e.mjs", base]);
+  run(["e2e/v21.e2e.mjs", base]);
 } finally {
   server.kill();
 }

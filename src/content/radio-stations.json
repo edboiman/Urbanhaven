@@ -1,0 +1,518 @@
+{
+  "reviewed": "2026-10-31",
+  "weather": [
+    {
+      "id": "wx-kec63",
+      "name": "KEC63 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.550 MHz",
+      "area": "Detroit, Michigan",
+      "notes": "NWS Detroit/Pontiac programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=KEC63"
+    },
+    {
+      "id": "wx-kig66",
+      "name": "KIG66 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.550 MHz",
+      "area": "Marquette, Michigan",
+      "notes": "NWS Marquette programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=KIG66"
+    },
+    {
+      "id": "wx-kig74",
+      "name": "KIG74 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.550 MHz",
+      "area": "Sault Ste Marie, Michigan",
+      "notes": "NWS Gaylord programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=KIG74"
+    },
+    {
+      "id": "wx-kig83",
+      "name": "KIG83 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.550 MHz",
+      "area": "Alpena, Michigan",
+      "notes": "NWS Gaylord programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=KIG83"
+    },
+    {
+      "id": "wx-kih22",
+      "name": "KIH22 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.400 MHz",
+      "area": "Traverse City, Michigan",
+      "notes": "NWS Gaylord programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=KIH22"
+    },
+    {
+      "id": "wx-kih29",
+      "name": "KIH29 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.475 MHz",
+      "area": "Flint, Michigan",
+      "notes": "NWS Detroit/Pontiac programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=KIH29"
+    },
+    {
+      "id": "wx-kjy76",
+      "name": "KJY76 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.475 MHz",
+      "area": "Crystal Falls, Michigan",
+      "notes": "NWS Marquette programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=KJY76"
+    },
+    {
+      "id": "wx-kxi33",
+      "name": "KXI33 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.450 MHz",
+      "area": "West Branch, Michigan",
+      "notes": "NWS Gaylord programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=KXI33"
+    },
+    {
+      "id": "wx-kzz33",
+      "name": "KZZ33 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.525 MHz",
+      "area": "Mount Pleasant, Michigan",
+      "notes": "NWS Grand Rapids programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=KZZ33"
+    },
+    {
+      "id": "wx-kzz35",
+      "name": "KZZ35 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.500 MHz",
+      "area": "Escanaba, Michigan",
+      "notes": "NWS Marquette programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=KZZ35"
+    },
+    {
+      "id": "wx-wng572",
+      "name": "WNG572 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.475 MHz",
+      "area": "Petoskey, Michigan",
+      "notes": "NWS Gaylord programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=WNG572"
+    },
+    {
+      "id": "wx-wng576",
+      "name": "WNG576 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.450 MHz",
+      "area": "Newberry, Michigan",
+      "notes": "NWS Marquette programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=WNG576"
+    },
+    {
+      "id": "wx-wng582",
+      "name": "WNG582 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.450 MHz",
+      "area": "Sandusky, Michigan",
+      "notes": "NWS Detroit/Pontiac programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=WNG582"
+    },
+    {
+      "id": "wx-wng647",
+      "name": "WNG647 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.450 MHz",
+      "area": "Adrian / Petersburg, Michigan",
+      "notes": "NWS Detroit/Pontiac programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=WNG647"
+    },
+    {
+      "id": "wx-wng672",
+      "name": "WNG672 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.425 MHz",
+      "area": "Wolf Lake, Michigan",
+      "notes": "NWS Grand Rapids programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=WNG672"
+    },
+    {
+      "id": "wx-wng683",
+      "name": "WNG683 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.550 MHz",
+      "area": "Marenisco, Michigan",
+      "notes": "NWS Marquette programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=WNG683"
+    },
+    {
+      "id": "wx-wng684",
+      "name": "WNG684 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.525 MHz",
+      "area": "Manistique, Michigan",
+      "notes": "NWS Marquette programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=WNG684"
+    },
+    {
+      "id": "wx-wng701",
+      "name": "WNG701 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.525 MHz",
+      "area": "Bad Axe, Michigan",
+      "notes": "NWS Detroit/Pontiac programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=WNG701"
+    },
+    {
+      "id": "wx-wwf34",
+      "name": "WWF34 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.475 MHz",
+      "area": "Plainwell, Michigan",
+      "notes": "NWS Grand Rapids programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=WWF34"
+    },
+    {
+      "id": "wx-wwf36",
+      "name": "WWF36 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.475 MHz",
+      "area": "Hesperia, Michigan",
+      "notes": "NWS Grand Rapids programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=WWF36"
+    },
+    {
+      "id": "wx-wwf70",
+      "name": "WWF70 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.500 MHz",
+      "area": "Gaylord, Michigan",
+      "notes": "NWS Gaylord programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=WWF70"
+    },
+    {
+      "id": "wx-wxk73",
+      "name": "WXK73 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.400 MHz",
+      "area": "Houghton, Michigan",
+      "notes": "NWS Marquette programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=WXK73"
+    },
+    {
+      "id": "wx-wxk81",
+      "name": "WXK81 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.400 MHz",
+      "area": "Onondaga, Michigan",
+      "notes": "NWS Grand Rapids programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=WXK81"
+    },
+    {
+      "id": "wx-wxn99",
+      "name": "WXN99 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.425 MHz",
+      "area": "West Olive, Michigan",
+      "notes": "NWS Grand Rapids programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=WXN99"
+    },
+    {
+      "id": "wx-wz2513",
+      "name": "WZ2513 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.500 MHz",
+      "area": "Copper Harbor, Michigan",
+      "notes": "NWS Marquette programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=WZ2513"
+    },
+    {
+      "id": "wx-wz2514",
+      "name": "WZ2514 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.475 MHz",
+      "area": "Munising, Michigan",
+      "notes": "NWS Marquette programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=WZ2514"
+    },
+    {
+      "id": "wx-wz2515",
+      "name": "WZ2515 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.425 MHz",
+      "area": "Grand Marais, Michigan",
+      "notes": "NWS Marquette programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=WZ2515"
+    },
+    {
+      "id": "wx-wz2560",
+      "name": "WZ2560 — NOAA Weather Radio",
+      "band": "WX",
+      "frequency": "162.550 MHz",
+      "area": "Cannonsburg, Michigan",
+      "notes": "NWS Grand Rapids programming. Verify that this transmitter serves your county.",
+      "url": "https://www.weather.gov/nwr/sites?site=WZ2560"
+    }
+  ],
+  "broadcast": [
+    {
+      "id": "fm-wuom",
+      "name": "WUOM — Michigan Public",
+      "band": "FM",
+      "frequency": "91.7 MHz",
+      "area": "Ann Arbor, Detroit / southeast Lower Peninsula",
+      "notes": "Public radio news and information; reception varies by location.",
+      "url": "https://www.michiganpublic.org/how-to-listen"
+    },
+    {
+      "id": "fm-wvgr",
+      "name": "WVGR — Michigan Public",
+      "band": "FM",
+      "frequency": "104.1 MHz",
+      "area": "Grand Rapids, Kalamazoo / west Lower Peninsula",
+      "notes": "Public radio news and information; reception varies by location.",
+      "url": "https://www.michiganpublic.org/how-to-listen"
+    },
+    {
+      "id": "fm-wfum",
+      "name": "WFUM — Michigan Public",
+      "band": "FM",
+      "frequency": "91.1 MHz",
+      "area": "Flint / east-central Lower Peninsula",
+      "notes": "Public radio news and information; reception varies by location.",
+      "url": "https://www.michiganpublic.org/how-to-listen"
+    },
+    {
+      "id": "fm-wlnz",
+      "name": "WLNZ — Michigan Public",
+      "band": "FM",
+      "frequency": "89.7 MHz",
+      "area": "Lansing / south-central Lower Peninsula",
+      "notes": "Public radio news and information; reception varies by location.",
+      "url": "https://www.michiganpublic.org/how-to-listen"
+    },
+    {
+      "id": "fm-wrsx",
+      "name": "WRSX — Michigan Public",
+      "band": "FM",
+      "frequency": "91.3 MHz",
+      "area": "Port Huron / Blue Water region",
+      "notes": "Public radio news and information; reception varies by location.",
+      "url": "https://www.michiganpublic.org/how-to-listen"
+    },
+    {
+      "id": "fm-wcmu",
+      "name": "WCMU — WCMU News & More",
+      "band": "FM",
+      "frequency": "89.5 MHz",
+      "area": "Mount Pleasant / central Lower Peninsula",
+      "notes": "Public radio with news, conversation and music; reception varies.",
+      "url": "https://www.wcmu.org/how-to-listen"
+    },
+    {
+      "id": "fm-wcml",
+      "name": "WCML — WCMU News & More",
+      "band": "FM",
+      "frequency": "91.7 MHz",
+      "area": "Alpena / northeast Lower Peninsula",
+      "notes": "Public radio with news, conversation and music; reception varies.",
+      "url": "https://www.wcmu.org/how-to-listen"
+    },
+    {
+      "id": "fm-wcmw",
+      "name": "WCMW — WCMU News & More",
+      "band": "FM",
+      "frequency": "103.9 MHz",
+      "area": "Harbor Springs / northwest Lower Peninsula",
+      "notes": "Public radio with news, conversation and music; reception varies.",
+      "url": "https://www.wcmu.org/how-to-listen"
+    },
+    {
+      "id": "fm-wcmb",
+      "name": "WCMB — WCMU News & More",
+      "band": "FM",
+      "frequency": "95.7 MHz",
+      "area": "Oscoda / northeast Lower Peninsula",
+      "notes": "Public radio with news, conversation and music; reception varies.",
+      "url": "https://www.wcmu.org/how-to-listen"
+    },
+    {
+      "id": "fm-wcmz",
+      "name": "WCMZ — WCMU News & More",
+      "band": "FM",
+      "frequency": "98.3 MHz",
+      "area": "Sault Ste. Marie / eastern Upper Peninsula",
+      "notes": "Public radio with news, conversation and music; reception varies.",
+      "url": "https://www.wcmu.org/how-to-listen"
+    },
+    {
+      "id": "fm-wwcm",
+      "name": "WWCM — WCMU News & More",
+      "band": "FM",
+      "frequency": "96.9 MHz",
+      "area": "Standish / northeastern Lower Peninsula",
+      "notes": "Public radio with news, conversation and music; reception varies.",
+      "url": "https://www.wcmu.org/how-to-listen"
+    },
+    {
+      "id": "fm-wcmv",
+      "name": "WCMV — WCMU News & More",
+      "band": "FM",
+      "frequency": "94.3 MHz",
+      "area": "Traverse City / Leelanau area",
+      "notes": "Public radio with news, conversation and music; reception varies.",
+      "url": "https://www.wcmu.org/how-to-listen"
+    },
+    {
+      "id": "fm-wica",
+      "name": "WICA — IPR News",
+      "band": "FM",
+      "frequency": "91.5 MHz",
+      "area": "Traverse City / northwest Lower Peninsula",
+      "notes": "Interlochen Public Radio news service; reception varies.",
+      "url": "https://www.interlochenpublicradio.org/fm-listening"
+    },
+    {
+      "id": "fm-wggl",
+      "name": "WGGL — MPR",
+      "band": "FM",
+      "frequency": "91.1 MHz",
+      "area": "Houghton / western Upper Peninsula",
+      "notes": "Mixed MPR news and classical programming; check the station schedule.",
+      "url": "https://www.mpr.org/listen/stations/wggl"
+    },
+    {
+      "id": "fm-wnmu",
+      "name": "WNMU — Public Radio 90",
+      "band": "FM",
+      "frequency": "90.1 MHz",
+      "area": "Marquette / central Upper Peninsula",
+      "notes": "Public radio with NPR news, music, arts and culture; reception varies.",
+      "url": "https://www.wnmufm.org/about-public-radio-90"
+    },
+    {
+      "id": "fm-wmuk",
+      "name": "WMUK — NPR News",
+      "band": "FM",
+      "frequency": "102.1 MHz",
+      "area": "Kalamazoo / southwest Lower Peninsula",
+      "notes": "Public radio news and local culture coverage; reception varies.",
+      "url": "https://www.wmuk.org/open-records"
+    },
+    {
+      "id": "fm-wgvu",
+      "name": "WGVU — WGVU News",
+      "band": "FM",
+      "frequency": "88.5 MHz",
+      "area": "Grand Rapids / west Lower Peninsula",
+      "notes": "Public radio with local news and national programs; reception varies.",
+      "url": "https://www.wgvunews.org/fm-schedule"
+    },
+    {
+      "id": "fm-wdet",
+      "name": "WDET — Detroit Public Radio",
+      "band": "FM",
+      "frequency": "101.9 MHz",
+      "area": "Detroit / southeast Lower Peninsula",
+      "notes": "Public radio with news, current affairs and music; reception varies.",
+      "url": "https://wdet.org/"
+    },
+    {
+      "id": "am-wkar",
+      "name": "WKAR — NewsTalk",
+      "band": "AM",
+      "frequency": "870 kHz",
+      "area": "Lansing / Michigan capital region",
+      "notes": "AM service operates during daylight hours. News and information programming.",
+      "url": "https://www.wkar.org/ways-to-listen-to-wkar"
+    },
+    {
+      "id": "am-wwj",
+      "name": "WWJ — Newsradio 950",
+      "band": "AM",
+      "frequency": "950 kHz",
+      "area": "Metro Detroit / southeast Lower Peninsula",
+      "notes": "Local news, traffic and weather reports; reception varies.",
+      "url": "https://www.audacy.com/wwjnewsradio/news/local/cbs-news-radio-is-shutting-down-what-that-means-for-wwj-2676925748"
+    }
+  ],
+  "tips": [
+    "Use a separate radio receiver to tune these over-the-air frequencies. This directory contains station information, not audio streams; source links need an internet connection.",
+    "Hand-crank describes a power method, not reception capability. Check the radio specification for AM, FM and NOAA Weather Radio / WX; an AM/FM-only receiver cannot tune NOAA weather broadcasts.",
+    "The seven NOAA WX frequencies are 162.400, 162.425, 162.450, 162.475, 162.500, 162.525 and 162.550 MHz. Channel numbers vary by receiver; match the frequency in your manual.",
+    "Test reception before an emergency. The nearest or strongest transmitter may not carry alerts for your county. Verify county coverage and program SAME location codes if your receiver supports them.",
+    "Keep the receiver powered and follow its battery, antenna and alert-test instructions. Hearing a weather broadcast does not prove that automatic alert functions are enabled.",
+    "These are frequency references, not live status reports. Transmitters, station schedules and reception can change or fail during power outages. Keep more than one way to receive warnings.",
+    "The WX list covers the 28 NWS transmitters located in Michigan, not every signal receivable in Michigan. Some border counties use an out-of-state transmitter; consult the NWS county or station search when online."
+  ],
+  "sources": [
+    {
+      "title": "NWS Michigan NOAA Weather Radio station listing",
+      "url": "https://www.weather.gov/nwr/stations?State=MI"
+    },
+    {
+      "title": "NWS NOAA Weather Radio receiver information",
+      "url": "https://www.weather.gov/nwr/nwr_receivers"
+    },
+    {
+      "title": "NWS seven frequencies and SAME county guidance",
+      "url": "https://www.weather.gov/nwr/usingsame"
+    },
+    {
+      "title": "NWS weather frequencies and receiver channel numbering",
+      "url": "https://www.weather.gov/marine/wxradio"
+    },
+    {
+      "title": "NWS station and county coverage search",
+      "url": "https://www.weather.gov/nwr/station_search"
+    },
+    {
+      "title": "NWS NOAA Weather Radio outages",
+      "url": "https://www.weather.gov/nwr/outages"
+    },
+    {
+      "title": "Michigan Public — How to Listen",
+      "url": "https://www.michiganpublic.org/how-to-listen"
+    },
+    {
+      "title": "WCMU — How to Listen",
+      "url": "https://www.wcmu.org/how-to-listen"
+    },
+    {
+      "title": "Interlochen Public Radio — FM Listening",
+      "url": "https://www.interlochenpublicradio.org/fm-listening"
+    },
+    {
+      "title": "Minnesota Public Radio — WGGL",
+      "url": "https://www.mpr.org/listen/stations/wggl"
+    },
+    {
+      "title": "WNMU — About Public Radio 90",
+      "url": "https://www.wnmufm.org/about-public-radio-90"
+    },
+    {
+      "title": "Northern Michigan University — WNMU 90.1 FM",
+      "url": "https://nmu.edu/universitymedia"
+    },
+    {
+      "title": "WMUK — Open Records and station frequencies",
+      "url": "https://www.wmuk.org/open-records"
+    },
+    {
+      "title": "WGVU — FM Schedule",
+      "url": "https://www.wgvunews.org/fm-schedule"
+    },
+    {
+      "title": "WDET — Detroit Public Radio",
+      "url": "https://wdet.org/"
+    },
+    {
+      "title": "WKAR — Ways to Listen",
+      "url": "https://www.wkar.org/ways-to-listen-to-wkar"
+    },
+    {
+      "title": "WWJ Newsroom — AM 950 and local news service",
+      "url": "https://www.audacy.com/wwjnewsradio/news/local/cbs-news-radio-is-shutting-down-what-that-means-for-wwj-2676925748"
+    }
+  ]
+}

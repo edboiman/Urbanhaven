@@ -1,71 +1,55 @@
-# Urban Haven 2.0 — Michigan preparedness, offline
+# Urban Haven 2.1.1 — Michigan preparedness, offline
 
-An offline-first preparedness companion for Michigan households. It runs in the phone's browser, installs to the home screen, and keeps working with no signal.
+A browser app / installable PWA for Michigan households. Complete Offline setup, verify files and test an airplane-mode cold start before relying on it without a connection. This is not an Android APK or an emergency service.
 
-**What it does**
+**Updating your existing Urbanhaven repository? Start with [UPDATE_FROM_2.0.0.md](UPDATE_FROM_2.0.0.md).** The helper copies source while preserving Git history; it does not commit, push or deploy.
 
-* **Living 14-day checklist** — 62 built-in supplies and tasks across water, food, cooking, lighting, charging, communications, first aid, medication planning, sanitation, clothing, warmth, documents, cash, evacuation, household plans, pets and infants. Scales with household size, infants, pets, accessibility needs and duration. Owned quantities come from your inventory, so there is one number to maintain. Statuses: needed, partially stocked, ready, needs inspection, not applicable — each with the formula and reasons. Shopping list, print view, CSV, in-app maintenance reminders.
-* **Water safety** — what boil / do-not-drink / do-not-use advisories mean, limits before treatment steps, CDC and EPA bleach tables, filters, Michigan private wells, winter storage, flooding, lead, washing and toilets without service.
-* **Offline Michigan map** — both peninsulas and islands, 3,899 searchable towns, villages, townships and communities, roads, lakes, counties, your own markers, manual coordinates, optional GPS. Optional regional detail packs with verified, resumable downloads.
-* **Pantry meals** — 13 no-cook / low-water recipes from ordinary groceries, “what can I make now” from your pantry, a 14-day plan with pantry gaps and recipe water, refrigerator/freezer outage and opened-package rules.
-* **Grow food** — Michigan spring frost dates for 78 stations (median or cautious), regional and lake-effect differences, 19 sourced crop profiles, indoor limits during winter outages, seed inventory with germination tests, plantings, reminders and harvest log.
-* Field guide (67 guides), emergency step-by-step checks, calculators, notebook, local PDF reader, portable JSON backups, light/dark themes, large text, emergency reading mode.
+## Accuracy and storage update
 
-No accounts, tracking, cloud database, AI or remote API. Not encrypted. Not an emergency service and not professionally reviewed — see “Limits”.
+The 2.1.1 source audit corrects water classification and rotation, flood-exposed containers, infant feeding, seed viability and fall planting, recipe handling and quantities, medical escalation and pet-food handling. **Storage & shelf lives** separates food quality, water rotation, seed viability and medicine expiry. See [SOURCE_AUDIT.md](docs/SOURCE_AUDIT.md), [SHELF_LIFE_REFERENCE.md](docs/SHELF_LIFE_REFERENCE.md) and [TEST_RESULTS.md](docs/TEST_RESULTS.md) for sources, conditions and verification limits.
 
-## For a phone user
+## What changed
 
-See **[docs/ANDROID_INSTALL.md](docs/ANDROID_INSTALL.md)** — plain-language steps to install, download map detail, test in airplane mode and back up.
+- **Offline waypoint paths:** named paths, ordered stops, visited checks, reordering, reversal, notes, straight-line distances / true bearings and GPX export. Farm markers and optional local photos; six sourced river reference points. No road routing, current access or facility status.
+- **Focused growing guide:** space → goal → crop dropdowns for suburban beds, urban containers, supported indoor growing and indoor outages. Seed packet groups, storage life examples, varieties and nutrition purpose. The 78-station frost calendar, 19 detailed crop profiles, seed inventory, germination tests and planting / harvest logs remain available.
+- **Pantry priorities:** nine core groups before six extras, with quality shelf lives, opened-package safety, storage and water / fuel needs. Existing 13 no-cook / low-water recipes, inventory matching and 14-day planner are retained.
+- **Outdoor cooking:** ten original one-pot pantry recipes, eight vegetarian, with equipment, water, heat, steps and leftovers. Camp stoves and permitted fires are for outdoors only.
+- **Expanded health:** ten new concern-based guides for disrupted access to care, with urgent signs, practical initial steps and limits. The field guide now has 78 guides.
+- **Radio:** 28 Michigan NOAA weather transmitters and 20 selected AM/FM stations, searchable by area / frequency, with saved presets and a personal last-heard log. Check receiver bands; no reception or station uptime is guaranteed.
+- **Pets:** a 12-item checkable kit, eight care / evacuation topics and multiple offline pet records. Food and water totals use your entered individual daily amounts. Store veterinary instructions, contacts, identification and transport plans.
 
-## Build and run (developers)
+The living 14-day checklist, inventory, water safety, emergency checks, notebook, local PDF reader, backups, dark theme, large text and emergency reading mode remain.
 
-Requires Node.js 20 or newer.
+No accounts, tracking, cloud database or remote API is required for core features. Records are local and not encrypted. Photos, paths, radio logs and pet plans are included in backups; PDFs and downloaded map packs must be transferred separately. See [docs/V2.1_CHANGES.md](docs/V2.1_CHANGES.md) for detailed limits.
 
-```sh
-npm install          # first time; commit the generated package-lock.json
-npm run check        # content checks + typecheck + 33 unit tests + production build
-npm run preview      # http://localhost:4173/  (service worker works on localhost)
-npm run dev          # rebuild on change, serve on http://localhost:5173/
+## Develop and verify
+
+Requires Node.js 20 or newer. Dependency versions are locked in package-lock.json.
+
+```bash
+npm ci
+npm run check       # content validation, strict TypeScript, 53 tests, production build
+npm run preview     # localhost supports service workers
+npm run dev
 ```
 
-Browser tests (Chromium via Playwright):
+Browser suites for a normal local or CI environment:
 
-```sh
+```bash
 npx playwright install chromium
-npm run test:e2e                         # all six browser suites
-V1_DIST=/path/to/urban-haven-1.0.0/dist npm run test:e2e   # also runs the real v1.0.0 → 2.0 upgrade
+npm run test:e2e
 ```
 
-| Command | Purpose |
-|---|---|
-| `npm run build` | esbuild bundle → `dist/` with SHA-256 offline manifest and service worker |
-| `npm test` | Unit tests (Node test runner) |
-| `npm run typecheck` | TypeScript strict check for app and tests |
-| `npm run test:e2e` | Offline, upgrade, map, pack, backup and checklist tests in Chromium |
-| `npm run map:data -- <natural-earth-vector> <us_geo>` | Rebuild map data (see `docs/MAP_DATA.md`) |
+The seven browser suites cover checklist, map, resumable packs, offline core, upgrades, backups and new 2.1 interactions. They were authored / updated but not executed in this preparation session. See [docs/TEST_RESULTS.md](docs/TEST_RESULTS.md) for exactly what was verified. `V1_DIST=/path/to/original/dist npm run test:e2e` enables the optional real-v1 upgrade fixture.
 
-## Publish to GitHub Pages
+## GitHub Pages
 
-1. Create a GitHub repository (e.g. `urban-haven`) and push this folder's contents, **including `.github/workflows/deploy.yml`**. Do not upload the ZIP itself, and do not commit `node_modules/` or `dist/`.
-2. In the repository: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-3. Open **Actions**; the “Build, test and publish” workflow builds, runs checks and unit tests, audits runtime dependencies and deploys. A separate job runs the browser tests and reports its result.
-4. Your app is at `https://YOUR-NAME.github.io/urban-haven/`. Follow `docs/ANDROID_INSTALL.md` on the phone.
+Push the source folder contents, including the workflow, lockfile, public map data and documents. Do not commit node_modules or dist. In GitHub Settings → Pages, choose GitHub Actions as the source. The workflow checks, builds, audits runtime dependencies and deploys. Browser tests are separate and non-blocking; check their result before relying on a release. Their job has a 20-minute ceiling.
 
-The app uses relative paths and hash routes, so it works in a repository subfolder or at a domain root.
+Relative assets and hash routes support a repository subfolder or domain root. Keep your current repository name and app address to preserve the existing installation. This package has not been pushed or published.
 
-## Upgrading from 1.0.0
+## Sources and limits
 
-Existing data is kept. 2.0 opens the same browser database and only adds new storage areas. The previous edition keeps running until **Update & reload** is tapped. Old 1.0 backups can be imported. This was tested in Chromium by creating data with the original 1.0.0 build and upgrading (see `docs/TEST_RESULTS.md`).
+Health and veterinary content is educational and has not had independent professional review. Recipes have not been kitchen tested in this session. Map shapes are generalized, paths are manual and radio listings are references, not live status.
 
-## Limits
-
-* Map: generalized 1:10,000,000-scale geometry; not street-level; no routing, closures or facility status. Markers are your notes, not verified places.
-* Gardening: dates are planning points from historical climatology, not forecasts; no yield promises; indoor growing stops being reliable in a winter power outage.
-* Checklist amounts marked “App assumption” are planning defaults, not official requirements. Medicines, pet food/water, cash, infant needs and medical equipment have no universal amounts — you enter them.
-* Reminders appear only when the app is open; there are no notifications.
-* Browser storage can be cleared by Android or by the user; keep backups off the phone. Imported PDFs and map packs are not in backups.
-* Not tested on a physical Android phone yet. No clinical, food-safety, utility or emergency-management professional has reviewed the content. Follow local officials and your own clinicians.
-
-## Documentation
-
-`docs/FINDINGS.md` (audit) · `docs/REQUIREMENTS_MATRIX.md` · `docs/TEST_RESULTS.md` · `docs/SOURCES.md` · `docs/MAP_DATA.md` · `docs/ARCHITECTURE.md` · `docs/SECURITY_PRIVACY.md` · `docs/OFFLINE_TESTING.md` · `docs/ANDROID_INSTALL.md` · `THIRD_PARTY_NOTICES.md`
+Source notes: `docs/MEDICAL_PET_SOURCES_V21.md`, `docs/PANTRY_COOKING_SOURCES.md`, `docs/RADIO_SOURCES.md`, `docs/RIVER_REFERENCES.md`, `docs/GARDEN_V21_SOURCES.md` and the existing topic source files. Source links need a connection; the actual guidance is bundled.

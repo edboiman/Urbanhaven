@@ -27,6 +27,7 @@ jobs:
         with:
           path: dist
   browser-tests:
+    timeout-minutes: 20
     # Real Chromium tests: offline cold start, upgrades, map packs, backups, checklist acceptance.
     # Reported separately so a slow CI runner cannot block publishing; check its result before relying on a release.
     runs-on: ubuntu-latest

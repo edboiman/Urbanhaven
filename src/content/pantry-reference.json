@@ -1,0 +1,292 @@
+[
+  {
+    "id": "ready-to-eat-grains",
+    "name": "Ready-to-eat grains and crackers",
+    "tier": "Core",
+    "role": "Carbohydrate energy that can be eaten when cooking water or fuel is unavailable.",
+    "examples": [
+      "Whole-grain crackers",
+      "Dry ready-to-eat cereal",
+      "Oat or grain bars suited to household allergies"
+    ],
+    "unopenedLife": "Ready-to-eat cereal: about 6–12 months for best quality in a cool, dry pantry. Crackers and bars follow their own package dates; this is not a safety expiration.",
+    "afterOpening": "Dry cereal: about 2–3 months for quality when resealed; other products follow the label. Once mixed with milk or other wet ingredients, the mixture becomes perishable.",
+    "storage": "Keep dry, cool and protected from pests in a closed food-safe container. Retain the original label and allergen information.",
+    "waterFuel": "No cooking water or fuel for products labeled ready to eat. Drinking water is still needed; dry food is not a substitute for water.",
+    "notes": "Keep several familiar no-cook meals. Choose portions people will actually eat and check wheat, milk, soy and nut ingredients.",
+    "sourceUrl": "https://food.unl.edu/free-resource/food-storage/",
+    "checked": "2026-11-01",
+    "additionalSources": []
+  },
+  {
+    "id": "quick-cook-starches",
+    "name": "Quick-cooking dry starches",
+    "tier": "Core",
+    "role": "Affordable meal calories; select quick-cooking versions to reduce time at the burner.",
+    "examples": [
+      "Instant couscous",
+      "Quick-cooking pasta",
+      "Rolled or instant oats",
+      "Instant rice"
+    ],
+    "unopenedLife": "Approximate pantry quality examples: dry pasta 24 months; plain white rice 24 months; brown rice 12 months; oatmeal 6–12 months. Instant grains, blends and pouches follow their specific labels; these are not safety deadlines.",
+    "afterOpening": "Keep the dry food sealed and dry. Cooked rice, pasta, oats and other moist starches require prompt chilling; without refrigeration, make only the current meal.",
+    "storage": "Use a pest-resistant container in a dry cupboard, away from cleaning chemicals and heat.",
+    "waterFuel": "Needs measured potable water and the package cooking time. Prefer absorption recipes; draining a large pot wastes water. Instant does not automatically mean safe to eat dry or cold-soak.",
+    "notes": "Read directions before buying. A dry-grain stock without enough cooking water and suitable fuel is incomplete. Include ready-to-eat grains as backup.",
+    "sourceUrl": "https://pubs.nmsu.edu/_e/E118/",
+    "checked": "2026-11-01",
+    "additionalSources": []
+  },
+  {
+    "id": "canned-beans-lentils",
+    "name": "Canned beans, peas and lentils",
+    "tier": "Core",
+    "role": "Plant protein, fiber and useful meal calories without a long boil.",
+    "examples": [
+      "Chickpeas",
+      "Black or kidney beans",
+      "White beans",
+      "Lentils"
+    ],
+    "unopenedLife": "Commercial low-acid cans: about 2–5 years for best quality under suitable storage. This is a rotation guide, not a safety guarantee or a required wait.",
+    "afterOpening": "Refrigerate unused beans promptly. Without refrigeration, use a meal-sized can and discard unused contents after 2 hours, or 1 hour above 90°F/32°C; never save overnight.",
+    "storage": "Keep cans dry and cool; rotate older stock forward. Reject leaking, swollen or deeply dented cans, including dents affecting seams.",
+    "waterFuel": "Fully cooked ready-to-eat beans need no further cooking. Lower-sodium products can avoid a rinse when water is scarce; their liquid can thin a hot dish.",
+    "notes": "Dry beans have different preparation and fuel needs. Do not substitute uncooked dry beans directly into a canned-bean recipe.",
+    "sourceUrl": "https://ask.fsis.usda.gov/article/How-long-can-you-keep-canned-goods",
+    "checked": "2026-11-01",
+    "additionalSources": []
+  },
+  {
+    "id": "shelf-stable-animal-protein",
+    "name": "Shelf-stable canned fish, poultry or meat",
+    "tier": "Core",
+    "role": "Concentrated protein; canned fish with edible bones can also contribute calcium.",
+    "examples": [
+      "Canned salmon or sardines",
+      "Canned chicken",
+      "Shelf-stable ready-to-eat tuna pouches"
+    ],
+    "unopenedLife": "Low-acid commercial cans: about 2–5 years for best quality. Pouches and special products follow their own label; not every canned meat is shelf-stable.",
+    "afterOpening": "Opened meat and fish are perishable. Refrigerate promptly; without refrigeration, discard unused contents after 2 hours, or 1 hour above 90°F/32°C. Choose a meal-sized container.",
+    "storage": "Buy only products explicitly suitable for room-temperature storage. A 'keep refrigerated' ham is not pantry food. Protect cans and pouches from damage.",
+    "waterFuel": "No water or fuel for products labeled fully cooked and ready to eat. Empty into cookware if warming; never heat a sealed can or pouch.",
+    "notes": "Check fish and other allergens, serving sizes and sodium. Choose fish species and quantities appropriate for pregnancy and children using current FDA/EPA fish advice.",
+    "sourceUrl": "https://ask.fsis.usda.gov/article/Is-food-in-damaged-cans-dangerous",
+    "checked": "2026-11-01",
+    "additionalSources": []
+  },
+  {
+    "id": "nut-seed-butters",
+    "name": "Shelf-stable nut or seed butters",
+    "tier": "Core",
+    "role": "Compact calories, fat and some protein for no-cook meals.",
+    "examples": [
+      "Peanut butter",
+      "Shelf-stable sunflower seed butter",
+      "Other tolerated nut butter"
+    ],
+    "unopenedLife": "Commercial peanut butter: about 6–9 months for best quality in a cool pantry. Other nut/seed butters and natural formulations follow their own labels; this is not a safety expiration.",
+    "afterOpening": "Typical shelf-stable peanut butter: about 2–3 months for quality. Some natural spreads require refrigeration after opening; follow the label or choose single portions for a no-fridge plan.",
+    "storage": "Keep tightly closed, away from heat; use a clean, dry utensil and prevent crumbs or water entering the jar.",
+    "waterFuel": "No cooking water or fuel. Spread on crackers or stir into cooked meals; reserve drinking water separately.",
+    "notes": "Check peanut, tree-nut, sesame and seed allergies. This is not an infant feeding plan; choose age-appropriate foods and textures.",
+    "sourceUrl": "https://pubs.nmsu.edu/_e/E118/",
+    "checked": "2026-11-01",
+    "additionalSources": []
+  },
+  {
+    "id": "cooking-oils",
+    "name": "Cooking oils",
+    "tier": "Core",
+    "role": "Adds energy and fat to otherwise lean grain and bean meals.",
+    "examples": [
+      "Canola oil",
+      "Olive oil",
+      "Other household cooking oil"
+    ],
+    "unopenedLife": "Vegetable or olive oil: about 6–12 months for best quality in a cool, dark pantry. Packaging and oil type vary; follow the product date rather than treating this as a safety expiration.",
+    "afterOpening": "About 3–5 months for quality for typical vegetable/olive oil stored suitably; recap and follow the label. Keep water and food debris out and rotate a small bottle through normal cooking.",
+    "storage": "Keep in its closed, labeled food container in a cool, dark cupboard, away from the burner and from fuel containers.",
+    "waterFuel": "No water or fuel to add oil to a meal. A little can reduce sticking; deep-frying uses much more oil and creates additional fire and disposal problems.",
+    "notes": "Rotate through normal cooking. Oil is food, not approved stove fuel. Rancid oil has lost quality; an unexpired date does not protect a badly stored product.",
+    "sourceUrl": "https://food.unl.edu/free-resource/food-storage/",
+    "checked": "2026-11-01",
+    "additionalSources": []
+  },
+  {
+    "id": "canned-vegetables",
+    "name": "Canned vegetables and tomatoes",
+    "tier": "Core",
+    "role": "Vegetable variety, fiber and micronutrients alongside calorie and protein staples.",
+    "examples": [
+      "Carrots or mixed vegetables",
+      "Peas or green beans",
+      "Spinach",
+      "Diced tomatoes"
+    ],
+    "unopenedLife": "Low-acid vegetable cans: about 2–5 years for best quality; high-acid tomatoes: about 12–18 months. Check the actual product label.",
+    "afterOpening": "Refrigerate unused contents. Without cold storage, use a meal-sized can and discard unused opened food after 2 hours, or 1 hour above 90°F/32°C; do not keep it overnight.",
+    "storage": "Keep cans out of damp or hot locations. Reject damaged seals, leaking, bulging or badly dented cans; never taste suspect food.",
+    "waterFuel": "Ready-to-eat commercial products can be served cold. Use suitable packing liquid in soup instead of automatically draining and adding fresh water.",
+    "notes": "Choose lower-sodium options where available. Canned vegetables complement a pantry but do not replace sufficient calories, protein, fat or drinking water.",
+    "sourceUrl": "https://ask.fsis.usda.gov/article/How-long-can-you-keep-canned-goods",
+    "checked": "2026-11-01",
+    "additionalSources": []
+  },
+  {
+    "id": "shelf-stable-fruit",
+    "name": "Canned fruit and unsweetened fruit cups",
+    "tier": "Core",
+    "role": "Ready-to-eat fruit variety and a familiar food when fresh produce is unavailable.",
+    "examples": [
+      "Peaches or pears in juice",
+      "Mandarin orange cups",
+      "Unsweetened applesauce cups"
+    ],
+    "unopenedLife": "High-acid commercial fruit cans: about 12–18 months for best quality. Plastic cups, pouches and applesauce follow their own label.",
+    "afterOpening": "Follow the product's refrigeration instructions after opening. Individual cups avoid planning for an opened container when no refrigerator is available.",
+    "storage": "Protect cups and pouches from punctures and cans from rust or dents; keep dry, cool and away from direct sunlight.",
+    "waterFuel": "No cooking water or fuel for ready-to-eat products. Juice can moisten porridge; do not count canned juice as the entire drinking-water supply.",
+    "notes": "Choose fruit the household tolerates. Best-quality dates do not overrule package damage, recalls or unsafe storage.",
+    "sourceUrl": "https://ask.fsis.usda.gov/article/Is-food-in-damaged-cans-dangerous",
+    "checked": "2026-11-01",
+    "additionalSources": []
+  },
+  {
+    "id": "shelf-stable-calcium-foods",
+    "name": "Shelf-stable milk or fortified soy beverage",
+    "tier": "Core",
+    "role": "A practical calcium source; milk and fortified soy beverages can also add protein. Read nutrient labels.",
+    "examples": [
+      "Single-serve UHT milk labeled shelf-stable",
+      "Shelf-stable calcium- and vitamin-D-fortified soy beverage",
+      "Nonfat dry milk prepared exactly as directed"
+    ],
+    "unopenedLife": "Aseptically packaged shelf-stable UHT milk: roughly 6 months as a planning example; exact product dates govern. Fortified soy beverages and milk powder follow their own labels. Refrigerated ultra-pasteurized cartons are not automatically shelf-stable.",
+    "afterOpening": "Opened milk/soy beverage and reconstituted milk require refrigeration. Without it, use a single portion now and discard after 2 hours, or 1 hour above 90°F/32°C. Dry powder follows its label.",
+    "storage": "Keep unopened shelf-stable cartons cool and undamaged. Keep milk powder dry and tightly sealed; use clean measuring equipment.",
+    "waterFuel": "UHT cartons need no added water or heat. Powder requires the label's measured amount of potable water; reconstitution does not create shelf-stable liquid milk.",
+    "notes": "Plant beverages differ in protein, calcium and vitamin D. Milk, soy and other allergies matter. These drinks are not infant formula; use an infant-specific feeding plan when needed.",
+    "sourceUrl": "https://foodsafety.ces.ncsu.edu/news/saving-milk/",
+    "checked": "2026-11-01",
+    "additionalSources": []
+  },
+  {
+    "id": "dry-pulses",
+    "name": "Dry beans, lentils and split peas",
+    "tier": "Useful extra",
+    "role": "Inexpensive plant protein for households with dependable cooking water, time and fuel.",
+    "examples": [
+      "Red lentils",
+      "Split peas",
+      "Dry beans with package preparation instructions"
+    ],
+    "unopenedLife": "Dry beans: about 12–24 months for best quality in ordinary pantry storage. Lentils and split peas follow their labels. Older pulses may soften slowly; this is not a safety expiration.",
+    "afterOpening": "Keep dry pulses sealed against moisture and pests. Cooked pulses are perishable and require chilling if not eaten promptly.",
+    "storage": "Store dry in a labeled, food-safe pest-resistant container, retaining the preparation directions.",
+    "waterFuel": "Needs more water and usually more burner time than canned pulses. Follow soaking and boiling directions; do not rely on cold soaking or a brief warm-up to cook raw beans.",
+    "notes": "Build the low-water, no-cook supply first. Dry kidney beans especially require correct preparation; these stove recipes use commercially cooked beans instead.",
+    "sourceUrl": "https://pubs.nmsu.edu/_e/E118/",
+    "checked": "2026-11-01",
+    "additionalSources": []
+  },
+  {
+    "id": "nuts-seeds",
+    "name": "Nuts and seeds",
+    "tier": "Useful extra",
+    "role": "Portable fats, some protein and extra meal calories.",
+    "examples": [
+      "Unsalted peanuts",
+      "Pumpkin seeds",
+      "Tolerated mixed nuts"
+    ],
+    "unopenedLife": "Commercial unopened packaged nut meats: up to about 12 months as a quality example; pine nuts can be much shorter, about 2–3 weeks in the pantry. Exact packaging and label govern; do not generalize to every nut or seed.",
+    "afterOpening": "Reseal and follow the label. For ordinary shelled nuts, a conservative room-temperature quality window is about 2–4 weeks; refrigeration preserves quality longer. Prefer small packs without a refrigerator.",
+    "storage": "Keep cool, dry, dark and sealed. Protect from pests and avoid carrying loose nuts beside fuel or chemicals.",
+    "waterFuel": "No cooking water or fuel for products sold ready to eat.",
+    "notes": "Check allergies and age-appropriate choking precautions. Choose unsalted products when possible; snacks supplement complete meals.",
+    "sourceUrl": "https://pubs.nmsu.edu/_e/E118/",
+    "checked": "2026-11-01",
+    "additionalSources": [
+      "https://spes.vt.edu/content/pubs_ext_vt_edu/en/348/348-960/348-960.html"
+    ]
+  },
+  {
+    "id": "dried-fruit-vegetables",
+    "name": "Dried fruit and dehydrated vegetables",
+    "tier": "Useful extra",
+    "role": "Lightweight produce variety; dried fruit is an easy no-cook addition.",
+    "examples": [
+      "Raisins or dried apricots",
+      "Dried apples",
+      "Commercial dehydrated soup vegetables"
+    ],
+    "unopenedLife": "Dried fruit: about 6 months for best quality in a cool, dry pantry. Commercial dehydrated vegetables and special sealed packs follow their own labels; this is not a safety expiration.",
+    "afterOpening": "Ordinary dried fruit: about 1 month for pantry quality; reseal and obey any refrigeration instruction. Rehydrated dishes should be eaten at the current meal or chilled.",
+    "storage": "Keep moisture out and inspect packaging for pest damage. Retain any instructions requiring cooking or refrigeration.",
+    "waterFuel": "Ready-to-eat dried fruit needs no cooking. Dehydrated vegetables may require measured potable water and boiling; reserve both before choosing them over cans.",
+    "notes": "Do not assume all freeze-dried or dehydrated foods are ready to eat. Follow preparation instructions and check sulfite declarations if relevant.",
+    "sourceUrl": "https://food.unl.edu/free-resource/food-storage/",
+    "checked": "2026-11-01",
+    "additionalSources": []
+  },
+  {
+    "id": "canned-meals-soups",
+    "name": "Canned soups and complete meals",
+    "tier": "Useful extra",
+    "role": "Convenient familiar meals when attention, equipment or preparation time is limited.",
+    "examples": [
+      "Ready-to-serve bean soup",
+      "Shelf-stable vegetable stew",
+      "Canned pasta meals"
+    ],
+    "unopenedLife": "Low-acid commercial canned meals often use a 2–5-year best-quality window; acidic tomato products can be shorter. The exact product label governs rotation.",
+    "afterOpening": "Refrigerate unused soup or meal promptly. Without refrigeration, discard unused contents after 2 hours, or 1 hour above 90°F/32°C; open only enough for the current meal.",
+    "storage": "Keep cool and dry; inspect seals and rotate stock. Avoid relying on glass containers where breakage is likely.",
+    "waterFuel": "Ready-to-serve products need no added water. Condensed soups need label-specified liquid. Warm only in proper cookware, never in a sealed can.",
+    "notes": "Read calories, protein and sodium per entire container; a 'meal' name does not mean it meets a person's whole-day needs.",
+    "sourceUrl": "https://ask.fsis.usda.gov/article/How-long-can-you-keep-canned-goods",
+    "checked": "2026-11-01",
+    "additionalSources": []
+  },
+  {
+    "id": "seasonings-condiments",
+    "name": "Seasonings and small condiment portions",
+    "tier": "Useful extra",
+    "role": "Makes repeated pantry meals palatable without needing many additional ingredients.",
+    "examples": [
+      "Dried herbs and mild spices",
+      "Small soy-sauce packets",
+      "Bouillon appropriate for the household diet"
+    ],
+    "unopenedLife": "Pantry quality examples: dried herbs about 1–2 years; bouillon cubes/granules about 1 year. Sauces and single-use packets follow their own label dates; these are not safety expirations.",
+    "afterOpening": "Keep dry seasonings dry. Follow sauce refrigeration directions; single-use packets avoid an opened bottle that needs chilling.",
+    "storage": "Keep sealed, labeled and away from heat. Do not transfer food into containers that previously held non-food substances.",
+    "waterFuel": "Dry seasoning uses no extra fuel. Bouillon is flavoring, not drinking water or a complete meal; reconstitute only with potable water.",
+    "notes": "Choose mild, lower-sodium options where useful. Large amounts of salty foods increase thirst; check wheat, soy, sesame and other allergens.",
+    "sourceUrl": "https://food.unl.edu/free-resource/food-storage/",
+    "checked": "2026-11-01",
+    "additionalSources": []
+  },
+  {
+    "id": "comfort-drinks",
+    "name": "Tea, coffee and other comfort drinks",
+    "tier": "Useful extra",
+    "role": "Familiar routines and morale after the core food and water supply is covered.",
+    "examples": [
+      "Tea bags",
+      "Instant coffee",
+      "Cocoa mix suited to household allergies"
+    ],
+    "unopenedLife": "Instant coffee: about 1 year; tea bags: about 18–36 months, as pantry quality examples. Cocoa/milk-containing mixes follow their own dates. These are not safety expirations.",
+    "afterOpening": "Instant coffee: about 2–3 months for quality when tightly resealed. Keep other dry mixes and scoops dry and follow their labels. Prepared milk-containing drinks are perishable; make only what will be consumed.",
+    "storage": "Keep dry in a closed container away from strong odors and cooking fuel.",
+    "waterFuel": "A hot drink uses potable water and additional burner time. Cold preparation is appropriate only where the product directions allow it.",
+    "notes": "Optional comfort items should not displace meals, safe water or essential dietary supplies. Check caffeine preferences and milk/soy ingredients.",
+    "sourceUrl": "https://pubs.nmsu.edu/_e/E118/",
+    "checked": "2026-11-01",
+    "additionalSources": []
+  }
+]

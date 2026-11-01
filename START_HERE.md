@@ -1,9 +1,12 @@
-# Start here
+# Urban Haven 2.1.1
 
-**Urban Haven 2.0** — an offline preparedness app for Michigan households: a living 14-day checklist tied to your supplies, water-safety steps, an offline Michigan map, pantry meals and a Michigan garden planner.
+Already using the 2.0 or 2.1 GitHub repository? Open **UPDATE_FROM_2.0.0.md** first. The included update helper copies source into your existing repository while preserving Git history.
 
-* **Using it on a phone:** read `docs/ANDROID_INSTALL.md`. You need the app's published https link.
-* **Publishing it:** follow “Publish to GitHub Pages” in `README.md`. Push this folder (including the hidden `.github` folder) to GitHub; the included workflow builds, tests and publishes it. `dist/` in this ZIP is a ready-built copy for reference — the workflow rebuilds it.
-* **What changed and why:** `docs/FINDINGS.md`. **What was tested and what wasn't:** `docs/TEST_RESULTS.md`. **Requirement-by-requirement status:** `docs/REQUIREMENTS_MATRIX.md`.
+For phone installation: `docs/ANDROID_INSTALL.md`.
+For features and developer commands: `README.md`.
+For changes and limitations: `docs/V2.1_CHANGES.md`.
+For verification performed: `docs/TEST_RESULTS.md`.
 
-Your existing 1.0 data is kept when you update. Keep a backup anyway (Settings & backups → Export backup), and test it in airplane mode on your own phone before relying on it — physical Android testing has not been done yet.
+This package is a browser app / PWA, not an Android APK. Finish Offline setup and test a cold start in airplane mode on your own device.
+
+For the accuracy audit and shelf life tables: `docs/SOURCE_AUDIT.md` and `docs/SHELF_LIFE_REFERENCE.md`. Open the app’s **Storage & shelf lives** page for the offline reference.

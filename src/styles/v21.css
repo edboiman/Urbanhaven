@@ -1,0 +1,150 @@
+/* Focused preparedness controls and references, edition 2.1. */
+.sidebar {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.sidebar-bottom {
+  margin-top: 1rem;
+}
+.preparedness-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0 0 1.5rem;
+}
+.reference-facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 1.5rem;
+  margin: 1.25rem 0;
+}
+.reference-facts div {
+  border-top: 1px solid var(--line);
+  padding-top: 0.7rem;
+  min-width: 0;
+}
+.reference-facts dt {
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+}
+.reference-facts dd {
+  margin: 0;
+  line-height: 1.6;
+}
+.panel details {
+  margin: 1rem 0;
+}
+.panel summary {
+  cursor: pointer;
+  font-weight: 700;
+  padding: 0.5rem 0;
+}
+.panel .panel {
+  box-shadow: none;
+  margin-top: 0.8rem;
+}
+.marker-photo {
+  display: block;
+  max-width: 100%;
+  max-height: 360px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 0.7rem;
+  margin: 0.7rem 0;
+}
+.waypoint-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+.waypoint-list > li {
+  border: 1px solid var(--line);
+  border-radius: 0.7rem;
+  padding: 1rem;
+}
+.waypoint-list .field {
+  margin: 0.6rem 0;
+}
+.station-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+.station-card {
+  border: 1px solid var(--line);
+  border-radius: 0.7rem;
+  padding: 1rem;
+  min-width: 0;
+}
+.station-card h2 {
+  font-size: 1.8rem;
+  margin: 0.4rem 0;
+}
+.station-card h2 small {
+  font-size: 1rem;
+}
+.station-card h3 {
+  margin: 0.4rem 0;
+}
+.pet-kit {
+  display: grid;
+  gap: 0.9rem;
+  margin: 1rem 0;
+}
+.pet-kit .check-label {
+  align-items: flex-start;
+}
+.pet-kit small {
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 0.2rem;
+}
+.route-planner .action-row {
+  margin: 0.8rem 0;
+}
+.reference-facts,
+.station-card,
+.waypoint-list li {
+  overflow-wrap: anywhere;
+}
+@media (max-width: 700px) {
+  .reference-facts,
+  .station-grid,
+  .grow-picker .form-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .grow-picker .field {
+    width: 100%;
+    grid-column: 1/-1;
+  }
+  .tabs {
+    flex-wrap: wrap;
+  }
+  .tabs button {
+    flex: 1 1 40%;
+    white-space: normal;
+  }
+  .route-planner .action-row .button {
+    white-space: normal;
+  }
+  .preparedness-links .button {
+    flex: 1 1 42%;
+    text-align: center;
+    justify-content: center;
+  }
+  .station-card h2 {
+    font-size: 1.65rem;
+  }
+}
+@media print {
+  .station-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .station-card {
+    break-inside: avoid;
+  }
+  .pet-kit label {
+    break-inside: avoid;
+  }
+}

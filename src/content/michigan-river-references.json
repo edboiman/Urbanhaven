@@ -1,0 +1,56 @@
+[
+  {
+    "id": "usgs-04119000",
+    "name": "Grand River at Grand Rapids",
+    "lat": 42.963082,
+    "lon": -85.677253,
+    "sourceUrl": "https://waterdata.usgs.gov/monitoring-location/USGS-04119000/",
+    "notes": "USGS 04119000. USGS source accuracy is ±1 arc-minute; the marker is approximate. No live river conditions are bundled. River geographic reference only; no public access, water potability, safe crossing or legal crossing is implied.",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "usgs-04174500",
+    "name": "Huron River at Ann Arbor",
+    "lat": 42.286954,
+    "lon": -83.733774,
+    "sourceUrl": "https://waterdata.usgs.gov/monitoring-location/USGS-04174500/",
+    "notes": "USGS 04174500. USGS source accuracy is ±1 arc-second. No live river conditions are bundled. River geographic reference only; no public access, water potability, safe crossing or legal crossing is implied.",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "usgs-04106000",
+    "name": "Kalamazoo River at Comstock",
+    "lat": 42.285597,
+    "lon": -85.513893,
+    "sourceUrl": "https://waterdata.usgs.gov/monitoring-location/USGS-04106000/",
+    "notes": "USGS 04106000. USGS source accuracy is ±1 arc-minute; the marker is approximate. No live river conditions are bundled. River geographic reference only; no public access, water potability, safe crossing or legal crossing is implied.",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "usgs-04157000",
+    "name": "Saginaw River at Saginaw",
+    "lat": 43.412803,
+    "lon": -83.963029,
+    "sourceUrl": "https://waterdata.usgs.gov/monitoring-location/USGS-04157000/",
+    "notes": "USGS 04157000. USGS source accuracy is ±1 arc-minute; the marker is approximate. Historic location: continuous records end in 2011; this is not a current river gauge. River geographic reference only; no public access, water potability, safe crossing or legal crossing is implied.",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "usgs-04045500",
+    "name": "Tahquamenon River near Paradise",
+    "lat": 46.574583,
+    "lon": -85.269639,
+    "sourceUrl": "https://waterdata.usgs.gov/monitoring-location/USGS-04045500/",
+    "notes": "USGS 04045500. USGS source accuracy is ±0.1 arc-second (differential GPS). No live river conditions are bundled. River geographic reference only; no public access, water potability, safe crossing or legal crossing is implied.",
+    "checked": "2026-10-31"
+  },
+  {
+    "id": "usgs-04165700",
+    "name": "Detroit River at Detroit",
+    "lat": 42.34726,
+    "lon": -82.958528,
+    "sourceUrl": "https://waterdata.usgs.gov/monitoring-location/USGS-04165700/",
+    "notes": "USGS 04165700. USGS source accuracy is ±1 arc-second. Historic sampling location: the listed discrete samples span 1969–1986; this is not a current river gauge. River geographic reference only; no public access, water potability, safe crossing or legal crossing is implied.",
+    "checked": "2026-10-31"
+  }
+]

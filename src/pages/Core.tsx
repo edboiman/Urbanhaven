@@ -30,13 +30,7 @@ import { useChecklist, StatusBadge } from "./Checklist";
 import { gardenReminders } from "./Garden";
 import { reminders, fmt, statusLabel } from "../checklist/model";
 import { db, setPreferences } from "../storage/db";
-import {
-  water,
-  food,
-  power,
-  fuel,
-  LITERS_PER_GALLON,
-} from "../calculators";
+import { water, food, power, fuel, LITERS_PER_GALLON } from "../calculators";
 import { guides, labels } from "../content";
 import { searchGuides } from "../search";
 import { categories, type Guide, type Category } from "../types";
@@ -64,10 +58,20 @@ const emergencyLinks = [
 export function Urgent() {
   return (
     <>
-      <PageTitle eyebrow="RIGHT NOW" title="Urgent help." description="Call 911 for life-threatening emergencies. These step-by-step checks work offline." />
+      <PageTitle
+        eyebrow="RIGHT NOW"
+        title="Urgent help."
+        description="Call 911 for life-threatening emergencies. These step-by-step checks work offline."
+      />
       <div className="emergency-grid big">
         {emergencyLinks.map((x) => (
-          <a key={x.id} href={"#/scenario/" + x.id} className={"emergency-card " + (x.id === "medical" ? "medical" : "")}>
+          <a
+            key={x.id}
+            href={"#/scenario/" + x.id}
+            className={
+              "emergency-card " + (x.id === "medical" ? "medical" : "")
+            }
+          >
             <x.icon size={26} />
             <span>{x.label}</span>
             <ChevronRight size={15} />
@@ -89,11 +93,15 @@ export function Urgent() {
           <AlertTriangle size={18} /> Carbon monoxide
         </strong>
         <p>
-          If a CO alarm sounds or people feel dizzy, sick or confused — go outside to fresh air now and call 911 from outside. Never run a
+          If a CO alarm sounds or people feel dizzy, sick or confused — go
+          outside to fresh air now and call 911 from outside. Never run a
           generator, grill or camp stove indoors or in a garage.
         </p>
       </Callout>
-      <p className="small muted">This app has no live alerts, shelter status or emergency calling. Use a radio or official alerts for current instructions.</p>
+      <p className="small muted">
+        This app has no live alerts, shelter status or emergency calling. Use a
+        radio or official alerts for current instructions.
+      </p>
     </>
   );
 }
@@ -102,8 +110,18 @@ export function Home({ offline }: { offline: OfflineState }) {
   const { rows, summary, supplies, today, household } = useChecklist();
   const favorites = useLiveQuery(() => db.favorites.toArray(), [], []) || [];
   const garden = useLiveQuery(() => db.garden.toArray(), [], []) || [];
-  const due = [...reminders(rows, supplies, today, 14), ...gardenReminders(garden, today)].sort((a, b) => a.due.localeCompare(b.due));
-  const next = rows.filter((r) => r.status === "needed" || r.status === "inspect" || r.status === "partial").slice(0, 4);
+  const due = [
+    ...reminders(rows, supplies, today, 14),
+    ...gardenReminders(garden, today),
+  ].sort((a, b) => a.due.localeCompare(b.due));
+  const next = rows
+    .filter(
+      (r) =>
+        r.status === "needed" ||
+        r.status === "inspect" ||
+        r.status === "partial",
+    )
+    .slice(0, 4);
   const water = rows.find((r) => r.def.id === "water-drinking");
   const food = rows.find((r) => r.def.id === "food-calories");
   return (
@@ -112,7 +130,13 @@ export function Home({ offline }: { offline: OfflineState }) {
         <h2 id="urgent-h">Need help right now?</h2>
         <div className="emergency-grid">
           {emergencyLinks.map((x) => (
-            <a key={x.id} href={"#/scenario/" + x.id} className={"emergency-card " + (x.id === "medical" ? "medical" : "")}>
+            <a
+              key={x.id}
+              href={"#/scenario/" + x.id}
+              className={
+                "emergency-card " + (x.id === "medical" ? "medical" : "")
+              }
+            >
               <x.icon size={22} />
               <span>{x.label}</span>
             </a>
@@ -124,19 +148,42 @@ export function Home({ offline }: { offline: OfflineState }) {
           <p className="eyebrow">TODAY · {today}</p>
           <h1>Your household plan.</h1>
           <p className="muted">
-            {household.days}-day plan for {household.people} {household.people === 1 ? "person" : "people"}
-            {household.pets ? ` and ${household.pets} pet${household.pets > 1 ? "s" : ""}` : ""}. Everything here works offline.
+            {household.days}-day plan for {household.people}{" "}
+            {household.people === 1 ? "person" : "people"}
+            {household.pets
+              ? ` and ${household.pets} pet${household.pets > 1 ? "s" : ""}`
+              : ""}
+            . Complete Offline setup and verify your files before relying on the
+            app without a connection.
           </p>
         </div>
         <LinkButton to="offline" className="text-link">
-          {offline.status === "ready" ? "Offline verified" : "Get ready to go offline"}
+          {offline.status === "ready"
+            ? "Offline verified"
+            : "Get ready to go offline"}
         </LinkButton>
+      </div>
+      <div className="preparedness-links">
+        {[
+          ["meals", "Pantry essentials"],
+          ["cooking", "Outdoor recipes"],
+          ["garden", "Choose a crop"],
+          ["health", "Health concerns"],
+          ["radio", "Radio frequencies"],
+          ["pets", "Pet preparedness"],
+        ].map(([p, l]) => (
+          <a className="button secondary" key={p} href={"#/" + p}>
+            {l}
+          </a>
+        ))}
       </div>
       <div className="dashboard-grid">
         <section className="panel">
           <div className="section-heading">
             <h2>Checklist status</h2>
-            <a className="text-link" href="#/checklist">Open <ArrowUpRight size={15} /></a>
+            <a className="text-link" href="#/checklist">
+              Open <ArrowUpRight size={15} />
+            </a>
           </div>
           <div className="summary-counts compact">
             {(["ready", "partial", "needed", "inspect"] as const).map((s) => (
@@ -147,14 +194,17 @@ export function Home({ offline }: { offline: OfflineState }) {
             ))}
           </div>
           <p className="small">
-            {summary.ready} of {summary.applicable} applicable items ready. {summary.na} marked not applicable.
+            {summary.ready} of {summary.applicable} applicable items ready.{" "}
+            {summary.na} marked not applicable.
           </p>
           {next.length > 0 && (
             <ul className="next-list">
               {next.map((r) => (
                 <li key={r.def.id}>
                   <StatusBadge status={r.status} /> {r.name}
-                  {r.gap > 0 ? <small> — need {fmt(r.gap, r.unit)}</small> : null}
+                  {r.gap > 0 ? (
+                    <small> — need {fmt(r.gap, r.unit)}</small>
+                  ) : null}
                 </li>
               ))}
             </ul>
@@ -163,32 +213,53 @@ export function Home({ offline }: { offline: OfflineState }) {
         <section className="panel supply-overview">
           <div className="section-heading">
             <h2>Water & food on hand</h2>
-            <a className="text-link" href="#/supplies">Supplies <ArrowUpRight size={15} /></a>
+            <a className="text-link" href="#/supplies">
+              Supplies <ArrowUpRight size={15} />
+            </a>
           </div>
           <div className="supply-metric">
-            <span className="topic-icon water"><Droplets size={21} /></span>
+            <span className="topic-icon water">
+              <Droplets size={21} />
+            </span>
             <div>
               <strong>{fmt(water?.owned || 0, "L")}</strong>
-              <p>of {fmt(water?.required || 0, "L")} drinking water for this plan</p>
+              <p>
+                of {fmt(water?.required || 0, "L")} drinking water for this plan
+              </p>
             </div>
           </div>
           <div className="supply-metric">
-            <span className="topic-icon food"><TopicIcon category="food" /></span>
+            <span className="topic-icon food">
+              <TopicIcon category="food" />
+            </span>
             <div>
-              <strong>{Math.round(food?.owned || 0).toLocaleString()} kcal</strong>
-              <p>of {Math.round(food?.required || 0).toLocaleString()} kcal at {settings.dailyCalories} kcal/person/day (app assumption)</p>
+              <strong>
+                {Math.round(food?.owned || 0).toLocaleString()} kcal
+              </strong>
+              <p>
+                of {Math.round(food?.required || 0).toLocaleString()} kcal at{" "}
+                {settings.dailyCalories} kcal/person/day (app assumption)
+              </p>
             </div>
           </div>
-          <p className="small muted">Counts only Ready, unexpired records. Estimates are not a guaranteed survival time.</p>
+          <p className="small muted">
+            Counts only Ready records within their label / review dates. Estimates are not a guaranteed
+            survival time.
+          </p>
         </section>
       </div>
       {due.length > 0 && (
         <section className="panel reminders">
-          <h2><Clock size={18} /> Due soon</h2>
+          <h2>
+            <Clock size={18} /> Due soon
+          </h2>
           <ul>
             {due.slice(0, 5).map((r) => (
               <li key={r.id} className={r.due < today ? "overdue" : ""}>
-                <a href={"#/" + r.link}>{r.text}</a> <small>{r.due < today ? `overdue since ${r.due}` : `due ${r.due}`}</small>
+                <a href={"#/" + r.link}>{r.text}</a>{" "}
+                <small>
+                  {r.due < today ? `overdue since ${r.due}` : `due ${r.due}`}
+                </small>
               </li>
             ))}
           </ul>
@@ -196,10 +267,30 @@ export function Home({ offline }: { offline: OfflineState }) {
       )}
       <div className="shortcut-grid">
         {[
-          { to: "water", icon: Droplets, title: "Water safety", text: "Advisories, boiling, bleach tables, Michigan wells." },
-          { to: "map", icon: MapPin, title: "Offline Michigan map", text: "Search towns, save meeting places." },
-          { to: "meals", icon: CookingPot, title: "Pantry meals", text: "No-cook recipes and a 14-day plan." },
-          { to: "garden", icon: Sprout, title: "Grow food", text: "Michigan frost dates and hardy crops." },
+          {
+            to: "water",
+            icon: Droplets,
+            title: "Water safety",
+            text: "Advisories, boiling, bleach tables, Michigan wells.",
+          },
+          {
+            to: "map",
+            icon: MapPin,
+            title: "Offline Michigan map",
+            text: "Search towns, save meeting places.",
+          },
+          {
+            to: "meals",
+            icon: CookingPot,
+            title: "Pantry meals",
+            text: "No-cook recipes and a 14-day plan.",
+          },
+          {
+            to: "garden",
+            icon: Sprout,
+            title: "Grow food",
+            text: "Michigan frost dates and hardy crops.",
+          },
         ].map((x) => (
           <a key={x.to} href={"#/" + x.to} className="panel shortcut">
             <x.icon size={24} />
@@ -212,7 +303,12 @@ export function Home({ offline }: { offline: OfflineState }) {
         <>
           <SectionHeading title="Saved guides" />
           <div className="guide-grid">
-            {guides.filter((g) => favorites.some((f) => f.id === g.id)).slice(0, 3).map((g) => <GuideCard guide={g} key={g.id} />)}
+            {guides
+              .filter((g) => favorites.some((f) => f.id === g.id))
+              .slice(0, 3)
+              .map((g) => (
+                <GuideCard guide={g} key={g.id} />
+              ))}
           </div>
         </>
       )}
@@ -281,10 +377,7 @@ export function Library() {
   const [onlySaved, setOnlySaved] = useState(false);
   const favorites = useLiveQuery(() => db.favorites.toArray(), []) || [];
   const recent =
-    useLiveQuery(
-      () => db.recents.byIndex("date", "prev", 4),
-      [],
-    ) || [];
+    useLiveQuery(() => db.recents.byIndex("date", "prev", 4), []) || [];
   const results = useMemo(
     () =>
       searchGuides(guides, query, category).filter(
@@ -507,7 +600,7 @@ export function Article({ id }: { id: string }) {
           <section className="sources">
             <h2>Sources & review</h2>
             <p className="small">
-              Source-checked {g.updated}. Educational guidance, not individual
+              Content updated {g.updated}. Educational guidance, not individual
               medical advice. No claim of professional clinical or
               emergency-management review.
             </p>
@@ -517,7 +610,7 @@ export function Article({ id }: { id: string }) {
                   {source.organization}: {source.title}
                   <ArrowUpRight size={13} />
                 </a>
-                <small>Checked {source.verified} · opens online</small>
+                <small>Reference record {source.verified} · opens online</small>
               </div>
             ))}
           </section>
@@ -582,11 +675,29 @@ export function Tools() {
     calories: Math.round(foodRow?.owned || 0),
     dailyCalories: settings.dailyCalories,
   });
-  const [values, setValues] = useState({ ...fromPlan(), capacity: 250, watts: 10, loss: 15, hours: 5, rate: 0, minutes: 30, fuelDays: 14 });
+  const [values, setValues] = useState({
+    ...fromPlan(),
+    capacity: 250,
+    watts: 10,
+    loss: 15,
+    hours: 5,
+    rate: 0,
+    minutes: 30,
+    fuelDays: 14,
+  });
   const [touched, setTouched] = useState(false);
   useEffect(() => {
     if (!touched) setValues((v) => ({ ...v, ...fromPlan() }));
-  }, [drinking?.owned, drinking?.rate, hygiene?.rate, foodRow?.owned, settings.people, settings.days, settings.petWaterLiters, settings.dailyCalories]);
+  }, [
+    drinking?.owned,
+    drinking?.rate,
+    hygiene?.rate,
+    foodRow?.owned,
+    settings.people,
+    settings.days,
+    settings.petWaterLiters,
+    settings.dailyCalories,
+  ]);
   const field = (label: string, key: keyof typeof values, hint?: string) => (
     <Field label={label} hint={hint}>
       <input
@@ -596,7 +707,10 @@ export function Tools() {
         value={values[key]}
         onChange={(e) => {
           setTouched(true);
-          setValues((v) => ({ ...v, [key]: e.target.value === "" ? 0 : Number(e.target.value) }));
+          setValues((v) => ({
+            ...v,
+            [key]: e.target.value === "" ? 0 : Number(e.target.value),
+          }));
         }}
       />
     </Field>
@@ -604,43 +718,92 @@ export function Tools() {
   let result: ReactNode;
   try {
     if (tab === "water") {
-      const r = water(values.people, values.days, values.available, values.petWater, values.extra, values.baseline);
+      const r = water(
+        values.people,
+        values.days,
+        values.available,
+        values.petWater,
+        values.extra,
+        values.baseline,
+      );
       result = (
         <>
-          <strong>{r.needed.toFixed(1)}<small>liters to plan for ({(r.needed / LITERS_PER_GALLON).toFixed(1)} gal)</small></strong>
+          <strong>
+            {r.needed.toFixed(1)}
+            <small>
+              liters to plan for ({(r.needed / LITERS_PER_GALLON).toFixed(1)}{" "}
+              gal)
+            </small>
+          </strong>
           <dl>
-            <div><dt>Estimated coverage</dt><dd>{r.coverage.toFixed(1)} days</dd></div>
-            <div><dt>Remaining gap</dt><dd>{r.gap.toFixed(1)} L</dd></div>
-            <div><dt>Daily total</dt><dd>{r.daily.toFixed(2)} L</dd></div>
+            <div>
+              <dt>Estimated coverage</dt>
+              <dd>{r.coverage.toFixed(1)} days</dd>
+            </div>
+            <div>
+              <dt>Remaining gap</dt>
+              <dd>{r.gap.toFixed(1)} L</dd>
+            </div>
+            <div>
+              <dt>Daily total</dt>
+              <dd>{r.daily.toFixed(2)} L</dd>
+            </div>
           </dl>
-          <p className="small">Coverage is an estimate at these assumptions, not a guaranteed safe survival time.</p>
+          <p className="small">
+            Coverage is an estimate at these assumptions, not a guaranteed safe
+            survival time.
+          </p>
         </>
       );
     } else if (tab === "food") {
       const r = food(values.calories, values.people, values.dailyCalories);
       result = (
         <>
-          <strong>{r.duration.toFixed(1)}<small>estimated days of calories</small></strong>
-          <p>{r.calories.toLocaleString()} kcal ÷ {values.people} people ÷ {values.dailyCalories} kcal/day.</p>
+          <strong>
+            {r.duration.toFixed(1)}
+            <small>estimated days of calories</small>
+          </strong>
+          <p>
+            {r.calories.toLocaleString()} kcal ÷ {values.people} people ÷{" "}
+            {values.dailyCalories} kcal/day.
+          </p>
         </>
       );
     } else if (tab === "power") {
       const r = power(values.capacity, values.watts, values.loss, values.hours);
       result = (
         <>
-          <strong>{r.runtime.toFixed(1)}<small>estimated continuous hours</small></strong>
+          <strong>
+            {r.runtime.toFixed(1)}
+            <small>estimated continuous hours</small>
+          </strong>
           <dl>
-            <div><dt>Usable energy after losses</dt><dd>{r.usable.toFixed(1)} Wh</dd></div>
-            <div><dt>Energy for chosen daily use</dt><dd>{r.daily.toFixed(1)} Wh</dd></div>
-            <div><dt>Energy remaining after one day</dt><dd>{r.remaining.toFixed(1)} Wh</dd></div>
+            <div>
+              <dt>Usable energy after losses</dt>
+              <dd>{r.usable.toFixed(1)} Wh</dd>
+            </div>
+            <div>
+              <dt>Energy for chosen daily use</dt>
+              <dd>{r.daily.toFixed(1)} Wh</dd>
+            </div>
+            <div>
+              <dt>Energy remaining after one day</dt>
+              <dd>{r.remaining.toFixed(1)} Wh</dd>
+            </div>
           </dl>
         </>
       );
     } else if (tab === "fuel")
       result = (
         <>
-          <strong>{fuel(values.rate, values.minutes, values.fuelDays).toFixed(0)}<small>grams of fuel estimated</small></strong>
-          <p>Your appliance's published consumption × hours/day × days. Add a reserve for wind and cold, which raise consumption.</p>
+          <strong>
+            {fuel(values.rate, values.minutes, values.fuelDays).toFixed(0)}
+            <small>grams of fuel estimated</small>
+          </strong>
+          <p>
+            Your appliance's published consumption × hours/day × days. Add a
+            reserve for wind and cold, which raise consumption.
+          </p>
         </>
       );
   } catch (e) {
@@ -648,10 +811,20 @@ export function Tools() {
   }
   return (
     <>
-      <PageTitle eyebrow="WHAT-IF ESTIMATES" title="Calculators." description="Start from your saved household plan, then try other numbers. Changes here are not saved; edit your plan on the Checklist." />
+      <PageTitle
+        eyebrow="WHAT-IF ESTIMATES"
+        title="Calculators."
+        description="Start from your saved household plan, then try other numbers. Changes here are not saved; edit your plan on the Checklist."
+      />
       <div className="tabs" role="tablist" aria-label="Calculator">
         {["water", "food", "power", "fuel"].map((x) => (
-          <button role="tab" aria-selected={tab === x} className={tab === x ? "active" : ""} onClick={() => setTab(x)} key={x}>
+          <button
+            role="tab"
+            aria-selected={tab === x}
+            className={tab === x ? "active" : ""}
+            onClick={() => setTab(x)}
+            key={x}
+          >
             {x[0].toUpperCase() + x.slice(1)}
           </button>
         ))}
@@ -660,7 +833,13 @@ export function Tools() {
         <section className="panel">
           <h2>{tab[0].toUpperCase() + tab.slice(1)} calculator</h2>
           {touched && (
-            <button className="text-link" onClick={() => { setTouched(false); setValues((v) => ({ ...v, ...fromPlan() })); }}>
+            <button
+              className="text-link"
+              onClick={() => {
+                setTouched(false);
+                setValues((v) => ({ ...v, ...fromPlan() }));
+              }}
+            >
               Reset to my saved plan
             </button>
           )}
@@ -669,22 +848,46 @@ export function Tools() {
               <>
                 {field("People", "people")}
                 {field("Days", "days")}
-                {field("Usable drinking water on hand (L)", "available", "From your inventory.")}
-                {field("Drinking & basic use per person / day (L)", "baseline", "CDC/Ready.gov baseline: 1 US gallon ≈ 3.785 L.")}
-                {field("All pets combined / day (L)", "petWater", "Your pets' usual intake; no universal figure.")}
-                {field("Extra household water / day (L)", "extra", "Your hygiene allowance (people × checklist amount).")}
+                {field(
+                  "Usable drinking water on hand (L)",
+                  "available",
+                  "From your inventory.",
+                )}
+                {field(
+                  "Drinking & basic use per person / day (L)",
+                  "baseline",
+                  "CDC/Ready.gov baseline: 1 US gallon ≈ 3.785 L.",
+                )}
+                {field(
+                  "All pets combined / day (L)",
+                  "petWater",
+                  "Your pets' usual intake; no universal figure.",
+                )}
+                {field(
+                  "Extra household water / day (L)",
+                  "extra",
+                  "Your hygiene allowance (people × checklist amount).",
+                )}
               </>
             )}
             {tab === "food" && (
               <>
                 {field("People", "people")}
                 {field("Usable calories on hand (kcal)", "calories")}
-                {field("Calories per person / day", "dailyCalories", "App planning assumption.")}
+                {field(
+                  "Calories per person / day",
+                  "dailyCalories",
+                  "App planning assumption.",
+                )}
               </>
             )}
             {tab === "power" && (
               <>
-                {field("Rated battery energy (Wh)", "capacity", "Use Wh, not mAh.")}
+                {field(
+                  "Rated battery energy (Wh)",
+                  "capacity",
+                  "Use Wh, not mAh.",
+                )}
                 {field("Device draw (W)", "watts")}
                 {field("Total losses / reserve (%)", "loss")}
                 {field("Device use per day (hours)", "hours")}
@@ -692,22 +895,33 @@ export function Tools() {
             )}
             {tab === "fuel" && (
               <>
-                {field("Your appliance's published consumption (g/hour)", "rate", "From the stove or fuel manual. There is no universal burn rate.")}
+                {field(
+                  "Your appliance's published consumption (g/hour)",
+                  "rate",
+                  "From the stove or fuel manual. There is no universal burn rate.",
+                )}
                 {field("Minutes used per day", "minutes")}
                 {field("Days", "fuelDays")}
               </>
             )}
           </div>
-          {tab === "water" && <p className="small muted">Same assumptions as the checklist and Water page. <a href="#/water">Water safety</a></p>}
+          {tab === "water" && (
+            <p className="small muted">
+              Same assumptions as the checklist and Water page.{" "}
+              <a href="#/water">Water safety</a>
+            </p>
+          )}
           {tab === "power" && (
             <Callout>
-              Runtime is approximate. Check voltage, connector and output ratings. Power banks do not run high-wattage appliances. Medical equipment
-              needs an individual backup plan.
+              Runtime is approximate. Check voltage, connector and output
+              ratings. Power banks do not run high-wattage appliances. Medical
+              equipment needs an individual backup plan.
             </Callout>
           )}
           {tab === "fuel" && (
             <Callout danger>
-              Outdoor camp stoves, grills and generators must never be used indoors or in garages. Opening a window does not make it safe.
+              Outdoor camp stoves, grills and generators must never be used
+              indoors or in garages. Opening a window does not make it safe.
             </Callout>
           )}
         </section>

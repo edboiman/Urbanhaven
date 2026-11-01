@@ -1,0 +1,471 @@
+[
+  {
+    "id": "chickpea-tomato-couscous",
+    "name": "Chickpea and tomato couscous pot",
+    "servings": 2,
+    "minutes": 15,
+    "ingredients": [
+      "1 can chickpeas, 15 oz / 425 g, drained",
+      "1 can diced tomatoes, 14.5 oz / 411 g, with juice",
+      "1 cup / about 170 g plain instant couscous",
+      "3/4 cup / 180 mL potable water, plus extra if the couscous label requires it",
+      "1 tablespoon cooking oil",
+      "1 teaspoon dried mixed herbs"
+    ],
+    "equipment": [
+      "Outdoor camp stove or a stable grate over a small permitted campfire",
+      "2-liter flame-suitable pot with lid",
+      "Manual can opener",
+      "Measuring cup and spoon",
+      "Long spoon and heat-resistant gloves"
+    ],
+    "steps": [
+      "Check the couscous directions; this method is for instant couscous that steeps in hot liquid, not pearl couscous.",
+      "Open the cans and empty the chickpeas, tomatoes, water, oil and herbs into the pot. Bring to a gentle boil, stirring.",
+      "Stir in the couscous. If its label calls for more liquid, add that amount of potable water. Remove the pot from heat, cover and steep for the package time, usually about 5 minutes.",
+      "Stir and check that the grains are hydrated. Add a little hot potable water and extend the standing time if needed. This is a soft, spoonable meal; serve immediately."
+    ],
+    "water": "Start with 180 mL added potable water; tomato juice provides additional liquid. Keep about 120 mL extra for adjustment. Drinking, handwashing, dishwashing and any fire-extinguishing water are additional.",
+    "fuel": "One burner, heating the wet ingredients to a boil; the instant couscous then steeps off heat. Wind, altitude and starting temperature change burn time; no universal fuel quantity is assumed.",
+    "leftovers": "Without refrigeration, discard after 2 hours (1 hour above 90°F/32°C); never save overnight.",
+    "safety": [
+      "Outdoors only; never operate a camp stove in a tent, vehicle, garage or building: carbon monoxide can kill.",
+      "Check local fire restrictions; use stable cookware and extinguish any permitted campfire completely.",
+      "Empty cans into cookware; never heat a sealed can or pouch.",
+      "Use commercial ready-to-eat chickpeas, not uncooked dry beans. Check wheat allergens.",
+      "Reheated chilled leftovers must reach 165°F/74°C."
+    ],
+    "tags": [
+      "vegetarian",
+      "vegan",
+      "one-pot",
+      "no draining after cooking",
+      "instant grain",
+      "camp stove",
+      "permitted campfire"
+    ],
+    "sourceUrl": "https://www.foodsafety.gov/keep-food-safe/food-safety-in-disaster-or-emergency"
+  },
+  {
+    "id": "black-bean-corn-rice",
+    "name": "Black bean, corn and ready-rice bowl",
+    "servings": 2,
+    "minutes": 12,
+    "ingredients": [
+      "1 pouch fully cooked shelf-stable rice, about 250 g, with stovetop directions",
+      "1 can black beans, 15 oz / 425 g, drained",
+      "1 small can corn, about 8.5 oz / 240 g, with liquid",
+      "1/4 cup / 60 mL potable water",
+      "1 tablespoon cooking oil",
+      "1/2 teaspoon smoked paprika or mild cumin"
+    ],
+    "equipment": [
+      "Outdoor camp stove or stable grate over a permitted campfire",
+      "2-liter pot or deep skillet with lid",
+      "Manual can opener",
+      "Measuring cup",
+      "Long spoon and heat-resistant gloves"
+    ],
+    "steps": [
+      "Read the rice pouch's stovetop directions. Open the pouch and break up the rice; never heat the closed pouch over a flame.",
+      "Empty the beans, corn with its liquid, water, oil and seasoning into the pot. Heat gently, stirring.",
+      "Add the rice. Cover and warm on low heat, stirring frequently, following the pouch's stovetop time and any additional liquid instructions.",
+      "When the food is hot throughout, serve immediately. If it begins sticking, lower the heat and add potable water one tablespoon at a time."
+    ],
+    "water": "60 mL added water to start; reserve another 60 mL for sticking or the pouch directions. Corn liquid is retained. Cleanup, drinking and fire safety need separate water.",
+    "fuel": "A brief low-heat warm-up on one burner; rice is already cooked. This will not use the same fuel as cooking dry rice. Test your stove and chosen pouch before relying on the time estimate.",
+    "leftovers": "Without refrigeration, discard after 2 hours (1 hour above 90°F/32°C); never save overnight.",
+    "safety": [
+      "Outdoors only; never operate a camp stove in a tent, vehicle, garage or building: carbon monoxide can kill.",
+      "Check local fire restrictions; use stable cookware and extinguish any permitted campfire completely.",
+      "Empty cans and pouches into cookware; never heat sealed containers.",
+      "Use fully cooked rice intended for this heating method; dry rice is not a direct substitute.",
+      "Reheated chilled leftovers must reach 165°F/74°C."
+    ],
+    "tags": [
+      "vegetarian",
+      "vegan",
+      "one-pot",
+      "low added water",
+      "fully cooked rice",
+      "camp stove",
+      "permitted campfire"
+    ],
+    "sourceUrl": "https://www.foodsafety.gov/keep-food-safe/food-safety-in-disaster-or-emergency"
+  },
+  {
+    "id": "white-bean-tomato-soup",
+    "name": "White bean and tomato soup",
+    "servings": 2,
+    "minutes": 12,
+    "ingredients": [
+      "1 can white beans, 15 oz / 425 g, with liquid",
+      "1 can diced tomatoes, 14.5 oz / 411 g, with juice",
+      "1/2 cup / 120 mL potable water",
+      "1 tablespoon cooking oil",
+      "1 teaspoon dried oregano",
+      "Whole-grain crackers to serve, about 60 g"
+    ],
+    "equipment": [
+      "Outdoor camp stove or stable grate over a permitted campfire",
+      "2-liter pot with lid",
+      "Manual can opener",
+      "Measuring cup",
+      "Long spoon and heat-resistant gloves"
+    ],
+    "steps": [
+      "Open the cans and pour the beans, tomatoes and their liquids into the pot.",
+      "Stir in the water, oil and oregano. Mash a few beans against the side with the spoon to thicken the soup.",
+      "Bring to a gentle boil, stirring, then lower the heat and simmer for about 5 minutes. Follow any product-specific heating directions.",
+      "Serve immediately with crackers. Add a little potable water if a thinner soup is preferred."
+    ],
+    "water": "120 mL added water; allow up to 120 mL more for a thinner soup. Packing liquids remain in the dish. Drinking and cleaning water and fire-extinguishing water are separate.",
+    "fuel": "One burner to bring the soup to a boil, then about 5 minutes at a gentle simmer. Use a lid between stirs. Actual consumption depends on stove output, weather and pot size.",
+    "leftovers": "Without refrigeration, discard after 2 hours (1 hour above 90°F/32°C); never save overnight.",
+    "safety": [
+      "Outdoors only; never operate a camp stove in a tent, vehicle, garage or building: carbon monoxide can kill.",
+      "Check local fire restrictions; use stable cookware and extinguish any permitted campfire completely.",
+      "Empty cans into cookware; never heat a sealed can.",
+      "Choose lower-sodium beans and tomatoes if retaining the liquid; check cracker allergens.",
+      "Reheated chilled leftovers must reach 165°F/74°C; bring reheated soup to a boil."
+    ],
+    "tags": [
+      "vegetarian",
+      "vegan",
+      "one-pot",
+      "soup",
+      "no drained cooking water",
+      "camp stove",
+      "permitted campfire"
+    ],
+    "sourceUrl": "https://ask.fsis.usda.gov/article/What-methods-of-reheating-food-are-safe"
+  },
+  {
+    "id": "salmon-creamy-potatoes",
+    "name": "Creamy salmon and canned potatoes",
+    "servings": 2,
+    "minutes": 15,
+    "ingredients": [
+      "1 can cooked potatoes, about 15 oz / 425 g, drained",
+      "1 can salmon, about 5 oz / 142 g, drained",
+      "1 single-serve shelf-stable milk carton, 200 mL",
+      "1 tablespoon cooking oil",
+      "1/2 teaspoon dried dill",
+      "Whole-grain crackers to serve, about 60 g",
+      "Up to 1/4 cup / 60 mL potable water if needed"
+    ],
+    "equipment": [
+      "Outdoor camp stove or stable grate over a permitted campfire",
+      "1.5–2-liter pot",
+      "Manual can opener",
+      "Sturdy spoon or fork for mashing",
+      "Heat-resistant gloves"
+    ],
+    "steps": [
+      "Open the potatoes and salmon. Put the drained potatoes, the entire milk carton and oil into the pot; break the potatoes into smaller pieces with a spoon.",
+      "Heat gently while stirring until the potatoes and milk are hot. Mash lightly for a thick, chunky consistency; do not let the milk scorch.",
+      "Flake in the salmon and add dill. If using canned salmon with edible bones, mash those bones thoroughly; remove any unexpected hard fragments.",
+      "Warm through, following the salmon label if it specifies heating, and serve immediately with crackers. Use a splash of potable water if the mixture is too thick."
+    ],
+    "water": "Usually no added cooking water; reserve 60 mL to loosen the mash. The 200 mL milk carton is used completely. Allow separate water for cleaning, drinking and fire safety.",
+    "fuel": "One low burner to warm already cooked potatoes and salmon; stir often because milk scorches easily. Flame strength and pan material change time and fuel use.",
+    "leftovers": "Without refrigeration, discard after 2 hours (1 hour above 90°F/32°C); never save overnight.",
+    "safety": [
+      "Outdoors only; never operate a camp stove in a tent, vehicle, garage or building: carbon monoxide can kill.",
+      "Check local fire restrictions; use stable cookware and extinguish any permitted campfire completely.",
+      "Empty cans and milk carton into cookware; never heat a sealed container.",
+      "Contains fish and milk; check cracker ingredients. The milk becomes perishable once opened.",
+      "Reheated chilled leftovers must reach 165°F/74°C."
+    ],
+    "tags": [
+      "fish",
+      "one-pot",
+      "low added water",
+      "calcium food",
+      "camp stove",
+      "permitted campfire"
+    ],
+    "sourceUrl": "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage"
+  },
+  {
+    "id": "peanut-chickpea-noodles",
+    "name": "Peanut, chickpea and noodle stew",
+    "servings": 2,
+    "minutes": 15,
+    "ingredients": [
+      "120 g quick-cooking dry noodles, with a 3–5-minute package cook time",
+      "1 can chickpeas, 15 oz / 425 g, drained",
+      "1 small can carrots, about 8.5 oz / 240 g, with liquid",
+      "3 tablespoons shelf-stable smooth peanut butter",
+      "2 cups / 480 mL potable water, plus any extra required by the noodles",
+      "Optional: 1 small soy-sauce packet, about 5 mL"
+    ],
+    "equipment": [
+      "Outdoor camp stove or stable grate over a permitted campfire",
+      "2-liter pot with lid",
+      "Manual can opener",
+      "Measuring cup and spoon",
+      "Long spoon and heat-resistant gloves"
+    ],
+    "steps": [
+      "Read the noodle instructions. Choose noodles that can be boiled directly in soup; discard an unwanted seasoning sachet rather than automatically adding its salt.",
+      "Empty the carrots and their liquid into the pot. Add the water and bring to a boil.",
+      "Add noodles and chickpeas. Cook at the boil or simmer specified by the noodle package for its full time, stirring and adding potable water if needed to keep the noodles submerged.",
+      "Remove from heat. Stir a few spoonfuls of hot liquid into the peanut butter, then stir it back into the pot. Add optional soy sauce, mix well and eat immediately; no draining is needed."
+    ],
+    "water": "480 mL added water to start; reserve at least 120 mL more for the noodle label or a thinner stew. Carrot liquid also remains in the pot. Cleaning, drinking and extinguishing a fire require additional water.",
+    "fuel": "One boil followed by the chosen noodles' full cooking time; thicker noodles can need longer and more water. There is no fixed grams-of-fuel allowance for all stoves or conditions.",
+    "leftovers": "Without refrigeration, discard after 2 hours (1 hour above 90°F/32°C); never save overnight.",
+    "safety": [
+      "Outdoors only; never operate a camp stove in a tent, vehicle, garage or building: carbon monoxide can kill.",
+      "Check local fire restrictions; use stable cookware and extinguish any permitted campfire completely.",
+      "Empty cans into cookware; never heat a sealed can.",
+      "Contains peanuts and often wheat, soy or egg; read every label. Use commercially cooked chickpeas.",
+      "Reheated chilled leftovers must reach 165°F/74°C."
+    ],
+    "tags": [
+      "vegetarian",
+      "one-pot",
+      "no draining",
+      "noodles",
+      "peanut",
+      "camp stove",
+      "permitted campfire"
+    ],
+    "sourceUrl": "https://www.foodsafety.gov/keep-food-safe/food-safety-in-disaster-or-emergency"
+  },
+  {
+    "id": "lentil-spinach-curry",
+    "name": "Lentil and spinach coconut curry",
+    "servings": 2,
+    "minutes": 15,
+    "ingredients": [
+      "1 can cooked lentils, 15 oz / 425 g, with liquid",
+      "1 can spinach, about 13.5 oz / 380 g, drained",
+      "1 small can coconut milk, about 5.6 oz / 165 mL",
+      "1 teaspoon mild curry powder",
+      "Whole-grain crackers to serve, about 60 g",
+      "Up to 1/4 cup / 60 mL potable water if needed"
+    ],
+    "equipment": [
+      "Outdoor camp stove or stable grate over a permitted campfire",
+      "2-liter pot with lid",
+      "Manual can opener",
+      "Long spoon and heat-resistant gloves"
+    ],
+    "steps": [
+      "Open the lentils, spinach and coconut milk and empty them into the pot, keeping the lentil liquid. Break up the spinach with the spoon.",
+      "Stir in curry powder and heat gently while stirring. If the lentils are unusually dry, add a little potable water.",
+      "Bring to a gentle simmer and cook about 5 minutes, stirring regularly and following any package heating instruction.",
+      "Serve hot with crackers and eat immediately. This recipe uses fully cooked canned lentils; dry lentils require a different water amount and cooking time."
+    ],
+    "water": "No added water may be needed; reserve 60 mL for consistency and sticking. All coconut milk and lentil liquid are used. Budget separately for drinking, handwashing, dishes and fire safety.",
+    "fuel": "One burner for a gentle warm-up and short simmer; avoid high heat that scorches thick food. Local conditions and the stove determine actual consumption.",
+    "leftovers": "Without refrigeration, discard after 2 hours (1 hour above 90°F/32°C); never save overnight.",
+    "safety": [
+      "Outdoors only; never operate a camp stove in a tent, vehicle, garage or building: carbon monoxide can kill.",
+      "Check local fire restrictions; use stable cookware and extinguish any permitted campfire completely.",
+      "Empty cans into cookware; never heat a sealed can.",
+      "Check coconut, curry-blend and cracker ingredients for household allergies. Opened coconut milk requires refrigeration if kept.",
+      "Reheated chilled leftovers must reach 165°F/74°C."
+    ],
+    "tags": [
+      "vegetarian",
+      "vegan",
+      "one-pot",
+      "low added water",
+      "curry",
+      "camp stove",
+      "permitted campfire"
+    ],
+    "sourceUrl": "https://www.foodsafety.gov/keep-food-safe/food-safety-in-disaster-or-emergency"
+  },
+  {
+    "id": "fruit-milk-oatmeal",
+    "name": "Fruit and milk oatmeal",
+    "servings": 2,
+    "minutes": 12,
+    "ingredients": [
+      "1 cup / about 90 g rolled oats, not steel-cut oats",
+      "1 single-serve shelf-stable milk or fortified soy beverage carton, 200 mL",
+      "1 cup / 240 mL potable water",
+      "1 small can peaches or pears in juice, about 8.25 oz / 234 g, with juice",
+      "2 tablespoons tolerated nut or seed butter",
+      "Optional: a pinch of cinnamon"
+    ],
+    "equipment": [
+      "Outdoor camp stove or stable grate over a permitted campfire",
+      "2-liter pot",
+      "Manual can opener",
+      "Measuring cup and spoon",
+      "Long spoon and heat-resistant gloves"
+    ],
+    "steps": [
+      "Open the fruit and milk. Pour all the milk, water, fruit and juice into the pot. Break up large fruit pieces with the spoon.",
+      "Bring just to a gentle boil, stirring. Add oats and reduce the heat to prevent boil-over.",
+      "Cook for the oats' package time, often about 5 minutes for rolled oats, stirring frequently. Add potable water if needed for the package's liquid ratio or a softer porridge.",
+      "Remove from heat, stir in nut or seed butter and optional cinnamon, and eat immediately. Steel-cut oats need substantially different cooking and water planning."
+    ],
+    "water": "240 mL added water, plus about 60–120 mL reserve depending on oats and preferred thickness. Milk and fruit juice provide additional liquid. Drinking and cleanup water and campfire extinguishing are separate.",
+    "fuel": "One gentle boil and the oats' package simmer time. Milk and oats need low heat and stirring; high flame wastes fuel and can burn the bottom.",
+    "leftovers": "Without refrigeration, discard after 2 hours (1 hour above 90°F/32°C); never save overnight.",
+    "safety": [
+      "Outdoors only; never operate a camp stove in a tent, vehicle, garage or building: carbon monoxide can kill.",
+      "Check local fire restrictions; use stable cookware and extinguish any permitted campfire completely.",
+      "Empty cans and cartons into cookware; never heat sealed containers.",
+      "Contains milk or soy and possibly nuts; check oats for relevant gluten labeling. Opened milk is perishable.",
+      "Reheated chilled leftovers must reach 165°F/74°C."
+    ],
+    "tags": [
+      "vegetarian",
+      "one-pot",
+      "breakfast",
+      "oats",
+      "calcium food",
+      "camp stove",
+      "permitted campfire"
+    ],
+    "sourceUrl": "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage"
+  },
+  {
+    "id": "corn-bean-chowder",
+    "name": "Corn and white bean chowder",
+    "servings": 2,
+    "minutes": 12,
+    "ingredients": [
+      "1 can white beans, 15 oz / 425 g, with liquid",
+      "1 small can corn, about 8.5 oz / 240 g, with liquid",
+      "1 single-serve shelf-stable milk or fortified soy beverage carton, 200 mL",
+      "1 tablespoon cooking oil",
+      "1/2 teaspoon mild paprika",
+      "Whole-grain crackers to serve, about 60 g"
+    ],
+    "equipment": [
+      "Outdoor camp stove or stable grate over a permitted campfire",
+      "2-liter pot",
+      "Manual can opener",
+      "Sturdy spoon",
+      "Heat-resistant gloves"
+    ],
+    "steps": [
+      "Open and empty the beans, corn, their liquids and the entire milk carton into the pot.",
+      "Add oil and paprika. Mash roughly a quarter of the beans with the spoon to thicken the chowder.",
+      "Heat gently while stirring until hot throughout and gently bubbling. Follow any product-specific heating directions and avoid scorching the milk.",
+      "Serve immediately with crackers. Add a small splash of potable water only if the mixture is too thick."
+    ],
+    "water": "Usually no added cooking water; keep 60 mL potable water available for adjustment. Packing liquids and 200 mL milk remain in the meal. Allow additional water for hygiene, dishes, drinking and fire safety.",
+    "fuel": "A short low-heat warm-up on one burner; all solid ingredients are already cooked. Choose a controllable heat source; no fixed stove-fuel volume is claimed.",
+    "leftovers": "Without refrigeration, discard after 2 hours (1 hour above 90°F/32°C); never save overnight.",
+    "safety": [
+      "Outdoors only; never operate a camp stove in a tent, vehicle, garage or building: carbon monoxide can kill.",
+      "Check local fire restrictions; use stable cookware and extinguish any permitted campfire completely.",
+      "Empty cans and milk carton into cookware; never heat sealed containers.",
+      "Contains milk or soy; check cracker allergens. Choose lower-sodium cans when retaining their liquids.",
+      "Reheated chilled leftovers must reach 165°F/74°C; bring reheated chowder to a boil."
+    ],
+    "tags": [
+      "vegetarian",
+      "one-pot",
+      "soup",
+      "low added water",
+      "calcium food",
+      "camp stove",
+      "permitted campfire"
+    ],
+    "sourceUrl": "https://ask.fsis.usda.gov/article/What-methods-of-reheating-food-are-safe"
+  },
+  {
+    "id": "chicken-tomato-pasta-pot",
+    "name": "Chicken and small-pasta tomato pot",
+    "servings": 2,
+    "minutes": 20,
+    "ingredients": [
+      "100 g small dry pasta with a 5–7-minute package cook time",
+      "1 can cooked chicken, about 5 oz / 142 g, with liquid",
+      "1 can diced tomatoes, 14.5 oz / 411 g, with juice",
+      "2 cups / 480 mL potable water, plus reserve as needed",
+      "1 tablespoon cooking oil",
+      "1 teaspoon dried Italian herbs"
+    ],
+    "equipment": [
+      "Outdoor camp stove or stable grate over a permitted campfire",
+      "2-liter pot with lid",
+      "Manual can opener",
+      "Measuring cup",
+      "Long spoon and heat-resistant gloves"
+    ],
+    "steps": [
+      "Open and empty the tomatoes and their juice into the pot. Add water, oil and herbs, and bring to a boil.",
+      "Stir in the pasta. Cook for the package's full time, stirring often so it does not stick. Add potable water as necessary to keep the pasta submerged; the finished dish can be soupy.",
+      "Open and stir in the fully cooked chicken and its liquid. Break up large pieces and continue heating until the chicken is hot throughout, following its label instructions.",
+      "Check that the pasta is cooked, then serve immediately. Do not drain the cooking liquid."
+    ],
+    "water": "480 mL added water initially; reserve another 120–240 mL because pasta shapes and boil-off vary. Tomato and chicken liquids are retained. Drinking, cleaning and fire-extinguishing water are additional.",
+    "fuel": "One boil, the pasta's labeled cook time, then a short chicken warm-up. Regular long-cooking pasta may take more water and fuel; altitude can lengthen cooking.",
+    "leftovers": "Without refrigeration, discard after 2 hours (1 hour above 90°F/32°C); never save overnight.",
+    "safety": [
+      "Outdoors only; never operate a camp stove in a tent, vehicle, garage or building: carbon monoxide can kill.",
+      "Check local fire restrictions; use stable cookware and extinguish any permitted campfire completely.",
+      "Empty cans into cookware; never heat a sealed can.",
+      "This uses canned fully cooked chicken. Raw poultry is not a direct substitute; it requires a verified 165°F/74°C internal temperature. Check wheat or egg allergens.",
+      "Reheated chilled leftovers must reach 165°F/74°C."
+    ],
+    "tags": [
+      "chicken",
+      "one-pot",
+      "no draining",
+      "pasta",
+      "camp stove",
+      "permitted campfire"
+    ],
+    "sourceUrl": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+  },
+  {
+    "id": "bean-potato-pan-hash",
+    "name": "Bean and potato pan hash",
+    "servings": 2,
+    "minutes": 18,
+    "ingredients": [
+      "1 can cooked potatoes, 15 oz / 425 g, drained",
+      "1 can kidney or black beans, 15 oz / 425 g, drained",
+      "1 small can mixed vegetables, about 8.5 oz / 240 g, drained",
+      "1 tablespoon cooking oil",
+      "1/4 cup / 60 mL potable water",
+      "1/2 teaspoon mild paprika or dried herbs"
+    ],
+    "equipment": [
+      "Outdoor camp stove or stable grate over a permitted campfire",
+      "Deep skillet with lid, sized for about 1 kg of food",
+      "Manual can opener",
+      "Sturdy spoon or spatula",
+      "Heat-resistant gloves"
+    ],
+    "steps": [
+      "Open the cans. Drain and put the potatoes, beans and vegetables into the skillet. Break the potatoes into bite-size pieces with the spoon.",
+      "Add oil, water and seasoning. Cover and heat on low to medium, stirring occasionally, until the contents are hot throughout, roughly 5–8 minutes.",
+      "Uncover and continue cooking for about 3–5 minutes while turning gently. A little surface browning is optional; canned ingredients make a soft hash rather than a crisp fried potato dish.",
+      "Follow any product-specific heating instructions and serve immediately. If food sticks before it is hot, reduce the heat and add a small splash of potable water."
+    ],
+    "water": "60 mL added cooking water; reserve another 60 mL if the pan dries out. No rinse is required for the recipe. Drain liquids into an appropriate waste container; budget separately for dishes, drinking and fire safety.",
+    "fuel": "One burner for a covered warm-up and short uncovered finish. A low controllable fire is useful; a large fire or high flame can scorch food before its center warms.",
+    "leftovers": "Without refrigeration, discard after 2 hours (1 hour above 90°F/32°C); never save overnight.",
+    "safety": [
+      "Outdoors only; never operate a camp stove in a tent, vehicle, garage or building: carbon monoxide can kill.",
+      "Check local fire restrictions; use stable cookware and extinguish any permitted campfire completely.",
+      "Empty cans into cookware; never heat a sealed can.",
+      "Use commercially canned cooked beans. Raw dry kidney beans cannot replace them without a separate correct soaking and boiling process.",
+      "Reheated chilled leftovers must reach 165°F/74°C."
+    ],
+    "tags": [
+      "vegetarian",
+      "vegan",
+      "one-pan",
+      "low added water",
+      "potatoes",
+      "camp stove",
+      "permitted campfire",
+      "one-pot"
+    ],
+    "sourceUrl": "https://www.fda.gov/food/chemical-contaminants-pesticides/natural-toxins-food"
+  }
+]

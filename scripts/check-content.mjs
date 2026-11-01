@@ -1,7 +1,7 @@
 import { readFile } from "node:fs/promises";
 import assert from "node:assert/strict";
 const guides = [];
-for (const file of ["health", "infrastructure", "gardening"])
+for (const file of ["health", "infrastructure", "gardening", "medical-prolonged"])
   guides.push(
     ...JSON.parse(await readFile(`src/content/${file}.json`, "utf8")),
   );

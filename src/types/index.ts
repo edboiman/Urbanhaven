@@ -61,6 +61,10 @@ export type Supply = {
   unit: string;
   location: string;
   expires: string;
+  /** Meaning of the entered date; older records need review rather than an inferred safety expiry. */
+  dateKind?: "quality" | "expiry" | "review";
+  /** Only identified self-filled drinking water receives an automatic six-month rotation. */
+  waterType?: "commercial" | "self-filled" | "unknown";
   acquired: string;
   condition: string;
   notes: string;
@@ -87,7 +91,13 @@ export type ConsumptionEntry = {
   date: string;
   amount: number;
   unit: string;
-  reason: "used" | "damaged" | "expired" | "discarded" | "restocked" | "corrected";
+  reason:
+    | "used"
+    | "damaged"
+    | "expired"
+    | "discarded"
+    | "restocked"
+    | "corrected";
   note: string;
 };
 export type Note = {
@@ -110,7 +120,14 @@ export type GardenEntry = {
   notes: string;
   /** v2 fields (optional so v1 records stay valid) */
   method?: string;
-  stage?: "planned" | "sown" | "transplanted" | "growing" | "harvesting" | "finished" | "failed";
+  stage?:
+    | "planned"
+    | "sown"
+    | "transplanted"
+    | "growing"
+    | "harvesting"
+    | "finished"
+    | "failed";
   seedLotId?: string;
   reminderNote?: string;
 };
@@ -143,6 +160,8 @@ export type Crop = {
   water: string;
   containerDepth: string;
   harvestDays: number[];
+  fallHarvestDays?: number[];
+  harvestStage?: string;
   harvestFrom: "sowing" | "transplant" | "planting";
   season: string;
   problems: string;
@@ -163,7 +182,12 @@ export type Crop = {
   seedLife: string;
   varieties: string;
   limits: string;
-  sources: { organization: string; title: string; url: string; verified: string }[];
+  sources: {
+    organization: string;
+    title: string;
+    url: string;
+    verified: string;
+  }[];
 };
 export type LocalDocument = {
   id: string;
@@ -248,7 +272,14 @@ export type ChecklistDefinition = {
   origin: "official" | "app" | "household";
   why: string;
   source?: string;
-  appliesWhen?: "pets" | "infant" | "prescriptions" | "glasses" | "power-medical" | "mobility" | "no-vehicle";
+  appliesWhen?:
+    | "pets"
+    | "infant"
+    | "prescriptions"
+    | "glasses"
+    | "power-medical"
+    | "mobility"
+    | "no-vehicle";
   intervalDays?: number;
   /** Optional items count as not applicable until the household sets an amount. */
   optional?: boolean;
@@ -256,7 +287,17 @@ export type ChecklistDefinition = {
 export type MapMarker = {
   id: string;
   name: string;
-  kind: "meeting" | "contact" | "supply" | "water" | "medical" | "shelter" | "other";
+  kind:
+    | "meeting"
+    | "contact"
+    | "supply"
+    | "water"
+    | "farm"
+    | "medical"
+    | "shelter"
+    | "other";
+  photo?: string;
+  photoCaption?: string;
   lat: number;
   lon: number;
   notes: string;

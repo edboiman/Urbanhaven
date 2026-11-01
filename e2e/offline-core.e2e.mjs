@@ -31,14 +31,14 @@ assert.match(progress, /(\d+) \/ \1 files checked/);
 await ctx.close();
 // Cold offline start: every main route renders from the device.
 ({ ctx, page } = await open(true));
-for (const route of ["", "urgent", "checklist", "supplies", "water", "map", "meals", "garden", "library", "guide/water-boiling", "tools", "notebook", "documents", "offline", "settings"]) {
+for (const route of ["", "urgent", "checklist", "supplies", "storage", "water", "map", "meals", "cooking", "health", "radio", "pets", "garden", "library", "guide/water-boiling", "tools", "notebook", "documents", "offline", "settings"]) {
   await page.goto(base + "#/" + route);
   await page.locator("main h1").first().waitFor({ timeout: 10000 });
 }
 await page.goto(base + "#/documents");
 await page.getByRole("button", { name: "Read here" }).click();
 await page.locator(".pdf-toolbar").waitFor({ timeout: 15000 });
-step("offline cold start: all 15 routes and the bundled PDF reader rendered");
+step("offline cold start: all 20 routes and the bundled PDF reader rendered");
 assert.ok((await page.locator(".network-bar").innerText()).includes("verified"));
 assert.deepEqual(failed, [], "no failed requests offline");
 // Damage one cached file, offline: recheck must fail and must not claim readiness.

@@ -1,9 +1,10 @@
 import health from "./health.json";
+import prolonged from "./medical-prolonged.json";
 import infrastructure from "./infrastructure.json";
 import gardening from "./gardening.json";
 import cropData from "./crops.json";
 import type { Guide, Crop } from "../types";
-export const guides = [...health, ...infrastructure, ...gardening] as Guide[];
+export const guides = [...health, ...infrastructure, ...gardening, ...prolonged] as Guide[];
 for (const guide of guides)
   if (!guide.related.length)
     guide.related = guides

@@ -27,7 +27,9 @@
     "alternatives": [
       "Use dried pantry herbs when water or electricity must be conserved."
     ],
-    "quick": ["Separate pots. Good drainage. Strong light. Small harvests."],
+    "quick": [
+      "Separate pots. Good drainage. Strong light. Small harvests."
+    ],
     "sources": [
       {
         "organization": "Iowa State University Extension and Outreach",
@@ -39,7 +41,11 @@
     "related": [],
     "region": "US",
     "updated": "2026-10-31",
-    "tags": ["windowsill", "herbs", "indoor gardening"]
+    "tags": [
+      "windowsill",
+      "herbs",
+      "indoor gardening"
+    ]
   },
   {
     "id": "farming-indoor-lettuce",
@@ -100,7 +106,7 @@
     "id": "farming-microgreens",
     "title": "Microgreens in a clean shallow tray",
     "category": "farming",
-    "summary": "Microgreens add quick fresh leaves to meals. They are cut above the growing medium and cannot replace an emergency pantry.",
+    "summary": "Microgreens are cut leaves and stems above the growing medium, unlike sprouts eaten whole with seed and root. They offer small fresh supplements, not emergency calories, and raw crops have microbial risks.",
     "when": "Grow with clean equipment, safe water and adequate light.",
     "needs": [
       "Seed sold for edible microgreens, such as radish or broccoli",
@@ -115,7 +121,9 @@
       "When true leaves have expanded, cut above the mix with clean scissors. Rinse with safe water and use promptly or refrigerate. Clean trays before the next batch."
     ],
     "warnings": [
-      "Use only species and seed intended for edible microgreens. Discard a moldy or foul-smelling crop."
+      "Use suitable edible species and seed; never eat treated planting seed. Seed sold for sprouts or microgreens can still carry pathogens, and washing or home sanitation cannot guarantee a safe raw crop.",
+      "Check recalls by product and lot when online; do not use recalled seed or crops grown from it. A packed-for year is not a safety guarantee. Discard a moldy or suspect crop.",
+      "Raw or lightly cooked sprouts are especially risky for children, pregnant people, older adults and people with weakened immunity. This is sprout-specific FDA advice; do not assume microgreens are risk-free."
     ],
     "mistakes": [
       "Using dense garden soil.",
@@ -125,19 +133,37 @@
     "alternatives": [
       "Start a small pot of leaf lettuce if repeated tray sowing is inconvenient."
     ],
-    "quick": ["Clean tray, suitable seed, moist mix, airflow, clean harvest."],
+    "quick": [
+      "Clean tray, suitable seed, moist mix, airflow, clean harvest."
+    ],
     "sources": [
       {
         "organization": "University of Maryland Extension",
         "title": "Growing Microgreens and Baby Greens Indoors",
         "url": "https://extension.umd.edu/resource/growing-microgreens-and-baby-greens-indoors",
         "verified": "2026-10-31"
+      },
+      {
+        "organization": "FDA",
+        "title": "Produce safety and sprouts",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "verified": "2026-11-01"
+      },
+      {
+        "organization": "FDA",
+        "title": "2026 sprout and microgreen seed outbreak investigation",
+        "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-sprouts-september-2026",
+        "verified": "2026-11-01"
       }
     ],
     "related": [],
     "region": "US",
-    "updated": "2026-10-31",
-    "tags": ["microgreens", "indoor vegetables", "fresh greens"]
+    "updated": "2026-11-01",
+    "tags": [
+      "microgreens",
+      "indoor vegetables",
+      "fresh greens"
+    ]
   },
   {
     "id": "farming-containers",
@@ -182,7 +208,11 @@
     "related": [],
     "region": "US",
     "updated": "2026-10-31",
-    "tags": ["container gardening", "patio", "vertical gardening"]
+    "tags": [
+      "container gardening",
+      "patio",
+      "vertical gardening"
+    ]
   },
   {
     "id": "farming-balcony-safety",
@@ -226,7 +256,11 @@
     "related": [],
     "region": "US",
     "updated": "2026-10-31",
-    "tags": ["balcony", "rooftop", "apartment gardening"]
+    "tags": [
+      "balcony",
+      "rooftop",
+      "apartment gardening"
+    ]
   },
   {
     "id": "farming-raised-beds",
@@ -270,7 +304,11 @@
     "related": [],
     "region": "US",
     "updated": "2026-10-31",
-    "tags": ["raised beds", "urban soil", "soil contamination"]
+    "tags": [
+      "raised beds",
+      "urban soil",
+      "soil contamination"
+    ]
   },
   {
     "id": "farming-soil-compost",
@@ -300,7 +338,9 @@
     "alternatives": [
       "Use a municipal organics drop-off or buy finished compost if you cannot maintain a suitable pile."
     ],
-    "quick": ["Suitable scraps, more browns, moisture and air."],
+    "quick": [
+      "Suitable scraps, more browns, moisture and air."
+    ],
     "sources": [
       {
         "organization": "US Environmental Protection Agency",
@@ -312,7 +352,11 @@
     "related": [],
     "region": "US",
     "updated": "2026-10-31",
-    "tags": ["composting", "soil", "food scraps"]
+    "tags": [
+      "composting",
+      "soil",
+      "food scraps"
+    ]
   },
   {
     "id": "farming-seed-starting",
@@ -357,7 +401,11 @@
     "related": [],
     "region": "US",
     "updated": "2026-10-31",
-    "tags": ["seed starting", "transplants", "grow lights"]
+    "tags": [
+      "seed starting",
+      "transplants",
+      "grow lights"
+    ]
   },
   {
     "id": "farming-great-lakes-calendar",
@@ -413,7 +461,12 @@
     "related": [],
     "region": "Michigan / Great Lakes",
     "updated": "2026-10-31",
-    "tags": ["Michigan", "Great Lakes", "planting calendar", "frost dates"]
+    "tags": [
+      "Michigan",
+      "Great Lakes",
+      "planting calendar",
+      "frost dates"
+    ]
   },
   {
     "id": "farming-winter-growing",
@@ -458,6 +511,10 @@
     "related": [],
     "region": "Michigan / Great Lakes",
     "updated": "2026-10-31",
-    "tags": ["winter gardening", "hydroponics", "indoor lighting"]
+    "tags": [
+      "winter gardening",
+      "hydroponics",
+      "indoor lighting"
+    ]
   }
 ]

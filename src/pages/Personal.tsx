@@ -520,7 +520,10 @@ function PDFReader({ document: record }: { document: LocalDocument }) {
     void (async () => {
       try {
         const pdf = await import("pdfjs-dist");
-        pdf.GlobalWorkerOptions.workerSrc = new URL(__PDF_WORKER__, new URL(import.meta.env.BASE_URL, location.href)).href;
+        pdf.GlobalWorkerOptions.workerSrc = new URL(
+          __PDF_WORKER__,
+          new URL(import.meta.env.BASE_URL, location.href),
+        ).href;
         const local = new URL(import.meta.env.BASE_URL, location.href);
         task = pdf.getDocument({
           data: new Uint8Array(await record.bytes.arrayBuffer()),
@@ -742,11 +745,13 @@ export function Offline({
             </li>
             <li>
               <Check size={17} />
-              14-day checklist, water guide, pantry meals, calculators & emergency workflows
+              14-day checklist, water guide, pantry meals, calculators &
+              emergency workflows
             </li>
             <li>
               <Check size={17} />
-              Michigan overview map, map catalog and {crops.length} crop profiles with frost-date table
+              Michigan overview map, map catalog and {crops.length} crop
+              profiles with frost-date table
             </li>
             <li>
               <Check size={17} />
@@ -915,6 +920,11 @@ export function Preferences() {
         </section>
         <section className="panel">
           <h2>Make a portable backup</h2>
+          <p className="small">
+            Backups include private marker photos, waypoint paths, radio presets
+            and pet records. They are not encrypted. The sensitive checkbox
+            below only filters notebook entries.
+          </p>
           <p>
             Export supplies, checklist choices, usage history, map markers,
             garden, seed and harvest records, meal plan, saved guides, settings
@@ -1037,9 +1047,9 @@ export function Preferences() {
           The app has no accounts, advertising, analytics, cloud database or AI
           service. Your location is requested only when you tap the GPS button
           on the map; it is used on this device and saved only if you save it as
-          a marker. Personal data is kept in your browser’s
-          IndexedDB. Notes are rendered as text. Backups are checked for format,
-          types, size and valid quantities before an atomic database merge.
+          a marker. Personal data is kept in your browser’s IndexedDB. Notes are
+          rendered as text. Backups are checked for format, types, size and
+          valid quantities before an atomic database merge.
         </p>
         <p>
           The app itself sends no personal records to a server. Your hosting

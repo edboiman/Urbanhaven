@@ -1,3 +1,11 @@
+# Edition 2.1.1 audit additions
+
+`src/storage/dates.ts` separates quality, expiry and review dates and calculates six-calendar-month rotation only for explicitly self-filled water. Optional `dateKind` and `waterType` fields preserve existing records and backup compatibility. `src/pages/StorageDates.tsx` bundles food, water, seed, medicine and pet-food references. Fall transplant plans now distinguish seed starting from the outdoor target. See SOURCE_AUDIT.md and TEST_RESULTS.md.
+
+# Edition 2.1 additions
+
+Waypoint paths, radio reception logs and pet profiles reuse the existing plans store. Marker photo and caption fields are optional. Database name and native version 20 are unchanged; schema-1/2 backups remain accepted with new record validation. All new directories and guidance are bundled into the app; source links are optional online references. See V2.1_CHANGES.md and TEST_RESULTS.md for scope and verification.
+
 # Architecture (2.0)
 
 ## Runtime
@@ -18,7 +26,7 @@ Everything runs on the device. React 19 renders the UI (hash routes, so GitHub P
 
 ## Single source of truth for quantities
 
-Owned quantities exist only in inventory records (`supplies`). A checklist row counts records explicitly linked to it (`checklistId`) or, for drinking water and food energy, records of that category with no explicit link. Only records that are **Ready** and **not past their date** count; damaged, unchecked and expired records are listed and flagged. Household numbers (people, infants, pets, pet water per day, days, kcal per person, needs) live in settings and are read by the checklist, Water page, calculators and meal planner. Checklist state stores only choices: custom amounts, N/A, inspection flags, notes, task dates, custom items.
+Owned quantities exist only in inventory records (`supplies`). A checklist row counts records explicitly linked to it (`checklistId`) or, for drinking water and food energy, records of that category with no explicit link. Only records that are **Ready** and **not past their date** count; damaged, unchecked and past-date records are listed and flagged. Past quality dates require review rather than proving a food unsafe. Household numbers (people, infants, pets, pet water per day, days, kcal per person, needs) live in settings and are read by the checklist, Water page, calculators and meal planner. Checklist state stores only choices: custom amounts, N/A, inspection flags, notes, task dates, custom items.
 
 ## Personal database
 

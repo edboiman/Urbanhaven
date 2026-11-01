@@ -2,10 +2,37 @@ import { useMemo, useState } from "react";
 import { useLiveQuery } from "../storage/idb";
 import { db, todayISO } from "../storage/db";
 import { recipes, type Recipe } from "../meals/recipes";
-import { buildPlan, matchRecipe, pantryCounts, planNeeds, allowed, refrigerateAfterOpening, type MealPlan, type PlanFilters, type Diet } from "../meals/planner";
-import { PageTitle, Callout, Field, useHaven, errorMessage } from "../components/shared";
+import {
+  buildPlan,
+  matchRecipe,
+  pantryCounts,
+  planNeeds,
+  allowed,
+  refrigerateAfterOpening,
+  type MealPlan,
+  type PlanFilters,
+  type Diet,
+} from "../meals/planner";
+import {
+  PageTitle,
+  Callout,
+  Field,
+  useHaven,
+  errorMessage,
+} from "../components/shared";
 import { parseRoute, go } from "../components/route";
-import { AlertTriangle, Check, CookingPot, Droplets, Flame, Printer, ArrowLeft, Snowflake } from "../components/icons";
+import {
+  AlertTriangle,
+  Check,
+  CookingPot,
+  Droplets,
+  Flame,
+  Printer,
+  ArrowLeft,
+  Snowflake,
+} from "../components/icons";
+
+import { PantryReference } from "./PantryReference";
 
 const dietLabels: Record<Diet, string> = {
   vegetarian: "Vegetarian",
@@ -15,8 +42,16 @@ const dietLabels: Record<Diet, string> = {
   "nut-free": "Nut-free",
   "dairy-free": "Dairy-free",
 };
-const mealLabel: Record<Recipe["meal"], string> = { breakfast: "Breakfast", "lunch-dinner": "Lunch / dinner", snack: "Snack" };
-const cookLabel: Record<Recipe["cook"], string> = { none: "No cooking", "heat-optional": "No cooking (heating optional)", "heat-water": "Needs hot water" };
+const mealLabel: Record<Recipe["meal"], string> = {
+  breakfast: "Breakfast",
+  "lunch-dinner": "Lunch / dinner",
+  snack: "Snack",
+};
+const cookLabel: Record<Recipe["cook"], string> = {
+  none: "No cooking",
+  "heat-optional": "No cooking (heating optional)",
+  "heat-water": "Needs hot water",
+};
 
 export function Meals() {
   const { path, params } = parseRoute();
@@ -35,9 +70,12 @@ function SafetyStrip() {
         <AlertTriangle size={18} /> Before you cook
       </strong>
       <p>
-        These meals assume <b>no refrigeration, no running water and no electricity</b>. Outdoor camp stoves, grills, charcoal and generators
-        must never be used indoors, in a garage, or near doors, windows and vents — opening a window does not make it safe. Never use a stove
-        or oven to heat your home. If you cannot cook safely, choose a no-cook meal.
+        These meals assume{" "}
+        <b>no refrigeration, no running water and no electricity</b>. Outdoor
+        camp stoves, grills, charcoal and generators must never be used indoors,
+        in a garage, or near doors, windows and vents — opening a window does
+        not make it safe. Never use a stove or oven to heat your home. If you
+        cannot cook safely, choose a no-cook meal.
       </p>
     </Callout>
   );
@@ -48,32 +86,62 @@ function MealsHome() {
   const supplies = useLiveQuery(() => db.supplies.toArray(), [], []) || [];
   const saved = useLiveQuery(() => db.plans.get("meal-plan"), []);
   const today = todayISO();
-  const [tab, setTab] = useState<"now" | "plan" | "recipes" | "safety">("now");
-  const [filters, setFilters] = useState<PlanFilters>({ noCookOnly: true, diets: [], avoidTags: [] });
-  const counts = useMemo(() => pantryCounts(supplies, today), [supplies, today]);
-  const matches = recipes.filter((r) => allowed(r, filters)).map((r) => matchRecipe(r, counts));
+  const [tab, setTab] = useState<
+    "pantry" | "now" | "plan" | "recipes" | "safety"
+  >("pantry");
+  const [filters, setFilters] = useState<PlanFilters>({
+    noCookOnly: true,
+    diets: [],
+    avoidTags: [],
+  });
+  const counts = useMemo(
+    () => pantryCounts(supplies, today),
+    [supplies, today],
+  );
+  const matches = recipes
+    .filter((r) => allowed(r, filters))
+    .map((r) => matchRecipe(r, counts));
   const plan = saved?.data as MealPlan | undefined;
-  const tagged = supplies.filter((s) => s.category === "food" && (s.pantryTags || []).length).length;
-  const untagged = supplies.filter((s) => s.category === "food" && !(s.pantryTags || []).length).length;
+  const tagged = supplies.filter(
+    (s) => s.category === "food" && (s.pantryTags || []).length,
+  ).length;
+  const untagged = supplies.filter(
+    (s) => s.category === "food" && !(s.pantryTags || []).length,
+  ).length;
   const fridge = refrigerateAfterOpening(supplies);
   const filterBar = (
     <div className="panel filter-panel">
       <label className="check-label">
-        <input type="checkbox" checked={filters.noCookOnly} onChange={(e) => setFilters({ ...filters, noCookOnly: e.target.checked })} /> No-cook meals only
+        <input
+          type="checkbox"
+          checked={filters.noCookOnly}
+          onChange={(e) =>
+            setFilters({ ...filters, noCookOnly: e.target.checked })
+          }
+        />{" "}
+        No-cook meals only
       </label>
       {(Object.keys(dietLabels) as Diet[]).map((d) => (
         <label className="check-label" key={d}>
           <input
             type="checkbox"
             checked={filters.diets.includes(d)}
-            onChange={(e) => setFilters({ ...filters, diets: e.target.checked ? [...filters.diets, d] : filters.diets.filter((x) => x !== d) })}
+            onChange={(e) =>
+              setFilters({
+                ...filters,
+                diets: e.target.checked
+                  ? [...filters.diets, d]
+                  : filters.diets.filter((x) => x !== d),
+              })
+            }
           />
           {dietLabels[d]}
         </label>
       ))}
       <p className="small muted">
-        Filters are a convenience, not an allergy guarantee — always read every label. “Lower sodium” recipes rely on choosing no-salt-added
-        cans; each recipe lists a sodium tip.
+        Filters are a convenience, not an allergy guarantee — always read every
+        label. “Lower sodium” recipes rely on choosing no-salt-added cans; each
+        recipe lists a sodium tip.
       </p>
     </div>
   );
@@ -84,34 +152,54 @@ function MealsHome() {
         title="Emergency meals from ordinary groceries."
         description="See what your pantry can make right now, plan 14 days of meals, and keep opened food safe without a working refrigerator."
       />
-      <SafetyStrip />
+      {tab !== "pantry" && <SafetyStrip />}
       <div className="tabs" role="tablist" aria-label="Meals views">
         {[
+          ["pantry", "Stock priorities"],
           ["now", "Make now"],
           ["plan", "14-day plan"],
           ["recipes", "All recipes"],
           ["safety", "Food safety"],
         ].map(([k, label]) => (
-          <button key={k} role="tab" aria-selected={tab === k} className={tab === k ? "active" : ""} onClick={() => setTab(k as typeof tab)}>
+          <button
+            key={k}
+            role="tab"
+            aria-selected={tab === k}
+            className={tab === k ? "active" : ""}
+            onClick={() => setTab(k as typeof tab)}
+          >
             {label}
           </button>
         ))}
       </div>
+      {tab === "pantry" && <PantryReference />}
       {tab === "now" && (
         <>
           {filterBar}
           {tagged === 0 && (
             <Callout>
-              Suggestions use <b>meal-planner tags</b> on your food records (for example <i>tuna</i>, <i>black-beans</i>, <i>crackers</i>).{" "}
-              {untagged > 0 ? `${untagged} food record${untagged > 1 ? "s have" : " has"} no tags yet. ` : ""}
-              <a href="#/supplies">Add tags in Supplies</a> to see which recipes you can make.
+              Suggestions use <b>meal-planner tags</b> on your food records (for
+              example <i>tuna</i>, <i>black-beans</i>, <i>crackers</i>).{" "}
+              {untagged > 0
+                ? `${untagged} food record${untagged > 1 ? "s have" : " has"} no tags yet. `
+                : ""}
+              <a href="#/supplies">Add tags in Supplies</a> to see which recipes
+              you can make.
             </Callout>
           )}
           <div className="recipe-grid">
             {matches
-              .sort((a, b) => Number(b.ready) - Number(a.ready) || b.have / b.of - a.have / a.of)
+              .sort(
+                (a, b) =>
+                  Number(b.ready) - Number(a.ready) ||
+                  b.have / b.of - a.have / a.of,
+              )
               .map((m) => (
-                <a key={m.recipe.id} className={"panel recipe-card " + (m.ready ? "ready" : "")} href={`#/meals?recipe=${m.recipe.id}`}>
+                <a
+                  key={m.recipe.id}
+                  className={"panel recipe-card " + (m.ready ? "ready" : "")}
+                  href={`#/meals?recipe=${m.recipe.id}`}
+                >
                   <p className="eyebrow">
                     {mealLabel[m.recipe.meal]} · {cookLabel[m.recipe.cook]}
                   </p>
@@ -119,22 +207,26 @@ function MealsHome() {
                   <p className="small">
                     {m.ready ? (
                       <span className="status-badge st-ready">
-                        <Check size={12} /> You have everything
+                        <Check size={12} /> Listed packages available
                       </span>
                     ) : (
                       <>Missing: {m.missing.map((i) => i.label).join(", ")}</>
                     )}
                   </p>
                   <p className="small muted">
-                    Serves {m.recipe.serves} · {m.recipe.minutes} min{m.recipe.waterMl ? ` · ${m.recipe.waterMl} mL water` : " · no extra water"}
+                    Serves {m.recipe.serves} · {m.recipe.minutes} min
+                    {m.recipe.waterMl
+                      ? ` · ${m.recipe.waterMl} mL water`
+                      : " · no extra water"}
                   </p>
                 </a>
               ))}
           </div>
           {fridge.length > 0 && (
             <Callout>
-              <Snowflake size={16} /> These pantry items need refrigeration once opened: {fridge.map((s) => s.name).join(", ")}. Without power, open
-              the smallest package and finish it at one meal.
+              <Snowflake size={16} /> These pantry items need refrigeration once
+              opened: {fridge.map((s) => s.name).join(", ")}. Without power,
+              open the smallest package and finish it at one meal.
             </Callout>
           )}
         </>
@@ -147,35 +239,64 @@ function MealsHome() {
               className="button"
               onClick={async () => {
                 try {
-                  const p = buildPlan(Math.min(30, settings.days || 14), settings.people, filters, supplies, today);
-                  await db.plans.put({ id: "meal-plan", data: p, updated: new Date().toISOString() });
-                  toast(`Built a ${p.days}-day plan for ${p.people} ${p.people === 1 ? "person" : "people"}.`);
+                  const p = buildPlan(
+                    Math.min(30, settings.days || 14),
+                    settings.people,
+                    filters,
+                    supplies,
+                    today,
+                  );
+                  await db.plans.put({
+                    id: "meal-plan",
+                    data: p,
+                    updated: new Date().toISOString(),
+                  });
+                  toast(
+                    `Built a ${p.days}-day plan for ${p.people} ${p.people === 1 ? "person" : "people"}.`,
+                  );
                 } catch (e) {
                   toast(errorMessage(e));
                 }
               }}
             >
-              <CookingPot size={16} /> {plan ? "Rebuild plan" : "Build my plan"} ({Math.min(30, settings.days || 14)} days, {settings.people}{" "}
+              <CookingPot size={16} /> {plan ? "Rebuild plan" : "Build my plan"}{" "}
+              ({Math.min(30, settings.days || 14)} days, {settings.people}{" "}
               {settings.people === 1 ? "person" : "people"})
             </button>
             {plan && (
-              <button className="button secondary" onClick={() => window.print()}>
+              <button
+                className="button secondary"
+                onClick={() => window.print()}
+              >
                 <Printer size={15} /> Print
               </button>
             )}
           </div>
-          {plan ? <PlanView plan={plan} /> : <p className="muted">Build a plan to see daily meals, pantry gaps and extra water needs.</p>}
+          {plan ? (
+            <PlanView plan={plan} />
+          ) : (
+            <p className="muted">
+              Build a plan to see daily meals, pantry gaps and extra water
+              needs.
+            </p>
+          )}
         </>
       )}
       {tab === "recipes" && (
         <div className="recipe-grid">
           {recipes.map((r) => (
-            <a key={r.id} className="panel recipe-card" href={`#/meals?recipe=${r.id}`}>
+            <a
+              key={r.id}
+              className="panel recipe-card"
+              href={`#/meals?recipe=${r.id}`}
+            >
               <p className="eyebrow">
                 {mealLabel[r.meal]} · {cookLabel[r.cook]}
               </p>
               <h3>{r.name}</h3>
-              <p className="small muted">{r.diet.map((d) => dietLabels[d]).join(" · ") || "—"}</p>
+              <p className="small muted">
+                {r.diet.map((d) => dietLabels[d]).join(" · ") || "—"}
+              </p>
             </a>
           ))}
         </div>
@@ -196,20 +317,30 @@ function PlanView({ plan }: { plan: MealPlan }) {
         <h2>Plan check</h2>
         <ul className="article-list plan-check">
           <li>
-            <Droplets size={16} /> Recipe water: <b>{needs.waterL.toFixed(1)} L</b> over {needs.days} days ({needs.heatMeals} meals need hot water). This
-            comes from your stored water — the 1-gallon-per-person daily baseline is meant to cover basic food preparation, but count it.
+            <Droplets size={16} /> Recipe water:{" "}
+            <b>{needs.waterL.toFixed(1)} L</b> over {needs.days} days (
+            {needs.heatMeals} meals need hot water). This comes from your stored
+            water — the 1-gallon-per-person daily baseline is meant to cover
+            basic food preparation, but count it.
           </li>
           <li>
-            <Check size={16} /> Fruit or vegetable included on {needs.daysWithFruitVeg} of {needs.days} days; protein on {needs.daysWithProtein} of{" "}
-            {needs.days} days.
+            <Check size={16} /> Fruit or vegetable included on{" "}
+            {needs.daysWithFruitVeg} of {needs.days} days; protein on{" "}
+            {needs.daysWithProtein} of {needs.days} days.
           </li>
           <li>
-            <Flame size={16} /> Fuel: only estimate from your appliance's published consumption in <a href="#/tools">Calculators → Fuel</a>.
+            <Flame size={16} /> Fuel: only estimate from your appliance's
+            published consumption in <a href="#/tools">Calculators → Fuel</a>.
           </li>
         </ul>
         <p className="small muted">
-          The planner rotates recipes for variety. It does not count calories per recipe — your checklist tracks total food energy from label
-          values in Supplies.
+          Package estimates assume the listed recipe package sizes; compare your
+          actual labels and unmeasured staples. Avoid assigning interchangeable
+          tags to one package as if it were multiple foods. Water estimates need
+          adjustment for the actual product directions; handwashing, dishwashing
+          and drinking water are additional. The planner rotates recipes for
+          variety. It does not count calories per recipe — your checklist tracks
+          total food energy from label values in Supplies.
         </p>
       </section>
       <section className="panel">
@@ -219,7 +350,8 @@ function PlanView({ plan }: { plan: MealPlan }) {
             {gaps.map((g) => (
               <li key={g.tag}>
                 <span>
-                  <strong>{g.label}</strong> <small className="muted">({g.size})</small>
+                  <strong>{g.label}</strong>{" "}
+                  <small className="muted">({g.size})</small>
                 </span>
                 <span>
                   need {g.packages}, have {g.have} → buy {g.gap}
@@ -228,9 +360,14 @@ function PlanView({ plan }: { plan: MealPlan }) {
             ))}
           </ul>
         ) : (
-          <p>Your tagged pantry covers every required ingredient in this plan.</p>
+          <p>
+            Your tagged pantry covers every required ingredient in this plan.
+          </p>
         )}
-        <p className="small muted">Matched by meal-planner tag and package count. Check that your package sizes match the sizes shown.</p>
+        <p className="small muted">
+          Matched by meal-planner tag and package count. Check that your package
+          sizes match the sizes shown.
+        </p>
       </section>
       <div className="plan-table-wrap">
         <table className="plan-table">
@@ -247,18 +384,20 @@ function PlanView({ plan }: { plan: MealPlan }) {
             {plan.slots.map((d, i) => (
               <tr key={i}>
                 <td>{i + 1}</td>
-                {(["breakfast", "main1", "main2", "snack"] as const).map((k) => (
-                  <td key={k}>
-                    {d[k] ? (
-                      <a href={`#/meals?recipe=${d[k]!.recipeId}`}>
-                        {name(d[k]!.recipeId)}
-                        {d[k]!.batches > 1 ? ` ×${d[k]!.batches}` : ""}
-                      </a>
-                    ) : (
-                      "—"
-                    )}
-                  </td>
-                ))}
+                {(["breakfast", "main1", "main2", "snack"] as const).map(
+                  (k) => (
+                    <td key={k}>
+                      {d[k] ? (
+                        <a href={`#/meals?recipe=${d[k]!.recipeId}`}>
+                          {name(d[k]!.recipeId)}
+                          {d[k]!.batches > 1 ? ` ×${d[k]!.batches}` : ""}
+                        </a>
+                      ) : (
+                        "—"
+                      )}
+                    </td>
+                  ),
+                )}
               </tr>
             ))}
           </tbody>
@@ -278,7 +417,11 @@ function RecipeDetail({ recipe: r }: { recipe: Recipe }) {
       <button className="text-link" onClick={() => go("meals")}>
         <ArrowLeft size={16} /> All meals
       </button>
-      <PageTitle eyebrow={`${mealLabel[r.meal]} · ${cookLabel[r.cook]} · ${r.minutes} min`} title={r.name} description={`Serves ${r.serves} per batch. Your household of ${settings.people} needs ${batches} batch${batches > 1 ? "es" : ""}.`} />
+      <PageTitle
+        eyebrow={`${mealLabel[r.meal]} · ${cookLabel[r.cook]} · ${r.minutes} min`}
+        title={r.name}
+        description={`Serves ${r.serves} per batch. Your household of ${settings.people} needs ${batches} batch${batches > 1 ? "es" : ""}.`}
+      />
       {r.cook === "heat-water" && <SafetyStrip />}
       <div className="dashboard-grid">
         <section className="panel">
@@ -289,12 +432,18 @@ function RecipeDetail({ recipe: r }: { recipe: Recipe }) {
               return (
                 <li key={i.tag + i.label}>
                   <span>
-                    {i.label} — {i.packages > 0 ? `${i.packages} × ${i.size}` : i.size}
+                    {i.label} —{" "}
+                    {i.packages > 0 ? `${i.packages} × ${i.size}` : i.size}
                     {i.optional ? " (optional)" : ""}
                     {i.refrigerateOpened ? " · refrigerate once opened" : ""}
                   </span>
-                  <small className={have >= i.packages && i.packages > 0 ? "ok" : "muted"}>
-                    {i.packages > 0 ? `pantry: ${have}` : "staple"} · tag “{i.tag}”
+                  <small
+                    className={
+                      have >= i.packages && i.packages > 0 ? "ok" : "muted"
+                    }
+                  >
+                    {i.packages > 0 ? `pantry: ${have}` : "staple"} · tag “
+                    {i.tag}”
                   </small>
                 </li>
               );
@@ -303,7 +452,11 @@ function RecipeDetail({ recipe: r }: { recipe: Recipe }) {
           <h3>Equipment</h3>
           <p>{r.equipment.join(", ") || "None"}</p>
           <h3>Water</h3>
-          <p>{r.waterMl ? `${r.waterMl} mL safe water per batch (absorbed, not drained).` : "No extra water. Drained can liquid is discarded; no rinse water needed."}</p>
+          <p>
+            {r.waterMl
+              ? `${r.waterMl} mL safe water per batch (absorbed, not drained).`
+              : "No extra water. Drained can liquid is discarded; no rinse water needed."}
+          </p>
         </section>
         <section className="panel">
           <h2>Steps</h2>
@@ -320,10 +473,16 @@ function RecipeDetail({ recipe: r }: { recipe: Recipe }) {
               <p>{r.sodiumTip}</p>
             </>
           )}
-          <p className="small muted">Diet tags: {r.diet.map((d) => dietLabels[d]).join(", ") || "none"}. Always check labels for allergens.</p>
+          <p className="small muted">
+            Diet tags: {r.diet.map((d) => dietLabels[d]).join(", ") || "none"}.
+            Always check labels for allergens.
+          </p>
         </section>
       </div>
-      <p className="small muted">Ingredient tags used to match your pantry: {r.ingredients.map((i) => i.tag).join(", ")}.</p>
+      <p className="small muted">
+        Ingredient tags used to match your pantry:{" "}
+        {r.ingredients.map((i) => i.tag).join(", ")}.
+      </p>
     </>
   );
 }
@@ -336,44 +495,133 @@ export function FoodSafety() {
           <Snowflake size={18} /> Refrigerator & freezer during an outage
         </h2>
         <ul className="article-list">
-          <li>Keep doors closed. A closed refrigerator keeps food safe for up to <b>4 hours</b>.</li>
-          <li>A full freezer holds a safe temperature for about <b>48 hours</b>; a half-full freezer about <b>24 hours</b>, if the door stays closed.</li>
           <li>
-            Discard perishable food (meat, poultry, fish, eggs, leftovers) that has been above <b>40°F for 2 hours or more</b> — or 1 hour if it is
-            above 90°F.
+            Keep doors closed. A closed refrigerator keeps food safe for up to{" "}
+            <b>4 hours</b>.
           </li>
-          <li>Frozen food that still has ice crystals or is at 40°F or below may be refrozen (quality may suffer).</li>
-          <li>Never taste food to decide whether it is safe. When in doubt, throw it out.</li>
-          <li>Hard cheeses, butter, mustard, ketchup and jelly usually keep; opened mayonnaise is discarded if above 50°F for more than 8 hours.</li>
+          <li>
+            A full freezer holds a safe temperature for about <b>48 hours</b>; a
+            half-full freezer about <b>24 hours</b>, if the door stays closed.
+          </li>
+          <li>
+            Discard perishable food (meat, poultry, fish, eggs, leftovers) that
+            has been above <b>40°F for 2 hours or more</b> — or 1 hour when the
+            ambient temperature is above 90°F/32°C.
+          </li>
+          <li>
+            Frozen food that still has ice crystals or is at 40°F or below may
+            be refrozen (quality may suffer).
+          </li>
+          <li>
+            Never taste food to decide whether it is safe. When in doubt, throw
+            it out.
+          </li>
+          <li>
+            Hard cheeses, butter, mustard, ketchup and jelly usually keep;
+            opened mayonnaise is discarded if above 50°F for more than 8 hours.
+          </li>
         </ul>
         <p className="small muted">
-          Sources: FoodSafety.gov “Food Safety During Power Outage” (reviewed Aug 2024) and “Food Safety in a Disaster or Emergency” (reviewed Sep
-          2023); checked 2026-10-31.
+          References reviewed 2026-11-01:{" "}
+          <a
+            href="https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage"
+            target="_blank"
+            rel="noreferrer"
+          >
+            FoodSafety.gov outage chart
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://www.foodsafety.gov/keep-food-safe/food-safety-in-disaster-or-emergency"
+            target="_blank"
+            rel="noreferrer"
+          >
+            emergency food safety
+          </a>
+          .
         </p>
       </section>
       <section className="panel">
         <h2>Opened vs. unopened packages</h2>
         <ul className="article-list">
-          <li>Unopened commercial cans: low-acid foods (meat, beans, corn, soups) keep 2–5 years; high-acid foods (tomatoes, fruit, pickles) 12–18 months, stored cool and dry.</li>
-          <li>Once opened, canned food needs refrigeration (low-acid 3–4 days; high-acid 5–7 days). Without refrigeration, finish it at one meal.</li>
-          <li>Labels that say “refrigerate after opening” (salsa, shelf-stable milk, some sauces) mean the unopened package is shelf-stable but the opened one is not.</li>
-          <li>Do not use cans that bulge, leak, are deeply dented (especially on a seam), heavily rusted, or spurt when opened.</li>
           <li>
-            Flood-exposed food: discard anything in cardboard, screw-top or home-canned jars. Undamaged commercial cans can be washed, then sanitized
-            (1 cup unscented bleach in 5 gallons of water for 15 minutes, or boiled 2 minutes) and relabeled.
+            Best-quality rotation examples for intact commercial cans stored
+            cool and dry: low-acid foods such as beans, corn and meat about 2–5
+            years; high-acid tomatoes and fruit about 12–18 months. Tomato-based
+            soups can follow the shorter category. These are not safety expiry
+            dates; follow the exact product and storage conditions.
+          </li>
+          <li>
+            Once opened, canned food needs refrigeration (low-acid 3–4 days;
+            high-acid 5–7 days). Without refrigeration, finish it at one meal.
+          </li>
+          <li>
+            Labels that say “refrigerate after opening” (salsa, shelf-stable
+            milk, some sauces) mean the unopened package is shelf-stable but the
+            opened one is not.
+          </li>
+          <li>
+            Do not use cans that bulge, leak, are deeply dented (especially on a
+            seam), heavily rusted, or spurt when opened.
+          </li>
+          <li>
+            Discard flood-exposed food in damaged packages, cartons, screw-cap
+            or snap-lid containers and home-canned jars. Eligible intact
+            commercial all-metal cans and retort pouches require the complete
+            FDA cleaning and sanitation procedure, not a quick wipe. If it
+            cannot be completed, discard them.{" "}
+            <a
+              href="https://www.fda.gov/food/food-safety-during-emergencies/floods-key-tips-consumers-about-food-and-water-safety"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Full FDA procedure (opens online)
+            </a>
+            .
           </li>
         </ul>
-        <p className="small muted">Sources: USDA FSIS “Shelf-Stable Food Safety”; FoodSafety.gov “Food Safety in a Disaster or Emergency”; checked 2026-10-31.</p>
+        <p className="small muted">
+          References reviewed 2026-11-01:{" "}
+          <a
+            href="https://ask.fsis.usda.gov/article/How-long-can-you-keep-canned-goods"
+            target="_blank"
+            rel="noreferrer"
+          >
+            USDA canned-food guidance
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://www.fda.gov/food/food-safety-during-emergencies/floods-key-tips-consumers-about-food-and-water-safety"
+            target="_blank"
+            rel="noreferrer"
+          >
+            FDA flood guidance
+          </a>
+          .
+        </p>
       </section>
       <section className="panel">
         <h2>
           <Flame size={18} /> Cooking & fuel
         </h2>
         <ul className="article-list">
-          <li>Outdoor-only stoves, grills, charcoal and generators: outdoors only, away from doors, windows and vents. Never in a home, garage, tent or porch enclosure.</li>
-          <li>Indoor-rated electric appliances are fine while power works. Don't run them from an extension cord rated below their wattage.</li>
-          <li>Fuel needs: use your stove's published consumption and the Fuel calculator. There is no universal burn rate.</li>
-          <li>Low-water cooking: couscous, instant potatoes and similar foods absorb all their water — nothing is drained away.</li>
+          <li>
+            Outdoor-only stoves, grills, charcoal and generators: outdoors only,
+            away from doors, windows and vents. Never in a home, garage, tent or
+            porch enclosure.
+          </li>
+          <li>
+            Indoor-rated electric appliances are fine while power works. Don't
+            run them from an extension cord rated below their wattage.
+          </li>
+          <li>
+            Fuel needs: use your stove's published consumption and the Fuel
+            calculator. There is no universal burn rate.
+          </li>
+          <li>
+            Low-water cooking: couscous, instant potatoes and similar foods
+            absorb all their water — nothing is drained away.
+          </li>
         </ul>
         <a className="button secondary" href="#/tools">
           Open the fuel calculator
@@ -382,8 +630,10 @@ export function FoodSafety() {
       <section className="panel">
         <h2>Infants and special diets</h2>
         <p>
-          Ready-to-feed infant formula needs no water. Powdered formula must be mixed with safe water; ask your pediatrician what to store. Honey
-          is not safe for infants under 1 year. For medical diets, ask your clinician what to keep.
+          Ready-to-feed infant formula needs no water. Powdered formula must be
+          mixed with safe water; ask your pediatrician what to store. Honey is
+          not safe for infants under 1 year. For medical diets, ask your
+          clinician what to keep.
         </p>
       </section>
     </div>

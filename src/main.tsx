@@ -4,6 +4,7 @@ import App from "./App";
 import "./styles/app.css";
 import "./styles/v2.css";
 import "./styles/map.css";
+import "./styles/v21.css";
 class Boundary extends React.Component<
   { children: React.ReactNode },
   { error: string }

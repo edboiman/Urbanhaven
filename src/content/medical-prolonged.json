@@ -1,0 +1,666 @@
+[
+  {
+    "id": "medical-prolonged-diarrhea",
+    "title": "Manage diarrhea and dehydration while arranging care",
+    "category": "medical",
+    "summary": "Fluid loss can become dangerous before a stomach illness resolves. Support drinking early, reduce spread, and use a lower threshold for professional advice for infants, older adults, and people with medical conditions.",
+    "when": "Vomiting or diarrhea during a disruption, particularly when clean water, transport, or pharmacies are limited.",
+    "needs": [
+      "Safe water",
+      "Commercial oral rehydration product",
+      "Soap and cleaning supplies",
+      "Paper symptom record"
+    ],
+    "steps": [
+      "Check alertness, breathing, ability to swallow, and urine output. Call 911 for confusion, difficulty waking, breathing difficulty, or cold pale or blotchy skin with dehydration.",
+      "If fully alert and swallowing normally, offer frequent small sips. Ask a pharmacist which commercial oral rehydration product is appropriate; mix with exactly the safe-water volume on its label.",
+      "Continue breastfeeding or usual-strength formula. Do not dilute formula. Resume usual suitable food when tolerated; avoid juice and fizzy drinks that can worsen diarrhea.",
+      "Record vomiting, stools, fluids tolerated, urination, and changes in behavior. Seek urgent advice for blood in stool, persistent dizziness, reduced urination, or inability to keep fluids down; infants need earlier assessment.",
+      "Wash hands with soap and water, clean contaminated surfaces, and avoid preparing others' food. Remain away from school or work until at least 48 hours after vomiting and diarrhea stop.",
+      "Seek urgent advice if a baby stops feeding, a young child has fewer wet diapers, or diarrhea lasts more than seven days or vomiting more than two days. These are not waiting periods: obtain help earlier for deterioration or inability to keep fluids down."
+    ],
+    "warnings": [
+      "Seek emergency assessment for bloody or coffee-ground-like vomit, green vomit in an adult, yellow-green or green vomit in a child, or sudden severe abdominal pain. Call 911 for collapse, breathing difficulty, inability to wake or other life-threatening symptoms.",
+      "Never force drinks into someone drowsy or unable to swallow. Follow prescribed fluid restrictions with urgent clinical advice."
+    ],
+    "mistakes": [
+      "Guessing homemade salt mixtures, diluting formula, or waiting for extreme thirst."
+    ],
+    "alternatives": [
+      "Use a pharmacist or remote clinician promptly; ongoing inability to drink requires in-person care."
+    ],
+    "quick": [
+      "Small frequent sips; commercial rehydration exactly as labeled.",
+      "Confusion, collapse, or breathing difficulty: 911."
+    ],
+    "sources": [
+      {
+        "organization": "NHS",
+        "title": "Diarrhoea and vomiting",
+        "url": "https://www.nhs.uk/symptoms/diarrhoea-and-vomiting/",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "NHS",
+        "title": "Dehydration",
+        "url": "https://www.nhs.uk/conditions/dehydration/",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "medical-dehydration",
+      "water-boiling",
+      "sanitation-handwashing"
+    ],
+    "region": "US; clinical principles adapted from NHS; use local services outside the US",
+    "updated": "2026-11-01",
+    "tags": [
+      "prolonged disruption",
+      "diarrhea",
+      "vomiting",
+      "dehydration",
+      "oral rehydration"
+    ]
+  },
+  {
+    "id": "medical-prolonged-respiratory",
+    "title": "Support respiratory illness in shared shelter",
+    "category": "medical",
+    "summary": "A cough or fever may remain mild or progress to serious illness. Combine rest and observation with cleaner air and early professional contact for people at higher risk.",
+    "when": "Cough, sore throat, fever, or congestion while household members share limited shelter space.",
+    "needs": [
+      "Safe fluids",
+      "Thermometer",
+      "Well-fitting masks when appropriate",
+      "Current medicine list and care contacts"
+    ],
+    "steps": [
+      "Check for difficulty breathing, persistent chest pressure, confusion, inability to wake, severe weakness, or no urination. Seek emergency care immediately for these signs; call 911 for severe symptoms.",
+      "Contact a clinician promptly if the person is older, pregnant, immunocompromised, very young, or has chronic illness. Flu and COVID-19 treatments work best when started early; ask about testing and access rather than waiting several days.",
+      "Arrange rest, safe fluids, and regular check-ins. Record symptom onset, temperature, drinking, urination, and changes in breathing. Use medicines only as labeled or prescribed; ask a pharmacist about age limits and interactions.",
+      "Keep the sick person away from others when possible. Improve air with suitable filtration or outdoor ventilation only when outdoor smoke, weather, and building safety allow. Use well-fitting masks and hand hygiene when appropriate.",
+      "Resume normal activities after symptoms improve overall and fever has been absent without fever-reducing medicine for at least 24 hours; take added precautions for the next five days."
+    ],
+    "warnings": [
+      "Seek immediate medical care for a child with difficult breathing, blue lips, ribs pulling in, poor alertness, seizure or dehydration. A baby younger than 12 weeks with a temperature of 100.4°F (38°C) or higher needs immediate medical care. Call 911 for life-threatening symptoms.",
+      "Fever or cough that improves then returns or worsens is a warning sign: obtain medical care immediately, using emergency services for severe symptoms."
+    ],
+    "mistakes": [
+      "Sharing leftover antibiotics or assuming every cough is a harmless cold."
+    ],
+    "alternatives": [
+      "Use telehealth early; move to a safer care location if monitoring or essential treatment cannot be maintained."
+    ],
+    "quick": [
+      "Breathing or consciousness changes: emergency care.",
+      "High-risk person: ask about treatment early."
+    ],
+    "sources": [
+      {
+        "organization": "CDC",
+        "title": "About Respiratory Illnesses",
+        "url": "https://www.cdc.gov/respiratory-viruses/about/index.html",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "Preventing Spread of Respiratory Viruses When You're Sick",
+        "url": "https://www.cdc.gov/respiratory-viruses/prevention/precautions-when-sick.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "medical-warning-signs",
+      "sanitation-handwashing",
+      "medical-medication-planning"
+    ],
+    "region": "US",
+    "updated": "2026-11-01",
+    "tags": [
+      "prolonged disruption",
+      "cough",
+      "fever",
+      "flu",
+      "COVID-19",
+      "shared shelter"
+    ]
+  },
+  {
+    "id": "medical-prolonged-wound-infection",
+    "title": "Observe a wound and recognize infection",
+    "category": "medical",
+    "summary": "A small clean wound may be manageable with simple care. Increasing pain, swelling, spreading redness, pus, or feeling unwell changes the plan and requires professional assessment.",
+    "when": "Following a cut or graze during cleanup, especially if follow-up care is delayed.",
+    "needs": [
+      "Soap and safe water",
+      "Disposable gloves",
+      "Clean non-stick dressings",
+      "Vaccination information"
+    ],
+    "steps": [
+      "Control bleeding with firm direct pressure using clean material. Call 911 for uncontrollable or spurting bleeding. Do not remove an embedded object or press directly onto it.",
+      "For a minor wound after bleeding stops, wash hands and rinse with safe tap or bottled water. Clean the surrounding skin with soap and water; cover with a clean dressing.",
+      "Keep the dressing clean and dry; replace it when wet or dirty. At each change note pain, swelling, discharge, and whether redness is increasing. Write down changes and the injury time for the clinician.",
+      "Arrange urgent assessment for pus, worsening warmth or pain, spreading redness, fever, a wound still dirty after rinsing, bites, punctures, or a large or deep cut. Ask specifically about tetanus vaccination, especially after soil or saliva exposure.",
+      "Protect the area from further contamination and arrange help with cleanup tasks. Keep checking while organizing transport; a dressing does not treat a developing infection."
+    ],
+    "warnings": [
+      "Loss of feeling or movement, severe bleeding, or a deep wound needs emergency assessment.",
+      "Do not cut away tissue, probe, stitch, glue a contaminated wound, or drain pus. A clinician must decide whether antibiotics or tetanus treatment are needed."
+    ],
+    "mistakes": [
+      "Waiting for fever before seeking help, or assuming antibiotic ointment prevents tetanus."
+    ],
+    "alternatives": [
+      "Use clean covering and urgent advice when proper dressings are unavailable; do not improvise wound closure."
+    ],
+    "quick": [
+      "Rinse minor wounds, cover, check changes.",
+      "Worsening pain, redness, pus, or fever: urgent care."
+    ],
+    "sources": [
+      {
+        "organization": "NHS",
+        "title": "Cuts and grazes",
+        "url": "https://www.nhs.uk/conditions/cuts-and-grazes/",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "Clinical Guidance for Wound Management to Prevent Tetanus",
+        "url": "https://www.cdc.gov/tetanus/hcp/clinical-guidance/index.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "medical-minor-wounds",
+      "medical-severe-bleeding",
+      "sanitation-handwashing"
+    ],
+    "region": "US; clinical principles adapted from NHS; use local services outside the US",
+    "updated": "2026-10-31",
+    "tags": [
+      "prolonged disruption",
+      "wound infection",
+      "tetanus",
+      "cuts",
+      "cleanup"
+    ]
+  },
+  {
+    "id": "medical-prolonged-burns",
+    "title": "Cool a burn and plan safe follow-up",
+    "category": "medical",
+    "summary": "Burns need immediate cooling and assessment. Delayed access does not make a deep, extensive, electrical, or chemical burn suitable for home treatment.",
+    "when": "A cooking, heating, fire, or hot-water injury.",
+    "needs": [
+      "Cool clean water",
+      "Clean non-stick covering",
+      "Dry blanket for unburned areas",
+      "Emergency transport contacts"
+    ],
+    "steps": [
+      "Check scene safety first. Shut off the hazard only if safe. Electrical, chemical, deep, extensive, or face and airway burns need emergency assessment; call 911 when severe or breathing is affected.",
+      "Cool a thermal burn under cool running water for 20 minutes as soon as possible. NHS advises cooling within three hours. Use cool bottled water if running water is unavailable; keep the rest of the person warm.",
+      "Remove nearby jewelry and loose clothing before swelling develops, but leave stuck material in place. After cooling, cover loosely with a clean non-stick dressing without wrapping tightly around a limb.",
+      "Seek immediate emergency assessment for burns of the face, mouth, nose, hands, feet, joints, groin or genitals; burns around a limb, chest or neck; and burns in very young, older or medically vulnerable people. Call 911 when emergency treatment is needed. Severe burns may cause little pain.",
+      "For a minor burn already assessed as suitable for home care, follow the dressing plan and seek reassessment for increasing pain, redness, discharge, fever, or other deterioration. Record the injury mechanism and time."
+    ],
+    "warnings": [
+      "Smoke exposure, facial burns, hoarseness, or breathing difficulty needs emergency help.",
+      "Do not apply ice, butter, oil, creams, or sticky dressings; do not pop blisters or scrub a severe burn. Cooling a large area can cause hypothermia."
+    ],
+    "mistakes": [
+      "Judging burn depth by pain alone or using household remedies before cooling."
+    ],
+    "alternatives": [
+      "If no running water is available, use a cool clean compress while seeking assistance."
+    ],
+    "quick": [
+      "Thermal burn: cool water, 20 minutes; protect the rest of the body.",
+      "Deep, extensive, chemical, electrical, or airway burn: emergency care.",
+      "Sensitive-location or circumferential burn: immediate emergency assessment."
+    ],
+    "sources": [
+      {
+        "organization": "NHS",
+        "title": "Burns and scalds",
+        "url": "https://www.nhs.uk/conditions/burns-and-scalds/",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "American Red Cross",
+        "title": "Burns: Types, Symptoms, and How To Help",
+        "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/burns",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "medical-burns",
+      "medical-prolonged-wound-infection",
+      "food-camp-cooking"
+    ],
+    "region": "US; clinical principles adapted from NHS; use local services outside the US",
+    "updated": "2026-11-01",
+    "tags": [
+      "prolonged disruption",
+      "burn",
+      "scald",
+      "cooling",
+      "follow-up"
+    ]
+  },
+  {
+    "id": "medical-prolonged-co-smoke",
+    "title": "Respond to carbon monoxide and smoke exposure",
+    "category": "medical",
+    "summary": "Carbon monoxide can cause fatal poisoning without smell or visible smoke. An N95 reduces smoke particles but cannot protect against carbon monoxide.",
+    "when": "A CO alarm, combustion-related illness, or smoke entering shelter.",
+    "needs": [
+      "Battery-backed CO alarms",
+      "A safe exit route",
+      "Emergency contacts",
+      "Suitable air filtration when available"
+    ],
+    "steps": [
+      "If a CO alarm sounds or poisoning is suspected, move everyone and pets to fresh air immediately and call 911 from outside. Headache, nausea, dizziness, weakness, chest pain, or confusion near combustion equipment are warning signs.",
+      "Do not re-enter to investigate or rescue without trained responders. Tell dispatch the possible source and who may still be inside. Seek medical evaluation even if symptoms ease outdoors.",
+      "Prevent repeat exposure: generators belong outdoors more than 20 feet from doors, windows, and vents. Never use a grill, camp stove, generator, or vehicle engine inside a home or garage; an open door does not make it safe.",
+      "For outdoor wildfire smoke without an indoor combustion hazard, follow evacuation instructions. Use a safe room with filtered air and reduce indoor smoke-producing activities. Relocate if the room becomes dangerously hot or breathing symptoms develop.",
+      "If outdoor travel is unavoidable, an appropriately fitted NIOSH-approved N95 may reduce smoke particles. Keep prescribed respiratory medicines available and get advice for new or worsening symptoms."
+    ],
+    "warnings": [
+      "Breathing difficulty, chest pain, fainting, or confusion requires emergency care.",
+      "Particle masks, air cleaners, and household pulse oximeters cannot establish that a CO exposure is safe. Do not sleep in a suspect building."
+    ],
+    "mistakes": [
+      "Assuming no smell means no CO, or using an N95 to enter smoke or a CO-filled room."
+    ],
+    "alternatives": [
+      "Move to an official clean-air or cooling location when a safe indoor environment cannot be maintained."
+    ],
+    "quick": [
+      "CO alarm or suspected poisoning: out immediately, then 911.",
+      "N95 filters particles; it does not remove CO."
+    ],
+    "sources": [
+      {
+        "organization": "CDC",
+        "title": "Carbon Monoxide (CO) Poisoning Basics",
+        "url": "https://www.cdc.gov/carbon-monoxide/about/index.html",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "Safety Guidelines: Wildfires and Wildfire Smoke",
+        "url": "https://www.cdc.gov/wildfires/safety/how-to-safely-stay-safe-during-a-wildfire.html",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC / NIOSH",
+        "title": "Wildland Fire Smoke",
+        "url": "https://www.cdc.gov/niosh/outdoor-workers/about/wildfire-smoke.html",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "American Red Cross",
+        "title": "Carbon Monoxide Poisoning Safety Tips",
+        "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/carbon-monoxide-poisoning.html",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "Clinical Guidance for Carbon Monoxide Poisoning Following Disasters and Severe Weather",
+        "url": "https://www.cdc.gov/carbon-monoxide/hcp/clinical-guidance/index.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "medical-warning-signs",
+      "food-camp-cooking",
+      "medical-prolonged-respiratory"
+    ],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "prolonged disruption",
+      "carbon monoxide",
+      "CO",
+      "smoke",
+      "generator",
+      "N95"
+    ]
+  },
+  {
+    "id": "medical-prolonged-chronic-care",
+    "title": "Maintain essential treatment during a long outage",
+    "category": "medical",
+    "summary": "A refill, refrigeration, device-power, or appointment failure can become urgent before medicine runs out. Make a specific plan with the prescriber or pharmacist for each condition.",
+    "when": "Preparing for disruption or when usual treatment, equipment, or professional follow-up becomes unreliable.",
+    "needs": [
+      "Medicine and allergy list",
+      "Original labeled packages",
+      "Prescriber and pharmacy contacts",
+      "Product-specific storage and device plans"
+    ],
+    "steps": [
+      "Write each medicine's name, strength, schedule, remaining supply, and storage requirements. Include diagnoses, allergies, medical equipment, and consumables. Keep copies accessible to a helper.",
+      "Ask about emergency refills, alternative pharmacy access, and what symptoms or missed treatments require urgent care. Make a transport plan for time-sensitive care such as dialysis and for power-dependent equipment before a failure.",
+      "Continue the established treatment plan. Do not ration, double a missed dose, switch products, or change insulin doses without appropriate professional instructions. Record doses to avoid accidental duplication between caregivers.",
+      "Protect medicines from floodwater and heat. For refrigeration, follow the exact product label, use temperature monitoring where available, and prevent freezing or direct contact with frozen packs.",
+      "After a temperature excursion, give the pharmacist or manufacturer the product, temperature, and duration. Arrange replacement promptly. If a lifesaving medicine is unavailable or compromised, seek urgent individual advice rather than abruptly stopping treatment."
+    ],
+    "warnings": [
+      "A failing essential device, severe breathing difficulty, confusion, seizure, or suspected dangerous glucose problem requires urgent or emergency care.",
+      "Wet or visibly altered medicine must not be used. FDA emergency exceptions for some lifesaving drugs need immediate product-specific advice.",
+      "Do not assume expired medicines are effective. Arrange product-specific replacement and professional advice. Never save, share or reuse leftover antibiotics for a new illness."
+    ],
+    "mistakes": [
+      "Using one refrigeration limit for every product, sharing prescriptions, or leaving medicines in a hot car."
+    ],
+    "alternatives": [
+      "Move early to a location that can support essential treatment and approved equipment power."
+    ],
+    "quick": [
+      "Document supply, storage, and the escalation plan.",
+      "Act before essential medicine or device power runs out."
+    ],
+    "sources": [
+      {
+        "organization": "FDA",
+        "title": "Safe Drug Use After a Natural Disaster",
+        "url": "https://www.fda.gov/drugs/emergency-preparedness-drugs/safe-drug-use-after-natural-disaster",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "Managing Insulin in an Emergency",
+        "url": "https://www.cdc.gov/diabetes/articles/managing-insulin-in-emergency.html",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "FDA",
+        "title": "Emergency Situations (Medical Devices)",
+        "url": "https://www.fda.gov/medical-devices/medical-device-safety/emergency-situations-medical-devices",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "What to Do When You Need Dialysis During an Emergency",
+        "url": "https://www.cdc.gov/kidney-disease/caring/",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "FDA",
+        "title": "Expired medicines",
+        "url": "https://www.fda.gov/drugs/special-features/dont-be-tempted-use-expired-medicines",
+        "verified": "2026-11-01"
+      }
+    ],
+    "related": [
+      "medical-medication-planning",
+      "medical-first-aid-kit",
+      "medical-warning-signs"
+    ],
+    "region": "US",
+    "updated": "2026-11-01",
+    "tags": [
+      "prolonged disruption",
+      "medications",
+      "chronic conditions",
+      "insulin",
+      "refills",
+      "medical equipment"
+    ]
+  },
+  {
+    "id": "medical-prolonged-dental",
+    "title": "Handle dental pain until a dentist is available",
+    "category": "medical",
+    "summary": "Pain relief helps while waiting, but decay, a broken tooth, or an abscess needs dental treatment. Reduced pain does not establish that an infection has cleared.",
+    "when": "Toothache, gum pain, broken tooth, or suspected infection during disrupted care.",
+    "needs": [
+      "Toothbrush and toothpaste",
+      "Soft food",
+      "Dental contacts",
+      "Medicine list"
+    ],
+    "steps": [
+      "Seek emergency medical care now for trouble breathing, swallowing or speaking; major mouth swelling; difficulty opening the mouth; a painful or swollen eye; sudden vision problems; or neck swelling. Call 911 for life-threatening symptoms; do not drive yourself if seriously unwell.",
+      "Contact a dentist urgently for a suspected abscess, facial or jaw swelling, fever, or bad taste with dental pain. Ask a closed practice’s recorded message about emergency access. Use emergency medical care for the warning signs above.",
+      "Use a soft toothbrush and maintain gentle cleaning. Choose soft foods and avoid very hot or cold foods that trigger pain. Keep drinking safely rather than allowing pain to reduce fluid intake.",
+      "Ask a pharmacist about an appropriate over-the-counter pain reliever and follow the label, considering pregnancy, age, kidney disease, ulcers, other medicines, and allergies. Check combination products to avoid taking the same ingredient twice.",
+      "Record symptoms and pain relief taken. Arrange assessment if toothache lasts more than two days or pain is uncontrolled, sooner for swelling or infection signs. Arrange a safe ride."
+    ],
+    "warnings": [
+      "Do not pierce or squeeze a gum swelling, extract a tooth, or use household glue. These measures can worsen injury or delay definitive care.",
+      "Do not exceed painkiller labels, place aspirin on the gum, or use leftover antibiotics."
+    ],
+    "mistakes": [
+      "Treating reduced pain as proof an infection has cleared or waiting until swelling affects breathing."
+    ],
+    "alternatives": [
+      "Use emergency dental services or a clinician to arrange urgent access; emergency medical care is needed for spreading swelling or airway concerns."
+    ],
+    "quick": [
+      "Airway trouble, major mouth swelling, difficulty opening the mouth or eye/vision symptoms: emergency assessment now.",
+      "Suspected abscess: urgent dentist."
+    ],
+    "sources": [
+      {
+        "organization": "NHS",
+        "title": "Toothache",
+        "url": "https://www.nhs.uk/symptoms/toothache/",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "NHS",
+        "title": "Dental abscess",
+        "url": "https://www.nhs.uk/conditions/dental-abscess/",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "medical-medication-planning",
+      "medical-warning-signs",
+      "water-advisories"
+    ],
+    "region": "US; clinical principles adapted from NHS; use local services outside the US",
+    "updated": "2026-11-01",
+    "tags": [
+      "prolonged disruption",
+      "dental",
+      "toothache",
+      "abscess",
+      "oral hygiene"
+    ]
+  },
+  {
+    "id": "medical-prolonged-stress-sleep",
+    "title": "Protect sleep and emotional health during disruption",
+    "category": "medical",
+    "summary": "Fear, irritability, poor concentration, and disturbed sleep are common after disaster. Routines and support help; worsening function or safety concerns need professional help.",
+    "when": "Stressful days, crowded shelter, nighttime worry, or disrupted care routines.",
+    "needs": [
+      "A feasible rest schedule",
+      "Trusted contacts",
+      "Quiet low-light space where possible",
+      "Existing mental-health care plan"
+    ],
+    "steps": [
+      "Check physical safety first: air, temperature, drinking water, food, and essential treatment. Sudden confusion or unusual drowsiness can signal medical illness or CO exposure; do not assume it is stress.",
+      "Agree on predictable meals, check-ins, and a regular wake time. Share care tasks so each caregiver gets protected rest. Ask what feels manageable and choose a small next task rather than demanding constant productivity.",
+      "Use reliable official updates at planned times and take breaks from repetitive disaster coverage. Keep contact with supportive people and give children calm, age-appropriate information.",
+      "Make the sleep area as comfortable, dark, and quiet as safety permits. Wind down before bed and reduce caffeine, nicotine, and alcohol; do not drive or operate hazardous equipment when sleepy.",
+      "Seek professional support if distress disrupts daily activities for several days, sleep problems make coping difficult, or an existing condition worsens. Continue prescribed mental-health treatment and ask about refills early."
+    ],
+    "warnings": [
+      "If someone cannot stay safe, has a medical emergency, or poses an immediate danger to themselves or others, stay nearby when safe and seek emergency help.",
+      "Do not self-medicate with someone else's sedatives, mix sleep medicines with alcohol, or use ear protection that prevents necessary alarm or dependent-care monitoring."
+    ],
+    "mistakes": [
+      "Ignoring exhaustion, using alcohol as a sleep aid, or dismissing persistent distress as weakness."
+    ],
+    "alternatives": [
+      "Use a remote clinician, counselor, or trusted support person; arrange relief care and a safer sleeping location when possible."
+    ],
+    "quick": [
+      "Routines, rest, reliable updates, and connection.",
+      "Impaired function for several days: professional support."
+    ],
+    "sources": [
+      {
+        "organization": "CDC",
+        "title": "Coping with a Disaster or Traumatic Event",
+        "url": "https://www.cdc.gov/natural-disasters/media/pdfs/2024/08/coping_with_disaster_2_english.pdf",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "NHS",
+        "title": "Insomnia",
+        "url": "https://www.nhs.uk/conditions/insomnia/",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "medical-prolonged-co-smoke",
+      "medical-medication-planning",
+      "medical-warning-signs"
+    ],
+    "region": "US; clinical principles adapted from NHS; use local services outside the US",
+    "updated": "2026-10-31",
+    "tags": [
+      "prolonged disruption",
+      "stress",
+      "sleep",
+      "caregivers",
+      "mental health"
+    ]
+  },
+  {
+    "id": "medical-prolonged-heat-cold",
+    "title": "Recognize heat illness and hypothermia",
+    "category": "medical",
+    "summary": "Indoor temperatures can become dangerous during an outage. Confusion after heat or cold exposure is an emergency. Relocate before symptoms develop if shelter is unsafe.",
+    "when": "Loss of heating or cooling, wet clothing, or outdoor work.",
+    "needs": [
+      "Safe temperature-controlled destination",
+      "Safe water",
+      "Dry layers",
+      "Cool water and cloths"
+    ],
+    "steps": [
+      "Check exposed people frequently, especially infants, older adults, and people with chronic illness. Arrange early transport to a suitable location if safe temperature, hydration, or essential care cannot be maintained.",
+      "For heat with headache, nausea, weakness, dizziness, or heavy sweating, stop exertion, move to a cooler place, loosen unnecessary clothing, and cool with wet cloths. Offer frequent small sips only if fully alert and swallowing safely; obtain medical advice.",
+      "For confusion, slurred speech, seizure, or collapse in heat, call 911 and begin rapid cooling with water and wet cloths while help is arranged. Heat stroke can occur even when a person is sweating.",
+      "For cold-related shivering, fumbling, exhaustion, slurred speech, or confusion, seek urgent medical help. Hypothermia is an emergency; a temperature below 95°F is especially concerning, but do not delay help to find a thermometer.",
+      "Move the cold person to shelter, remove wet clothes, and warm the body's center with dry layers. Handle gently. Give a warm nonalcoholic drink only if fully awake and swallowing normally."
+    ],
+    "warnings": [
+      "Never give drinks to a confused or unconscious person. Follow dispatcher instructions for abnormal breathing.",
+      "Do not rub frostbitten skin, use a stove or radiator to rewarm it, or use alcohol for warming. Fuel-burning equipment can introduce CO."
+    ],
+    "mistakes": [
+      "Waiting for dry skin to recognize heat stroke, or assuming hypothermia requires freezing weather."
+    ],
+    "alternatives": [
+      "Use an official warming or cooling location and check transport accessibility before conditions worsen."
+    ],
+    "quick": [
+      "Heat plus confusion: 911 and immediate cooling.",
+      "Cold plus confusion: emergency help and gentle core warming."
+    ],
+    "sources": [
+      {
+        "organization": "CDC / NIOSH",
+        "title": "Heat-related Illnesses",
+        "url": "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "Preventing Hypothermia",
+        "url": "https://www.cdc.gov/winter-weather/prevention/index.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "medical-dehydration",
+      "medical-prolonged-co-smoke",
+      "medical-warning-signs"
+    ],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "prolonged disruption",
+      "heat stroke",
+      "heat exhaustion",
+      "hypothermia",
+      "cold",
+      "warming center"
+    ]
+  },
+  {
+    "id": "medical-prolonged-delayed-access",
+    "title": "Prioritize care when access is delayed",
+    "category": "medical",
+    "summary": "When care is disrupted, escalate early and record changes. This guide cannot diagnose illness or allocate treatment.",
+    "when": "Unreliable calls, clinics, roads, or transport while someone is ill or injured.",
+    "needs": [
+      "Emergency contacts and location",
+      "Paper care log",
+      "Medication and allergy list",
+      "Safe communication and transport"
+    ],
+    "steps": [
+      "Check the scene, responsiveness, breathing, and severe bleeding. Call 911 immediately for unresponsiveness, abnormal breathing, severe breathing difficulty, uncontrolled bleeding, or another obvious life threat. Follow dispatcher guidance and provide care within your training.",
+      "Treat sudden one-sided weakness, speech or vision changes, or new severe loss of balance as possible stroke. Record when the person was last known well and seek emergency help even if symptoms disappear.",
+      "If a call fails, try another phone or ask a nearby helper to contact responders through a safe route. Keep someone with the person. Avoid floodwater and other hazards.",
+      "For a responsive person without an immediate life threat, write symptoms, onset, allergies, medicines, conditions, care given, and changes over time. Seek same-day professional advice for worsening illness, dehydration, infection signs, or interrupted essential treatment.",
+      "Recheck frequently while arranging help, especially after changes. Keep the person comfortably warm or cool and prepare records for handoff. A reassuring moment does not cancel earlier emergency symptoms."
+    ],
+    "warnings": [
+      "Do not delay emergency contact to complete a checklist or rely on an app to diagnose severity.",
+      "Do not give food, drink, or pills to someone unable to swallow safely. Avoid moving a suspected spine injury except for immediate safety or lifesaving care."
+    ],
+    "mistakes": [
+      "Waiting for certainty, leaving a deteriorating person alone, or taking unsafe shortcuts to care."
+    ],
+    "alternatives": [
+      "Ask local responders or emergency management for current care locations and safe transport; clinical urgency still applies during closures."
+    ],
+    "quick": [
+      "Life threats: contact emergency help now.",
+      "Record onset, reassess, and hand off clear information."
+    ],
+    "sources": [
+      {
+        "organization": "American Red Cross",
+        "title": "First Aid Steps",
+        "url": "https://www.redcross.org/take-a-class/first-aid/performing-first-aid/first-aid-steps",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "Signs and Symptoms of Stroke",
+        "url": "https://www.cdc.gov/stroke/signs-symptoms/",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "medical-warning-signs",
+      "medical-severe-bleeding",
+      "medical-prolonged-chronic-care"
+    ],
+    "region": "US; use the local emergency number outside the US",
+    "updated": "2026-10-31",
+    "tags": [
+      "prolonged disruption",
+      "triage",
+      "delayed care",
+      "emergency",
+      "stroke",
+      "medical handoff"
+    ]
+  }
+]

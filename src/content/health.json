@@ -1,1625 +1,1734 @@
 [
- {
-  "id": "water-storage",
-  "title": "Store an emergency water supply",
-  "category": "water",
-  "summary": "Stored safe water gives you time to respond when taps stop or authorities issue an advisory. Start with a manageable supply and build it gradually.",
-  "when": "Before an outage, or when preparing for a forecast storm.",
-  "needs": [
-   "Commercially bottled water or sanitized food-grade containers",
-   "Marker and storage space"
-  ],
-  "steps": [
-   "Plan at least 1 US gallon per person per day. CDC says store that for at least 3 days and try for a 2-week supply if possible; this app's checklist uses 14 days. This covers drinking and basic uses, not normal household consumption.",
-   "Add water for pets and extra needs such as hot weather, illness, pregnancy, or water-dependent care. Keep a separate allowance for sanitation.",
-   "Store tightly closed containers at a cool 50–70°F, away from sunlight, fuel, pesticides and possible floodwater. In Michigan winters keep them in heated living space — garages and porches freeze and containers may split. Choose sizes you can lift and pour.",
-   "Label self-filled containers “drinking water” with the fill date and replace that water every 6 months. Follow the dates on commercially bottled water.",
-   "Record usable volume and storage locations in inventory. Inspect containers for leakage and keep at least some water easy to reach if one room is inaccessible."
-  ],
-  "warnings": [
-   "Do not use containers that previously held toxic chemicals. Flood-exposed containers need assessment; do not assume the contents stayed clean."
-  ],
-  "mistakes": [
-   "Counting empty containers or an unfilled bathtub as stored drinking water."
-  ],
-  "alternatives": [
-   "Buy a few sealed bottles on each shopping trip; use several smaller containers if a large jug is too heavy."
-  ],
-  "quick": [
-   "At least 1 gallon per person per day; CDC: try for a 2-week supply.",
-   "Rotate self-filled water every 6 months; keep it from freezing."
-  ],
-  "sources": [
-   {
-    "organization": "CDC",
-    "title": "How to Create an Emergency Water Supply",
-    "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "bottles",
-   "stored water",
-   "water rotation",
-   "safe drinking water"
-  ]
- },
- {
-  "id": "water-requirements",
-  "title": "Calculate household water needs",
-  "category": "water",
-  "summary": "A planning estimate identifies a supply gap. It cannot predict a safe survival time or replace advice about a particular health condition.",
-  "when": "When choosing a preparedness target or checking current supplies.",
-  "needs": [
-   "Household count",
-   "Known stored water volume",
-   "List of pets and additional needs"
-  ],
-  "steps": [
-   "Count everyone who may shelter with you. Use at least 1 US gallon per person per day as the CDC planning baseline for drinking and basic uses.",
-   "Multiply people × days × baseline. For one adult over 7 days, the starting target is 7 gallons, before pets and extra requirements.",
-   "Add a separate daily amount for each pet based on its usual consumption and veterinary advice. Add extra for heat, illness, pregnancy, food preparation, or medical needs.",
-   "Count only safe water you actually have. Subtract it from the target to identify the gap; divide stored gallons by total daily demand for estimated coverage.",
-   "Use the app calculator to compare 3-, 7-, 14-, and 30-day targets. Check available floor space, manageable container sizes, rotation, and an alternate resupply plan."
-  ],
-  "warnings": [
-   "This baseline is not a complete bathing or toilet-flushing allowance. Do not ration essential drinking water to match a calendar estimate."
-  ],
-  "mistakes": [
-   "Using one gallon for the whole household instead of for each person."
-  ],
-  "alternatives": [
-   "If storage is limited, prioritize an accessible short-term supply and record official distribution locations in your notebook."
-  ],
-  "quick": [
-   "People × days × gallons/person/day, then add other needs."
-  ],
-  "sources": [
-   {
-    "organization": "CDC",
-    "title": "How to Create an Emergency Water Supply",
-    "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "water calculator",
-   "how much water",
-   "pets",
-   "gallons",
-   "liters"
-  ]
- },
- {
-  "id": "water-containers",
-  "title": "Choose and sanitize water containers",
-  "category": "water",
-  "summary": "A container can contaminate clean water. Use food-grade vessels that close tightly and let you pour without touching the water.",
-  "when": "Before filling reusable emergency drinking-water containers.",
-  "needs": [
-   "Food-grade durable container and cap",
-   "Soap and safe rinse water",
-   "Regular unscented 5–9% sodium hypochlorite bleach",
-   "Teaspoon and quart measure"
-  ],
-  "steps": [
-   "Choose a durable food-grade container with a tight lid, preferably a narrow opening. Never repurpose a pesticide, fuel, bleach, or other chemical container.",
-   "Wash the container and cap with soap, then rinse completely with water. Check seams, threads, and spigots for damage.",
-   "For container sanitizing, mix 1 teaspoon of regular unscented 5–9% sodium hypochlorite bleach in 1 quart of water. Close and shake so the solution touches all inner surfaces.",
-   "Wait at least 30 seconds, pour out the sanitizing solution, and let the empty container air-dry. Fill with safe water and close tightly.",
-   "Mark the fill date. Pour rather than dip hands into stored water; keep caps and dispensing surfaces clean."
-  ],
-  "warnings": [
-   "This is a CONTAINER sanitizing solution, not a drinking-water recipe. Do not drink it. Never mix bleach with other cleaners."
-  ],
-  "mistakes": [
-   "Assuming an old food container stays clean indefinitely or skipping the lid during washing."
-  ],
-  "alternatives": [
-   "Use unopened commercially bottled water when proper containers, safe water, or suitable bleach are unavailable."
-  ],
-  "quick": [
-   "Wash → sanitize → empty → air-dry → fill with safe water."
-  ],
-  "sources": [
-   {
-    "organization": "CDC",
-    "title": "How to Create an Emergency Water Supply",
-    "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "jugs",
-   "food grade",
-   "container cleaning",
-   "sanitize"
-  ]
- },
- {
-  "id": "water-boiling",
-  "title": "Boil water to kill germs",
-  "category": "water",
-  "summary": "Boiling is the preferred emergency method for killing disease-causing germs when safe bottled water is unavailable. It does not remove chemical pollution.",
-  "when": "A boil-water advisory or a known microbial risk, when authorities allow boiling.",
-  "needs": [
-   "Heat-safe pot",
-   "Safe heat source",
-   "Clean cloth or coffee filter if cloudy",
-   "Sanitized covered container"
-  ],
-  "steps": [
-   "Check the advisory first. If fuel, toxic chemicals, radioactive materials, or chemical contamination are suspected, choose bottled water or another approved source instead.",
-   "If water is cloudy, let particles settle and draw off clear water, or pass it through a clean cloth, paper towel, or coffee filter. This preliminary step alone does not disinfect it.",
-   "Bring clear water to a full rolling boil for 1 minute. CDC extends this to 3 minutes above 6,500 feet (EPA: above 5,000 feet); all of Michigan is below 2,000 feet.",
-   "Let it cool without adding untreated water or ice. Handle the pot carefully and keep children away from hot surfaces.",
-   "Pour into a clean sanitized container with a tight cover. Use safe water for drinking, preparing food, brushing teeth, and making ice during the advisory."
-  ],
-  "warnings": [
-   "Boiling cannot make fuel- or chemically contaminated water safe, and it does not remove lead (EPA). Outdoor camp stoves belong outdoors, away from openings; never use them inside to boil water."
-  ],
-  "mistakes": [
-   "Starting the timer before a rolling boil, or contaminating cooled water with an unclean cup."
-  ],
-  "alternatives": [
-   "Use sealed commercially bottled water if boiling cannot be done safely."
-  ],
-  "quick": [
-   "Rolling boil: 1 minute; above 6,500 feet: 3 minutes.",
-   "Chemical contamination requires a different safe source."
-  ],
-  "sources": [
-   {
-    "organization": "CDC",
-    "title": "How to Make Water Safe in an Emergency",
-    "url": "https://www.cdc.gov/water-emergency/about/index.html",
-    "verified": "2026-10-31"
-   },
-   {
-    "organization": "EPA",
-    "title": "Emergency Disinfection of Drinking Water",
-    "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water",
-    "verified": "2026-10-31"
-   },
-   {
-    "organization": "EPA",
-    "title": "Basic Information about Lead in Drinking Water",
-    "url": "https://www.epa.gov/ground-water-and-drinking-water/basic-information-about-lead-drinking-water",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "boil water",
-   "purification",
-   "tap water",
-   "germs"
-  ]
- },
- {
-  "id": "water-chemical-disinfection",
-  "title": "Emergency water disinfection with bleach",
-  "category": "water",
-  "summary": "Bleach can reduce many bacteria and viruses in emergency water. It is less reliable than boiling for some parasites and cannot remove toxic chemicals.",
-  "when": "Safe bottled water is unavailable and boiling is not possible; authorities have not prohibited use of the source.",
-  "needs": [
-   "Regular unscented household chlorine bleach labeled 5–9% sodium hypochlorite",
-   "Clean dropper",
-   "US gallon measure",
-   "Sanitized covered container"
-  ],
-  "steps": [
-   "Reject water suspected of fuel, toxic chemical, or radioactive contamination. Check the bleach label: follow its drinking-water directions when provided; never use scented, splashless, or additive-containing products.",
-   "If water is cloudy, allow settling and draw off the clearer water, or prefilter through clean cloth or a coffee filter.",
-   "For regular unscented 5–9% sodium hypochlorite bleach without drinking-water label instructions, CDC specifies 2 drops per quart or liter, 8 drops per 1 US gallon and 40 drops (½ teaspoon) per 5 gallons of clear water. EPA's table for 8.25% bleach uses 6 drops per gallon. Double the amount if the water is cloudy, murky, colored or very cold.",
-   "Stir and wait at least 30 minutes. EPA: the water should smell slightly of chlorine; if it does not, repeat the dose and wait another 15 minutes. Store treated water in a clean, covered container."
-  ],
-  "warnings": [
-   "Do not substitute surface-cleaning dilutions. Do not guess concentrations. Chemical disinfection is less effective against Cryptosporidium and Giardia; choose boiling when possible."
-  ],
-  "mistakes": [
-   "Using expired or unknown-strength bleach, or measuring an unverified capful."
-  ],
-  "alternatives": [
-   "Use an appropriate commercial treatment product exactly as labeled, or obtain safe bottled water."
-  ],
-  "quick": [
-   "5–9% unscented bleach (CDC): 2 drops/quart, 8 drops/gallon, 40 drops (½ tsp)/5 gallons; double if cloudy or very cold; wait 30 minutes.",
-   "8.25% bleach (EPA): 6 drops/gallon.",
-   "Faint chlorine smell after 30 min; if none, repeat and wait 15 more."
-  ],
-  "sources": [
-   {
-    "organization": "CDC",
-    "title": "How to Make Water Safe in an Emergency",
-    "url": "https://www.cdc.gov/water-emergency/about/index.html",
-    "verified": "2026-10-31"
-   },
-   {
-    "organization": "EPA",
-    "title": "Emergency Disinfection of Drinking Water",
-    "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "bleach",
-   "chlorine",
-   "disinfect drinking water",
-   "purification"
-  ]
- },
- {
-  "id": "water-filters",
-  "title": "Understand what your water filter removes",
-  "category": "water",
-  "summary": "Filters have different capabilities. A membrane straw, pitcher, and purifier are not interchangeable, and no ordinary camping filter is a guarantee against chemical contamination.",
-  "when": "When selecting, packing, or using a personal water filter.",
-  "needs": [
-   "Exact filter instructions",
-   "Replacement parts or cartridge",
-   "Separate dirty and clean containers"
-  ],
-  "steps": [
-   "Identify the model and read its claims for bacteria, parasites, and viruses separately. CDC notes that most portable filters do not remove viruses and many do not remove bacteria.",
-   "Check the absolute pore size or certification. CDC: 1 micron or smaller (or NSF 53/58 cyst reduction) removes parasites but not viruses or all bacteria; 0.3 micron or smaller removes bacteria and parasites but not viruses; reverse osmosis removes parasites, bacteria and viruses. A cloth or coffee filter removes particles only.",
-   "Use the cleanest source authorities consider appropriate. Keep the untreated inlet and dirty bag away from the clean outlet and drinking bottle.",
-   "Follow cleaning, backflushing, cartridge life, storage, and freeze-damage instructions. Replace a damaged or exhausted unit rather than relying on its appearance.",
-   "Filter first, then disinfect (bleach, or tablets used exactly as labeled) for the best protection against viruses. For suspected chemicals, fuel or toxins, obtain another safe water source."
-  ],
-  "warnings": [
-   "Clear, odorless water can still be unsafe. Boiling and household disinfection do not reliably remove chemical contaminants either."
-  ],
-  "mistakes": [
-   "Assuming a filter that removes parasites also removes viruses, or letting the clean outlet touch dirty water."
-  ],
-  "alternatives": [
-   "Sealed bottled water is the simplest reliable emergency option. Boil appropriate source water if microbial treatment is needed."
-  ],
-  "quick": [
-   "≤1 micron: parasites. ≤0.3 micron: + bacteria. Viruses: need disinfection or reverse osmosis.",
-   "Filter, then disinfect; keep dirty and clean sides separate."
-  ],
-  "sources": [
-   {
-    "organization": "CDC",
-    "title": "How to Make Water Safe in an Emergency",
-    "url": "https://www.cdc.gov/water-emergency/about/index.html",
-    "verified": "2026-10-31"
-   },
-   {
-    "organization": "CDC",
-    "title": "About Water Treatment Options When Hiking, Camping, or Traveling",
-    "url": "https://www.cdc.gov/drinking-water/prevention/water-treatment-hiking-camping-traveling.html",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "membrane filter",
-   "lifestraw",
-   "virus",
-   "purifier",
-   "filtration"
-  ]
- },
- {
-  "id": "water-advisories",
-  "title": "Read a municipal water advisory",
-  "category": "water",
-  "summary": "The correct response depends on whether officials report germs, chemicals, or a contact hazard. A boil-water notice is different from a do-not-use order.",
-  "when": "A utility warning, pressure loss, water main break, or possible contamination.",
-  "needs": [
-   "Utility or health-department instructions",
-   "Safe bottled water",
-   "Radio or saved official contact information"
-  ],
-  "steps": [
-   "Read or listen for the exact advisory type and the affected area. Record the issue time and where official updates will be announced.",
-   "For a boil-water advisory, use bottled water or water boiled according to the boiling guide for drinking, cooking, brushing teeth, and making ice.",
-   "For a do-not-drink advisory, use commercially bottled water for consumption and food preparation. Boiling does not remove harmful chemicals or toxins.",
-   "For a do-not-use advisory, avoid tap water for every purpose until authorities clear it. Contact with skin, eyes, or inhaled mist may be hazardous.",
-   "Do not use refrigerator water dispensers or connected ice makers during any advisory. Follow the utility’s flushing and appliance-cleaning directions when the notice is lifted."
-  ],
-  "warnings": [
-   "Do not infer that bathing or handwashing is allowed. Follow the specific notice; permitted uses vary by contaminant."
-  ],
-  "mistakes": [
-   "Treating a do-not-drink chemical notice as though boiling solves it."
-  ],
-  "alternatives": [
-   "If you cannot confirm the notice type, use sealed bottled water and seek official clarification."
-  ],
-  "quick": [
-   "Boil = germs; do not drink = avoid ingestion; do not use = avoid all contact."
-  ],
-  "sources": [
-   {
-    "organization": "CDC",
-    "title": "Drinking Water Advisories: An Overview",
-    "url": "https://www.cdc.gov/water-emergency/about/drinking-water-advisories-an-overview.html",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "tap water",
-   "municipal water",
-   "do not drink",
-   "do not use",
-   "boil advisory"
-  ]
- },
- {
-  "id": "water-private-well",
-  "title": "Private wells in Michigan: outages and flooding",
-  "category": "water",
-  "summary": "An electric well pump stops when the power does, and a flooded well can be contaminated. Michigan EGLE and CDC advise bottled water until a flooded well is disinfected and tested.",
-  "when": "Your home uses a private well and the power is out, or floodwater reached the wellhead, pit or pump.",
-  "needs": [
-   "Stored drinking water",
-   "A few pails of non-drinking water for flushing (if sewer/septic works)",
-   "Contact for a licensed well contractor",
-   "Certified lab sample bottles"
-  ],
-  "steps": [
-   "Power outage: avoid opening taps, showering or flushing during an extended outage so the system does not lose pressure (EGLE). Use stored water. If the system lost all pressure, have the water tested for coliform bacteria.",
-   "Flooding: stop drinking the well water immediately. Use bottled water for drinking and cooking. If you must use well water and only germs are suspected, boil it.",
-   "Do not turn power back on to a flooded pump. Have a qualified electrician or well contractor check wiring first — flooded equipment can shock you.",
-   "Have a licensed well contractor disinfect drilled, driven or bored wells. EGLE: do not attempt to disinfect or use a flooded dug well.",
-   "Test: EGLE considers the water safe after two consecutive coliform-free samples collected 8 hours apart; CDC says wait 7–10 days after disinfection to test. Test annually and whenever taste, odor or clarity changes.",
-   "If the water smells of fuel or chemicals, boiling and disinfection will not help — use bottled water and call the local health department."
-  ],
-  "warnings": [
-   "Never enter a well pit without professional guidance. Boiling does not remove fuel, chemicals or nitrates."
-  ],
-  "mistakes": [
-   "Restarting a flooded pump before the wiring is inspected, or assuming clear water is safe."
-  ],
-  "alternatives": [
-   "Use bottled water or an approved public supply until two clean tests are on record."
-  ],
-  "quick": [
-   "Outage: don't run taps; use stored water.",
-   "Flooded: don't drink; contractor disinfects; 2 clean coliform tests 8 h apart."
-  ],
-  "sources": [
-   {
-    "organization": "Michigan EGLE",
-    "title": "Protecting Your Private Water Supply in an Emergency (04/2020)",
-    "url": "https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Programs/DWEHD/Water-Well-Construction/Protecting-Your-Private-Water-Supply-in-an-Emergency.pdf",
-    "verified": "2026-10-31"
-   },
-   {
-    "organization": "CDC",
-    "title": "How to Disinfect Wells After an Emergency",
-    "url": "https://www.cdc.gov/water-emergency/about/how-to-disinfect-wells-after-an-emergency.html",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [
-   "water-advisories",
-   "water-boiling",
-   "sanitation-emergency-toilet"
-  ],
-  "region": "Michigan",
-  "updated": "2026-10-31",
-  "tags": [
-   "well",
-   "private well",
-   "flooded well",
-   "pump",
-   "coliform",
-   "EGLE",
-   "Michigan"
-  ]
- },
- {
-  "id": "water-conservation",
-  "title": "Conserve water without sacrificing hygiene",
-  "category": "water",
-  "summary": "Conservation stretches stored water, but drinking, essential care, handwashing, and safe food preparation remain priorities. Wastewater conditions determine what can safely go down a drain.",
-  "when": "Water service is interrupted or supply is limited.",
-  "needs": [
-   "Covered drinking-water supply",
-   "Small pouring container",
-   "Soap",
-   "Separate labeled utility-water containers"
-  ],
-  "steps": [
-   "Count safe stored water and household needs, including pets and medical uses. Keep drinking water in clean covered containers and record consumption.",
-   "Use a small controlled pour for handwashing and sponge bathing instead of leaving water running. Wash hands with soap at key times, especially after toilet use and before food preparation.",
-   "Choose foods requiring little water. Prepare only what can be eaten promptly and use safe water for foods, utensils, teeth, and open wounds.",
-   "Keep non-drinking water clearly labeled and physically separate. Only reuse water for a purpose authorities permit; never reuse contaminated wash water for drinking or food.",
-   "If sewer service is impaired or drains back up, stop flushing and minimize all drainage. Use a contained emergency toilet and follow local disposal instructions."
-  ],
-  "warnings": [
-   "Never deliberately dehydrate yourself to meet an estimated duration. Do not flush toilets during sewer failure or mix unsafe water into the drinking supply."
-  ],
-  "mistakes": [
-   "Spending potable water on routine toilet flushing without checking alternatives and sewer status."
-  ],
-  "alternatives": [
-   "Seek official distribution or a functioning shelter before supplies become critically low."
-  ],
-  "quick": [
-   "Prioritize drinking and hygiene; separate drinking and utility water."
-  ],
-  "sources": [
-   {
-    "organization": "CDC",
-    "title": "How to Create an Emergency Water Supply",
-    "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
-    "verified": "2026-10-31"
-   },
-   {
-    "organization": "CDC",
-    "title": "Guidelines for Personal Hygiene During an Emergency",
-    "url": "https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html",
-    "verified": "2026-10-31"
-   },
-   {
-    "organization": "CDC",
-    "title": "Guidelines for Septic and Onsite Wastewater Systems",
-    "url": "https://www.cdc.gov/floods/safety/guidelines-for-septic-and-onsite-wastewater-systems.html",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "water saving",
-   "plumbing stops",
-   "conservation",
-   "rationing"
-  ]
- },
- {
-  "id": "food-pantry",
-  "title": "Build a practical emergency pantry",
-  "category": "food",
-  "summary": "A useful pantry contains food you can actually eat with limited water, cooking fuel, refrigeration, and equipment. Build it from familiar meals rather than only bulk staples.",
-  "when": "Before emergencies and during routine grocery shopping.",
-  "needs": [
-   "Shelf-stable foods",
-   "Manual can opener",
-   "Inventory list",
-   "Household dietary and allergy requirements"
-  ],
-  "steps": [
-   "Start with at least 3 days of food and gradually work toward your selected target, such as 2 weeks. Include infants, special diets, and pets separately.",
-   "Choose ready-to-eat or low-preparation proteins, fruit, vegetables, grains, and fats. Compare package serving counts and calories; a can is not always one meal.",
-   "Include a manual can opener, utensils, safe drinking water, and food that can be eaten cold when outdoor cooking is unsafe or impossible.",
-   "Store food cool, dry, above likely floodwater, and away from pests and household chemicals. Record dates, quantities, and storage locations.",
-   "Plan a sample day of meals with your actual supplies. Use the food calculator for an energy estimate, then check protein, dietary restrictions, variety, and preparation needs."
-  ],
-  "warnings": [
-   "A calorie estimate cannot establish nutritional adequacy. Do not use leaking, swollen, badly damaged, or flood-contaminated packaging."
-  ],
-  "mistakes": [
-   "Buying foods nobody eats, or dry foods that need more water and fuel than you have."
-  ],
-  "alternatives": [
-   "Add a few extra shelf-stable items from ordinary shopping and rotate them into regular meals."
-  ],
-  "quick": [
-   "Familiar foods + low preparation + manual opener + safe water."
-  ],
-  "sources": [
-   {
-    "organization": "FoodSafety.gov",
-    "title": "Food Safety in a Disaster or Emergency",
-    "url": "https://www.foodsafety.gov/keep-food-safe/food-safety-in-disaster-or-emergency",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "two week pantry",
-   "emergency food",
-   "calories",
-   "shelf stable"
-  ]
- },
- {
-  "id": "food-rotation",
-  "title": "Rotate pantry food and interpret dates",
-  "category": "food",
-  "summary": "Rotation reduces waste and exposes missing supplies before an outage. Many US date labels describe quality, while storage history and package integrity still determine safety.",
-  "when": "When putting away groceries, doing a monthly supply check, or reviewing expiring items.",
-  "needs": [
-   "Marker",
-   "Inventory with dates and quantities",
-   "Clean dry shelves"
-  ],
-  "steps": [
-   "Put older food at the front and newer food behind it. Group by meal or food type so you can see shortages without unpacking everything.",
-   "Record the label’s exact date and whether it says best-by, use-by, or another phrase. USDA explains that most food date labels concern quality; infant formula is an important exception.",
-   "Inspect for leaks, swelling, damage, pests, rust, and evidence of heat or flooding. Discard suspect food rather than using a date as proof of safety.",
-   "Use approaching-date items in normal meals and replace them. After opening, follow the package’s refrigeration and use instructions; an unopened shelf life no longer applies.",
-   "Update quantities after each use and review special-diet and pet items. Keep a short shopping list of gaps rather than relying on memory."
-  ],
-  "warnings": [
-   "Never taste suspect food to judge safety. Do not use infant formula past its use-by date. A future date does not make temperature-abused food safe."
-  ],
-  "mistakes": [
-   "Treating every best-by date as a safety deadline, or keeping expired food simply because a can looks normal."
-  ],
-  "alternatives": [
-   "Use a paper first-in, first-out list if entering every package is impractical."
-  ],
-  "quick": [
-   "Rotate routinely; judge safety by handling and condition, not date alone."
-  ],
-  "sources": [
-   {
-    "organization": "USDA",
-    "title": "Food Date Labeling",
-    "url": "https://www.usda.gov/sites/default/files/documents/USDA-Food-Date-Labeling-Infographic.pdf",
-    "verified": "2026-10-31"
-   },
-   {
-    "organization": "CDC",
-    "title": "Keep Food Safe After a Disaster or Emergency",
-    "url": "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "expiration date",
-   "best by",
-   "pantry organization",
-   "rotation"
-  ]
- },
- {
-  "id": "food-refrigerator",
-  "title": "Keep refrigerated food safe in an outage",
-  "category": "food",
-  "summary": "The clock and temperature matter more than smell. An unopened refrigerator generally keeps food safe for about 4 hours without power.",
-  "when": "Power fails or refrigerator cooling stops.",
-  "needs": [
-   "Appliance thermometer",
-   "Clock or written outage time",
-   "Cooler and ice if available"
-  ],
-  "steps": [
-   "Write down when power failed. Keep the refrigerator door closed and avoid checking repeatedly. A thermometer helps you assess actual temperatures.",
-   "If the outage approaches 4 hours and ice is available, transfer perishable food to a cooler that keeps it at 40°F or below.",
-   "After 4 hours without power or an effective cold source, discard refrigerated perishable foods such as meat, fish, eggs, milk, cut produce, and leftovers.",
-   "If using a cooler or supplemental ice, check its temperature. Use the linked FoodSafety.gov guidance for individual foods; do not assume every condiment needs the same decision.",
-   "Clean spills with safe water and suitable cleaning products. Record discarded stock so the app does not continue counting unavailable food."
-  ],
-  "warnings": [
-   "Never taste food to determine safety. Perishable food held above 40°F for more than 2 hours generally needs discarding; follow the official food-specific chart."
-  ],
-  "mistakes": [
-   "Relying on odor, opening the door often, or assuming power returning makes unsafe food safe again."
-  ],
-  "alternatives": [
-   "Use shelf-stable meals while refrigeration is unavailable."
-  ],
-  "quick": [
-   "Door closed. About 4 hours without a cold source. When uncertain, discard."
-  ],
-  "sources": [
-   {
-    "organization": "CDC",
-    "title": "Keep Food Safe After a Disaster or Emergency",
-    "url": "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
-    "verified": "2026-10-31"
-   },
-   {
-    "organization": "FoodSafety.gov",
-    "title": "Food Safety During Power Outage",
-    "url": "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "fridge",
-   "refrigerator",
-   "power outage food",
-   "40 degrees"
-  ]
- },
- {
-  "id": "food-freezer",
-  "title": "Assess frozen food after power loss",
-  "category": "food",
-  "summary": "A full closed freezer warms more slowly than a half-full one. Time estimates are planning aids; actual food temperature and remaining ice crystals guide decisions.",
-  "when": "A freezer loses power or you return home after an outage.",
-  "needs": [
-   "Appliance thermometer",
-   "Outage time estimate",
-   "Cooler or alternate working freezer if safely available"
-  ],
-  "steps": [
-   "Keep the door closed. A full freezer can keep food safe for about 48 hours; a half-full one about 24 hours, if the door stays shut.",
-   "Before a forecast outage, group food and freeze safe containers of water while power is available. Leave headspace for expansion in containers.",
-   "When assessing food, check for remaining ice crystals and temperature. Food still containing ice crystals or at 40°F or below may generally be refrozen or cooked, though quality may decline.",
-   "Use official food-specific guidance for thawed food. Discard perishable food exposed above 40°F for more than 2 hours and anything with uncertain unsafe handling.",
-   "Keep raw meat juices away from other food and clean affected surfaces. Update inventory to remove anything discarded."
-  ],
-  "warnings": [
-   "Do not taste thawed food to decide whether it is safe. A freezer that feels cool is not a substitute for temperature measurement."
-  ],
-  "mistakes": [
-   "Opening the freezer repeatedly, assuming refreezing reverses bacterial growth, or applying the 48-hour estimate to a half-empty freezer."
-  ],
-  "alternatives": [
-   "Eat shelf-stable supplies and arrange safe cold storage when practical."
-  ],
-  "quick": [
-   "Closed freezer: full about 48h, half-full about 24h. Check temperature and ice crystals."
-  ],
-  "sources": [
-   {
-    "organization": "CDC",
-    "title": "Keep Food Safe After a Disaster or Emergency",
-    "url": "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
-    "verified": "2026-10-31"
-   },
-   {
-    "organization": "FoodSafety.gov",
-    "title": "Food Safety During Power Outage",
-    "url": "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "frozen food",
-   "freezer",
-   "ice crystals",
-   "refreeze"
-  ]
- },
- {
-  "id": "food-camp-cooking",
-  "title": "Use a camp stove safely during an outage",
-  "category": "food",
-  "summary": "A camp stove can prepare food when utilities fail, but combustion creates carbon monoxide and fire hazards. A safe outdoor location is essential.",
-  "when": "You have a suitable stove, correct fuel, and a safe outdoor cooking area.",
-  "needs": [
-   "Stove manual and matching fuel",
-   "Stable nonflammable outdoor surface",
-   "Pot and safe water",
-   "Battery-backed carbon monoxide alarms indoors"
-  ],
-  "steps": [
-   "Read the exact appliance instructions before use. Select a stable outdoor area away from combustible materials, doors, windows, vents, and garages; follow required clearances.",
-   "Inspect the stove, connections, and fuel container. Keep spare fuel away from heat and cooking activities, and follow building rules and fire restrictions.",
-   "Prepare ingredients and utensils before lighting so cooking uses less fuel. Keep children and pets away and remain with the stove while it is operating.",
-   "Cook food safely, then turn the stove off according to its instructions. Allow it to cool before handling, changing fuel, or storing.",
-   "If you cannot meet outdoor requirements, use ready-to-eat food or relocate to a safe place rather than bringing the stove indoors."
-  ],
-  "warnings": [
-   "Never use an outdoor propane camp stove, grill, charcoal burner, or generator indoors, in a garage, or near openings where exhaust can enter. Never use a stove or oven to heat the home."
-  ],
-  "mistakes": [
-   "Using a balcony where rules or clearances prohibit it, or assuming an open window makes indoor combustion safe."
-  ],
-  "alternatives": [
-   "Choose canned beans, fish, fruit, crackers, and other ready-to-eat foods."
-  ],
-  "quick": [
-   "Outdoor-only equipment stays outdoors. Ventilation does not make indoor use safe."
-  ],
-  "sources": [
-   {
-    "organization": "Michigan State Police, MI Ready",
-    "title": "Power Outages",
-    "url": "https://www.michigan.gov/miready/be-informed/power-outages",
-    "verified": "2026-10-31"
-   },
-   {
-    "organization": "FoodSafety.gov",
-    "title": "Food Safety in a Disaster or Emergency",
-    "url": "https://www.foodsafety.gov/keep-food-safe/food-safety-in-disaster-or-emergency",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "propane",
-   "camp stove",
-   "cooking without electricity",
-   "carbon monoxide"
-  ]
- },
- {
-  "id": "food-canning",
-  "title": "Understand safe home canning limits",
-  "category": "food",
-  "summary": "Canning requires researched processes matched to the food, jar, equipment, and elevation. It is a preparation skill to learn before an outage, not a way to improvise rescue of unsafe food.",
-  "when": "Planning home preservation while safe utilities and suitable equipment are available.",
-  "needs": [
-   "Current USDA or National Center for Home Food Preservation recipe",
-   "Correct canner and jars",
-   "Reliable heat source and safe water"
-  ],
-  "steps": [
-   "Select a current tested recipe for the exact food and preparation. Read all steps before buying ingredients; follow jar size and altitude adjustments.",
-   "Use pressure canning for low-acid foods such as vegetables, meat, poultry, and seafood. Boiling-water canning is not a substitute for these foods.",
-   "Check canner condition and gauge accuracy, then follow the complete tested process. Do not change ingredient ratios, processing time, pressure, or container size casually.",
-   "After proper cooling, inspect seals, label the food and date, and store according to the tested guidance. Keep the recipe and batch notes.",
-   "Discard food with suspect processing, leakage, bulging, mold, or other spoilage signs. Never taste it to check. Consult extension specialists about uncertain batches."
-  ],
-  "warnings": [
-   "Botulism toxin can be fatal. A sealed lid does not prove a food was processed safely. An electric multicooker is not automatically a tested pressure canner."
-  ],
-  "mistakes": [
-   "Using family recipes without tested processing, oven canning, or attempting to make unsafe food safe by merely resealing it."
-  ],
-  "alternatives": [
-   "Buy commercially shelf-stable food for immediate emergency supplies; learn canning with extension guidance later."
-  ],
-  "quick": [
-   "Tested recipe, correct canner, exact process; never taste suspect jars."
-  ],
-  "sources": [
-   {
-    "organization": "National Center for Home Food Preservation / USDA",
-    "title": "For Safety’s Sake",
-    "url": "https://nchfp.uga.edu/how/can/general-information/for-safetys-sake",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "food preservation",
-   "botulism",
-   "pressure canning",
-   "dehydration"
-  ]
- },
- {
-  "id": "food-no-cook",
-  "title": "Plan no-cook meals with limited water",
-  "category": "food",
-  "summary": "A no-cook menu helps when cooking outdoors is unsafe or fuel is unavailable. Include protein and produce as well as quick carbohydrates.",
-  "when": "During outages, heat emergencies, or when water and washing facilities are limited.",
-  "needs": [
-   "Ready-to-eat shelf-stable foods",
-   "Manual can opener",
-   "Clean utensils and safe water",
-   "Covered waste bag"
-  ],
-  "steps": [
-   "Choose a meal using familiar foods: canned beans or fish for protein, ready-to-eat grains or crackers, and canned fruit or vegetables. Check allergens and individual diet limits.",
-   "Clean hands, the preparation surface, and the can opener. Inspect packaging; do not use swollen, leaking, heavily damaged, or flood-exposed food.",
-   "Open only what can be eaten promptly. Buy small packages when refrigeration is unavailable and avoid storing perishable opened leftovers at room temperature.",
-   "Count calories and servings from labels, then check whether meals include protein and variety. The app’s duration estimate is an energy calculation, not a nutrition assessment.",
-   "Keep safe drinking water available and bag food waste promptly to limit pests. Replenish used inventory after services return."
-  ],
-  "warnings": [
-   "Dry beans, raw rice, and foods requiring cooking are not ready-to-eat substitutes. Follow label instructions and safe handling of opened food."
-  ],
-  "mistakes": [
-   "Planning only salty snacks or assuming a large opened can remains shelf-stable without refrigeration."
-  ],
-  "alternatives": [
-   "Use individually packaged foods and disposable utensils temporarily if safe washing is impossible; manage the extra waste."
-  ],
-  "quick": [
-   "Ready-to-eat protein + grain + fruit/vegetable; open meal-sized amounts."
-  ],
-  "sources": [
-   {
-    "organization": "FoodSafety.gov",
-    "title": "Food Safety in a Disaster or Emergency",
-    "url": "https://www.foodsafety.gov/keep-food-safe/food-safety-in-disaster-or-emergency",
-    "verified": "2026-10-31"
-   },
-   {
-    "organization": "CDC",
-    "title": "Keep Food Safe After a Disaster or Emergency",
-    "url": "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "minimal cooking",
-   "no cook",
-   "emergency meals",
-   "limited water"
-  ]
- },
- {
-  "id": "food-pet-food",
-  "title": "Prepare food and water for pets",
-  "category": "food",
-  "summary": "Pets need their own food, water, medications, transport, and records. A human pantry or shelter plan does not automatically meet an animal’s needs.",
-  "when": "Before an emergency or an evacuation.",
-  "needs": [
-   "Usual pet food and bowls",
-   "Safe water",
-   "Medication and veterinary records",
-   "Carrier or leash and waste supplies"
-  ],
-  "steps": [
-   "Keep at least a 3-day supply of the pet’s usual food and water, with a longer reserve when practical. Record normal amounts and feeding instructions.",
-   "Store food in airtight waterproof packaging and rotate it. Add a manual can opener if needed and choose package sizes that do not create unrefrigerated leftovers.",
-   "Include medications, vaccination records, identification, a photo with you, carrier, leash, and species-appropriate sanitation supplies.",
-   "Identify a pet-friendly destination or backup caregiver before evacuation. Confirm current shelter rules rather than assuming pets are accepted.",
-   "Use the water calculator’s pet allowance based on actual needs and veterinary advice. Keep the pet’s supplies together and update inventory after use."
-  ],
-  "warnings": [
-   "Do not replace animal diets with random human foods; some are toxic. Do not give human medications unless a veterinarian directs you."
-  ],
-  "mistakes": [
-   "Forgetting pets when counting stored water or relying on an evacuation shelter to provide food and bowls."
-  ],
-  "alternatives": [
-   "Ask your veterinarian about alternatives for prescription diets and refrigerated pet medicines before disruption occurs."
-  ],
-  "quick": [
-   "Separate pet food, water, transport, records, and medication plan."
-  ],
-  "sources": [
-   {
-    "organization": "Michigan State Police, MI Ready",
-    "title": "Pets and Service Animals",
-    "url": "https://www.michigan.gov/miready/family-preparedness-guide/before-during-and-after-a-disaster/pets-and-service-animals",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "pet food",
-   "dog",
-   "cat",
-   "service animal",
-   "veterinary"
-  ]
- },
- {
-  "id": "sanitation-sponge-bathing",
-  "title": "Sponge bathe without running water",
-  "category": "sanitation",
-  "summary": "A small amount of safe water can support basic hygiene without a shower. Keep washing water separate from drinking supplies and avoid becoming cold.",
-  "when": "No plumbing or electricity, but safe bathing water is available.",
-  "needs": [
-   "Safe water",
-   "Small basin or pouring jug",
-   "Mild soap and clean cloths",
-   "Towel and clean underwear"
-  ],
-  "steps": [
-   "Follow local advice about bathing water. Never use sewage- or chemically contaminated water. Choose a private warm area and place supplies within reach.",
-   "Pour a small amount into a clean basin; keep the main water container closed. Use a clean damp cloth for the face, then wash the body in sections.",
-   "Use mild soap where needed, paying attention to underarms, groin, feet, and skin folds. Use a separate cloth for the genital area and wash it last.",
-   "Wipe away soap with a separate clean damp cloth, dry thoroughly, and put on clean clothes. Avoid sharing cloths and protect open wounds from contaminated water.",
-   "Dispose of wash water only as local guidance allows. If drains or sewer service have failed, contain wastewater instead of adding it to backed-up plumbing."
-  ],
-  "warnings": [
-   "Do not bathe in floodwater. Avoid swallowing questionable water or getting it in eyes. Use safe water for teeth and wound cleaning."
-  ],
-  "mistakes": [
-   "Dipping a dirty washcloth into the drinking-water container or leaving skin damp in cold conditions."
-  ],
-  "alternatives": [
-   "Use appropriate personal-cleansing wipes temporarily, then wash properly when safe water is available; wipes do not replace handwashing."
-  ],
-  "quick": [
-   "Safe water; clean cloths; wash and dry one section at a time."
-  ],
-  "sources": [
-   {
-    "organization": "CDC",
-    "title": "Guidelines for Personal Hygiene During an Emergency",
-    "url": "https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html",
-    "verified": "2026-10-31"
-   },
-   {
-    "organization": "CDC",
-    "title": "Guidelines for Septic and Onsite Wastewater Systems",
-    "url": "https://www.cdc.gov/floods/safety/guidelines-for-septic-and-onsite-wastewater-systems.html",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "no shower",
-   "off grid bathing",
-   "sponge bath",
-   "hygiene without plumbing"
-  ]
- },
- {
-  "id": "sanitation-handwashing",
-  "title": "Set up a low-water handwashing station",
-  "category": "sanitation",
-  "summary": "Handwashing remains one of the most useful defenses against illness when normal plumbing is unavailable. A controlled-pour jug provides running water without a working faucet.",
-  "when": "Water restrictions, an outage, or a temporary emergency toilet.",
-  "needs": [
-   "Safe water in a jug with tap or controlled pour",
-   "Soap",
-   "Catch basin",
-   "Clean towels or paper towels"
-  ],
-  "steps": [
-   "Set the water container above a catch basin, away from food and waste storage. Keep the outlet clean and avoid touching it with dirty hands.",
-   "Wet hands, apply soap, and scrub all surfaces for at least 20 seconds, including backs of hands, between fingers, and under nails.",
-   "Rinse under a small stream and dry with a clean towel. Wash after toilet use, waste handling, and before preparing or eating food.",
-   "Follow local advisory instructions about whether tap water is allowed for handwashing. Use boiled or disinfected water if authorities or your clinician recommend extra caution.",
-   "If soap and water are unavailable, use hand sanitizer containing at least 60% alcohol as a temporary option. Obtain soap and safe water for visibly dirty or greasy hands."
-  ],
-  "warnings": [
-   "Sanitizer does not remove all germs or harmful chemicals. Do not use surface disinfectants or bleach on skin."
-  ],
-  "mistakes": [
-   "Washing hands in a shared dirty basin or skipping the rinse to save water."
-  ],
-  "alternatives": [
-   "A helper can pour a small stream from a clean bottle when no spigot is available."
-  ],
-  "quick": [
-   "Soap + scrub 20 seconds + safe rinse. Sanitizer is a backup."
-  ],
-  "sources": [
-   {
-    "organization": "CDC",
-    "title": "Guidelines for Personal Hygiene During an Emergency",
-    "url": "https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "wash hands",
-   "sanitizer",
-   "20 seconds",
-   "water restrictions"
-  ]
- },
- {
-  "id": "sanitation-emergency-toilet",
-  "title": "Make a contained emergency toilet",
-  "category": "sanitation",
-  "summary": "When sewage systems fail, stopping flushing prevents exposure and damage. A lined pail is a temporary containment method until officials identify safe disposal.",
-  "when": "Authorities say not to flush, or sewer service is clearly unavailable.",
-  "needs": [
-   "Sturdy 5-gallon pail or stable toilet bowl",
-   "Two heavy-duty bags per liner",
-   "Absorbent litter or sawdust",
-   "Lid, gloves, soap, and handwashing station"
-  ],
-  "steps": [
-   "Confirm whether sewer service works. If drains back up or authorities prohibit flushing, stop using toilets and reduce water sent down drains.",
-   "Choose a private stable location away from food preparation, children, pets, and drinking-water supplies. Arrange safe handwashing nearby.",
-   "Line the pail or bowl with two heavy-duty bags and add absorbent material. Secure the liner and use a suitable stable seat; keep a lid closed between uses.",
-   "Tie bags securely before they become too heavy or overfilled. Keep them in a protected covered location inaccessible to people and animals, separate from living and food areas.",
-   "Follow local health and waste-authority instructions for final disposal. Put human waste in ordinary trash only when authorities explicitly allow it during the emergency."
-  ],
-  "warnings": [
-   "Do not pour bagged waste into storm drains or assume burial or ordinary trash is permitted. Never flush wipes, bags, or absorbent material."
-  ],
-  "mistakes": [
-   "Continuing to flush a failed sewer or leaving waste accessible to flies and pets."
-  ],
-  "alternatives": [
-   "Use an accessible functioning toilet or a serviced portable toilet when available."
-  ],
-  "quick": [
-   "Stop flushing → contain waste → wash hands → follow local disposal rules."
-  ],
-  "sources": [
-   {
-    "organization": "Public Health – Seattle & King County",
-    "title": "How to create an emergency toilet",
-    "url": "https://kingcounty.gov/en/dept/dph/health-safety/safety-injury-prevention/emergency-preparedness/personal-preparedness/emergency-toilets",
-    "verified": "2026-10-31"
-   },
-   {
-    "organization": "CDC",
-    "title": "Guidelines for Septic and Onsite Wastewater Systems",
-    "url": "https://www.cdc.gov/floods/safety/guidelines-for-septic-and-onsite-wastewater-systems.html",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "toilet stopped working",
-   "bucket toilet",
-   "sewer failure",
-   "no plumbing"
-  ]
- },
- {
-  "id": "sanitation-sewer-failure",
-  "title": "Respond to sewage backup or sewer failure",
-  "category": "sanitation",
-  "summary": "Sewage contains disease-causing organisms. A water outage and a sewer failure are different: a functioning drain cannot be assumed during flooding or pump failure.",
-  "when": "Slow drains, overflowing floor drains, visible sewage, or official sewer warnings.",
-  "needs": [
-   "Utility and building-management contacts",
-   "Temporary toilet supplies",
-   "Gloves and barriers for isolating the area"
-  ],
-  "steps": [
-   "Stop flushing toilets and stop nonessential water use if drains back up. Keep children and pets away from sewage and affected rooms.",
-   "Contact the sewer utility, landlord, or health department. Tell them whether multiple fixtures are affected and whether flooding or electrical hazards are present.",
-   "Use a contained emergency toilet or a functioning facility elsewhere. Store waste safely and follow official disposal instructions.",
-   "Do not enter a flooded basement to reach electrical panels or pumps. Keep clear of wet electrical equipment and get professional help.",
-   "After the source is corrected, arrange appropriate cleanup and drying. Porous contaminated materials may need disposal; do not return to normal use until the area is safe."
-  ],
-  "warnings": [
-   "Avoid all contact with floodwater that may contain sewage. Do not operate or repair septic electrical devices while wet. Septic inspection and repairs require qualified help."
-  ],
-  "mistakes": [
-   "Using a bathtub as wastewater storage while it drains into the same failed system, or assuming pouring extra water clears a sewer blockage."
-  ],
-  "alternatives": [
-   "Relocate to a safe accessible facility if waste cannot be contained or the home is contaminated."
-  ],
-  "quick": [
-   "Stop drainage, isolate contamination, call the utility, use temporary sanitation."
-  ],
-  "sources": [
-   {
-    "organization": "CDC",
-    "title": "Guidelines for Septic and Onsite Wastewater Systems",
-    "url": "https://www.cdc.gov/floods/safety/guidelines-for-septic-and-onsite-wastewater-systems.html",
-    "verified": "2026-10-31"
-   },
-   {
-    "organization": "Public Health – Seattle & King County",
-    "title": "How to create an emergency toilet",
-    "url": "https://kingcounty.gov/en/dept/dph/health-safety/safety-injury-prevention/emergency-preparedness/personal-preparedness/emergency-toilets",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "sewage backup",
-   "drains",
-   "septic",
-   "toilet overflow"
-  ]
- },
- {
-  "id": "sanitation-cleaning",
-  "title": "Clean and disinfect surfaces safely",
-  "category": "sanitation",
-  "summary": "Cleaning removes dirt and many germs. Disinfection is an additional step for relevant illness or contamination; the product label determines safe use.",
-  "when": "Routine emergency housekeeping or cleanup after someone is ill.",
-  "needs": [
-   "Soap or detergent",
-   "Safe water",
-   "EPA-registered surface disinfectant when needed",
-   "Label-required gloves and eye protection"
-  ],
-  "steps": [
-   "Keep cleaning supplies away from food, medicines, and children. Read the product label for surface suitability, ventilation, dilution, and protective equipment.",
-   "Clean visible dirt with soap or detergent and water first. Use separate materials for toilet areas and food-preparation surfaces.",
-   "If disinfection is needed, apply an appropriate product exactly as labeled. Keep the surface visibly wet for the full stated contact time.",
-   "Follow label directions for rinsing food-contact surfaces and safe storage or disposal. Label any prepared solution clearly and never put it in a drink bottle.",
-   "Wash hands after cleaning. Launder or dispose of contaminated cloths appropriately and keep clean supplies separate from waste handling equipment."
-  ],
-  "warnings": [
-   "Never mix bleach or any disinfectant with another cleaner, including ammonia or acids. Do not apply household disinfectant to skin or ingest it. Ventilate as directed."
-  ],
-  "mistakes": [
-   "Wiping a disinfectant off immediately, using dirty cloths everywhere, or assuming stronger mixtures are safer."
-  ],
-  "alternatives": [
-   "For ordinary surfaces without a relevant illness hazard, careful cleaning with soap and water is often sufficient."
-  ],
-  "quick": [
-   "Clean first; disinfect only as needed; follow contact time; never mix chemicals."
-  ],
-  "sources": [
-   {
-    "organization": "CDC",
-    "title": "When and How to Clean and Disinfect Your Home",
-    "url": "https://www.cdc.gov/hygiene/about/when-and-how-to-clean-and-disinfect-your-home.html",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "disinfection",
-   "bleach cleaner",
-   "household cleaning",
-   "cross contamination"
-  ]
- },
- {
-  "id": "sanitation-mold",
-  "title": "Prevent mold after leaks or flooding",
-  "category": "sanitation",
-  "summary": "Moisture control is the first priority. Mold cleanup can expose people to spores, contaminated materials, and hidden structural or electrical hazards.",
-  "when": "After a leak, flood, or prolonged dampness.",
-  "needs": [
-   "Safe access and ventilation",
-   "Gloves, eye protection, and appropriate respirator for cleanup",
-   "Professional contact for extensive damage"
-  ],
-  "steps": [
-   "Address the water source when it is safe to do so and arrange prompt drying. Do not enter a building with structural damage or wet electrical hazards.",
-   "Keep people with asthma, other chronic lung disease, immune suppression, or significant mold allergy away from mold cleanup and affected spaces.",
-   "For cleanup you can safely undertake, follow CDC protective-equipment guidance: at least a NIOSH-approved N95 respirator, suitable gloves, and closed protective goggles.",
-   "Remove damaged materials and clean only according to appropriate flood/mold guidance. Large areas, hidden growth, sewage contamination, and HVAC involvement require qualified assessment.",
-   "Dry the area and monitor for renewed leaks or musty smells. Mold returns if moisture remains, even after visible growth is removed."
-  ],
-  "warnings": [
-   "Never mix bleach with ammonia or other cleaners. Do not direct fans through contaminated areas in a way that spreads contamination. Respirators do not eliminate every cleanup hazard."
-  ],
-  "mistakes": [
-   "Painting over damp mold, staying in a moldy space despite breathing problems, or cleaning without fixing the leak."
-  ],
-  "alternatives": [
-   "Use safer temporary housing and professional remediation when exposure cannot be controlled."
-  ],
-  "quick": [
-   "Stop moisture; protect vulnerable people; get help for extensive contamination."
-  ],
-  "sources": [
-   {
-    "organization": "CDC",
-    "title": "Mold Clean Up Guidelines and Recommendations",
-    "url": "https://www.cdc.gov/mold-health/about/clean-up.html",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "mold",
-   "damp",
-   "flood cleanup",
-   "pest prevention"
-  ]
- },
- {
-  "id": "medical-first-aid-kit",
-  "title": "Build a useful first aid kit",
-  "category": "medical",
-  "summary": "An organized kit supports initial care while help is arranged. Training and knowing where supplies are kept are as important as the contents.",
-  "when": "Before an emergency and after using supplies.",
-  "needs": [
-   "Nonlatex gloves",
-   "Sterile dressings, bandages, tape",
-   "Thermometer, tweezers, emergency blanket",
-   "Printed first aid reference"
-  ],
-  "steps": [
-   "Use a labeled portable container. Include assorted adhesive bandages, gauze, absorbent dressings, tape, gloves, and an emergency blanket.",
-   "Add household-specific supplies, glasses, allergy information, and clinician-recommended medicines in original labeled packages.",
-   "Include emergency contacts and first aid instructions. Tell household members where the kit is; consider another kit for the vehicle.",
-   "Check regularly and after use. Replace used, damaged, or expired supplies and check equipment works.",
-   "Take recognized first aid and CPR training. Add specialist equipment only when you know how to use it safely."
-  ],
-  "warnings": [
-   "Serious injuries need professional care. Keep medicines and sharp tools away from children. Follow medicine labels and professional advice."
-  ],
-  "mistakes": [
-   "Owning a kit without knowing its contents, or failing to replace used supplies."
-  ],
-  "alternatives": [
-   "Start with core wound-care supplies and add items for personal needs."
-  ],
-  "quick": [
-   "Locate, organize, train, check, replenish."
-  ],
-  "sources": [
-   {
-    "organization": "American Red Cross",
-    "title": "Make a First Aid Kit",
-    "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/anatomy-of-a-first-aid-kit.html",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "first aid supplies",
-   "bandages",
-   "medical kit",
-   "emergency kit"
-  ]
- },
- {
-  "id": "medical-minor-wounds",
-  "title": "Clean and cover a minor cut",
-  "category": "medical",
-  "summary": "Clean and cover small superficial wounds promptly. Deep cuts, bites, punctures, retained objects, or major bleeding need medical assessment.",
-  "when": "A small shallow cut or scrape in a safe place.",
-  "needs": [
-   "Soap and clean water",
-   "Gloves when helping someone",
-   "Clean nonstick bandage"
-  ],
-  "steps": [
-   "Assess bleeding first. Heavy or persistent bleeding needs firm direct pressure and emergency help.",
-   "Wash your hands and use gloves when assisting. Clean a minor cut with mild soap and safe water. Do not probe or remove embedded objects.",
-   "Use direct pressure to stop minor bleeding and cover with a clean nonstick bandage. Ask a clinician about topical products; do not reuse leftover prescriptions.",
-   "Change a wet or dirty dressing. Watch for spreading redness, increasing pain, swelling, drainage, fever, or red streaks.",
-   "Seek care for bites, punctures, deep or gaping wounds, retained debris, loss of feeling or movement, infection, or uncertain tetanus protection."
-  ],
-  "warnings": [
-   "Do not remove deeply embedded objects. Keep wounds out of floodwater. Severe bleeding or impaired function requires urgent care."
-  ],
-  "mistakes": [
-   "Assuming a clean-looking wound needs no washing, or ignoring infection signs."
-  ],
-  "alternatives": [
-   "Protect with clean material and obtain care if safe water is unavailable."
-  ],
-  "quick": [
-   "Clean minor wounds, cover, monitor, escalate."
-  ],
-  "sources": [
-   {
-    "organization": "MedlinePlus / National Library of Medicine",
-    "title": "Cuts and puncture wounds",
-    "url": "https://medlineplus.gov/ency/article/000043.htm",
-    "verified": "2026-10-31"
-   },
-   {
-    "organization": "CDC",
-    "title": "Guidelines for Personal Hygiene During an Emergency",
-    "url": "https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "cuts",
-   "scrapes",
-   "wound cleaning",
-   "infection",
-   "tetanus"
-  ]
- },
- {
-  "id": "medical-severe-bleeding",
-  "title": "Act on life-threatening bleeding",
-  "category": "medical",
-  "summary": "Continuous heavy flow, spurting blood, or shock signs are emergencies. Get help and apply firm pressure immediately.",
-  "when": "Severe external bleeding.",
-  "needs": [
-   "Phone or nearby assistance",
-   "Gloves if immediately available",
-   "Clean gauze or cloth",
-   "Commercial tourniquet if trained"
-  ],
-  "steps": [
-   "Check safety. Call 911 in the US or direct someone to call and fetch equipment. Do not delay pressure while finding ideal supplies.",
-   "Press firmly and steadily over the wound with gauze or clean cloth. Continue pressure instead of lifting repeatedly to inspect.",
-   "If trained, use a commercial tourniquet for life-threatening arm or leg bleeding, following training and device instructions. Wound packing is for trained responders.",
-   "Leave embedded objects in place and press around them. Prevent chilling and monitor breathing and responsiveness.",
-   "Stay until help arrives. Follow dispatcher instructions and give CPR/AED care according to training if needed."
-  ],
-  "warnings": [
-   "Do not enter an unsafe scene or remove an applied tourniquet. Major bleeding needs emergency care even after it stops."
-  ],
-  "mistakes": [
-   "Releasing pressure repeatedly or delaying it to wash a major wound."
-  ],
-  "alternatives": [
-   "Use clean cloth if gauze is unavailable; seek nearby help if calls fail."
-  ],
-  "quick": [
-   "Call. Firm continuous pressure. Trained tourniquet use for limb bleeding."
-  ],
-  "sources": [
-   {
-    "organization": "American Red Cross",
-    "title": "Bleeding (Life-Threatening External)",
-    "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/bleeding-life-threatening-external",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "bleeding",
-   "blood loss",
-   "tourniquet",
-   "shock",
-   "medical emergency"
-  ]
- },
- {
-  "id": "medical-burns",
-  "title": "Give initial care for a thermal burn",
-  "category": "medical",
-  "summary": "Cool thermal burns promptly. Large, deep, electrical, chemical, airway, or sensitive-location burns need urgent care.",
-  "when": "A heat or scald burn after the source is safe.",
-  "needs": [
-   "Clean cool running water",
-   "Clean dressing",
-   "Emergency assistance"
-  ],
-  "steps": [
-   "Check safety and remove the heat source. Do not approach an electrical injury until power is safely off.",
-   "Call emergency services for deep or large burns, breathing problems, sensitive-area burns, or electrical and chemical injuries.",
-   "Remove jewelry or clothing near a thermal burn unless stuck. Cool with clean cool running water for 5–20 minutes. Keep the rest of the body warm.",
-   "Do not break blisters or apply ice, butter, or creams. If help is delayed, loosely cover with a sterile or clean dressing.",
-   "Monitor breathing and responsiveness. Seek assessment if severity is uncertain, especially for children, older adults, or people with other illnesses."
-  ],
-  "warnings": [
-   "Do not pull away stuck clothing or clean a severe burn. Chemical and electrical injuries need additional precautions and medical assessment."
-  ],
-  "mistakes": [
-   "Using direct ice or greasy remedies, or assuming a painless burn is minor."
-  ],
-  "alternatives": [
-   "Use a cool clean compress if safe running water is unavailable."
-  ],
-  "quick": [
-   "Make safe, cool, avoid ice and creams, assess."
-  ],
-  "sources": [
-   {
-    "organization": "American Red Cross",
-    "title": "Burns",
-    "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/burns",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "burns",
-   "scald",
-   "hot water",
-   "fire injury"
-  ]
- },
- {
-  "id": "medical-sprains",
-  "title": "Protect a suspected sprain or fracture",
-  "category": "medical",
-  "summary": "A painful swollen joint may be sprained or fractured. Limit movement and arrange assessment; do not force the joint to test it.",
-  "when": "A limb or joint injury after a fall or twist.",
-  "needs": [
-   "Cold pack",
-   "Thin dry towel",
-   "Support for resting",
-   "Professional care access"
-  ],
-  "steps": [
-   "Check for deformity, open injury, numbness, coldness below the injury, severe mechanism, or inability to move safely. These warrant emergency care.",
-   "Rest and limit use. Treat as a possible fracture; leave the limb comfortable without straightening it.",
-   "For closed injuries, wrap a cold pack in a thin dry towel. Apply no more than 20 minutes and wait at least 20 minutes before repeating.",
-   "Monitor feeling, warmth, color, and symptoms below the injury. Arrange care for significant swelling, worsening pain, or inability to bear weight.",
-   "Follow professional rehabilitation advice after assessment. Get assistance with carrying and transport."
-  ],
-  "warnings": [
-   "Do not straighten deformities. Avoid moving suspected head, neck, or spine injuries except for immediate safety or lifesaving care."
-  ],
-  "mistakes": [
-   "Repeatedly walking to test an injury, direct ice, or assuming movement excludes fracture."
-  ],
-  "alternatives": [
-   "Arrange help and professional assessment rather than complex untrained splinting."
-  ],
-  "quick": [
-   "Rest, protect, wrapped cold pack, check circulation, arrange care."
-  ],
-  "sources": [
-   {
-    "organization": "American Red Cross",
-    "title": "Muscle, Bone and Joint Injury",
-    "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/muscle-bone-joint-injury",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "sprain",
-   "ankle",
-   "strain",
-   "fracture",
-   "fall injury"
-  ]
- },
- {
-  "id": "medical-dehydration",
-  "title": "Recognize dehydration and seek help",
-  "category": "medical",
-  "summary": "Dehydration occurs when fluid loss exceeds intake. Heat, vomiting, diarrhea, and limited drinking water can make it worse; severe cases are emergencies.",
-  "when": "Thirst, dry mouth, dark urine, reduced urination, fatigue, or dizziness.",
-  "needs": [
-   "Safe drinking water",
-   "Commercial oral rehydration product if appropriate",
-   "Access to medical advice"
-  ],
-  "steps": [
-   "Move to a cooler place and stop exertion. Check whether the person is alert and able to swallow safely.",
-   "For mild symptoms in an alert person who can drink, offer small frequent amounts of safe fluid. Use a commercial oral rehydration product according to its directions when appropriate.",
-   "Get prompt medical advice for ongoing vomiting or diarrhea, inability to keep fluids down, very low urine output, or a vulnerable person such as an infant or older adult.",
-   "Call emergency services for confusion, fainting, lack of urination with illness, rapid breathing or heartbeat, or signs of shock.",
-   "Review the household water plan so adequate safe fluid remains available. Follow individualized medical fluid restrictions rather than a generic target if a clinician has prescribed them."
-  ],
-  "warnings": [
-   "Do not give anything by mouth to a person who is unconscious, confused, or cannot swallow safely. Do not delay care by trying to force large amounts of water."
-  ],
-  "mistakes": [
-   "Waiting for extreme thirst, treating an energy drink as medical care, or inventing a homemade salt mixture."
-  ],
-  "alternatives": [
-   "Use properly prepared commercial rehydration products or clinician-directed alternatives; seek urgent care when drinking is not possible."
-  ],
-  "quick": [
-   "Mild: safe fluids and cooling. Confusion or fainting: emergency help."
-  ],
-  "sources": [
-   {
-    "organization": "MedlinePlus / National Library of Medicine",
-    "title": "Dehydration",
-    "url": "https://medlineplus.gov/dehydration.html",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "dehydration",
-   "thirst",
-   "diarrhea",
-   "vomiting",
-   "dark urine"
-  ]
- },
- {
-  "id": "medical-medication-planning",
-  "title": "Protect medicines and prepare for refills",
-  "category": "medical",
-  "summary": "Medicines may be essential even when pharmacies and electricity are disrupted. Storage limits vary by product, so a written plan is more useful than a generic refrigeration rule.",
-  "when": "Routine preparation, storm warnings, or a loss of power.",
-  "needs": [
-   "Current medicine and allergy list",
-   "Original labeled packages",
-   "Pharmacy and prescriber contacts",
-   "Product-specific cold-storage plan if needed"
-  ],
-  "steps": [
-   "List each medicine, strength, purpose, schedule, allergies, and medical supply needs. Keep a copy of prescriptions and important contact details with emergency supplies.",
-   "Ask the pharmacist or prescriber about an emergency supply and legal early-refill options before disruption. Check quantities and dates routinely.",
-   "Store medicines in their original packages inside a watertight container above likely floodwater. Protect them from excessive heat and follow each label.",
-   "For refrigerated medicines, prepare a cooler or approved storage method and temperature monitoring. Avoid direct contact with frozen packs if freezing could damage the medicine.",
-   "After a temperature excursion, contact a pharmacist, prescriber, or manufacturer with the product, temperature, and duration. Arrange replacements promptly; do not stop a lifesaving medicine without urgent professional advice."
-  ],
-  "warnings": [
-   "Medicines exposed to floodwater or visibly altered need replacement; FDA gives special emergency considerations for lifesaving drugs. Product-specific advice is essential. Never share prescriptions."
-  ],
-  "mistakes": [
-   "Freezing a refrigerated medicine, assuming every insulin or antibiotic has the same room-temperature limit, or leaving medicines in a hot car."
-  ],
-  "alternatives": [
-   "Write a paper plan and identify another accessible pharmacy or care site before the emergency."
-  ],
-  "quick": [
-   "Document, refill early where permitted, protect, monitor, ask about excursions."
-  ],
-  "sources": [
-   {
-    "organization": "FDA",
-    "title": "Safe Drug Use After a Natural Disaster",
-    "url": "https://www.fda.gov/drugs/emergency-preparedness-drugs/safe-drug-use-after-natural-disaster",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "medications",
-   "refrigerated medicine",
-   "insulin",
-   "refills",
-   "prescription"
-  ]
- },
- {
-  "id": "medical-warning-signs",
-  "title": "Recognize a medical emergency",
-  "category": "medical",
-  "summary": "Some symptoms need emergency services immediately. An offline guide cannot diagnose a person or connect a call without working infrastructure.",
-  "when": "Sudden serious illness or injury.",
-  "needs": [
-   "Emergency contacts and location",
-   "Medical information",
-   "Phone or nearby help"
-  ],
-  "steps": [
-   "Check scene safety. Serious signs include breathing difficulty, uncontrolled bleeding, chest discomfort, sudden confusion, inability to wake, facial or tongue swelling, or sudden speech or movement problems.",
-   "Call 911 in the US for a potentially life-threatening condition. Give location, symptoms, hazards, and callback number; follow instructions.",
-   "If safe, ask someone to meet responders. Gather medication and allergy information without abandoning a critically ill person.",
-   "Give first aid within your training. For unresponsiveness and abnormal breathing, follow dispatcher guidance and CPR/AED training.",
-   "If calls fail, seek nearby help through the safest available route. Avoid moving possible spine injuries unless necessary for safety or lifesaving care."
-  ],
-  "warnings": [
-   "Do not wait for a diagnosis. Give nothing by mouth to someone unable to swallow safely. Calls need a working connection."
-  ],
-  "mistakes": [
-   "Delaying emergency assistance to search online."
-  ],
-  "alternatives": [
-   "Prepare paper medical information and emergency routes in advance."
-  ],
-  "quick": [
-   "Serious breathing, bleeding, chest, brain, or consciousness symptoms: emergency help."
-  ],
-  "sources": [
-   {
-    "organization": "MedlinePlus / National Library of Medicine",
-    "title": "Recognizing medical emergencies",
-    "url": "https://medlineplus.gov/ency/article/001927.htm",
-    "verified": "2026-10-31"
-   }
-  ],
-  "related": [],
-  "region": "US",
-  "updated": "2026-10-31",
-  "tags": [
-   "medical emergency",
-   "911",
-   "stroke",
-   "chest pain",
-   "trouble breathing"
-  ]
- }
+  {
+    "id": "water-storage",
+    "title": "Store an emergency water supply",
+    "category": "water",
+    "summary": "Stored safe water gives you time to respond when taps stop or authorities issue an advisory. Start with a manageable supply and build it gradually.",
+    "when": "Before an outage, or when preparing for a forecast storm.",
+    "needs": [
+      "Commercially bottled water or sanitized food-grade containers",
+      "Marker and storage space"
+    ],
+    "steps": [
+      "Plan at least 1 US gallon per person per day. CDC says store that for at least 3 days and try for a 2-week supply if possible; this app's checklist uses 14 days. This covers drinking and basic uses, not normal household consumption.",
+      "Add water for pets and extra needs such as hot weather, illness, pregnancy, or water-dependent care. Keep a separate allowance for sanitation.",
+      "Store tightly closed containers at a cool 50–70°F, away from sunlight, fuel, pesticides and possible floodwater. In Michigan winters keep them in heated living space — garages and porches freeze and containers may split. Choose sizes you can lift and pour.",
+      "Label self-filled containers “drinking water” with the fill date and replace that water every 6 months. Follow the dates on commercially bottled water.",
+      "Record usable volume and storage locations in inventory. Inspect containers for leakage and keep at least some water easy to reach if one room is inaccessible."
+    ],
+    "warnings": [
+      "Do not use containers that previously held toxic chemicals. Discard drinking water in screw-cap bottles, snap-lid containers or other packages whose closures may have contacted floodwater, even if unopened. Exterior sanitizing does not make these packages safe. Ask the health department about other flood-exposed supplies."
+    ],
+    "mistakes": [
+      "Counting empty containers or an unfilled bathtub as stored drinking water."
+    ],
+    "alternatives": [
+      "Buy a few sealed bottles on each shopping trip; use several smaller containers if a large jug is too heavy."
+    ],
+    "quick": [
+      "At least 1 gallon per person per day; CDC: try for a 2-week supply.",
+      "Rotate self-filled water every 6 months; keep it from freezing."
+    ],
+    "sources": [
+      {
+        "organization": "CDC",
+        "title": "How to Create an Emergency Water Supply",
+        "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "FDA",
+        "title": "Floods: food and water safety",
+        "url": "https://www.fda.gov/food/food-safety-during-emergencies/floods-key-tips-consumers-about-food-and-water-safety",
+        "verified": "2026-11-01"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-11-01",
+    "tags": [
+      "bottles",
+      "stored water",
+      "water rotation",
+      "safe drinking water"
+    ]
+  },
+  {
+    "id": "water-requirements",
+    "title": "Calculate household water needs",
+    "category": "water",
+    "summary": "A planning estimate identifies a supply gap. It cannot predict a safe survival time or replace advice about a particular health condition.",
+    "when": "When choosing a preparedness target or checking current supplies.",
+    "needs": [
+      "Household count",
+      "Known stored water volume",
+      "List of pets and additional needs"
+    ],
+    "steps": [
+      "Count everyone who may shelter with you. Use at least 1 US gallon per person per day as the CDC planning baseline for drinking and basic uses.",
+      "Multiply people × days × baseline. For one adult over 7 days, the starting target is 7 gallons, before pets and extra requirements.",
+      "Add a separate daily amount for each pet based on its usual consumption and veterinary advice. Add extra for heat, illness, pregnancy, food preparation, or medical needs.",
+      "Count only safe water you actually have. Subtract it from the target to identify the gap; divide stored gallons by total daily demand for estimated coverage.",
+      "Use the app calculator to compare 3-, 7-, 14-, and 30-day targets. Check available floor space, manageable container sizes, rotation, and an alternate resupply plan."
+    ],
+    "warnings": [
+      "This baseline is not a complete bathing or toilet-flushing allowance. Do not ration essential drinking water to match a calendar estimate."
+    ],
+    "mistakes": [
+      "Using one gallon for the whole household instead of for each person."
+    ],
+    "alternatives": [
+      "If storage is limited, prioritize an accessible short-term supply and record official distribution locations in your notebook."
+    ],
+    "quick": [
+      "People × days × gallons/person/day, then add other needs."
+    ],
+    "sources": [
+      {
+        "organization": "CDC",
+        "title": "How to Create an Emergency Water Supply",
+        "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "water calculator",
+      "how much water",
+      "pets",
+      "gallons",
+      "liters"
+    ]
+  },
+  {
+    "id": "water-containers",
+    "title": "Choose and sanitize water containers",
+    "category": "water",
+    "summary": "A container can contaminate clean water. Use food-grade vessels that close tightly and let you pour without touching the water.",
+    "when": "Before filling reusable emergency drinking-water containers.",
+    "needs": [
+      "Food-grade durable container and cap",
+      "Soap and safe rinse water",
+      "Regular unscented 5–9% sodium hypochlorite bleach",
+      "Teaspoon and quart measure"
+    ],
+    "steps": [
+      "Choose a durable food-grade container with a tight lid, preferably a narrow opening. Never repurpose a pesticide, fuel, bleach, or other chemical container.",
+      "Wash the container and cap with soap, then rinse completely with water. Check seams, threads, and spigots for damage.",
+      "For container sanitizing, mix 1 teaspoon of regular unscented 5–9% sodium hypochlorite bleach in 1 quart of water. Close and shake so the solution touches all inner surfaces.",
+      "Wait at least 30 seconds, pour out the sanitizing solution, and let the empty container air-dry. Fill with safe water and close tightly.",
+      "Mark the fill date. Pour rather than dip hands into stored water; keep caps and dispensing surfaces clean."
+    ],
+    "warnings": [
+      "This is a CONTAINER sanitizing solution, not a drinking-water recipe. Do not drink it. Never mix bleach with other cleaners.",
+      "Use fresh suitable bleach with a known concentration and storage history; follow any shorter manufacturer limit. Old or heat-damaged bleach has uncertain strength. Never compensate by guessing a larger dose."
+    ],
+    "mistakes": [
+      "Assuming an old food container stays clean indefinitely or skipping the lid during washing."
+    ],
+    "alternatives": [
+      "Use unopened commercially bottled water when proper containers, safe water, or suitable bleach are unavailable."
+    ],
+    "quick": [
+      "Wash → sanitize → empty → air-dry → fill with safe water."
+    ],
+    "sources": [
+      {
+        "organization": "CDC",
+        "title": "How to Create an Emergency Water Supply",
+        "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-11-01",
+    "tags": [
+      "jugs",
+      "food grade",
+      "container cleaning",
+      "sanitize"
+    ]
+  },
+  {
+    "id": "water-boiling",
+    "title": "Boil water to kill germs",
+    "category": "water",
+    "summary": "Boiling is the preferred emergency method for killing disease-causing germs when safe bottled water is unavailable. It does not remove chemical pollution.",
+    "when": "A boil-water advisory or a known microbial risk, when authorities allow boiling.",
+    "needs": [
+      "Heat-safe pot",
+      "Safe heat source",
+      "Clean cloth or coffee filter if cloudy",
+      "Sanitized covered container"
+    ],
+    "steps": [
+      "Check the advisory first. If fuel, toxic chemicals, radioactive materials, or chemical contamination are suspected, choose bottled water or another approved source instead.",
+      "If water is cloudy, let particles settle and draw off clear water, or pass it through a clean cloth, paper towel, or coffee filter. This preliminary step alone does not disinfect it.",
+      "Bring clear water to a full rolling boil for 1 minute. CDC extends this to 3 minutes above 6,500 feet (EPA: above 5,000 feet); all of Michigan is below 2,000 feet.",
+      "Let it cool without adding untreated water or ice. Handle the pot carefully and keep children away from hot surfaces.",
+      "Pour into a clean sanitized container with a tight cover. Use safe water for drinking, preparing food, brushing teeth, and making ice during the advisory."
+    ],
+    "warnings": [
+      "Boiling cannot make fuel- or chemically contaminated water safe, and it does not remove lead (EPA). Outdoor camp stoves belong outdoors, away from openings; never use them inside to boil water."
+    ],
+    "mistakes": [
+      "Starting the timer before a rolling boil, or contaminating cooled water with an unclean cup."
+    ],
+    "alternatives": [
+      "Use sealed commercially bottled water if boiling cannot be done safely."
+    ],
+    "quick": [
+      "Rolling boil: 1 minute; above 6,500 feet: 3 minutes.",
+      "Chemical contamination requires a different safe source."
+    ],
+    "sources": [
+      {
+        "organization": "CDC",
+        "title": "How to Make Water Safe in an Emergency",
+        "url": "https://www.cdc.gov/water-emergency/about/index.html",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "EPA",
+        "title": "Emergency Disinfection of Drinking Water",
+        "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "EPA",
+        "title": "Basic Information about Lead in Drinking Water",
+        "url": "https://www.epa.gov/ground-water-and-drinking-water/basic-information-about-lead-drinking-water",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "boil water",
+      "purification",
+      "tap water",
+      "germs"
+    ]
+  },
+  {
+    "id": "water-chemical-disinfection",
+    "title": "Emergency water disinfection with bleach",
+    "category": "water",
+    "summary": "Bleach can reduce many bacteria and viruses in emergency water. It is less reliable than boiling for some parasites and cannot remove toxic chemicals.",
+    "when": "Safe bottled water is unavailable and boiling is not possible; authorities have not prohibited use of the source.",
+    "needs": [
+      "Regular unscented household chlorine bleach labeled 5–9% sodium hypochlorite",
+      "Clean dropper",
+      "US gallon measure",
+      "Sanitized covered container"
+    ],
+    "steps": [
+      "Reject water suspected of fuel, toxic chemical, or radioactive contamination. Check the bleach label: follow its drinking-water directions when provided; never use scented, splashless, or additive-containing products.",
+      "If water is cloudy, allow settling and draw off the clearer water, or prefilter through clean cloth or a coffee filter.",
+      "For regular unscented 5–9% sodium hypochlorite bleach without drinking-water label instructions, CDC specifies 2 drops per quart or liter, 8 drops per 1 US gallon and 40 drops (½ teaspoon) per 5 gallons of clear water. EPA's table for 8.25% bleach uses 6 drops per gallon. Double the amount if the water is cloudy, murky, colored or very cold.",
+      "Stir and wait at least 30 minutes. EPA: the water should smell slightly of chlorine; if it does not, repeat the dose and wait another 15 minutes. Store treated water in a clean, covered container."
+    ],
+    "warnings": [
+      "Do not substitute surface-cleaning dilutions. Do not guess concentrations. Chemical disinfection is less effective against Cryptosporidium and Giardia; choose boiling when possible.",
+      "Use fresh suitable bleach with a known concentration and storage history; follow any shorter manufacturer limit. Old or heat-damaged bleach has uncertain strength. Never compensate by guessing a larger dose."
+    ],
+    "mistakes": [
+      "Using expired or unknown-strength bleach, or measuring an unverified capful."
+    ],
+    "alternatives": [
+      "Use an appropriate commercial treatment product exactly as labeled, or obtain safe bottled water."
+    ],
+    "quick": [
+      "5–9% unscented bleach (CDC): 2 drops/quart, 8 drops/gallon, 40 drops (½ tsp)/5 gallons; double if cloudy or very cold; wait 30 minutes.",
+      "8.25% bleach (EPA): 6 drops/gallon.",
+      "Faint chlorine smell after 30 min; if none, repeat and wait 15 more."
+    ],
+    "sources": [
+      {
+        "organization": "CDC",
+        "title": "How to Make Water Safe in an Emergency",
+        "url": "https://www.cdc.gov/water-emergency/about/index.html",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "EPA",
+        "title": "Emergency Disinfection of Drinking Water",
+        "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-11-01",
+    "tags": [
+      "bleach",
+      "chlorine",
+      "disinfect drinking water",
+      "purification"
+    ]
+  },
+  {
+    "id": "water-filters",
+    "title": "Understand what your water filter removes",
+    "category": "water",
+    "summary": "Filters have different capabilities. A membrane straw, pitcher, and purifier are not interchangeable, and no ordinary camping filter is a guarantee against chemical contamination.",
+    "when": "When selecting, packing, or using a personal water filter.",
+    "needs": [
+      "Exact filter instructions",
+      "Replacement parts or cartridge",
+      "Separate dirty and clean containers"
+    ],
+    "steps": [
+      "Identify the model and read its claims for bacteria, parasites, and viruses separately. CDC notes that most portable filters do not remove viruses and many do not remove bacteria.",
+      "Check the absolute pore size or certification. CDC: 1 micron or smaller (or NSF 53/58 cyst reduction) removes parasites but not viruses or all bacteria; 0.3 micron or smaller removes bacteria and parasites but not viruses; reverse osmosis removes parasites, bacteria and viruses. A cloth or coffee filter removes particles only.",
+      "Use the cleanest source authorities consider appropriate. Keep the untreated inlet and dirty bag away from the clean outlet and drinking bottle.",
+      "Follow cleaning, backflushing, cartridge life, storage, and freeze-damage instructions. Replace a damaged or exhausted unit rather than relying on its appearance.",
+      "Filter first, then disinfect (bleach, or tablets used exactly as labeled) for the best protection against viruses. For suspected chemicals, fuel or toxins, obtain another safe water source."
+    ],
+    "warnings": [
+      "Clear, odorless water can still be unsafe. Boiling and household disinfection do not reliably remove chemical contaminants either."
+    ],
+    "mistakes": [
+      "Assuming a filter that removes parasites also removes viruses, or letting the clean outlet touch dirty water."
+    ],
+    "alternatives": [
+      "Sealed bottled water is the simplest reliable emergency option. Boil appropriate source water if microbial treatment is needed."
+    ],
+    "quick": [
+      "Check certified organism-removal claims and an absolute pore rating: ≤1 micron for parasites; ≤0.3 micron for bacteria and parasites. Viruses require an appropriate additional treatment or reverse osmosis. Follow the exact product instructions.",
+      "Filter, then disinfect; keep dirty and clean sides separate."
+    ],
+    "sources": [
+      {
+        "organization": "CDC",
+        "title": "How to Make Water Safe in an Emergency",
+        "url": "https://www.cdc.gov/water-emergency/about/index.html",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "About Water Treatment Options When Hiking, Camping, or Traveling",
+        "url": "https://www.cdc.gov/drinking-water/prevention/water-treatment-hiking-camping-traveling.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-11-01",
+    "tags": [
+      "membrane filter",
+      "lifestraw",
+      "virus",
+      "purifier",
+      "filtration"
+    ]
+  },
+  {
+    "id": "water-advisories",
+    "title": "Read a municipal water advisory",
+    "category": "water",
+    "summary": "The correct response depends on whether officials report germs, chemicals, or a contact hazard. A boil-water notice is different from a do-not-use order.",
+    "when": "A utility warning, pressure loss, water main break, or possible contamination.",
+    "needs": [
+      "Utility or health-department instructions",
+      "Safe bottled water",
+      "Radio or saved official contact information"
+    ],
+    "steps": [
+      "Read or listen for the exact advisory type and the affected area. Record the issue time and where official updates will be announced.",
+      "For a boil-water advisory, use bottled water or water boiled according to the boiling guide for drinking, cooking, brushing teeth, and making ice.",
+      "For a do-not-drink advisory, use commercially bottled water for consumption and food preparation. Boiling does not remove harmful chemicals or toxins.",
+      "For a do-not-use advisory, avoid tap water for every purpose until authorities clear it. Contact with skin, eyes, or inhaled mist may be hazardous.",
+      "Do not use refrigerator water dispensers or connected ice makers during any advisory. Follow the utility’s flushing and appliance-cleaning directions when the notice is lifted."
+    ],
+    "warnings": [
+      "Do not infer that bathing or handwashing is allowed. Follow the specific notice; permitted uses vary by contaminant."
+    ],
+    "mistakes": [
+      "Treating a do-not-drink chemical notice as though boiling solves it."
+    ],
+    "alternatives": [
+      "If you cannot confirm the notice type, use sealed bottled water and seek official clarification."
+    ],
+    "quick": [
+      "Boil = germs; do not drink = avoid ingestion; do not use = avoid all contact."
+    ],
+    "sources": [
+      {
+        "organization": "CDC",
+        "title": "Drinking Water Advisories: An Overview",
+        "url": "https://www.cdc.gov/water-emergency/about/drinking-water-advisories-an-overview.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "tap water",
+      "municipal water",
+      "do not drink",
+      "do not use",
+      "boil advisory"
+    ]
+  },
+  {
+    "id": "water-private-well",
+    "title": "Private wells in Michigan: outages and flooding",
+    "category": "water",
+    "summary": "An electric well pump stops when the power does, and a flooded well can be contaminated. Michigan EGLE and CDC advise bottled water until a flooded well is disinfected and tested.",
+    "when": "Your home uses a private well and the power is out, or floodwater reached the wellhead, pit or pump.",
+    "needs": [
+      "Stored drinking water",
+      "A few pails of non-drinking water for flushing (if sewer/septic works)",
+      "Contact for a licensed well contractor",
+      "Certified lab sample bottles"
+    ],
+    "steps": [
+      "Power outage: avoid opening taps, showering or flushing during an extended outage so the system does not lose pressure (EGLE). Use stored water. If the system lost all pressure, have the water tested for coliform bacteria.",
+      "Flooding: stop drinking the well water immediately. Use bottled water for drinking and cooking. If you must use well water and only germs are suspected, boil it.",
+      "Do not turn power back on to a flooded pump. Have a qualified electrician or well contractor check wiring first — flooded equipment can shock you.",
+      "Have a licensed well contractor disinfect drilled, driven or bored wells. EGLE: do not attempt to disinfect or use a flooded dug well.",
+      "Follow local health-department and certified-lab clearance instructions. EGLE calls for two coliform-free samples collected 8 hours apart after chlorine is flushed out. These results do not rule out chemical contamination; additional testing may be needed after flooding. CDC advises waiting at least 7–10 days after disinfection before sampling, with all chlorine flushed out. Test for coliform annually and when taste, odor or clarity changes.",
+      "If the water smells of fuel or chemicals, boiling and disinfection will not help — use bottled water and call the local health department."
+    ],
+    "warnings": [
+      "Do not enter a well pit. Hazardous gases, oxygen deficiency and electrical equipment can be deadly; have qualified well professionals do the work. Boiling does not remove fuel, chemicals or nitrates."
+    ],
+    "mistakes": [
+      "Restarting a flooded pump before the wiring is inspected, or assuming clear water is safe."
+    ],
+    "alternatives": [
+      "Use bottled water or an approved public supply until the local health department's testing and clearance requirements are met. Coliform tests do not rule out chemical contamination."
+    ],
+    "quick": [
+      "Outage: don't run taps; use stored water.",
+      "Flooded: use an approved alternative supply; contractor disinfects; follow local testing and clearance. Coliform tests do not clear chemicals."
+    ],
+    "sources": [
+      {
+        "organization": "Michigan EGLE",
+        "title": "Protecting Your Private Water Supply in an Emergency (04/2020)",
+        "url": "https://www.michigan.gov/egle/-/media/Project/Websites/egle/Documents/Programs/DWEHD/Water-Well-Construction/Protecting-Your-Private-Water-Supply-in-an-Emergency.pdf",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "How to Disinfect Wells After an Emergency",
+        "url": "https://www.cdc.gov/water-emergency/about/how-to-disinfect-wells-after-an-emergency.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [
+      "water-advisories",
+      "water-boiling",
+      "sanitation-emergency-toilet"
+    ],
+    "region": "Michigan",
+    "updated": "2026-11-01",
+    "tags": [
+      "well",
+      "private well",
+      "flooded well",
+      "pump",
+      "coliform",
+      "EGLE",
+      "Michigan"
+    ]
+  },
+  {
+    "id": "water-conservation",
+    "title": "Conserve water without sacrificing hygiene",
+    "category": "water",
+    "summary": "Conservation stretches stored water, but drinking, essential care, handwashing, and safe food preparation remain priorities. Wastewater conditions determine what can safely go down a drain.",
+    "when": "Water service is interrupted or supply is limited.",
+    "needs": [
+      "Covered drinking-water supply",
+      "Small pouring container",
+      "Soap",
+      "Separate labeled utility-water containers"
+    ],
+    "steps": [
+      "Count safe stored water and household needs, including pets and medical uses. Keep drinking water in clean covered containers and record consumption.",
+      "Use a small controlled pour for handwashing and sponge bathing instead of leaving water running. Wash hands with soap at key times, especially after toilet use and before food preparation.",
+      "Choose foods requiring little water. Prepare only what can be eaten promptly and use safe water for foods, utensils, teeth, and open wounds.",
+      "Keep non-drinking water clearly labeled and physically separate. Only reuse water for a purpose authorities permit; never reuse contaminated wash water for drinking or food.",
+      "If sewer service is impaired or drains back up, stop flushing and minimize all drainage. Use a contained emergency toilet and follow local disposal instructions."
+    ],
+    "warnings": [
+      "Never deliberately dehydrate yourself to meet an estimated duration. Do not flush toilets during sewer failure or mix unsafe water into the drinking supply."
+    ],
+    "mistakes": [
+      "Spending potable water on routine toilet flushing without checking alternatives and sewer status."
+    ],
+    "alternatives": [
+      "Seek official distribution or a functioning shelter before supplies become critically low."
+    ],
+    "quick": [
+      "Prioritize drinking and hygiene; separate drinking and utility water."
+    ],
+    "sources": [
+      {
+        "organization": "CDC",
+        "title": "How to Create an Emergency Water Supply",
+        "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "Guidelines for Personal Hygiene During an Emergency",
+        "url": "https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "Guidelines for Septic and Onsite Wastewater Systems",
+        "url": "https://www.cdc.gov/floods/safety/guidelines-for-septic-and-onsite-wastewater-systems.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "water saving",
+      "plumbing stops",
+      "conservation",
+      "rationing"
+    ]
+  },
+  {
+    "id": "food-pantry",
+    "title": "Build a practical emergency pantry",
+    "category": "food",
+    "summary": "A useful pantry contains food you can actually eat with limited water, cooking fuel, refrigeration, and equipment. Build it from familiar meals rather than only bulk staples.",
+    "when": "Before emergencies and during routine grocery shopping.",
+    "needs": [
+      "Shelf-stable foods",
+      "Manual can opener",
+      "Inventory list",
+      "Household dietary and allergy requirements"
+    ],
+    "steps": [
+      "Start with at least 3 days of food and gradually work toward your selected target, such as 2 weeks. Include infants, special diets, and pets separately.",
+      "Choose ready-to-eat or low-preparation proteins, fruit, vegetables, grains, and fats. Compare package serving counts and calories; a can is not always one meal.",
+      "Include a manual can opener, utensils, safe drinking water, and food that can be eaten cold when outdoor cooking is unsafe or impossible.",
+      "Store food cool, dry, above likely floodwater, and away from pests and household chemicals. Record dates, quantities, and storage locations.",
+      "Plan a sample day of meals with your actual supplies. Use the food calculator for an energy estimate, then check protein, dietary restrictions, variety, and preparation needs."
+    ],
+    "warnings": [
+      "A calorie estimate cannot establish nutritional adequacy. Do not use leaking, swollen, badly damaged, or flood-contaminated packaging."
+    ],
+    "mistakes": [
+      "Buying foods nobody eats, or dry foods that need more water and fuel than you have."
+    ],
+    "alternatives": [
+      "Add a few extra shelf-stable items from ordinary shopping and rotate them into regular meals."
+    ],
+    "quick": [
+      "Familiar foods + low preparation + manual opener + safe water."
+    ],
+    "sources": [
+      {
+        "organization": "FoodSafety.gov",
+        "title": "Food Safety in a Disaster or Emergency",
+        "url": "https://www.foodsafety.gov/keep-food-safe/food-safety-in-disaster-or-emergency",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "two week pantry",
+      "emergency food",
+      "calories",
+      "shelf stable"
+    ]
+  },
+  {
+    "id": "food-rotation",
+    "title": "Rotate pantry food and interpret dates",
+    "category": "food",
+    "summary": "Rotation reduces waste and exposes missing supplies before an outage. Many US date labels describe quality, while storage history and package integrity still determine safety.",
+    "when": "When putting away groceries, doing a monthly supply check, or reviewing expiring items.",
+    "needs": [
+      "Marker",
+      "Inventory with dates and quantities",
+      "Clean dry shelves"
+    ],
+    "steps": [
+      "Put older food at the front and newer food behind it. Group by meal or food type so you can see shortages without unpacking everything.",
+      "Record the label’s exact date and whether it says best-by, use-by, or another phrase. USDA explains that most food date labels concern quality; infant formula is an important exception.",
+      "Inspect for leaks, swelling, damage, pests, rust, and evidence of heat or flooding. Discard suspect food rather than using a date as proof of safety.",
+      "Use approaching-date items in normal meals and replace them. After opening, follow the package’s refrigeration and use instructions; an unopened shelf life no longer applies.",
+      "Update quantities after each use and review special-diet and pet items. Keep a short shopping list of gaps rather than relying on memory."
+    ],
+    "warnings": [
+      "Never taste suspect food to judge safety. Do not use infant formula past its use-by date. A future date does not make temperature-abused food safe."
+    ],
+    "mistakes": [
+      "Treating a quality date as a universal safety deadline, or keeping damaged or improperly stored food because it looks normal. Infant formula must not be used after its use-by date."
+    ],
+    "alternatives": [
+      "Use a paper first-in, first-out list if entering every package is impractical."
+    ],
+    "quick": [
+      "Rotate routinely; judge safety by handling and condition, not date alone."
+    ],
+    "sources": [
+      {
+        "organization": "USDA",
+        "title": "Food Date Labeling",
+        "url": "https://www.usda.gov/sites/default/files/documents/USDA-Food-Date-Labeling-Infographic.pdf",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "Keep Food Safe After a Disaster or Emergency",
+        "url": "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-11-01",
+    "tags": [
+      "expiration date",
+      "best by",
+      "pantry organization",
+      "rotation"
+    ]
+  },
+  {
+    "id": "food-refrigerator",
+    "title": "Keep refrigerated food safe in an outage",
+    "category": "food",
+    "summary": "The clock and temperature matter more than smell. An unopened refrigerator generally keeps food safe for about 4 hours without power.",
+    "when": "Power fails or refrigerator cooling stops.",
+    "needs": [
+      "Appliance thermometer",
+      "Clock or written outage time",
+      "Cooler and ice if available"
+    ],
+    "steps": [
+      "Write down when power failed. Keep the refrigerator door closed and avoid checking repeatedly. A thermometer helps you assess actual temperatures.",
+      "If the outage approaches 4 hours and ice is available, transfer perishable food to a cooler that keeps it at 40°F or below.",
+      "After 4 hours without power or an effective cold source, discard refrigerated perishable foods such as meat, fish, eggs, milk, cut produce, and leftovers.",
+      "If using a cooler or supplemental ice, check its temperature. Use the linked FoodSafety.gov guidance for individual foods; do not assume every condiment needs the same decision.",
+      "Clean spills with safe water and suitable cleaning products. Record discarded stock so the app does not continue counting unavailable food."
+    ],
+    "warnings": [
+      "Never taste food to determine safety. Perishable food held above 40°F for more than 2 hours generally needs discarding; follow the official food-specific chart."
+    ],
+    "mistakes": [
+      "Relying on odor, opening the door often, or assuming power returning makes unsafe food safe again."
+    ],
+    "alternatives": [
+      "Use shelf-stable meals while refrigeration is unavailable."
+    ],
+    "quick": [
+      "Door closed. About 4 hours without a cold source. When uncertain, discard."
+    ],
+    "sources": [
+      {
+        "organization": "CDC",
+        "title": "Keep Food Safe After a Disaster or Emergency",
+        "url": "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "FoodSafety.gov",
+        "title": "Food Safety During Power Outage",
+        "url": "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "fridge",
+      "refrigerator",
+      "power outage food",
+      "40 degrees"
+    ]
+  },
+  {
+    "id": "food-freezer",
+    "title": "Assess frozen food after power loss",
+    "category": "food",
+    "summary": "A full closed freezer warms more slowly than a half-full one. Time estimates are planning aids; actual food temperature and remaining ice crystals guide decisions.",
+    "when": "A freezer loses power or you return home after an outage.",
+    "needs": [
+      "Appliance thermometer",
+      "Outage time estimate",
+      "Cooler or alternate working freezer if safely available"
+    ],
+    "steps": [
+      "Keep the door closed. A full freezer can keep food safe for about 48 hours; a half-full one about 24 hours, if the door stays shut.",
+      "Before a forecast outage, group food and freeze safe containers of water while power is available. Leave headspace for expansion in containers.",
+      "When assessing food, check for remaining ice crystals and temperature. Food still containing ice crystals or at 40°F or below may generally be refrozen or cooked, though quality may decline.",
+      "Use official food-specific guidance for thawed food. Discard perishable food exposed above 40°F for more than 2 hours and anything with uncertain unsafe handling.",
+      "Keep raw meat juices away from other food and clean affected surfaces. Update inventory to remove anything discarded."
+    ],
+    "warnings": [
+      "Do not taste thawed food to decide whether it is safe. A freezer that feels cool is not a substitute for temperature measurement."
+    ],
+    "mistakes": [
+      "Opening the freezer repeatedly, assuming refreezing reverses bacterial growth, or applying the 48-hour estimate to a half-empty freezer."
+    ],
+    "alternatives": [
+      "Eat shelf-stable supplies and arrange safe cold storage when practical."
+    ],
+    "quick": [
+      "Closed freezer: full about 48h, half-full about 24h. Check temperature and ice crystals."
+    ],
+    "sources": [
+      {
+        "organization": "CDC",
+        "title": "Keep Food Safe After a Disaster or Emergency",
+        "url": "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "FoodSafety.gov",
+        "title": "Food Safety During Power Outage",
+        "url": "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "frozen food",
+      "freezer",
+      "ice crystals",
+      "refreeze"
+    ]
+  },
+  {
+    "id": "food-camp-cooking",
+    "title": "Use a camp stove safely during an outage",
+    "category": "food",
+    "summary": "A camp stove can prepare food when utilities fail, but combustion creates carbon monoxide and fire hazards. A safe outdoor location is essential.",
+    "when": "You have a suitable stove, correct fuel, and a safe outdoor cooking area.",
+    "needs": [
+      "Stove manual and matching fuel",
+      "Stable nonflammable outdoor surface",
+      "Pot and safe water",
+      "Battery-backed carbon monoxide alarms indoors"
+    ],
+    "steps": [
+      "Read the exact appliance instructions before use. Select a stable outdoor area away from combustible materials, doors, windows, vents, and garages; follow required clearances.",
+      "Inspect the stove, connections, and fuel container. Keep spare fuel away from heat and cooking activities, and follow building rules and fire restrictions.",
+      "Prepare ingredients and utensils before lighting so cooking uses less fuel. Keep children and pets away and remain with the stove while it is operating.",
+      "Cook food safely, then turn the stove off according to its instructions. Allow it to cool before handling, changing fuel, or storing.",
+      "If you cannot meet outdoor requirements, use ready-to-eat food or relocate to a safe place rather than bringing the stove indoors."
+    ],
+    "warnings": [
+      "Never use an outdoor propane camp stove, grill, charcoal burner, or generator indoors, in a garage, or near openings where exhaust can enter. Never use a stove or oven to heat the home."
+    ],
+    "mistakes": [
+      "Using a balcony where rules or clearances prohibit it, or assuming an open window makes indoor combustion safe."
+    ],
+    "alternatives": [
+      "Choose canned beans, fish, fruit, crackers, and other ready-to-eat foods."
+    ],
+    "quick": [
+      "Outdoor-only equipment stays outdoors. Ventilation does not make indoor use safe."
+    ],
+    "sources": [
+      {
+        "organization": "Michigan State Police, MI Ready",
+        "title": "Power Outages",
+        "url": "https://www.michigan.gov/miready/be-informed/power-outages",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "FoodSafety.gov",
+        "title": "Food Safety in a Disaster or Emergency",
+        "url": "https://www.foodsafety.gov/keep-food-safe/food-safety-in-disaster-or-emergency",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "propane",
+      "camp stove",
+      "cooking without electricity",
+      "carbon monoxide"
+    ]
+  },
+  {
+    "id": "food-canning",
+    "title": "Understand safe home canning limits",
+    "category": "food",
+    "summary": "Canning requires researched processes matched to the food, jar, equipment, and elevation. It is a preparation skill to learn before an outage, not a way to improvise rescue of unsafe food.",
+    "when": "Planning home preservation while safe utilities and suitable equipment are available.",
+    "needs": [
+      "Current USDA or National Center for Home Food Preservation recipe",
+      "Correct canner and jars",
+      "Reliable heat source and safe water"
+    ],
+    "steps": [
+      "Select a current tested recipe for the exact food and preparation. Read all steps before buying ingredients; follow jar size and altitude adjustments.",
+      "Use pressure canning for low-acid foods such as vegetables, meat, poultry, and seafood. Boiling-water canning is not a substitute for these foods.",
+      "Check canner condition and gauge accuracy, then follow the complete tested process. Do not change ingredient ratios, processing time, pressure, or container size casually.",
+      "After proper cooling, inspect seals, label the food and date, and store according to the tested guidance. Keep the recipe and batch notes.",
+      "Discard food with suspect processing, leakage, bulging, mold, or other spoilage signs. Never taste it to check. Consult extension specialists about uncertain batches."
+    ],
+    "warnings": [
+      "Botulism toxin can be fatal. A sealed lid does not prove a food was processed safely. An electric multicooker is not automatically a tested pressure canner."
+    ],
+    "mistakes": [
+      "Using family recipes without tested processing, oven canning, or attempting to make unsafe food safe by merely resealing it."
+    ],
+    "alternatives": [
+      "Buy commercially shelf-stable food for immediate emergency supplies; learn canning with extension guidance later."
+    ],
+    "quick": [
+      "Tested recipe, correct canner, exact process; never taste suspect jars."
+    ],
+    "sources": [
+      {
+        "organization": "National Center for Home Food Preservation / USDA",
+        "title": "For Safety’s Sake",
+        "url": "https://nchfp.uga.edu/how/can/general-information/for-safetys-sake",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "food preservation",
+      "botulism",
+      "pressure canning",
+      "dehydration"
+    ]
+  },
+  {
+    "id": "food-no-cook",
+    "title": "Plan no-cook meals with limited water",
+    "category": "food",
+    "summary": "A no-cook menu helps when cooking outdoors is unsafe or fuel is unavailable. Include protein and produce as well as quick carbohydrates.",
+    "when": "During outages, heat emergencies, or when water and washing facilities are limited.",
+    "needs": [
+      "Ready-to-eat shelf-stable foods",
+      "Manual can opener",
+      "Clean utensils and safe water",
+      "Covered waste bag"
+    ],
+    "steps": [
+      "Choose a meal using familiar foods: canned beans or fish for protein, ready-to-eat grains or crackers, and canned fruit or vegetables. Check allergens and individual diet limits.",
+      "Clean hands, the preparation surface, and the can opener. Inspect packaging; do not use swollen, leaking, heavily damaged, or flood-exposed food.",
+      "Open only what can be eaten promptly. Buy small packages when refrigeration is unavailable and avoid storing perishable opened leftovers at room temperature.",
+      "Count calories and servings from labels, then check whether meals include protein and variety. The app’s duration estimate is an energy calculation, not a nutrition assessment.",
+      "Keep safe drinking water available and bag food waste promptly to limit pests. Replenish used inventory after services return."
+    ],
+    "warnings": [
+      "Dry beans, raw rice, and foods requiring cooking are not ready-to-eat substitutes. Follow label instructions and safe handling of opened food."
+    ],
+    "mistakes": [
+      "Planning only salty snacks or assuming a large opened can remains shelf-stable without refrigeration."
+    ],
+    "alternatives": [
+      "Use individually packaged foods and disposable utensils temporarily if safe washing is impossible; manage the extra waste."
+    ],
+    "quick": [
+      "Ready-to-eat protein + grain + fruit/vegetable; open meal-sized amounts."
+    ],
+    "sources": [
+      {
+        "organization": "FoodSafety.gov",
+        "title": "Food Safety in a Disaster or Emergency",
+        "url": "https://www.foodsafety.gov/keep-food-safe/food-safety-in-disaster-or-emergency",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "Keep Food Safe After a Disaster or Emergency",
+        "url": "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "minimal cooking",
+      "no cook",
+      "emergency meals",
+      "limited water"
+    ]
+  },
+  {
+    "id": "food-pet-food",
+    "title": "Prepare food and water for pets",
+    "category": "food",
+    "summary": "Pets need their own food, water, medications, transport, and records. A human pantry or shelter plan does not automatically meet an animal’s needs.",
+    "when": "Before an emergency or an evacuation.",
+    "needs": [
+      "Usual pet food and bowls",
+      "Safe water",
+      "Medication and veterinary records",
+      "Carrier or leash and waste supplies"
+    ],
+    "steps": [
+      "Plan two weeks of each animal's usual food and individualized drinking water, following veterinary advice. Record normal daily amounts and instructions; add separate cleaning water. Build the reserve progressively if necessary.",
+      "Store food in airtight waterproof packaging and rotate it. Add a manual can opener if needed and choose package sizes that do not create unrefrigerated leftovers.",
+      "Include medications, vaccination records, identification, a photo with you, carrier, leash, and species-appropriate sanitation supplies.",
+      "Identify a pet-friendly destination or backup caregiver before evacuation. Confirm current shelter rules rather than assuming pets are accepted.",
+      "Use the water calculator’s pet allowance based on actual needs and veterinary advice. Keep the pet’s supplies together and update inventory after use.",
+      "Keep dry food and unopened cans cool and dry, below 80°F (27°C), following the label. Promptly refrigerate unused opened canned or pouched food at 40°F (4°C) or below, or discard. Without safe refrigeration, use meal-sized portions. Keep original lot and date information."
+    ],
+    "warnings": [
+      "Do not replace animal diets with random human foods; some are toxic. Do not give human medications unless a veterinarian directs you."
+    ],
+    "mistakes": [
+      "Forgetting pets when counting stored water or relying on an evacuation shelter to provide food and bowls."
+    ],
+    "alternatives": [
+      "Ask your veterinarian about alternatives for prescription diets and refrigerated pet medicines before disruption occurs."
+    ],
+    "quick": [
+      "Separate pet food, water, transport, records, and medication plan."
+    ],
+    "sources": [
+      {
+        "organization": "Michigan State Police, MI Ready",
+        "title": "Pets and Service Animals",
+        "url": "https://www.michigan.gov/miready/family-preparedness-guide/before-during-and-after-a-disaster/pets-and-service-animals",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "Pet disaster kit",
+        "url": "https://www.cdc.gov/healthy-pets/emergency-preparedness/preparedness-kit.html",
+        "verified": "2026-11-01"
+      },
+      {
+        "organization": "FDA",
+        "title": "Proper storage of pet food",
+        "url": "https://www.fda.gov/animal-veterinary/animal-health-literacy/proper-storage-pet-food-treats",
+        "verified": "2026-11-01"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-11-01",
+    "tags": [
+      "pet food",
+      "dog",
+      "cat",
+      "service animal",
+      "veterinary"
+    ]
+  },
+  {
+    "id": "sanitation-sponge-bathing",
+    "title": "Sponge bathe without running water",
+    "category": "sanitation",
+    "summary": "A small amount of safe water can support basic hygiene without a shower. Keep washing water separate from drinking supplies and avoid becoming cold.",
+    "when": "No plumbing or electricity, but safe bathing water is available.",
+    "needs": [
+      "Safe water",
+      "Small basin or pouring jug",
+      "Mild soap and clean cloths",
+      "Towel and clean underwear"
+    ],
+    "steps": [
+      "Follow local advice about bathing water. Never use sewage- or chemically contaminated water. Choose a private warm area and place supplies within reach.",
+      "Pour a small amount into a clean basin; keep the main water container closed. Use a clean damp cloth for the face, then wash the body in sections.",
+      "Use mild soap where needed, paying attention to underarms, groin, feet, and skin folds. Use a separate cloth for the genital area and wash it last.",
+      "Wipe away soap with a separate clean damp cloth, dry thoroughly, and put on clean clothes. Avoid sharing cloths and protect open wounds from contaminated water.",
+      "Dispose of wash water only as local guidance allows. If drains or sewer service have failed, contain wastewater instead of adding it to backed-up plumbing."
+    ],
+    "warnings": [
+      "Do not bathe in floodwater. Avoid swallowing questionable water or getting it in eyes. Use safe water for teeth and wound cleaning."
+    ],
+    "mistakes": [
+      "Dipping a dirty washcloth into the drinking-water container or leaving skin damp in cold conditions."
+    ],
+    "alternatives": [
+      "Use appropriate personal-cleansing wipes temporarily, then wash properly when safe water is available; wipes do not replace handwashing."
+    ],
+    "quick": [
+      "Safe water; clean cloths; wash and dry one section at a time."
+    ],
+    "sources": [
+      {
+        "organization": "CDC",
+        "title": "Guidelines for Personal Hygiene During an Emergency",
+        "url": "https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "Guidelines for Septic and Onsite Wastewater Systems",
+        "url": "https://www.cdc.gov/floods/safety/guidelines-for-septic-and-onsite-wastewater-systems.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "no shower",
+      "off grid bathing",
+      "sponge bath",
+      "hygiene without plumbing"
+    ]
+  },
+  {
+    "id": "sanitation-handwashing",
+    "title": "Set up a low-water handwashing station",
+    "category": "sanitation",
+    "summary": "Handwashing remains one of the most useful defenses against illness when normal plumbing is unavailable. A controlled-pour jug provides running water without a working faucet.",
+    "when": "Water restrictions, an outage, or a temporary emergency toilet.",
+    "needs": [
+      "Safe water in a jug with tap or controlled pour",
+      "Soap",
+      "Catch basin",
+      "Clean towels or paper towels"
+    ],
+    "steps": [
+      "Set the water container above a catch basin, away from food and waste storage. Keep the outlet clean and avoid touching it with dirty hands.",
+      "Wet hands, apply soap, and scrub all surfaces for at least 20 seconds, including backs of hands, between fingers, and under nails.",
+      "Rinse under a small stream and dry with a clean towel. Wash after toilet use, waste handling, and before preparing or eating food.",
+      "Follow local advisory instructions about whether tap water is allowed for handwashing. Use boiled or disinfected water if authorities or your clinician recommend extra caution.",
+      "If soap and water are unavailable, use hand sanitizer containing at least 60% alcohol as a temporary option. Obtain soap and safe water for visibly dirty or greasy hands."
+    ],
+    "warnings": [
+      "Sanitizer does not remove all germs or harmful chemicals. Do not use surface disinfectants or bleach on skin."
+    ],
+    "mistakes": [
+      "Washing hands in a shared dirty basin or skipping the rinse to save water."
+    ],
+    "alternatives": [
+      "A helper can pour a small stream from a clean bottle when no spigot is available."
+    ],
+    "quick": [
+      "Soap + scrub 20 seconds + safe rinse. Sanitizer is a backup."
+    ],
+    "sources": [
+      {
+        "organization": "CDC",
+        "title": "Guidelines for Personal Hygiene During an Emergency",
+        "url": "https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "wash hands",
+      "sanitizer",
+      "20 seconds",
+      "water restrictions"
+    ]
+  },
+  {
+    "id": "sanitation-emergency-toilet",
+    "title": "Make a contained emergency toilet",
+    "category": "sanitation",
+    "summary": "When sewage systems fail, stopping flushing prevents exposure and damage. A lined pail is a temporary containment method until officials identify safe disposal.",
+    "when": "Authorities say not to flush, or sewer service is clearly unavailable.",
+    "needs": [
+      "Sturdy 5-gallon pail or stable toilet bowl",
+      "Two heavy-duty bags per liner",
+      "Absorbent litter or sawdust",
+      "Lid, gloves, soap, and handwashing station"
+    ],
+    "steps": [
+      "Confirm whether sewer service works. If drains back up or authorities prohibit flushing, stop using toilets and reduce water sent down drains.",
+      "Choose a private stable location away from food preparation, children, pets, and drinking-water supplies. Arrange safe handwashing nearby.",
+      "Line the pail or bowl with two heavy-duty bags and add absorbent material. Secure the liner and use a suitable stable seat; keep a lid closed between uses.",
+      "Tie bags securely before they become too heavy or overfilled. Keep them in a protected covered location inaccessible to people and animals, separate from living and food areas.",
+      "Follow local health and waste-authority instructions for final disposal. Put human waste in ordinary trash only when authorities explicitly allow it during the emergency."
+    ],
+    "warnings": [
+      "Do not pour bagged waste into storm drains or assume burial or ordinary trash is permitted. Never flush wipes, bags, or absorbent material."
+    ],
+    "mistakes": [
+      "Continuing to flush a failed sewer or leaving waste accessible to flies and pets."
+    ],
+    "alternatives": [
+      "Use an accessible functioning toilet or a serviced portable toilet when available."
+    ],
+    "quick": [
+      "Stop flushing → contain waste → wash hands → follow local disposal rules."
+    ],
+    "sources": [
+      {
+        "organization": "Public Health – Seattle & King County",
+        "title": "How to create an emergency toilet",
+        "url": "https://kingcounty.gov/en/dept/dph/health-safety/safety-injury-prevention/emergency-preparedness/personal-preparedness/emergency-toilets",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "Guidelines for Septic and Onsite Wastewater Systems",
+        "url": "https://www.cdc.gov/floods/safety/guidelines-for-septic-and-onsite-wastewater-systems.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "toilet stopped working",
+      "bucket toilet",
+      "sewer failure",
+      "no plumbing"
+    ]
+  },
+  {
+    "id": "sanitation-sewer-failure",
+    "title": "Respond to sewage backup or sewer failure",
+    "category": "sanitation",
+    "summary": "Sewage contains disease-causing organisms. A water outage and a sewer failure are different: a functioning drain cannot be assumed during flooding or pump failure.",
+    "when": "Slow drains, overflowing floor drains, visible sewage, or official sewer warnings.",
+    "needs": [
+      "Utility and building-management contacts",
+      "Temporary toilet supplies",
+      "Gloves and barriers for isolating the area"
+    ],
+    "steps": [
+      "Stop flushing toilets and stop nonessential water use if drains back up. Keep children and pets away from sewage and affected rooms.",
+      "Contact the sewer utility, landlord, or health department. Tell them whether multiple fixtures are affected and whether flooding or electrical hazards are present.",
+      "Use a contained emergency toilet or a functioning facility elsewhere. Store waste safely and follow official disposal instructions.",
+      "Do not enter a flooded basement to reach electrical panels or pumps. Keep clear of wet electrical equipment and get professional help.",
+      "After the source is corrected, arrange appropriate cleanup and drying. Porous contaminated materials may need disposal; do not return to normal use until the area is safe."
+    ],
+    "warnings": [
+      "Avoid all contact with floodwater that may contain sewage. Do not operate or repair septic electrical devices while wet. Septic inspection and repairs require qualified help."
+    ],
+    "mistakes": [
+      "Using a bathtub as wastewater storage while it drains into the same failed system, or assuming pouring extra water clears a sewer blockage."
+    ],
+    "alternatives": [
+      "Relocate to a safe accessible facility if waste cannot be contained or the home is contaminated."
+    ],
+    "quick": [
+      "Stop drainage, isolate contamination, call the utility, use temporary sanitation."
+    ],
+    "sources": [
+      {
+        "organization": "CDC",
+        "title": "Guidelines for Septic and Onsite Wastewater Systems",
+        "url": "https://www.cdc.gov/floods/safety/guidelines-for-septic-and-onsite-wastewater-systems.html",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "Public Health – Seattle & King County",
+        "title": "How to create an emergency toilet",
+        "url": "https://kingcounty.gov/en/dept/dph/health-safety/safety-injury-prevention/emergency-preparedness/personal-preparedness/emergency-toilets",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "sewage backup",
+      "drains",
+      "septic",
+      "toilet overflow"
+    ]
+  },
+  {
+    "id": "sanitation-cleaning",
+    "title": "Clean and disinfect surfaces safely",
+    "category": "sanitation",
+    "summary": "Cleaning removes dirt and many germs. Disinfection is an additional step for relevant illness or contamination; the product label determines safe use.",
+    "when": "Routine emergency housekeeping or cleanup after someone is ill.",
+    "needs": [
+      "Soap or detergent",
+      "Safe water",
+      "EPA-registered surface disinfectant when needed",
+      "Label-required gloves and eye protection"
+    ],
+    "steps": [
+      "Keep cleaning supplies away from food, medicines, and children. Read the product label for surface suitability, ventilation, dilution, and protective equipment.",
+      "Clean visible dirt with soap or detergent and water first. Use separate materials for toilet areas and food-preparation surfaces.",
+      "If disinfection is needed, apply an appropriate product exactly as labeled. Keep the surface visibly wet for the full stated contact time.",
+      "Follow label directions for rinsing food-contact surfaces and safe storage or disposal. Label any prepared solution clearly and never put it in a drink bottle.",
+      "Wash hands after cleaning. Launder or dispose of contaminated cloths appropriately and keep clean supplies separate from waste handling equipment."
+    ],
+    "warnings": [
+      "Never mix bleach or any disinfectant with another cleaner, including ammonia or acids. Do not apply household disinfectant to skin or ingest it. Ventilate as directed."
+    ],
+    "mistakes": [
+      "Wiping a disinfectant off immediately, using dirty cloths everywhere, or assuming stronger mixtures are safer."
+    ],
+    "alternatives": [
+      "For ordinary surfaces without a relevant illness hazard, careful cleaning with soap and water is often sufficient."
+    ],
+    "quick": [
+      "Clean first; disinfect only as needed; follow contact time; never mix chemicals."
+    ],
+    "sources": [
+      {
+        "organization": "CDC",
+        "title": "When and How to Clean and Disinfect Your Home",
+        "url": "https://www.cdc.gov/hygiene/about/when-and-how-to-clean-and-disinfect-your-home.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "disinfection",
+      "bleach cleaner",
+      "household cleaning",
+      "cross contamination"
+    ]
+  },
+  {
+    "id": "sanitation-mold",
+    "title": "Prevent mold after leaks or flooding",
+    "category": "sanitation",
+    "summary": "Moisture control is the first priority. Mold cleanup can expose people to spores, contaminated materials, and hidden structural or electrical hazards.",
+    "when": "After a leak, flood, or prolonged dampness.",
+    "needs": [
+      "Safe access and ventilation",
+      "Gloves, eye protection, and appropriate respirator for cleanup",
+      "Professional contact for extensive damage"
+    ],
+    "steps": [
+      "Address the water source when it is safe to do so and arrange prompt drying. Do not enter a building with structural damage or wet electrical hazards.",
+      "Keep people with asthma, other chronic lung disease, immune suppression, or significant mold allergy away from mold cleanup and affected spaces.",
+      "For cleanup you can safely undertake, follow CDC protective-equipment guidance: at least a NIOSH-approved N95 respirator, suitable gloves, and closed protective goggles.",
+      "Remove damaged materials and clean only according to appropriate flood/mold guidance. Large areas, hidden growth, sewage contamination, and HVAC involvement require qualified assessment.",
+      "Dry the area and monitor for renewed leaks or musty smells. Mold returns if moisture remains, even after visible growth is removed."
+    ],
+    "warnings": [
+      "Never mix bleach with ammonia or other cleaners. Do not direct fans through contaminated areas in a way that spreads contamination. Respirators do not eliminate every cleanup hazard."
+    ],
+    "mistakes": [
+      "Painting over damp mold, staying in a moldy space despite breathing problems, or cleaning without fixing the leak."
+    ],
+    "alternatives": [
+      "Use safer temporary housing and professional remediation when exposure cannot be controlled."
+    ],
+    "quick": [
+      "Stop moisture; protect vulnerable people; get help for extensive contamination."
+    ],
+    "sources": [
+      {
+        "organization": "CDC",
+        "title": "Mold Clean Up Guidelines and Recommendations",
+        "url": "https://www.cdc.gov/mold-health/about/clean-up.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "mold",
+      "damp",
+      "flood cleanup",
+      "pest prevention"
+    ]
+  },
+  {
+    "id": "medical-first-aid-kit",
+    "title": "Build a useful first aid kit",
+    "category": "medical",
+    "summary": "An organized kit supports initial care while help is arranged. Training and knowing where supplies are kept are as important as the contents.",
+    "when": "Before an emergency and after using supplies.",
+    "needs": [
+      "Nonlatex gloves",
+      "Sterile dressings, bandages, tape",
+      "Thermometer, tweezers, emergency blanket",
+      "Printed first aid reference"
+    ],
+    "steps": [
+      "Use a labeled portable container. Include assorted adhesive bandages, gauze, absorbent dressings, tape, gloves, and an emergency blanket.",
+      "Add household-specific supplies, glasses, allergy information, and clinician-recommended medicines in original labeled packages.",
+      "Include emergency contacts and first aid instructions. Tell household members where the kit is; consider another kit for the vehicle.",
+      "Check regularly and after use. Replace used, damaged, or expired supplies and check equipment works.",
+      "Take recognized first aid and CPR training. Add specialist equipment only when you know how to use it safely."
+    ],
+    "warnings": [
+      "Serious injuries need professional care. Keep medicines and sharp tools away from children. Follow medicine labels and professional advice."
+    ],
+    "mistakes": [
+      "Owning a kit without knowing its contents, or failing to replace used supplies."
+    ],
+    "alternatives": [
+      "Start with core wound-care supplies and add items for personal needs."
+    ],
+    "quick": [
+      "Locate, organize, train, check, replenish."
+    ],
+    "sources": [
+      {
+        "organization": "American Red Cross",
+        "title": "Make a First Aid Kit",
+        "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/anatomy-of-a-first-aid-kit.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "first aid supplies",
+      "bandages",
+      "medical kit",
+      "emergency kit"
+    ]
+  },
+  {
+    "id": "medical-minor-wounds",
+    "title": "Clean and cover a minor cut",
+    "category": "medical",
+    "summary": "Clean and cover small superficial wounds promptly. Deep cuts, bites, punctures, retained objects, or major bleeding need medical assessment.",
+    "when": "A small shallow cut or scrape in a safe place.",
+    "needs": [
+      "Soap and clean water",
+      "Gloves when helping someone",
+      "Clean nonstick bandage"
+    ],
+    "steps": [
+      "Assess bleeding first. Heavy or persistent bleeding needs firm direct pressure and emergency help.",
+      "Wash your hands and use gloves when assisting. Clean a minor cut with mild soap and safe water. Do not probe or remove embedded objects.",
+      "Use direct pressure to stop minor bleeding and cover with a clean nonstick bandage. Ask a clinician about topical products; do not reuse leftover prescriptions.",
+      "Change a wet or dirty dressing. Watch for spreading redness, increasing pain, swelling, drainage, fever, or red streaks.",
+      "Seek care for bites, punctures, deep or gaping wounds, retained debris, loss of feeling or movement, infection, or uncertain tetanus protection."
+    ],
+    "warnings": [
+      "Do not remove deeply embedded objects. Keep wounds out of floodwater. Severe bleeding or impaired function requires urgent care."
+    ],
+    "mistakes": [
+      "Assuming a clean-looking wound needs no washing, or ignoring infection signs."
+    ],
+    "alternatives": [
+      "Protect with clean material and obtain care if safe water is unavailable."
+    ],
+    "quick": [
+      "Clean minor wounds, cover, monitor, escalate."
+    ],
+    "sources": [
+      {
+        "organization": "MedlinePlus / National Library of Medicine",
+        "title": "Cuts and puncture wounds",
+        "url": "https://medlineplus.gov/ency/article/000043.htm",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "CDC",
+        "title": "Guidelines for Personal Hygiene During an Emergency",
+        "url": "https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "cuts",
+      "scrapes",
+      "wound cleaning",
+      "infection",
+      "tetanus"
+    ]
+  },
+  {
+    "id": "medical-severe-bleeding",
+    "title": "Act on life-threatening bleeding",
+    "category": "medical",
+    "summary": "Continuous heavy flow, spurting blood, or shock signs are emergencies. Get help and apply firm pressure immediately.",
+    "when": "Severe external bleeding.",
+    "needs": [
+      "Phone or nearby assistance",
+      "Gloves if immediately available",
+      "Clean gauze or cloth",
+      "Commercial tourniquet if trained"
+    ],
+    "steps": [
+      "Check safety. Call 911 in the US or direct someone to call and fetch equipment. Do not delay pressure while finding ideal supplies.",
+      "Press firmly and steadily over the wound with gauze or clean cloth. Continue pressure instead of lifting repeatedly to inspect.",
+      "If trained, use a commercial tourniquet for life-threatening arm or leg bleeding, following training and device instructions. Wound packing is for trained responders.",
+      "Leave embedded objects in place and press around them. Prevent chilling and monitor breathing and responsiveness.",
+      "Stay until help arrives. Follow dispatcher instructions and give CPR/AED care according to training if needed."
+    ],
+    "warnings": [
+      "Do not enter an unsafe scene or remove an applied tourniquet. Major bleeding needs emergency care even after it stops."
+    ],
+    "mistakes": [
+      "Releasing pressure repeatedly or delaying it to wash a major wound."
+    ],
+    "alternatives": [
+      "Use clean cloth if gauze is unavailable; seek nearby help if calls fail."
+    ],
+    "quick": [
+      "Call. Firm continuous pressure. Trained tourniquet use for limb bleeding."
+    ],
+    "sources": [
+      {
+        "organization": "American Red Cross",
+        "title": "Bleeding (Life-Threatening External)",
+        "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/bleeding-life-threatening-external",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "bleeding",
+      "blood loss",
+      "tourniquet",
+      "shock",
+      "medical emergency"
+    ]
+  },
+  {
+    "id": "medical-burns",
+    "title": "Give initial care for a thermal burn",
+    "category": "medical",
+    "summary": "Cool thermal burns promptly. Large, deep, electrical, chemical, airway, or sensitive-location burns need urgent care.",
+    "when": "A heat or scald burn after the source is safe.",
+    "needs": [
+      "Clean cool running water",
+      "Clean dressing",
+      "Emergency assistance"
+    ],
+    "steps": [
+      "Check safety and remove the heat source. Do not approach an electrical injury until power is safely off.",
+      "Call 911 for deep or large burns; burns of the face, mouth, nose, hands, feet, joints, groin or genitals; burns around a limb, chest or neck; breathing problems; or electrical or chemical burns. Very young, older or medically vulnerable people need immediate medical assessment.",
+      "Remove jewelry or nearby clothing unless stuck. Cool a thermal burn with clean cool running water for 20 minutes as soon as possible, keeping the rest of the person warm. Do not delay emergency help.",
+      "Do not break blisters or apply ice, butter, or creams. If help is delayed, loosely cover with a sterile or clean dressing.",
+      "Monitor breathing and responsiveness. Seek assessment if severity is uncertain, especially for children, older adults, or people with other illnesses."
+    ],
+    "warnings": [
+      "Do not pull away stuck clothing or clean a severe burn. Chemical and electrical injuries need additional precautions and medical assessment."
+    ],
+    "mistakes": [
+      "Using direct ice or greasy remedies, or assuming a painless burn is minor."
+    ],
+    "alternatives": [
+      "Use a cool clean compress if safe running water is unavailable."
+    ],
+    "quick": [
+      "Make safe, cool, avoid ice and creams, assess."
+    ],
+    "sources": [
+      {
+        "organization": "American Red Cross",
+        "title": "Burns",
+        "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/burns",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "NHS",
+        "title": "Burns and scalds",
+        "url": "https://www.nhs.uk/conditions/burns-and-scalds/",
+        "verified": "2026-11-01"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-11-01",
+    "tags": [
+      "burns",
+      "scald",
+      "hot water",
+      "fire injury"
+    ]
+  },
+  {
+    "id": "medical-sprains",
+    "title": "Protect a suspected sprain or fracture",
+    "category": "medical",
+    "summary": "A painful swollen joint may be sprained or fractured. Limit movement and arrange assessment; do not force the joint to test it.",
+    "when": "A limb or joint injury after a fall or twist.",
+    "needs": [
+      "Cold pack",
+      "Thin dry towel",
+      "Support for resting",
+      "Professional care access"
+    ],
+    "steps": [
+      "Check for deformity, open injury, numbness, coldness below the injury, severe mechanism, or inability to move safely. These warrant emergency care.",
+      "Rest and limit use. Treat as a possible fracture; leave the limb comfortable without straightening it.",
+      "For closed injuries, wrap a cold pack in a thin dry towel. Apply no more than 20 minutes and wait at least 20 minutes before repeating.",
+      "Monitor feeling, warmth, color, and symptoms below the injury. Arrange care for significant swelling, worsening pain, or inability to bear weight.",
+      "Follow professional rehabilitation advice after assessment. Get assistance with carrying and transport."
+    ],
+    "warnings": [
+      "Do not straighten deformities. Avoid moving suspected head, neck, or spine injuries except for immediate safety or lifesaving care."
+    ],
+    "mistakes": [
+      "Repeatedly walking to test an injury, direct ice, or assuming movement excludes fracture."
+    ],
+    "alternatives": [
+      "Arrange help and professional assessment rather than complex untrained splinting."
+    ],
+    "quick": [
+      "Rest, protect, wrapped cold pack, check circulation, arrange care."
+    ],
+    "sources": [
+      {
+        "organization": "American Red Cross",
+        "title": "Muscle, Bone and Joint Injury",
+        "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/muscle-bone-joint-injury",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "sprain",
+      "ankle",
+      "strain",
+      "fracture",
+      "fall injury"
+    ]
+  },
+  {
+    "id": "medical-dehydration",
+    "title": "Recognize dehydration and seek help",
+    "category": "medical",
+    "summary": "Dehydration occurs when fluid loss exceeds intake. Heat, vomiting, diarrhea, and limited drinking water can make it worse; severe cases are emergencies.",
+    "when": "Thirst, dry mouth, dark urine, reduced urination, fatigue, or dizziness.",
+    "needs": [
+      "Safe drinking water",
+      "Commercial oral rehydration product if appropriate",
+      "Access to medical advice"
+    ],
+    "steps": [
+      "Move to a cooler place and stop exertion. Check whether the person is alert and able to swallow safely.",
+      "For mild symptoms in an alert person who can drink, offer small frequent amounts of safe fluid. Use a commercial oral rehydration product according to its directions when appropriate.",
+      "Get prompt medical advice for ongoing vomiting or diarrhea, inability to keep fluids down, very low urine output, or a vulnerable person such as an infant or older adult.",
+      "Call emergency services for confusion, fainting, lack of urination with illness, rapid breathing or heartbeat, or signs of shock.",
+      "Review the household water plan so adequate safe fluid remains available. Follow individualized medical fluid restrictions rather than a generic target if a clinician has prescribed them."
+    ],
+    "warnings": [
+      "Do not give anything by mouth to a person who is unconscious, confused, or cannot swallow safely. Do not delay care by trying to force large amounts of water."
+    ],
+    "mistakes": [
+      "Waiting for extreme thirst, treating an energy drink as medical care, or inventing a homemade salt mixture."
+    ],
+    "alternatives": [
+      "Use properly prepared commercial rehydration products or clinician-directed alternatives; seek urgent care when drinking is not possible."
+    ],
+    "quick": [
+      "Mild: safe fluids and cooling. Confusion or fainting: emergency help."
+    ],
+    "sources": [
+      {
+        "organization": "MedlinePlus / National Library of Medicine",
+        "title": "Dehydration",
+        "url": "https://medlineplus.gov/dehydration.html",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "dehydration",
+      "thirst",
+      "diarrhea",
+      "vomiting",
+      "dark urine"
+    ]
+  },
+  {
+    "id": "medical-medication-planning",
+    "title": "Protect medicines and prepare for refills",
+    "category": "medical",
+    "summary": "Medicines may be essential even when pharmacies and electricity are disrupted. Storage limits vary by product, so a written plan is more useful than a generic refrigeration rule.",
+    "when": "Routine preparation, storm warnings, or a loss of power.",
+    "needs": [
+      "Current medicine and allergy list",
+      "Original labeled packages",
+      "Pharmacy and prescriber contacts",
+      "Product-specific cold-storage plan if needed"
+    ],
+    "steps": [
+      "List each medicine, strength, purpose, schedule, allergies, and medical supply needs. Keep a copy of prescriptions and important contact details with emergency supplies.",
+      "Ask the pharmacist or prescriber about an emergency supply and legal early-refill options before disruption. Check quantities and dates routinely.",
+      "Store medicines in their original packages inside a watertight container above likely floodwater. Protect them from excessive heat and follow each label.",
+      "For refrigerated medicines, prepare a cooler or approved storage method and temperature monitoring. Avoid direct contact with frozen packs if freezing could damage the medicine.",
+      "After a temperature excursion, contact a pharmacist, prescriber, or manufacturer with the product, temperature, and duration. Arrange replacements promptly; do not stop a lifesaving medicine without urgent professional advice.",
+      "Check prescription and over-the-counter expiry dates and arrange replacement. Follow the current prescription or product label; check active ingredients before combining products and ask a pharmacist about age limits, interactions and medical conditions."
+    ],
+    "warnings": [
+      "Medicines exposed to floodwater or visibly altered need replacement; FDA gives special emergency considerations for lifesaving drugs. Product-specific advice is essential. Never share prescriptions.",
+      "Do not assume expired medicine remains safe or effective. Use antibiotics only when prescribed for the current illness; never share or reuse leftover antibiotics. Act urgently if essential treatment or device power may be interrupted; do not ration or improvise doses."
+    ],
+    "mistakes": [
+      "Freezing a refrigerated medicine, assuming every insulin or antibiotic has the same room-temperature limit, or leaving medicines in a hot car."
+    ],
+    "alternatives": [
+      "Write a paper plan and identify another accessible pharmacy or care site before the emergency."
+    ],
+    "quick": [
+      "Document, refill early where permitted, protect, monitor, ask about excursions."
+    ],
+    "sources": [
+      {
+        "organization": "FDA",
+        "title": "Safe Drug Use After a Natural Disaster",
+        "url": "https://www.fda.gov/drugs/emergency-preparedness-drugs/safe-drug-use-after-natural-disaster",
+        "verified": "2026-10-31"
+      },
+      {
+        "organization": "FDA",
+        "title": "Expired medicines",
+        "url": "https://www.fda.gov/drugs/special-features/dont-be-tempted-use-expired-medicines",
+        "verified": "2026-11-01"
+      },
+      {
+        "organization": "CDC",
+        "title": "Antibiotic use",
+        "url": "https://www.cdc.gov/antibiotic-use/about/",
+        "verified": "2026-11-01"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-11-01",
+    "tags": [
+      "medications",
+      "refrigerated medicine",
+      "insulin",
+      "refills",
+      "prescription"
+    ]
+  },
+  {
+    "id": "medical-warning-signs",
+    "title": "Recognize a medical emergency",
+    "category": "medical",
+    "summary": "Some symptoms need emergency services immediately. An offline guide cannot diagnose a person or connect a call without working infrastructure.",
+    "when": "Sudden serious illness or injury.",
+    "needs": [
+      "Emergency contacts and location",
+      "Medical information",
+      "Phone or nearby help"
+    ],
+    "steps": [
+      "Check scene safety. Serious signs include breathing difficulty, uncontrolled bleeding, chest discomfort, sudden confusion, inability to wake, facial or tongue swelling, or sudden speech or movement problems.",
+      "Call 911 in the US for a potentially life-threatening condition. Give location, symptoms, hazards, and callback number; follow instructions.",
+      "If safe, ask someone to meet responders. Gather medication and allergy information without abandoning a critically ill person.",
+      "Give first aid within your training. For unresponsiveness and abnormal breathing, follow dispatcher guidance and CPR/AED training.",
+      "If calls fail, seek nearby help through the safest available route. Avoid moving possible spine injuries unless necessary for safety or lifesaving care."
+    ],
+    "warnings": [
+      "Do not wait for a diagnosis. Give nothing by mouth to someone unable to swallow safely. Calls need a working connection."
+    ],
+    "mistakes": [
+      "Delaying emergency assistance to search online."
+    ],
+    "alternatives": [
+      "Prepare paper medical information and emergency routes in advance."
+    ],
+    "quick": [
+      "Serious breathing, bleeding, chest, brain, or consciousness symptoms: emergency help."
+    ],
+    "sources": [
+      {
+        "organization": "MedlinePlus / National Library of Medicine",
+        "title": "Recognizing medical emergencies",
+        "url": "https://medlineplus.gov/ency/article/001927.htm",
+        "verified": "2026-10-31"
+      }
+    ],
+    "related": [],
+    "region": "US",
+    "updated": "2026-10-31",
+    "tags": [
+      "medical emergency",
+      "911",
+      "stroke",
+      "chest pain",
+      "trouble breathing"
+    ]
+  },
+  {
+    "id": "food-infant-formula",
+    "title": "Prepare and store infant formula during disruption",
+    "category": "food",
+    "summary": "If formula is needed, sterile ready-to-feed liquid is the safest emergency option. Powder is not sterile; safe water, exact mixing and infant-specific precautions matter.",
+    "when": "A formula-fed infant needs feeding while water, refrigeration or clean equipment is limited.",
+    "needs": [
+      "Usual suitable formula within its use-by date",
+      "Safe water if mixing is unavoidable",
+      "Clean feeding equipment",
+      "Infant clinician contacts"
+    ],
+    "steps": [
+      "Continue breastfeeding if already breastfeeding. If formula is needed, prefer ready-to-feed liquid with no added water, especially for babies under 2 months, born prematurely or with weakened immunity.",
+      "For powder, measure safe water first and add exactly the labeled powder amount with its supplied scoop. Never dilute extra or use a homemade formula.",
+      "For higher-risk babies when powder is unavoidable, CDC advises boiling water, waiting about five minutes, and mixing while it is still about 158°F (70°C). Then cool to a safe feeding temperature. Follow the infant clinician and specialty-product instructions. For other infants, follow the label and safe-water emergency guidance.",
+      "Prepare a fresh feed if refrigeration is unavailable. Use within two hours of preparation and within one hour after feeding starts; discard leftovers after a feed. Do not microwave.",
+      "Store unopened and opened powder cool and dry with lid closed, never in the refrigerator. Most opened powder must be used within one month, but the exact label controls. Mark the opening date and never use formula beyond its use-by date."
+    ],
+    "warnings": [
+      "Bottled water is not sterile. Boiling does not remove chemical contamination; use an approved alternate supply.",
+      "Get infant-feeding help if clean equipment or appropriate formula cannot be maintained. Seek prompt care if a baby stops feeding or has fewer wet diapers; severe illness or fever in a newborn needs immediate medical assessment."
+    ],
+    "mistakes": [
+      "Adding water to ready-to-feed formula, changing powder-to-water ratios, keeping a partly consumed feed, or relying on appearance to rule out germs."
+    ],
+    "alternatives": [
+      "Ask local emergency services or infant-feeding support about appropriate ready-to-feed supplies and safe feeding equipment."
+    ],
+    "quick": [
+      "Ready-to-feed is safest if formula is needed; powder is not sterile.",
+      "Two hours from preparation; one hour from feeding start. Never save the partly consumed feed."
+    ],
+    "sources": [
+      {
+        "organization": "CDC",
+        "title": "Formula preparation and storage",
+        "url": "https://www.cdc.gov/infant-toddler-nutrition/formula-feeding/preparation-and-storage.html",
+        "verified": "2026-11-01"
+      },
+      {
+        "organization": "CDC",
+        "title": "Preparing powder during emergencies",
+        "url": "https://www.cdc.gov/infant-feeding-emergencies-toolkit/php/powdered-infant-formula.html",
+        "verified": "2026-11-01"
+      },
+      {
+        "organization": "FDA",
+        "title": "Handling infant formula safely",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-infant-formula-safely-what-you-need-know",
+        "verified": "2026-11-01"
+      }
+    ],
+    "related": [
+      "water-boiling",
+      "medical-dehydration"
+    ],
+    "region": "US",
+    "updated": "2026-11-01",
+    "tags": [
+      "infant",
+      "formula",
+      "sterile",
+      "baby",
+      "water",
+      "refrigeration"
+    ]
+  }
 ]
