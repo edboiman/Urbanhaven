@@ -28,7 +28,6 @@ await phoneA.fill("input[name=name]", "Grandma's house");
 await phoneA.getByRole("button", { name: "Save marker" }).click();
 await phoneA.locator(".marker-list li").first().waitFor();
 await phoneA.goto(base + "#/checklist");
-await phoneA.locator("#main select[aria-label='Supplies or tasks']").selectOption("task");
 await phoneA.locator(".check-row", { hasText: "Choose meeting places" }).locator("input[type=checkbox]").click();
 await phoneA.locator(".check-row.st-ready", { hasText: "Choose meeting places" }).waitFor({ timeout: 5000 }).catch(() => {});
 await phoneA.goto(base + "#/settings");
@@ -40,7 +39,7 @@ assert.equal(json.schema, 2);
 assert.equal(json.notes.length, 0, "sensitive note left out by default");
 assert.equal(json.markers.length, 1);
 assert.equal(json.mapDataIncluded, false);
-assert.ok(json.checklist.some((c) => c.id === "plan-meeting" && c.lastDone));
+assert.ok(json.checklist.some((c) => c.id === "plan-meeting" && c.lastDone && c.prepared === true));
 step("exported v2 backup: sensitive note excluded, marker and checklist state included");
 // Second phone
 const phoneB = await (await browser.newContext()).newPage();

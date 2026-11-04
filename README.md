@@ -1,10 +1,16 @@
-# Urban Haven 2.1.1 — Michigan preparedness, offline
+# Urban Haven 2.2 — Michigan preparedness, offline
 
 A browser app / installable PWA for Michigan households. Complete Offline setup, verify files and test an airplane-mode cold start before relying on it without a connection. This is not an Android APK or an emergency service.
 
 **Updating your existing Urbanhaven repository? Start with [UPDATE_FROM_2.0.0.md](UPDATE_FROM_2.0.0.md).** The helper copies source while preserving Git history; it does not commit, push or deploy.
 
-## Accuracy and storage update
+## Phone UX and food update
+
+Version 2.2 adds direct ready checkboxes, compact pantry groups, a unified 47-recipe library including the uploaded 24-recipe pack, seven cooking-basics references, daily nutrition planning and 21 Harvard oxalate references with portions/preparation. See [V2.2_UX_AND_FOOD.md](docs/V2.2_UX_AND_FOOD.md) and [NUTRITION_OXALATE_SOURCES.md](docs/NUTRITION_OXALATE_SOURCES.md).
+
+Checking a checklist item is a household confirmation; it does not create inventory. Actual quantities, dates and shopping gaps remain separate. The new optional confirmation fields are included in backups.
+
+## Accuracy and storage update (2.1.1)
 
 The 2.1.1 source audit corrects water classification and rotation, flood-exposed containers, infant feeding, seed viability and fall planting, recipe handling and quantities, medical escalation and pet-food handling. **Storage & shelf lives** separates food quality, water rotation, seed viability and medicine expiry. See [SOURCE_AUDIT.md](docs/SOURCE_AUDIT.md), [SHELF_LIFE_REFERENCE.md](docs/SHELF_LIFE_REFERENCE.md) and [TEST_RESULTS.md](docs/TEST_RESULTS.md) for sources, conditions and verification limits.
 
@@ -28,7 +34,7 @@ Requires Node.js 20 or newer. Dependency versions are locked in package-lock.jso
 
 ```bash
 npm ci
-npm run check       # content validation, strict TypeScript, 53 tests, production build
+npm run check       # content validation, strict TypeScript, 60 tests, production build
 npm run preview     # localhost supports service workers
 npm run dev
 ```

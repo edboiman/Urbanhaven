@@ -50,6 +50,7 @@ import { Cooking } from "./pages/Cooking";
 import { Health } from "./pages/Health";
 import { Radio as RadioPage } from "./pages/Radio";
 import { Pets } from "./pages/Pets";
+import { Nutrition, Oxalates } from "./pages/Nutrition";
 import { StorageDates } from "./pages/StorageDates";
 
 const navigation = [
@@ -59,8 +60,9 @@ const navigation = [
   { path: "storage", label: "Storage & shelf lives", icon: Package },
   { path: "water", label: "Water safety", icon: Droplets },
   { path: "map", label: "Michigan map", icon: MapIcon },
-  { path: "meals", label: "Pantry & food", icon: CookingPot },
-  { path: "cooking", label: "Outdoor cooking", icon: CookingPot },
+  { path: "meals", label: "Food & pantry", icon: CookingPot },
+  { path: "cooking", label: "Recipes & cooking", icon: CookingPot },
+  { path: "nutrition", label: "Nutrition & oxalates", icon: CookingPot },
   { path: "health", label: "Health & first aid", icon: HeartPulse },
   { path: "radio", label: "Radio frequencies", icon: Radio },
   { path: "pets", label: "Pet preparedness", icon: HeartPulse },
@@ -163,6 +165,12 @@ export default function App() {
         break;
       case "map":
         content = <MapPage />;
+        break;
+      case "nutrition":
+        content = <Nutrition />;
+        break;
+      case "oxalates":
+        content = <Oxalates />;
         break;
       case "cooking":
         content = <Cooking />;
@@ -291,7 +299,7 @@ export default function App() {
               <Settings size={18} /> Settings & backups
             </a>
             <span className="version">
-              URBAN HAVEN · 2.1.1 · {__BUILD_DATE__}
+              URBAN HAVEN · 2.2.0 · {__BUILD_DATE__}
             </span>
           </div>
         </aside>

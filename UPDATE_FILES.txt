@@ -18,6 +18,7 @@ docs/HEALTH_SOURCES.md
 docs/INFRASTRUCTURE_SOURCES.md
 docs/MAP_DATA.md
 docs/MEDICAL_PET_SOURCES_V21.md
+docs/NUTRITION_OXALATE_SOURCES.md
 docs/OFFLINE_TESTING.md
 docs/PANTRY_COOKING_SOURCES.md
 docs/RADIO_SOURCES.md
@@ -29,6 +30,7 @@ docs/SOURCES.md
 docs/SOURCE_AUDIT.md
 docs/TEST_RESULTS.md
 docs/V2.1_CHANGES.md
+docs/V2.2_UX_AND_FOOD.md
 e2e/backup.e2e.mjs
 e2e/checklist.e2e.mjs
 e2e/lib.mjs
@@ -74,7 +76,9 @@ src/components/RoutePlanner.tsx
 src/components/icons.tsx
 src/components/route.ts
 src/components/shared.tsx
+src/content/cooking-basics.json
 src/content/crops.json
+src/content/emergency-recipes.json
 src/content/frost-stations.json
 src/content/gardening.json
 src/content/health.json
@@ -82,6 +86,7 @@ src/content/index.ts
 src/content/infrastructure.json
 src/content/medical-prolonged.json
 src/content/michigan-river-references.json
+src/content/oxalates.json
 src/content/pantry-reference.json
 src/content/pet-preparedness.json
 src/content/radio-stations.json
@@ -94,6 +99,8 @@ src/map/data.ts
 src/map/packs.ts
 src/map/render.ts
 src/map/routes.ts
+src/meals/catalog.ts
+src/meals/oxalates.ts
 src/meals/planner.ts
 src/meals/recipes.ts
 src/pages/Checklist.tsx
@@ -103,6 +110,7 @@ src/pages/Garden.tsx
 src/pages/Health.tsx
 src/pages/MapPage.tsx
 src/pages/Meals.tsx
+src/pages/Nutrition.tsx
 src/pages/PantryReference.tsx
 src/pages/Personal.tsx
 src/pages/Pets.tsx
@@ -122,12 +130,14 @@ src/styles/app.css
 src/styles/map.css
 src/styles/v2.css
 src/styles/v21.css
+src/styles/v22.css
 src/sw/sw.template.js
 src/types/index.ts
 tests/checklist.test.ts
 tests/core.test.ts
 tests/garden-meals.test.ts
 tests/map.test.ts
+tests/mobile-food.test.ts
 tests/storage-audit.test.ts
 tests/v21.test.ts
 tsconfig.json

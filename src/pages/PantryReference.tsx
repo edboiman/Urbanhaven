@@ -1,115 +1,129 @@
 import { useState } from "react";
 import foods from "../content/pantry-reference.json";
-import { Callout, Field } from "../components/shared";
+import { IngredientOxalates } from "./Nutrition";
 export function PantryReference() {
-  const [tier, setTier] = useState("Core"),
-    [id, setId] = useState(foods[0]?.id || "");
-  const choices = foods.filter((f) => f.tier === tier),
-    f = choices.find((f) => f.id === id) || choices[0];
+  const [tier, setTier] = useState("Core");
+  const [query, setQuery] = useState("");
+  const choices = foods.filter(
+    (f) =>
+      (tier === "All" || f.tier === tier) &&
+      [f.name, ...f.examples]
+        .join(" ")
+        .toLowerCase()
+        .includes(query.toLowerCase()),
+  );
   return (
-    <section className="panel">
-      <h2>Buy the essentials first</h2>
-      <p className="small">
-        <a href="#/storage">Understand quality dates, expiry and rotation</a>
-      </p>
-      <p>
-        Build meals your household already eats: energy, protein, fat, fruit /
-        vegetables and suitable calcium sources. Have a no-cook option for every
-        day. Stock enough familiar food for your household plan, then add
-        variety. Use Supplies and the 14-day checklist to track amounts.
-      </p>
-      <div className="form-grid">
-        <Field label="Shopping priority">
-          <select value={tier} onChange={(e) => setTier(e.target.value)}>
-            <option>Core</option>
-            <option>Useful extra</option>
-          </select>
-        </Field>
-        <Field label="Food group">
-          <select value={f?.id || ""} onChange={(e) => setId(e.target.value)}>
-            {choices.map((x) => (
-              <option key={x.id} value={x.id}>
-                {x.name}
-              </option>
-            ))}
-          </select>
-        </Field>
+    <div className="pantry-guide">
+      <section className="pantry-intro">
+        <h2>Stock meals, not a pile of cans.</h2>
+        <p>
+          Energy, protein, produce, fats and calcium sources. Choose familiar
+          foods and small packs, with a no-cook backup.
+        </p>
+        <a href="#/supplies" className="button secondary">
+          Record what you have
+        </a>
+      </section>
+      <div className="priority-tabs" role="group" aria-label="Pantry priority">
+        {[
+          ["Core", "Essentials"],
+          ["Useful extra", "Useful extras"],
+          ["All", "Everything"],
+        ].map(([id, label]) => (
+          <button
+            key={id}
+            aria-pressed={tier === id}
+            className={tier === id ? "active" : ""}
+            onClick={() => setTier(id)}
+          >
+            {label}
+          </button>
+        ))}
       </div>
-      {f && (
-        <>
-          <h3>{f.name}</h3>
-          <p>{f.role}</p>
-          <p>
-            <strong>Look for:</strong> {f.examples.join("; ")}
-          </p>
-          <dl className="reference-facts">
-            <div>
-              <dt>Unopened shelf life</dt>
-              <dd>{f.unopenedLife}</dd>
-            </div>
-            <div>
-              <dt>Once opened</dt>
-              <dd>{f.afterOpening}</dd>
-            </div>
-            <div>
-              <dt>Storage</dt>
-              <dd>{f.storage}</dd>
-            </div>
-            <div>
-              <dt>Water & fuel</dt>
-              <dd>{f.waterFuel}</dd>
-            </div>
-          </dl>
-          <p>{f.notes}</p>
-          <p className="small muted">
-            <a href={f.sourceUrl} target="_blank" rel="noreferrer">
-              Source (opens online)
-            </a>{" "}
-            · reviewed {f.checked}{" "}
-            {f.additionalSources.map((url) => (
-              <span key={url}>
-                {" "}
-                ·{" "}
-                <a href={url} target="_blank" rel="noreferrer">
-                  Additional storage source
-                </a>
-              </span>
-            ))}
-          </p>
-        </>
-      )}
-      <details>
-        <summary>Compact core shopping list</summary>
-        <ul className="article-list">
-          {foods
-            .filter((f) => f.tier === "Core")
-            .map((f) => (
-              <li key={f.id}>
-                <strong>{f.name}:</strong> {f.examples.join("; ")}
-              </li>
-            ))}
-        </ul>
-        <p>
-          Include a manual can opener, safe drinking and cooking water,
-          allergy-safe alternatives and any prescribed diet or infant feeding
-          needs. Buy small packs you can finish without refrigeration.
-        </p>
-      </details>
-      <Callout>
-        <strong>Shelf life is not a safety guarantee.</strong>
-        <p>
-          Quality ranges assume intact packages stored as directed, cool and
-          dry. Follow product instructions. Discard leaking, bulging, deeply
-          dented or badly rusted cans and flood-contaminated food. Never taste
-          food to decide if it is safe. Without refrigeration, plan to finish
-          opened wet foods at one meal.
-        </p>
-      </Callout>
-      <p>
-        <a href="#/cooking">Outdoor stove recipes</a> ·{" "}
-        <a href="#/checklist">14-day amounts</a> ·{" "}
-        <a href="#/supplies">Record your supplies</a>
+      <input
+        className="pantry-search"
+        aria-label="Search pantry foods"
+        placeholder="Find rice, milk, beans…"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+      />
+      <p className="small muted">
+        {choices.length} food groups · expand one for shelf life and handling.
+        Dates describe quality under suitable storage, not guaranteed safety.
       </p>
-    </section>
+      <div className="pantry-grid">
+        {choices.map((f, i) => (
+          <details className="panel pantry-food" key={f.id}>
+            <summary>
+              <span className="pantry-number">
+                {String(foods.indexOf(f) + 1).padStart(2, "0")}
+              </span>
+              <span>
+                <strong>{f.name}</strong>
+                <small>{f.examples.slice(0, 2).join(" · ")}</small>
+              </span>
+            </summary>
+            <div className="pantry-food-detail">
+              <p>{f.role}</p>
+              <p className="small">
+                <b>Choose:</b> {f.examples.join("; ")}
+              </p>
+              <dl className="storage-facts">
+                <div>
+                  <dt>Unopened · best quality</dt>
+                  <dd>{f.unopenedLife}</dd>
+                </div>
+                <div>
+                  <dt>After opening</dt>
+                  <dd>{f.afterOpening}</dd>
+                </div>
+                <div>
+                  <dt>Water + fuel</dt>
+                  <dd>{f.waterFuel}</dd>
+                </div>
+                <div>
+                  <dt>Store it</dt>
+                  <dd>{f.storage}</dd>
+                </div>
+              </dl>
+              <p className="small">{f.notes}</p>
+              <IngredientOxalates ingredients={[f.name, ...f.examples]} />
+              <p className="small muted">
+                <a href={f.sourceUrl} target="_blank" rel="noreferrer">
+                  Storage source
+                </a>
+                {f.additionalSources.map((url, i) => (
+                  <span key={url}>
+                    {" "}
+                    ·{" "}
+                    <a href={url} target="_blank" rel="noreferrer">
+                      Additional source {i + 1}
+                    </a>
+                  </span>
+                ))}{" "}
+                · reviewed {f.checked}; links open online.
+              </p>
+            </div>
+          </details>
+        ))}
+      </div>
+      {!choices.length && (
+        <p className="empty">
+          No matching food groups. Try another search or priority.
+        </p>
+      )}
+      <details className="panel">
+        <summary>Safe storage & the equipment to remember</summary>
+        <p>
+          Keep a manual can opener, safe water, suitable outdoor cookware and
+          allergy-safe options. Quality windows assume intact commercial
+          packages stored as directed. Opened foods have different limits.
+          Discard damaged or flood-contaminated cans; never taste-test suspect
+          food.
+        </p>
+        <a href="#/storage">Full storage-date reference</a> ·{" "}
+        <a href="#/checklist">Preparedness checklist</a>
+      </details>
+    </div>
   );
 }

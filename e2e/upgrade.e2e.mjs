@@ -13,25 +13,51 @@ const [distA, distB, v1] = process.argv.slice(2);
 const state = { root: v1 || distA, hook: null };
 const { server, base } = await startServer(state, 4313);
 const profile = mkdtempSync(join(tmpdir(), "uh-upgrade-"));
-const ctx = await chromium.launchPersistentContext(profile, { viewport: { width: 1280, height: 900 }, acceptDownloads: true });
+const ctx = await chromium.launchPersistentContext(profile, {
+  viewport: { width: 1280, height: 900 },
+  acceptDownloads: true,
+});
 const page = ctx.pages()[0] || (await ctx.newPage());
 const errors = [];
 page.on("pageerror", (e) => errors.push(String(e)));
 const consoleLog = [];
 page.on("console", (m) => consoleLog.push(m.type() + ": " + m.text()));
-page.on("requestfailed", (r) => consoleLog.push("FAILED " + r.url() + " " + r.failure()?.errorText));
+page.on("requestfailed", (r) =>
+  consoleLog.push("FAILED " + r.url() + " " + r.failure()?.errorText),
+);
 const verify = async (button = "Recheck local files") => {
   await page.goto(base + "#/offline");
-  await page.getByRole("button", { name: button }).waitFor({ timeout: 15000 }).catch(async (e) => {
-    console.log("PAGE URL", page.url(), "MAIN:", (await page.locator("body").innerText()).slice(0, 300), consoleLog.slice(-15), errors);
-    throw e;
-  });
+  await page
+    .getByRole("button", { name: button })
+    .waitFor({ timeout: 15000 })
+    .catch(async (e) => {
+      console.log(
+        "PAGE URL",
+        page.url(),
+        "MAIN:",
+        (await page.locator("body").innerText()).slice(0, 300),
+        consoleLog.slice(-15),
+        errors,
+      );
+      throw e;
+    });
   await page.waitForTimeout(400);
   await page.getByRole("button", { name: button }).click();
-  await page.waitForFunction(() => /verified on this device|damaged|missing|error|unavailable/i.test(document.querySelector(".offline-hero [role=status]")?.textContent || ""), null, { timeout: 60000 });
+  await page.waitForFunction(
+    () =>
+      /verified on this device|damaged|missing|error|unavailable/i.test(
+        document.querySelector(".offline-hero [role=status]")?.textContent ||
+          "",
+      ),
+    null,
+    { timeout: 60000 },
+  );
   return page.locator(".offline-hero [role=status]").innerText();
 };
-const edition = () => page.evaluate(async () => (await (await fetch("offline-manifest.json")).json()).version);
+const edition = () =>
+  page.evaluate(
+    async () => (await (await fetch("offline-manifest.json")).json()).version,
+  );
 if (v1) {
   await page.goto(base);
   await page.waitForTimeout(2500);
@@ -57,7 +83,10 @@ if (v1) {
   await page.waitForTimeout(400);
   // Keep a real v1 backup file as a fixture for the restore test.
   await page.goto(base + "#/supplies");
-  const [dl] = await Promise.all([page.waitForEvent("download"), page.getByRole("button", { name: "Export" }).click()]);
+  const [dl] = await Promise.all([
+    page.waitForEvent("download"),
+    page.getByRole("button", { name: "Export" }).click(),
+  ]);
   await dl.saveAs(join(tmpdir(), "urban-haven-v1-backup.json"));
   step("v1.0.0 build: data created, v1 backup exported");
   state.root = distA;
@@ -68,21 +97,40 @@ if (v1) {
   await page.waitForLoadState("load");
   await page.waitForTimeout(2000);
   await page.goto(base + "#/supplies");
-  await page.locator(".inventory-name", { hasText: "v1 gallon jugs" }).waitFor();
+  await page
+    .locator(".inventory-name", { hasText: "v1 gallon jugs" })
+    .waitFor();
   await page.goto(base + "#/notebook");
-  assert.equal(await page.locator(".note-card .note-body").first().innerText(), "<b>Library</b> lot");
+  assert.equal(
+    await page.locator(".note-card .note-body").first().innerText(),
+    "<b>Library</b> lot",
+  );
   await page.goto(base + "#/checklist");
   await page.getByRole("tab", { name: "Household" }).click();
-  assert.equal(await page.getByLabel("People (including children)").inputValue(), "3");
+  assert.equal(
+    await page.getByLabel("People (including children)").inputValue(),
+    "3",
+  );
   await page.getByRole("tab", { name: "Checklist", exact: true }).click();
-  await page.locator("#main select[aria-label='Filter by status']").selectOption("all");
-  const water = await page.locator(".check-row", { hasText: "Drinking & basic-use water" }).locator("small").first().innerText();
-  assert.match(water, /^22\.7 L \(6\.0 gal\)/);
-  const db = await page.evaluate(async () => { const r = indexedDB.open("urban-haven-personal"); const d = await new Promise((ok) => (r.onsuccess = () => ok(r.result))); const v = d.version; d.close(); return v; });
+
+  const waterRow = page.locator('.check-row',{hasText:'Drinking & basic-use water'});
+  await waterRow.getByRole('button',{name:/Details for/}).click();
+  assert.match(await waterRow.locator('.check-detail').innerText(), /Counted 22\.7 L \(6\.0 gal\)/);
+  const db = await page.evaluate(async () => {
+    const r = indexedDB.open("urban-haven-personal");
+    const d = await new Promise((ok) => (r.onsuccess = () => ok(r.result)));
+    const v = d.version;
+    d.close();
+    return v;
+  });
   assert.equal(db, 20);
-  const legacy = await page.evaluate(async () => (await caches.keys()).filter((k) => k.startsWith("urban-haven-precache")));
+  const legacy = await page.evaluate(async () =>
+    (await caches.keys()).filter((k) => k.startsWith("urban-haven-precache")),
+  );
   assert.deepEqual(legacy, [], "old Workbox caches removed after activation");
-  step(`v1 data intact after upgrade (supplies, note markup as text, 3-person household, water counted: ${water.split(" ·")[0]}); DB native version ${db}`);
+  step(
+    `v1 data intact after upgrade (supplies, note markup as text, 3-person household, water counted: ${water.split(" ·")[0]}); DB native version ${db}`,
+  );
 } else {
   await page.goto(base);
   await page.waitForTimeout(2000);
@@ -94,17 +142,26 @@ await page.goto(base + "#/map");
 await page.getByRole("button", { name: /At map center/ }).click();
 await page.fill("input[name=name]", "Persisting marker");
 await page.getByRole("button", { name: "Save marker" }).click();
-await page.locator(".marker-list li", { hasText: "Persisting marker" }).waitFor();
+await page
+  .locator(".marker-list li", { hasText: "Persisting marker" })
+  .waitFor();
 step("edition A verified: " + a + "; marker saved");
 // Interrupted update: edition B with one asset failing.
 state.root = distB;
-state.hook = (rel) => (rel.startsWith("assets/app-") && rel.endsWith(".js") ? { status: 500 } : null);
+state.hook = (rel) =>
+  rel.startsWith("assets/app-") && rel.endsWith(".js") ? { status: 500 } : null;
 await page.goto(base);
 await page.waitForTimeout(5000);
-assert.equal(await page.locator(".update-bar").count(), 0, "no update offered after a failed install");
+assert.equal(
+  await page.locator(".update-bar").count(),
+  0,
+  "no update offered after a failed install",
+);
 assert.equal(await edition(), a);
 assert.match(await verify(), /verified on this device/);
-step("interrupted update: install failed safely; edition A still verified and running");
+step(
+  "interrupted update: install failed safely; edition A still verified and running",
+);
 // Good update.
 state.hook = null;
 await page.goto(base + "#/");
@@ -117,7 +174,9 @@ const b = await edition();
 assert.notEqual(a, b);
 assert.match(await verify(), /verified on this device/);
 await page.goto(base + "#/map");
-await page.locator(".marker-list li", { hasText: "Persisting marker" }).waitFor();
+await page
+  .locator(".marker-list li", { hasText: "Persisting marker" })
+  .waitFor();
 step(`update A → B activated by the user (${a} → ${b}); marker and data kept`);
 assert.deepEqual(errors, []);
 await ctx.close();

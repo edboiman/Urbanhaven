@@ -1,3 +1,5 @@
+> This is the retained 2.1.1 content audit. The later 2.2 UX, recipe and nutrition additions have their own source record in V2.2_UX_AND_FOOD.md and NUTRITION_OXALATE_SOURCES.md.
+
 # Source and accuracy audit — Urban Haven 2.1.1
 
 Reviewed **2026-11-01, America/New_York**. This package replaces the earlier 2.1.0 download. The audit found substantive issues and corrected them; a successful build alone would not have detected those issues.

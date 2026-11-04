@@ -1,3 +1,5 @@
+> **2.2 UX update:** Direct checklist confirmations now coexist with inventory calculations. The table below describes the earlier implementation; current behavior and tests are in V2.2_UX_AND_FOOD.md and TEST_RESULTS.md.
+
 # Requirement matrix — Urban Haven 2.0.0
 
 Status: **Done** (implemented and verified as stated), **Partial** (implemented with a stated gap), **Blocked** (could not be done in this environment). Evidence key: **U** = unit test (`npm test`), **B** = browser test in Chromium (`npm run test:e2e`), **S** = screenshot/visual check, **C** = code review only, **A** = needs a physical Android device (not done).

@@ -1,6 +1,6 @@
 # Update your existing Urbanhaven repository
 
-This is the full Urban Haven 2.1.1 audited project. Your repository is still named **Urbanhaven**. The version number identifies the app release; it does not rename the repository.
+This is the full Urban Haven 2.2.0 project. Your repository is still named **Urbanhaven**. The version number identifies the app release; it does not rename the repository.
 
 ## 1. Back up your app records
 
@@ -37,7 +37,7 @@ Open your **existing** repository folder in Terminal. For the location above:
 ```bash
 cd "$HOME/Documents/Urban_Haven_v2.0.0/urban-haven"
 git add .
-git commit -m "Audit Urban Haven safety and storage guidance"
+git commit -m "Simplify Urban Haven checklist and food tools"
 git push origin main
 ```
 

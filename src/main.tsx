@@ -5,6 +5,7 @@ import "./styles/app.css";
 import "./styles/v2.css";
 import "./styles/map.css";
 import "./styles/v21.css";
+import "./styles/v22.css";
 class Boundary extends React.Component<
   { children: React.ReactNode },
   { error: string }

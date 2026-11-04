@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Cooking white rice (basic pot method)",
+    "paragraphs": [
+      "Ingredients: 1 cup dry long-grain white rice, about 2 cups potable water, optional pinch of salt.",
+      "Equipment: pot with lid, stove, spoon.",
+      "Time: about 15–20 minutes simmering plus 5 minutes resting; 2–3 servings.",
+      "Steps: (1) Check rice package directions first; ratios vary by rice variety. (2) Optionally rinse rice (for enriched rice, check package as rinsing can remove added vitamins). (3) Combine rice and water in pot; bring to boil. (4) Reduce to lowest steady simmer and cover. (5) Cook about 15–20 minutes until water absorbed and rice tender. (6) Turn off heat; leave covered 5 minutes; fluff. Add a splash of water and cook longer if hard.",
+      "Variation: Brown rice usually requires approximately 2¼ cups water and 40–50 minutes; use package directions. Instant rice follows its own package directions and is often more fuel-efficient.",
+      "Safety: Rice leftovers are perishable. Never leave cooked rice at room temperature for later meals; cool promptly and refrigerate if safe refrigeration is available."
+    ]
+  },
+  {
+    "name": "Cooking dried lentils (no soaking)",
+    "paragraphs": [
+      "Ingredients: 1 cup dry brown/green lentils, about 3 cups potable water.",
+      "Time: approximately 20–30 minutes once simmering; 3 servings.",
+      "Steps: (1) Sort and remove stones; rinse. (2) Combine lentils and water; bring to boil. (3) Cover loosely, lower heat and simmer, checking after 20 minutes, until soft. (4) Drain extra liquid if desired. (5) Season. Add a little water if drying out.",
+      "Variation: Split red lentils often soften in approximately 10–15 minutes and turn creamy. Some brands cook faster; follow package directions. No soaking required.",
+      "Safety: Do not eat dry or undercooked lentils. Cooking time varies; texture should be fully tender."
+    ]
+  },
+  {
+    "name": "Cooking dried beans (high fuel use)",
+    "paragraphs": [
+      "Ingredients: 1 cup dry black/pinto/navy beans, ample potable water.",
+      "Time: overnight soak 6–8 hours in refrigeration if possible, plus roughly 1–3 hours simmering; actual duration varies widely.",
+      "Steps: (1) Sort for debris and rinse. (2) For faster cooking, soak in plenty of clean water overnight under food-safe temperature conditions, then drain; if reliable refrigeration is unavailable, use the quick-soak method instead. (3) Quick soak: boil rinsed beans in ample water for 2–3 minutes, cover off heat 1 hour, then drain. (4) Add fresh water to cover by approximately 2 inches. (5) Bring to boil and simmer until thoroughly soft, maintaining water coverage. (6) Add tomato/vinegar/lemon after softening, because acid can delay softening. (7) Taste only once thoroughly cooked.",
+      "Safety — dried kidney beans: They contain phytohaemagglutinin. Soak at least 5 hours, discard the soaking water, and vigorously boil in fresh water for at least 30 minutes before further cooking; continue cooking until completely tender. Do not prepare dried kidney beans in a low-temperature slow cooker. FDA guidance. Canned kidney beans are already cooked and may be reheated normally. If fuel or clean water is scarce, use canned beans instead.",
+      "Reality check: Ordinary dried beans are not a good first choice when propane is limited. Stove height/heat and bean age can greatly extend cook times."
+    ]
+  },
+  {
+    "name": "Cooking rolled oats",
+    "paragraphs": [
+      "Ingredients: ½ cup old-fashioned rolled oats, 1 cup potable water (or shelf-stable milk).",
+      "Time: about 5 minutes at simmer; 1 serving.",
+      "Steps: Bring liquid to a boil, stir in oats, simmer about 5 minutes, and rest until thick. Add more liquid for thinner porridge. Quick oats may cook faster; instant oats may need only boiling water. Steel-cut oats require substantially longer cooking; follow package directions."
+    ]
+  },
+  {
+    "name": "Cooking dry pasta",
+    "paragraphs": [
+      "Ingredients: 2 oz dry pasta per person; enough potable water to cover in a pot.",
+      "Steps: Boil water, add pasta and stir, then cook to package directions (commonly 7–12 minutes). Drain safely; optionally use small-pot minimal-water method, stirring frequently and adding water so pasta does not stick. Add canned sauce or canned vegetables after pasta softens.",
+      "Fuel saving: Smaller pasta shapes and thin spaghetti typically cook faster than thick shapes; package time controls."
+    ]
+  },
+  {
+    "name": "Cooking split peas",
+    "paragraphs": [
+      "Ingredients: 1 cup dried split peas, 3–4 cups potable water.",
+      "Steps: Sort and rinse; no soak needed. Bring to boil then simmer, covered loosely, 30–60+ minutes until fully tender; add water as needed. Actual cooking time varies with age and type. Split peas may foam; use a large-enough pot."
+    ]
+  },
+  {
+    "name": "Fuel, water and food-safety priorities",
+    "paragraphs": [
+      "No fuel: Eat commercially canned ready-to-eat beans, chickpeas, corn, peas, tuna, salmon, or other ready-to-eat foods as labeled. Use a manual can opener. Avoid consuming canned foods from bulging, leaking, severely dented, or otherwise compromised containers.",
+      "Low fuel: Instant oats, instant couscous, instant rice, or quick-cooking red lentils. A lid reduces heat loss. Turn down to a safe simmer when food is boiling; do not leave fire unattended.",
+      "Medium fuel: White rice, regular pasta, brown/green lentils.",
+      "High fuel: Brown rice, split peas, ordinary dried beans.",
+      "Food prep: Open cans only when ready to eat; refrigerate leftovers if refrigeration is available. Discard perishable leftovers left unrefrigerated beyond 2 hours (1 hour if temperatures exceed 90°F). Cook smaller portions when off-grid.",
+      "Water: Every water amount below means potable water. Never use water from an uncertain source without appropriate treatment. Separate potable water reserves for drinking, cooking, and washing. Clean hands, equipment and utensils.",
+      "Flame safety: Only cook with gas camp stoves/campfires/charcoal outside, away from structures, vegetation, windows, and air intakes. Never inside a home, garage, tent, or camper.",
+      "Nutrition: Aim for a starchy base + protein source + vegetable/fruit + fat when supplies permit. Calories matter during emergencies. Use low-sodium canned products when available and keep drinking water accessible."
+    ]
+  }
+]

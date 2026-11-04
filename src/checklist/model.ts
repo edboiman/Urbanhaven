@@ -937,7 +937,7 @@ export function effectiveRate(
   return state?.rate ?? def.rate;
 }
 
-export function computeRow(
+function computeInventoryRow(
   def: ChecklistDefinition,
   state: ChecklistState | undefined,
   supplies: Supply[],
@@ -1104,6 +1104,28 @@ export function computeRow(
     dueDate: "",
     reasons,
     explanation,
+  };
+}
+
+/** A checkbox confirms preparedness without inventing liters, calories or packages. */
+export function computeRow(
+  def: ChecklistDefinition,
+  state: ChecklistState | undefined,
+  supplies: Supply[],
+  h: Household,
+  today: string,
+): Row {
+  const row = computeInventoryRow(def, state, supplies, h, today);
+  if (state?.prepared === undefined || row.status === "na") return row;
+  return {
+    ...row,
+    status: state.prepared ? "ready" : "needed",
+    reasons: [
+      state.prepared
+        ? `Marked ready by you${state.preparedOn ? ` on ${state.preparedOn}` : ""}. Inventory quantities below are separate.`
+        : "Unchecked by you. Tap the checkbox when this is prepared.",
+      ...row.reasons,
+    ],
   };
 }
 

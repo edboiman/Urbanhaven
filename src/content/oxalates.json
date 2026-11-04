@@ -1,0 +1,170 @@
+[
+  {
+    "sourceRow": 113,
+    "food": "BEANS, BLACK, BOILED, UNSALTED",
+    "serving": "1/2 cup",
+    "oxalateMg": 10.5,
+    "directlyMeasured": true,
+    "source": "harvard2023"
+  },
+  {
+    "sourceRow": 114,
+    "food": "BEANS, NAVY, CANNED",
+    "serving": "1/2 cup",
+    "oxalateMg": 96.3,
+    "directlyMeasured": true,
+    "source": "harvard2023"
+  },
+  {
+    "sourceRow": 115,
+    "food": "BEANS, RED KIDNEY, BOILED, UNSALTED",
+    "serving": "1/2 cup",
+    "oxalateMg": 9.9,
+    "directlyMeasured": true,
+    "source": "harvard2023"
+  },
+  {
+    "sourceRow": 121,
+    "food": "LENTILS, BOILED, UNSALTED",
+    "serving": "1/2 cup",
+    "oxalateMg": 2.4,
+    "directlyMeasured": true,
+    "source": "harvard2023"
+  },
+  {
+    "sourceRow": 192,
+    "food": "MILK, 2%",
+    "serving": "8 oz",
+    "oxalateMg": 0.7,
+    "directlyMeasured": true,
+    "source": "harvard2023"
+  },
+  {
+    "sourceRow": 281,
+    "food": "SALMON, PINK, CANNED WITH BONES AND LIQUID",
+    "serving": "4 oz",
+    "oxalateMg": 0.3,
+    "directlyMeasured": true,
+    "source": "harvard2023"
+  },
+  {
+    "sourceRow": 292,
+    "food": "TUNA, LIGHT CANNED IN WATER, DRAINED",
+    "serving": "3.5 oz",
+    "oxalateMg": 1.5,
+    "directlyMeasured": true,
+    "source": "harvard2023"
+  },
+  {
+    "sourceRow": 315,
+    "food": "ALMONDS, OIL ROASTED, UNSALTED",
+    "serving": "1 oz",
+    "oxalateMg": 72,
+    "directlyMeasured": true,
+    "source": "harvard2023"
+  },
+  {
+    "sourceRow": 321,
+    "food": "PEANUT BUTTER, SALTED, SMOOTH",
+    "serving": "1 tbsp",
+    "oxalateMg": 19.2,
+    "directlyMeasured": true,
+    "source": "harvard2023"
+  },
+  {
+    "sourceRow": 336,
+    "food": "COUSCOUS, COOKED",
+    "serving": "1 cup",
+    "oxalateMg": 15.1,
+    "directlyMeasured": true,
+    "source": "harvard2023"
+  },
+  {
+    "sourceRow": 339,
+    "food": "RICE, BROWN, COOKED LONG GRAIN",
+    "serving": "1 cup",
+    "oxalateMg": 18.7,
+    "directlyMeasured": true,
+    "source": "harvard2023"
+  },
+  {
+    "sourceRow": 340,
+    "food": "RICE, WHITE, COOKED LONG GRAIN",
+    "serving": "1 cup",
+    "oxalateMg": 3.8,
+    "directlyMeasured": true,
+    "source": "harvard2023"
+  },
+  {
+    "sourceRow": 408,
+    "food": "BROCCOLI, BOILED, DRAINED, UNSALTED",
+    "serving": "1/2 cup",
+    "oxalateMg": 6,
+    "directlyMeasured": false,
+    "source": "harvard2023"
+  },
+  {
+    "sourceRow": 410,
+    "food": "CABBAGE, BOILED, DRAINED, UNSALTED",
+    "serving": "1/2 cup",
+    "oxalateMg": 1.4,
+    "directlyMeasured": true,
+    "source": "harvard2023"
+  },
+  {
+    "sourceRow": 411,
+    "food": "CARROTS, BOILED, DRAINED, UNSALTED",
+    "serving": "1/2 cup",
+    "oxalateMg": 8.2,
+    "directlyMeasured": true,
+    "source": "harvard2023"
+  },
+  {
+    "sourceRow": 417,
+    "food": "CORN KERNELS, SWEET YELLOW, BOILED, DRAINED, UNSALTED",
+    "serving": "1/2 cup",
+    "oxalateMg": 0.8,
+    "directlyMeasured": true,
+    "source": "harvard2023"
+  },
+  {
+    "sourceRow": 427,
+    "food": "KALE, BOILED, DRAINED, UNSALTED",
+    "serving": "1/2 cup",
+    "oxalateMg": 1.1,
+    "directlyMeasured": true,
+    "source": "harvard2023"
+  },
+  {
+    "sourceRow": 433,
+    "food": "MIXED FROZEN VEGETABLES, BOILED, DRAINED, UNSALTED",
+    "serving": "1/2 cup",
+    "oxalateMg": 4.5,
+    "directlyMeasured": true,
+    "source": "harvard2023"
+  },
+  {
+    "sourceRow": 440,
+    "food": "PEAS, GREEN, BOILED, DRAINED, UNSALTED",
+    "serving": "1/2 cup",
+    "oxalateMg": 0.5,
+    "directlyMeasured": true,
+    "source": "harvard2023"
+  },
+  {
+    "sourceRow": 456,
+    "food": "SPINACH, BOILED, DRAINED, UNSALTED",
+    "serving": "1/2 cup",
+    "oxalateMg": 547.4,
+    "directlyMeasured": true,
+    "source": "harvard2023"
+  },
+  {
+    "sourceRow": 459,
+    "food": "TOMATO PRODUCTS, CANNED, PASTE, WITHOUT SALT ADDED",
+    "serving": "1/4 cup",
+    "oxalateMg": 24.5,
+    "directlyMeasured": false,
+    "source": "harvard2023"
+  }
+]

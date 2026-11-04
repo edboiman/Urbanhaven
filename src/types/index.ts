@@ -232,6 +232,9 @@ export type Settings = {
   checklistMigrated?: boolean;
 };
 export type ChecklistState = {
+  /** Explicit household confirmation; never manufactures inventory quantities. */
+  prepared?: boolean;
+  preparedOn?: string;
   id: string;
   custom?: ChecklistDefinition;
   rate?: number;

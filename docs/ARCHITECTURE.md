@@ -1,3 +1,9 @@
+# Edition 2.2 additions
+
+ChecklistState accepts optional prepared (boolean) and preparedOn (date). computeRow preserves computed inventory quantities but uses an explicit confirmation for ready/not-ready status. Shopping gaps and water/calorie quantities remain based on supplies. Old records without a confirmation retain automatic readiness. Backup validation preserves true and false and rejects other types. No new database store/version or backup schema is needed.
+
+The local recipe catalog normalizes the existing two collections plus 24 imported recipes without replacing saved-plan IDs. CookingDetails is shared by old deep links and the new browser. Nutrition/oxalate data are bundled, not requested from an API. Recipe step/gathering checks are temporary and reset on leaving the detail screen.
+
 # Edition 2.1.1 audit additions
 
 `src/storage/dates.ts` separates quality, expiry and review dates and calculates six-calendar-month rotation only for explicitly self-filled water. Optional `dateKind` and `waterType` fields preserve existing records and backup compatibility. `src/pages/StorageDates.tsx` bundles food, water, seed, medicine and pet-food references. Fall transplant plans now distinguish seed starting from the outdoor target. See SOURCE_AUDIT.md and TEST_RESULTS.md.

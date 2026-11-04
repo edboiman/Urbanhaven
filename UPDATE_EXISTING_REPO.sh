@@ -33,5 +33,5 @@ while IFS= read -r file || [[ -n "$file" ]]; do
   mkdir -p -- "$target/$(dirname -- "$file")"
   cp -- "$source_root/$file" "$target/$file"
 done < "$source_root/UPDATE_FILES.txt"
-printf 'Urban Haven 2.1.1 audited source copied to: %s\nGit history was preserved. Nothing has been committed or pushed.\n\n' "$target"
-printf 'Open that folder in Terminal, then run:\n\ngit add .\ngit commit -m "Audit Urban Haven safety and storage guidance"\ngit push origin main\n'
+printf 'Urban Haven 2.2.0 source copied to: %s\nGit history was preserved. Nothing has been committed or pushed.\n\n' "$target"
+printf 'Open that folder in Terminal, then run:\n\ngit add .\ngit commit -m "Simplify Urban Haven checklist and food tools"\ngit push origin main\n'

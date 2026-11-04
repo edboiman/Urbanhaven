@@ -32,6 +32,8 @@ import {
   Snowflake,
 } from "../components/icons";
 
+import { CookingDetail } from "./Cooking";
+import { cookingRecipes } from "../meals/catalog";
 import { PantryReference } from "./PantryReference";
 
 const dietLabels: Record<Diet, string> = {
@@ -58,7 +60,13 @@ export function Meals() {
   const id = params.get("recipe");
   if (path === "meals" && id) {
     const r = recipes.find((x) => x.id === id);
-    if (r) return <RecipeDetail recipe={r} />;
+    if (r)
+      return (
+        <CookingDetail
+          key={r.id}
+          r={cookingRecipes.find((x) => x.id === "pantry-" + r.id)!}
+        />
+      );
   }
   return <MealsHome />;
 }
@@ -149,30 +157,37 @@ function MealsHome() {
     <>
       <PageTitle
         eyebrow="PANTRY TO PLATE"
-        title="Emergency meals from ordinary groceries."
-        description="See what your pantry can make right now, plan 14 days of meals, and keep opened food safe without a working refrigerator."
+        title="A pantry you can actually use."
+        description="Start with everyday essentials. Keep shelf life, water and cooking needs in view."
       />
-      {tab !== "pantry" && <SafetyStrip />}
-      <div className="tabs" role="tablist" aria-label="Meals views">
-        {[
-          ["pantry", "Stock priorities"],
-          ["now", "Make now"],
-          ["plan", "14-day plan"],
-          ["recipes", "All recipes"],
-          ["safety", "Food safety"],
-        ].map(([k, label]) => (
-          <button
-            key={k}
-            role="tab"
-            aria-selected={tab === k}
-            className={tab === k ? "active" : ""}
-            onClick={() => setTab(k as typeof tab)}
-          >
-            {label}
-          </button>
-        ))}
+      <div className="food-nav">
+        <a href="#/cooking">Recipes & cooking basics</a>
+        <a href="#/nutrition">Daily nutrition</a>
+        <a href="#/oxalates">Oxalates</a>
       </div>
       {tab === "pantry" && <PantryReference />}
+      <details className="panel meal-tools">
+        <summary>Meal planner & food safety</summary>
+        <div className="tabs" role="tablist" aria-label="Meals views">
+          {[
+            ["pantry", "Essentials"],
+            ["now", "Make now"],
+            ["plan", "14-day plan"],
+            ["recipes", "Recipe library"],
+            ["safety", "Food safety"],
+          ].map(([k, label]) => (
+            <button
+              key={k}
+              role="tab"
+              aria-selected={tab === k}
+              className={tab === k ? "active" : ""}
+              onClick={() => setTab(k as typeof tab)}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      </details>
       {tab === "now" && (
         <>
           {filterBar}
@@ -283,23 +298,16 @@ function MealsHome() {
         </>
       )}
       {tab === "recipes" && (
-        <div className="recipe-grid">
-          {recipes.map((r) => (
-            <a
-              key={r.id}
-              className="panel recipe-card"
-              href={`#/meals?recipe=${r.id}`}
-            >
-              <p className="eyebrow">
-                {mealLabel[r.meal]} · {cookLabel[r.cook]}
-              </p>
-              <h3>{r.name}</h3>
-              <p className="small muted">
-                {r.diet.map((d) => dietLabels[d]).join(" · ") || "—"}
-              </p>
-            </a>
-          ))}
-        </div>
+        <section className="panel">
+          <h2>One recipe library</h2>
+          <p>
+            Browse all pantry, stove and new emergency recipes with consistent
+            ingredients and step-by-step cooking.
+          </p>
+          <a className="button" href="#/cooking">
+            Browse recipes
+          </a>
+        </section>
       )}
       {tab === "safety" && <FoodSafety />}
     </>
@@ -403,86 +411,6 @@ function PlanView({ plan }: { plan: MealPlan }) {
           </tbody>
         </table>
       </div>
-    </>
-  );
-}
-
-function RecipeDetail({ recipe: r }: { recipe: Recipe }) {
-  const { settings } = useHaven();
-  const supplies = useLiveQuery(() => db.supplies.toArray(), [], []) || [];
-  const counts = pantryCounts(supplies, todayISO());
-  const batches = Math.max(1, Math.ceil(settings.people / r.serves));
-  return (
-    <>
-      <button className="text-link" onClick={() => go("meals")}>
-        <ArrowLeft size={16} /> All meals
-      </button>
-      <PageTitle
-        eyebrow={`${mealLabel[r.meal]} · ${cookLabel[r.cook]} · ${r.minutes} min`}
-        title={r.name}
-        description={`Serves ${r.serves} per batch. Your household of ${settings.people} needs ${batches} batch${batches > 1 ? "es" : ""}.`}
-      />
-      {r.cook === "heat-water" && <SafetyStrip />}
-      <div className="dashboard-grid">
-        <section className="panel">
-          <h2>Ingredients (one batch)</h2>
-          <ul className="ingredient-list">
-            {r.ingredients.map((i) => {
-              const have = counts.get(i.tag) || 0;
-              return (
-                <li key={i.tag + i.label}>
-                  <span>
-                    {i.label} —{" "}
-                    {i.packages > 0 ? `${i.packages} × ${i.size}` : i.size}
-                    {i.optional ? " (optional)" : ""}
-                    {i.refrigerateOpened ? " · refrigerate once opened" : ""}
-                  </span>
-                  <small
-                    className={
-                      have >= i.packages && i.packages > 0 ? "ok" : "muted"
-                    }
-                  >
-                    {i.packages > 0 ? `pantry: ${have}` : "staple"} · tag “
-                    {i.tag}”
-                  </small>
-                </li>
-              );
-            })}
-          </ul>
-          <h3>Equipment</h3>
-          <p>{r.equipment.join(", ") || "None"}</p>
-          <h3>Water</h3>
-          <p>
-            {r.waterMl
-              ? `${r.waterMl} mL safe water per batch (absorbed, not drained).`
-              : "No extra water. Drained can liquid is discarded; no rinse water needed."}
-          </p>
-        </section>
-        <section className="panel">
-          <h2>Steps</h2>
-          <ol className="steps">
-            {r.steps.map((s) => (
-              <li key={s}>{s}</li>
-            ))}
-          </ol>
-          <h3>Leftovers & storage</h3>
-          <p>{r.leftovers}</p>
-          {r.sodiumTip && (
-            <>
-              <h3>Sodium & diet notes</h3>
-              <p>{r.sodiumTip}</p>
-            </>
-          )}
-          <p className="small muted">
-            Diet tags: {r.diet.map((d) => dietLabels[d]).join(", ") || "none"}.
-            Always check labels for allergens.
-          </p>
-        </section>
-      </div>
-      <p className="small muted">
-        Ingredient tags used to match your pantry:{" "}
-        {r.ingredients.map((i) => i.tag).join(", ")}.
-      </p>
     </>
   );
 }

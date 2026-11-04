@@ -251,6 +251,9 @@ export function validateBackup(input: unknown) {
         x.custom === undefined ? undefined : validateDefinition(row(x.custom)),
       rate: optNum(x.rate, 1e7, "checklist amount"),
       name: optText(x.name, 160),
+      prepared:
+        x.prepared === undefined ? undefined : validatePrepared(x.prepared),
+      preparedOn: optDate(x.preparedOn),
       na: x.na === true || undefined,
       inspect: x.inspect === true || undefined,
       hidden: x.hidden === true || undefined,
@@ -407,7 +410,7 @@ export async function exportBackup(sensitive: boolean, database: HavenDB = db) {
     format: "urban-haven",
     schema: BACKUP_SCHEMA,
     exported: new Date().toISOString(),
-    app: "Urban Haven 2.1.1",
+    app: "Urban Haven 2.2.0",
     supplies: await database.supplies.toArray(),
     notes: (await database.notes.toArray()).filter(
       (x) => sensitive || !x.sensitive,
@@ -485,4 +488,9 @@ export function saveFile(data: Blob, name: string) {
   a.click();
   a.remove();
   setTimeout(() => URL.revokeObjectURL(url), 4000);
+}
+
+function validatePrepared(value: unknown): boolean {
+  if (typeof value !== "boolean") throw new Error("Invalid prepared checkbox");
+  return value;
 }

@@ -1,0 +1,821 @@
+[
+  {
+    "id": "pack-r01",
+    "name": "Basic Beans and Rice",
+    "servings": "2",
+    "minutes": "25 min",
+    "fuel": "medium",
+    "water": "2 cups",
+    "equipment": [
+      "pot",
+      "lid"
+    ],
+    "ingredients": [
+      "1 cup dry long-grain white rice",
+      "2 cups potable water",
+      "1 can (15 oz) cooked black or pinto beans, drained",
+      "½ tsp garlic powder",
+      "¼ tsp cumin",
+      "optional 1 tsp oil"
+    ],
+    "steps": [
+      "Cook rice by basic method.",
+      "When rice is tender, gently stir in drained beans, oil, garlic and cumin.",
+      "Cover and warm 3–5 minutes until beans hot. Serve"
+    ],
+    "notes": [
+      "Swap: Any cooked canned beans; canned corn or peas for extra vegetables",
+      "Why it helps: Energy from rice plus protein/fiber from beans"
+    ],
+    "category": "rice & grains",
+    "heat": true,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "rice & grains"
+    ]
+  },
+  {
+    "id": "pack-r02",
+    "name": "Red Lentil Tomato Stew",
+    "servings": "2–3",
+    "minutes": "20–25 min",
+    "fuel": "low–medium",
+    "water": "2½ cups",
+    "equipment": [
+      "pot",
+      "lid"
+    ],
+    "ingredients": [
+      "¾ cup dry split red lentils",
+      "1 can (14–15 oz) diced tomatoes",
+      "2½ cups potable water",
+      "½ tsp garlic powder",
+      "½ tsp cumin",
+      "optional 1 tbsp oil"
+    ],
+    "steps": [
+      "Sort and rinse lentils.",
+      "Simmer lentils in water 10 minutes.",
+      "Add tomatoes and seasonings.",
+      "Simmer another 5–10 minutes until fully soft; add water if thick"
+    ],
+    "notes": [
+      "Swap: Replace tomatoes with 1 can mixed vegetables and a pinch of salt",
+      "Why it helps: Protein, fiber and some vegetables in one pot"
+    ],
+    "category": "lentils",
+    "heat": true,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "lentils"
+    ]
+  },
+  {
+    "id": "pack-r03",
+    "name": "One-Pot Lentil Rice Pilaf",
+    "servings": "3",
+    "minutes": "30–40 min",
+    "fuel": "medium",
+    "water": "3½ cups total",
+    "equipment": [
+      "pot",
+      "lid"
+    ],
+    "ingredients": [
+      "½ cup dry brown/green lentils",
+      "¾ cup dry white long-grain rice",
+      "3½ cups potable water total (plus extra if needed)",
+      "½ tsp cumin",
+      "½ tsp garlic powder",
+      "optional 1 tbsp oil"
+    ],
+    "steps": [
+      "Sort and rinse lentils.",
+      "Simmer lentils in 2 cups water for 10–15 minutes.",
+      "Add rice and remaining 1½ cups water; bring back to boil.",
+      "Cover, lower heat and simmer 15–20 minutes until both rice and lentils are tender; add a small splash of water if needed.",
+      "Rest covered 5 minutes, then season"
+    ],
+    "notes": [
+      "Note: Stoves and varieties differ: if lentils remain firm when rice is nearly done, add a little water and continue; do not serve hard lentils"
+    ],
+    "category": "lentils & rice",
+    "heat": true,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "lentils & rice"
+    ]
+  },
+  {
+    "id": "pack-r04",
+    "name": "Three-Bean Pantry Chili",
+    "servings": "3",
+    "minutes": "12–15 min",
+    "fuel": "low",
+    "water": "½ cup",
+    "equipment": [
+      "pot"
+    ],
+    "ingredients": [
+      "3 cans (15 oz each) different cooked beans, drained",
+      "1 can (14–15 oz) diced tomatoes",
+      "½ cup potable water",
+      "1 tsp chili powder or cumin",
+      "optional canned corn"
+    ],
+    "steps": [
+      "Combine all ingredients in pot.",
+      "Bring to a bubbling simmer, stirring.",
+      "Simmer 8–10 minutes until heated through and flavors combine"
+    ],
+    "notes": [
+      "Swap: One or two bean cans can be replaced with canned lentils or vegetables"
+    ],
+    "category": "canned meals",
+    "heat": true,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "canned meals"
+    ]
+  },
+  {
+    "id": "pack-r05",
+    "name": "Tuna and Pea Rice Bowl",
+    "servings": "2",
+    "minutes": "25 min",
+    "fuel": "medium",
+    "water": "2 cups",
+    "equipment": [
+      "pot",
+      "lid"
+    ],
+    "ingredients": [
+      "1 cup dry white rice",
+      "2 cups potable water",
+      "1 can tuna (5 oz), drained",
+      "½–1 can peas, drained",
+      "pepper or garlic powder",
+      "optional oil"
+    ],
+    "steps": [
+      "Cook rice.",
+      "Stir in peas and tuna; warm thoroughly for 2–3 minutes.",
+      "Season to taste"
+    ],
+    "notes": [
+      "Swap: Canned salmon or canned chicken instead of tuna. Be mindful of fish intake recommendations, particularly for pregnancy/children"
+    ],
+    "category": "canned meals",
+    "heat": true,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "canned meals"
+    ]
+  },
+  {
+    "id": "pack-r06",
+    "name": "Peanut Butter Banana Oatmeal",
+    "servings": "1",
+    "minutes": "5–8 min",
+    "fuel": "low",
+    "water": "1 cup",
+    "equipment": [
+      "small pot"
+    ],
+    "ingredients": [
+      "½ cup rolled oats",
+      "1 cup potable water",
+      "1–2 tbsp peanut butter",
+      "½ banana (fresh or shelf-stable freeze-dried), optional cinnamon"
+    ],
+    "steps": [
+      "Cook oats in water until creamy.",
+      "Turn off heat and stir in peanut butter.",
+      "Top with banana/cinnamon"
+    ],
+    "notes": [
+      "Swap: Raisins instead of banana; sunflower-seed butter if peanuts are unsuitable"
+    ],
+    "category": "oatmeal",
+    "heat": true,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "oatmeal"
+    ]
+  },
+  {
+    "id": "pack-r07",
+    "name": "Savory Vegetable Oats",
+    "servings": "1",
+    "minutes": "8–10 min",
+    "fuel": "low",
+    "water": "1 cup",
+    "equipment": [
+      "small pot"
+    ],
+    "ingredients": [
+      "½ cup rolled oats",
+      "1 cup potable water",
+      "½ cup canned peas/carrots (drained)",
+      "¼ tsp garlic powder",
+      "optional bouillon or 1 tsp oil"
+    ],
+    "steps": [
+      "Heat water and oats until mostly softened.",
+      "Stir in vegetables and seasonings.",
+      "Simmer a couple more minutes until hot"
+    ],
+    "notes": [
+      "Note: Check bouillon sodium and adjust to available diet needs"
+    ],
+    "category": "oatmeal",
+    "heat": true,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "oatmeal"
+    ]
+  },
+  {
+    "id": "pack-r08",
+    "name": "Tomato Chickpea Couscous",
+    "servings": "2",
+    "minutes": "10–15 min",
+    "fuel": "low",
+    "water": "1 cup",
+    "equipment": [
+      "pot with lid"
+    ],
+    "ingredients": [
+      "1 cup instant couscous",
+      "1 cup boiling potable water (or package amount)",
+      "1 can cooked chickpeas (15 oz), drained",
+      "½ can diced tomatoes, drained",
+      "¼ tsp garlic powder",
+      "optional oil"
+    ],
+    "steps": [
+      "Bring measured water to boil, turn heat off.",
+      "Stir in instant couscous, cover and stand according to package (typically 5 min).",
+      "Fluff and fold in chickpeas, tomatoes and garlic.",
+      "Warm briefly if desired; eat promptly"
+    ],
+    "notes": [
+      "Note: Use instant couscous, not uncooked whole wheat berries or large pearl couscous"
+    ],
+    "category": "low-fuel one-pot",
+    "heat": true,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "low-fuel one-pot"
+    ]
+  },
+  {
+    "id": "pack-r09",
+    "name": "Sardine and Tomato Pasta",
+    "servings": "2",
+    "minutes": "15–20 min",
+    "fuel": "medium",
+    "water": "enough to cook pasta",
+    "equipment": [
+      "pot",
+      "colander or draining lid"
+    ],
+    "ingredients": [
+      "4 oz dry pasta",
+      "1 small can sardines",
+      "½ can diced tomatoes or tomato sauce",
+      "garlic powder",
+      "optional oil"
+    ],
+    "steps": [
+      "Cook pasta per package and carefully drain.",
+      "Stir in tomato and sardines over low heat until warmed through.",
+      "Season"
+    ],
+    "notes": [
+      "Swap: Canned salmon or white beans for sardines"
+    ],
+    "category": "pasta",
+    "heat": true,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "pasta"
+    ]
+  },
+  {
+    "id": "pack-r10",
+    "name": "Canned Vegetable Noodle Soup",
+    "servings": "2",
+    "minutes": "12–18 min",
+    "fuel": "low–medium",
+    "water": "3 cups",
+    "equipment": [
+      "pot"
+    ],
+    "ingredients": [
+      "3 cups potable water",
+      "1 can mixed vegetables (drained)",
+      "½ cup small dry pasta/noodles",
+      "½–1 tsp low-sodium bouillon (adjust per label)",
+      "½ can cooked white beans, optional"
+    ],
+    "steps": [
+      "Bring seasoned water to boil.",
+      "Add pasta and cook to package directions.",
+      "Add canned vegetables and beans for final 3–4 minutes; heat thoroughly"
+    ],
+    "notes": [],
+    "category": "soups",
+    "heat": true,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "soups"
+    ]
+  },
+  {
+    "id": "pack-r11",
+    "name": "Chickpea Peanut Stew",
+    "servings": "2",
+    "minutes": "12–15 min",
+    "fuel": "low",
+    "water": "½–1 cup",
+    "equipment": [
+      "pot"
+    ],
+    "ingredients": [
+      "1 can cooked chickpeas, drained",
+      "½ can diced tomatoes",
+      "2 tbsp peanut butter",
+      "½–1 cup potable water",
+      "¼ tsp cumin",
+      "garlic powder"
+    ],
+    "steps": [
+      "Warm chickpeas, tomatoes, cumin and ½ cup water to simmer.",
+      "Mix peanut butter with a little hot liquid in a bowl until smooth, then stir into pot.",
+      "Simmer 5 minutes, adding a little water as needed"
+    ],
+    "notes": [
+      "Safety: Clearly tag peanuts as a major allergen"
+    ],
+    "category": "one-pot",
+    "heat": true,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "one-pot"
+    ]
+  },
+  {
+    "id": "pack-r12",
+    "name": "Quick Black Bean Corn Skillet",
+    "servings": "2",
+    "minutes": "8–10 min",
+    "fuel": "low",
+    "water": "0 cups",
+    "equipment": [
+      "pot or pan"
+    ],
+    "ingredients": [
+      "1 can cooked black beans, drained",
+      "1 can corn, drained",
+      "½ tsp cumin",
+      "¼ tsp garlic powder",
+      "1 tsp oil optional"
+    ],
+    "steps": [
+      "Combine all in pan.",
+      "Stir over medium heat for 5–8 minutes until hot.",
+      "Eat alone or wrap in shelf-stable tortillas"
+    ],
+    "notes": [
+      "Swap: Pinto beans, peas or canned carrots"
+    ],
+    "category": "canned meals",
+    "heat": true,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "canned meals"
+    ]
+  },
+  {
+    "id": "pack-r13",
+    "name": "Split Pea Soup",
+    "servings": "3",
+    "minutes": "40–75 min",
+    "fuel": "high",
+    "water": "4 cups plus extra",
+    "equipment": [
+      "pot",
+      "lid"
+    ],
+    "ingredients": [
+      "1 cup dry split peas",
+      "4 cups potable water",
+      "½ tsp garlic powder",
+      "optional dried onion and carrots"
+    ],
+    "steps": [
+      "Sort and rinse peas.",
+      "Bring peas and water to boil.",
+      "Lower heat and simmer, lid ajar, until peas become fully soft (often 40–60 minutes, sometimes more).",
+      "Add water as needed, stir frequently near end.",
+      "Season"
+    ],
+    "notes": [
+      "Note: Very old split peas can take longer. This is not a low-fuel meal"
+    ],
+    "category": "soups",
+    "heat": true,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "soups"
+    ]
+  },
+  {
+    "id": "pack-r14",
+    "name": "Rice and Tomato Soup",
+    "servings": "2",
+    "minutes": "25 min",
+    "fuel": "medium",
+    "water": "2½ cups",
+    "equipment": [
+      "pot",
+      "lid"
+    ],
+    "ingredients": [
+      "½ cup uncooked long-grain white rice",
+      "1 can diced tomatoes",
+      "2½ cups potable water",
+      "1 can cooked white beans, drained",
+      "optional garlic powder"
+    ],
+    "steps": [
+      "Bring water to boil, add rice and cover loosely at simmer.",
+      "After about 12 minutes add tomatoes and beans.",
+      "Simmer until rice is tender, 5–10 minutes more; add water for soup consistency"
+    ],
+    "notes": [],
+    "category": "soups",
+    "heat": true,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "soups"
+    ]
+  },
+  {
+    "id": "pack-r15",
+    "name": "Instant Mashed Potato Bean Bowl",
+    "servings": "2",
+    "minutes": "8–10 min",
+    "fuel": "low",
+    "water": "as required by potato package",
+    "equipment": [
+      "pot"
+    ],
+    "ingredients": [
+      "instant potato flakes for 2 servings",
+      "potable water as label requires",
+      "1 can cooked beans (pinto/white), drained",
+      "½ can canned peas or corn",
+      "garlic powder"
+    ],
+    "steps": [
+      "Heat water per potato package and prepare flakes.",
+      "In same pot (before adding flakes) warm beans and vegetables in the water if amount permits, then stir in flakes; alternatively warm canned foods separately.",
+      "Season and serve"
+    ],
+    "notes": [
+      "Note: Some potato mixes require milk/butter; buy a just-add-water variety or follow package adaptations"
+    ],
+    "category": "low-fuel meals",
+    "heat": true,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "low-fuel meals"
+    ]
+  },
+  {
+    "id": "pack-r16",
+    "name": "No-Cook Chickpea and Corn Salad",
+    "servings": "2",
+    "minutes": "5 min",
+    "fuel": "none",
+    "water": "0 cups if using clean ready-to-eat canned ingredients",
+    "equipment": [
+      "bowl",
+      "can opener"
+    ],
+    "ingredients": [
+      "1 can cooked chickpeas, drained",
+      "1 can corn, drained",
+      "1 tbsp shelf-stable oil",
+      "optional vinegar/lemon packet",
+      "pepper/cumin"
+    ],
+    "steps": [
+      "Open and drain canned foods safely.",
+      "Mix with oil and optional acid/seasoning.",
+      "Eat immediately"
+    ],
+    "notes": [
+      "Note: Drain with clean utensils; rinse only if potable rinse water is available. After opening, leftovers require safe refrigeration"
+    ],
+    "category": "no-cook",
+    "heat": false,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "no-cook"
+    ]
+  },
+  {
+    "id": "pack-r17",
+    "name": "No-Cook Tuna and White Bean Bowl",
+    "servings": "1–2",
+    "minutes": "5 min",
+    "fuel": "none",
+    "water": "0 cups",
+    "equipment": [
+      "bowl",
+      "can opener"
+    ],
+    "ingredients": [
+      "1 can tuna, drained",
+      "1 can cooked white beans, drained",
+      "1 tbsp olive oil optional",
+      "pepper",
+      "shelf-stable crackers optional"
+    ],
+    "steps": [
+      "Open cans and drain.",
+      "Combine, season and eat immediately. Use crackers if available"
+    ],
+    "notes": [
+      "Note: Tuna is cooked in the can; observe allergen and fish-intake considerations. No safe refrigerator means no storage of opened leftovers"
+    ],
+    "category": "no-cook",
+    "heat": false,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "no-cook"
+    ]
+  },
+  {
+    "id": "pack-r18",
+    "name": "No-Cook Overnight Oats (ONLY WITH REFRIGERATION)",
+    "servings": "1",
+    "minutes": "5 min prep + refrigeration",
+    "fuel": "none",
+    "water": "½–¾ cup potable water or milk",
+    "equipment": [
+      "jar with lid",
+      "functioning refrigerator"
+    ],
+    "ingredients": [
+      "½ cup rolled oats",
+      "½–¾ cup potable water or shelf-stable milk",
+      "raisins and peanut butter optional"
+    ],
+    "steps": [
+      "Mix in clean jar.",
+      "Refrigerate until softened (typically overnight).",
+      "Eat cold"
+    ],
+    "notes": [
+      "Critical warning: NOT appropriate for unrefrigerated overnight storage during a power outage. Do not display this in the no-refrigeration recipe filter. For no-power conditions, use hot oats or immediately mixed oats if the product is labeled ready to eat without cooking",
+      "Use oats specifically labeled suitable for uncooked refrigerated preparation. Keep the jar at 40°F / 4°C or below throughout; an unpowered refrigerator is not automatically safe."
+    ],
+    "category": "chilled / conditional",
+    "heat": false,
+    "fridge": true,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "chilled / conditional"
+    ]
+  },
+  {
+    "id": "pack-r19",
+    "name": "Instant Oat Peanut Butter Snack Bowl",
+    "servings": "1",
+    "minutes": "3–5 min",
+    "fuel": "none if safe ready-to-eat instant oats and potable water are used",
+    "water": "amount on oat package",
+    "equipment": [
+      "bowl"
+    ],
+    "ingredients": [
+      "1 instant oatmeal packet labeled suitable for adding water",
+      "potable water per package",
+      "1 tbsp peanut butter",
+      "raisins optional"
+    ],
+    "steps": [
+      "Prepare oats according to package. If hot water is required, heat it safely.",
+      "Stir in peanut butter and raisins.",
+      "Eat immediately"
+    ],
+    "notes": [
+      "Note: Do not assume all raw oat products can be eaten uncooked; follow manufacturer directions",
+      "Default filter treats this as needing heat. Only use cold preparation when the exact product explicitly permits it; adding water alone is not a ready-to-eat claim."
+    ],
+    "category": "quick/no stove",
+    "heat": true,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "quick/no stove"
+    ]
+  },
+  {
+    "id": "pack-r20",
+    "name": "Campfire Foil-Free Potato and Bean Pot",
+    "servings": "2",
+    "minutes": "25–35 min",
+    "fuel": "medium (wood fire or stove)",
+    "water": "enough to cover potato cubes",
+    "equipment": [
+      "stable fire-safe metal pot",
+      "lid",
+      "heatproof tools"
+    ],
+    "ingredients": [
+      "2 medium potatoes cut into small cubes",
+      "1 can cooked beans, drained",
+      "½ can canned carrots/peas, drained",
+      "garlic powder and oil optional"
+    ],
+    "steps": [
+      "Build an outdoor cooking fire and wait for a stable cooking bed; never place an unsafe pot on unstable flames.",
+      "Bring potable water to simmer in fire-safe pot.",
+      "Add diced potatoes and cook until fork-tender, about 12–20 minutes depending on size.",
+      "Drain excess water safely.",
+      "Add beans, vegetables and spices; heat 3–5 minutes and serve"
+    ],
+    "notes": [
+      "Safety: Campfires are subject to local burn bans. Use gloves/tools and never leave fire unattended. Extinguish completely after use"
+    ],
+    "category": "campfire",
+    "heat": true,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "campfire"
+    ]
+  },
+  {
+    "id": "pack-r21",
+    "name": "Quick Red Lentil Curry over Couscous",
+    "servings": "2",
+    "minutes": "20–25 min",
+    "fuel": "low–medium",
+    "water": "2½ cups for lentils plus couscous package amount",
+    "equipment": [
+      "pot",
+      "lid",
+      "bowl"
+    ],
+    "ingredients": [
+      "½ cup red lentils",
+      "2½ cups potable water",
+      "½ tsp curry powder",
+      "½ can diced tomatoes",
+      "½ cup instant couscous plus its required hot water"
+    ],
+    "steps": [
+      "Sort/rinse lentils and simmer in 2½ cups water until soft, about 10–15 minutes.",
+      "Add tomatoes and curry powder, simmer 3–5 minutes.",
+      "Separately prepare instant couscous using boiling water per package.",
+      "Spoon lentils over couscous"
+    ],
+    "notes": [
+      "Swap: Use instant rice instead of couscous, prepared per package"
+    ],
+    "category": "lentils",
+    "heat": true,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "lentils"
+    ]
+  },
+  {
+    "id": "pack-r22",
+    "name": "Canned Salmon Potato Chowder (No Milk)",
+    "servings": "2",
+    "minutes": "25–30 min",
+    "fuel": "medium",
+    "water": "2½ cups",
+    "equipment": [
+      "pot",
+      "lid"
+    ],
+    "ingredients": [
+      "1 can salmon, drained",
+      "1 potato diced small",
+      "1 can corn, drained",
+      "2½ cups potable water",
+      "pepper and garlic powder",
+      "oil optional"
+    ],
+    "steps": [
+      "Simmer potato in water until completely fork-tender, about 12–20 minutes.",
+      "Mash some potato against pot to thicken.",
+      "Stir in corn and canned salmon.",
+      "Simmer 3–5 minutes until hot. Season"
+    ],
+    "notes": [
+      "Note: Canned salmon can contain soft edible bones; check label and use care for vulnerable eaters"
+    ],
+    "category": "soups",
+    "heat": true,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "soups"
+    ]
+  },
+  {
+    "id": "pack-r23",
+    "name": "Low-Water Tomato White Bean Couscous",
+    "servings": "2",
+    "minutes": "8–12 min",
+    "fuel": "low",
+    "water": "up to 1 cup, adjust to couscous package and tomato liquid",
+    "equipment": [
+      "pot",
+      "lid"
+    ],
+    "ingredients": [
+      "1 cup instant couscous",
+      "1 can diced tomatoes including liquid",
+      "1 can cooked white beans, drained",
+      "potable water as needed to meet couscous package liquid amount",
+      "garlic powder"
+    ],
+    "steps": [
+      "Measure tomato liquid and add enough potable water so total liquid meets couscous package requirement (the tomatoes contain both liquid and solids; err on side of a little extra liquid).",
+      "Bring tomatoes, liquid and beans to a boil.",
+      "Turn heat off, stir in instant couscous, cover and stand as directed by package.",
+      "Fluff; if still firm, add a little hot water and allow to stand longer"
+    ],
+    "notes": [
+      "Note: Packaged couscous ratios vary; keep liquid adjustment explicit"
+    ],
+    "category": "low-water meals",
+    "heat": true,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "low-water meals"
+    ]
+  },
+  {
+    "id": "pack-r24",
+    "name": "Emergency Rice Porridge (Congee-Style)",
+    "servings": "2",
+    "minutes": "40–60 min",
+    "fuel": "high",
+    "water": "5–6 cups",
+    "equipment": [
+      "pot",
+      "lid"
+    ],
+    "ingredients": [
+      "½ cup dry white rice",
+      "5–6 cups potable water",
+      "½ can cooked peas or carrots",
+      "salt/garlic optional"
+    ],
+    "steps": [
+      "Bring rice and water to boil.",
+      "Lower to a gentle simmer, partially cover and stir occasionally 40–60 minutes until grains break down into a porridge, adding water as needed.",
+      "Stir in canned vegetables at the end, heat and serve"
+    ],
+    "notes": [
+      "Note: Water- and fuel-intensive. Not the first option during severe shortages, but useful for a soft-texture meal"
+    ],
+    "category": "easy digestion / grains",
+    "heat": true,
+    "fridge": false,
+    "source": "User cooking pack · original practical recipe",
+    "tags": [
+      "easy digestion / grains"
+    ]
+  }
+]

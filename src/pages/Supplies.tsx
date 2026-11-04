@@ -258,7 +258,7 @@ export function Supplies() {
       <PageTitle
         eyebrow="KNOW WHAT YOU HAVE"
         title="Supplies & inventory."
-        description="Every quantity on your checklist is counted from these records. Record what you use, and the checklist and shopping list update."
+        description="Keep actual amounts, label dates and storage locations here. Your checklist can also be checked off directly."
         action={
           <button
             className="button"
